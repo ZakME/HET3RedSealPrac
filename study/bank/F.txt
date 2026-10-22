@@ -1,0 +1,479 @@
+@F30|Heating|kr
+Q: Where does the heat for a typical cab heater come from?
++ Engine coolant flowing through a heater core
+- An electric element in the blower motor
+- Exhaust gas routed through the cab
+- Friction from the A/C compressor
+E: Hot coolant passes through the heater core (a small radiator). The blower pushes air across it into the cab.
+
+@F30|Heating|ct
+Q: A cab blower works only on the high-speed setting. What is the most likely cause?
++ A failed blower resistor pack
+- A failed blower motor
+- A blown blower fuse
+- A failed heater control valve
+E: Lower speeds go through the resistors; high speed usually bypasses them. If only high works, the resistor (or its thermal fuse) has failed.
+
+@F30|Heating|ct
+Q: The cab heater blows cool air and the engine temperature gauge reads low on a cold day. What should be checked first?
++ The engine thermostat (stuck open)
+- The heater core for an internal restriction
+- The blower motor speed
+- The blend door actuator
+E: If the engine itself isn't reaching operating temperature, the coolant can't heat the cab. A stuck-open thermostat is the most likely cause.
+
+@F30|Heating|ct
+Q: Engine temperature is normal, but the heater blows cold air. Both heater hoses are cold at the firewall. What is the likely cause?
++ No coolant flowing through the heater core
+- A failed blower motor
+- A plugged cab air filter
+- A stuck-open engine thermostat and low coolant
+E: Cold hoses at the core mean coolant isn't flowing through it: heater valve stuck closed, an air lock, a kinked hose or a plugged core.
+
+@F30|Heating|ct
+Q: The cab windows fog up, there is a sweet smell, and the floor carpet is wet. What is the most likely cause?
++ A leaking heater core
+- A plugged evaporator drain
+- A leaking windshield seal
+- A low A/C refrigerant charge
+E: Leaking coolant (sweet-smelling glycol) evaporates in the cab and fogs the glass, and drips onto the floor.
+
+@F30|Heating|ct
+Q: The heater blows hot air at idle but cools off as engine speed increases. What is a likely cause?
++ Low coolant level
+- A failed blower resistor
+- A blend door stuck in the hot position
+- A stuck-closed heater control valve
+E: With low coolant, the heater core may get coolant at idle but not reliably at speed, or air collects in the core.
+
+@F30|Heating|pa
+Q: After a cooling system was drained and refilled, the heater blows cold. What should be done?
++ Bleed the air out of the heater core
+- Replace the heater core
+- Replace the heater control valve
+- Install a lower temperature engine thermostat
+E: An air pocket in the heater core blocks coolant flow. Open the heater valve and bleed points, warm it up and top up.
+
+@F30|Heating|kr
+Q: The blend door in a heating, ventilation and air conditioning (HVAC) box controls cab temperature by:
++ mixing heated air with unheated air
+- changing the blower speed
+- opening and closing coolant flow to the core
+- switching between fresh and recirculated air
+E: The blend door directs more or less of the airflow through the heater core. Some systems also use a heater control valve on the coolant.
+
+@F30|Heating|ct
+Q: Heat is good on the driver's side but poor on the passenger side of a dual-zone cab. Airflow is normal. What is the most likely cause?
++ A faulty blend door or actuator
+- A failed blower motor
+- A stuck-open engine thermostat on one bank
+- A plugged fresh air filter
+E: Each zone has its own blend door. If one is stuck or its actuator has failed, that side won't heat properly.
+
+@F30|Heating|pa safe
+Q: What must be checked when servicing a fuel-fired auxiliary heater?
++ The exhaust outlet is clear and not leaking
+- The engine thermostat's opening temperature
+- The A/C refrigerant charge and oil level
+- The blower resistor pack
+E: The heater burns fuel and makes carbon monoxide. A blocked or leaking exhaust can let fumes into the cab.
+
+@F30|Heating|kr
+Q: A heater control valve operated by pulse width modulation (PWM) controls heat by:
++ varying the coolant flow through the core
+- varying the blower speed
+- switching the A/C compressor clutch on and off
+- changing the engine thermostat setting
+E: The HVAC module changes the valve's duty cycle to meter coolant flow through the core.
+
+@F30|Heating|ct
+Q: How can a technician quickly confirm coolant is flowing through a heater core?
++ Check both heater hoses: inlet hot, outlet a bit cooler
+- Measure blower motor current on high speed
+- Check the refrigerant pressures
+- Remove the radiator cap with the engine running hot
+E: Hot in and slightly cooler out means coolant is flowing and heat is being removed. Both cold = no flow.
+
+@F31|Ventilation|kr
+Q: What is the purpose of cab pressurization?
++ To keep dust out with slight positive pressure
+- To keep the windows from fogging
+- To increase the A/C system's cooling capacity
+- To lower cab noise at high engine speed
+E: With slight positive pressure, air leaks out of the cab instead of in, so dust stays out.
+
+@F31|Ventilation|ct
+Q: An operator complains of dust inside the cab. The fresh air filter is new. What should be checked next?
++ The door and window seals and cab plugs
+- The A/C refrigerant charge
+- The heater control valve
+- The engine air filter restriction gauge
+E: If the filter is good, dust is getting in through gaps: seals, grommets, missing floor plugs or damaged ducts, or the cab isn't pressurizing.
+
+@F31|Ventilation|ct
+Q: Airflow from the cab vents is weak on every blower speed, and the air conditioning (A/C) evaporator keeps icing up. What is the most likely cause?
++ Plugged cab air filters
+- A refrigerant overcharge
+- A failed blower resistor
+- A stuck-open heater control valve
+E: Plugged filters cut airflow. With little warm air across the evaporator, it gets too cold and ices up.
+
+@F31|Ventilation|kr
+Q: Which type of cab filter is used to remove odours and chemical vapours?
++ Activated carbon
+- Pleated paper
+- Foam pre-cleaner
+- Metal mesh
+E: Activated carbon absorbs vapours and odours. Paper filters stop dust; HEPA filters stop very fine particles.
+
+@F31|Ventilation|pa
+Q: How should paper cab air filters be serviced?
++ Replace them per the OEM; many can't be cleaned
+- Wash them in solvent and let them dry
+- Blow them out with high-pressure air every service
+- Tap them on a tire and reinstall
+E: Air and water can damage the filter media. Follow the OEM: often replace only. Wear a respirator if the dust is hazardous.
+
+@F31|Ventilation|kr
+Q: A machine working near silica or asbestos dust needs which type of cab filter?
++ A HEPA filter
+- A foam pre-cleaner
+- A metal mesh screen
+- A standard pleated paper filter
+E: HEPA (high-efficiency particulate air) filters capture very fine, hazardous particles.
+
+@F31|Ventilation|ct
+Q: Water drips onto the cab floor when the air conditioning (A/C) is running. What is the most likely cause?
++ A plugged evaporator drain
+- A leaking heater core
+- A refrigerant leak
+- A failed blower motor
+E: The evaporator condenses moisture from the air, which should drain outside. A plugged drain lets it back up into the cab and grow mould.
+
+@F31|Ventilation|pa
+Q: After cab repairs, why is it important to reinstall all panels, plugs and grommets?
++ Open holes let in dust and noise
+- They help hold the cab to its mounts
+- They are needed for the ROPS certification
+- They keep refrigerant from leaking out
+E: Every missing grommet or plug is a leak path for dust and noise.
+
+@F31|Ventilation|pa
+Q: How is cab pressurization checked?
++ With a manometer, doors closed, blower on high
+- With a refractometer in the vents
+- With an ohmmeter across the blower motor leads
+- By holding a hand at the vent outlets on high
+E: A gauge measures the pressure difference between the cab and outside. Compare it to the OEM spec.
+
+@F32|A/C fundamentals|kr
+Q: In an air conditioning (A/C) system, heat is absorbed from the cab when the refrigerant:
++ evaporates (boils) in the evaporator
+- condenses in the condenser
+- is compressed by the compressor
+- passes through the receiver-drier
+E: Changing from liquid to vapour absorbs a lot of heat (latent heat). That happens in the evaporator inside the cab.
+
+@F32|A/C fundamentals|kr
+Q: In an air conditioning (A/C) system, the refrigerant leaves the compressor as a:
++ high-pressure, hot vapour
+- low-pressure, cold vapour
+- high-pressure liquid
+- low-pressure liquid
+E: The compressor raises the pressure and temperature of the vapour so it can give off heat in the condenser.
+
+@F32|A/C fundamentals|kr
+Q: What happens to the refrigerant in the condenser?
++ It gives off heat and changes from vapour to liquid
+- It absorbs heat and changes from liquid to vapour
+- Its pressure drops to the low side
+- Moisture is removed from it
+E: The condenser in front of the radiator lets the hot high-pressure vapour release heat and condense into a liquid.
+
+@F32|A/C fundamentals|kr
+Q: Which component divides the high-pressure side from the low-pressure side, along with the compressor?
++ The expansion valve (or orifice tube)
+- The condenser outlet
+- The receiver-drier outlet
+- The accumulator inlet
+E: The metering device drops the liquid refrigerant from high to low pressure; the compressor raises it again.
+
+@F32|A/C fundamentals|kr
+Q: A receiver-drier is used in systems with which metering device, and on which side?
++ A thermostatic expansion valve, on the high side
+- An orifice tube, on the low side
+- An orifice tube, on the high side
+- A thermostatic expansion valve, on the low side
+E: The receiver-drier stores liquid, removes moisture and filters on the high side of TXV systems. Orifice tube systems use an accumulator on the low side.
+
+@F32|A/C fundamentals|kr
+Q: What is the main job of the accumulator in an orifice tube air conditioning (A/C) system?
++ To keep liquid out of the compressor and remove moisture
+- To store high-pressure liquid for the evaporator inlet
+- To meter refrigerant into the evaporator
+- To cool the refrigerant before the condenser
+E: Liquid can't be compressed and damages the compressor. The accumulator holds liquid and its desiccant removes moisture.
+
+@F32|A/C controls|ct
+Q: Why does an air conditioning (A/C) system use a low-pressure cut-out switch?
++ To protect the compressor when the charge is low
+- To stop the evaporator from icing on a full charge
+- To turn on the condenser fan at high pressure
+- To prevent the high side from over-pressurizing
+E: Low charge means little oil circulates and the compressor can be damaged. The low-pressure switch disengages the clutch.
+
+@F32|A/C controls|ct
+Q: What prevents the evaporator from freezing up during normal operation?
++ An evaporator temperature switch cycling the compressor
+- The high-pressure cut-out switch on the drier
+- The receiver-drier's desiccant bag
+- The condenser fan cycling on and off
+E: When the evaporator gets near freezing, the switch or sensor turns the compressor clutch off until it warms up.
+
+@F32|A/C compressor|pa
+Q: An air conditioning (A/C) compressor clutch won't engage. The coil has battery voltage and a good ground. What should be checked next?
++ The clutch air gap and the coil
+- The refrigerant oil level
+- The expansion valve opening
+- The evaporator drain
+E: With power and ground present, the clutch itself is the suspect: too large an air gap or an open or shorted coil.
+
+@F32|Service|pa safe
+Q: When opening an air conditioning (A/C) system for repair, what must be done with the refrigerant?
++ Recover it with approved recovery equipment
+- Vent it slowly outdoors
+- Vent it into the shop exhaust system
+- Leave it in the system and open the fittings carefully
+E: Venting refrigerant is illegal. Recover it, and only certified technicians may handle it.
+
+@F32|Service|pa safe
+Q: What is the main personal hazard of liquid refrigerant contacting skin or eyes?
++ Frostbite
+- Acid burns
+- Electric shock
+- Lead poisoning
+E: Liquid refrigerant boils at a very low temperature and freezes tissue instantly. Wear safety glasses and gloves.
+
+@F32|Service|kr
+Q: On an air conditioning (A/C) manifold gauge set, the blue gauge and hose connect to:
++ the low side
+- the high side
+- the vacuum pump only
+- the refrigerant tank only
+E: Blue = low side, red = high side, yellow = service hose to the recovery machine, vacuum pump or refrigerant.
+
+@F32|Service|ct
+Q: Why is an air conditioning (A/C) system evacuated with a vacuum pump before it's charged?
++ To remove air and moisture from the system
+- To check the compressor's pumping ability
+- To clean the oil out of the system
+- To cool the system before charging
+E: Air raises pressures and moisture can freeze at the metering device and form acids. A deep vacuum boils the moisture off.
+
+@F32|Service|pa
+Q: What is the most accurate way to charge an air conditioning (A/C) system?
++ By weight, to the OEM specification
+- Until the sight glass is completely clear
+- Until the low side reads 30 psi
+- Until the compressor cycles off
+E: Charging by weight puts the exact specified amount in. Gauge readings vary with temperature.
+
+@F32|Service|pa
+Q: An air conditioning (A/C) system has been open to the atmosphere for a long time during a repair. What should be replaced?
++ The drier or accumulator
+- The compressor clutch coil
+- The condenser
+- The evaporator
+E: The desiccant absorbs moisture from the air and becomes saturated, so it can't protect the system anymore.
+
+@F32|Leak detection|pa
+Q: An electronic leak detector is being used on an air conditioning (A/C) system. Where should the probe be held near each fitting?
++ Below the fitting, because refrigerant is heavier than air
+- Above the fitting, because refrigerant rises
+- Inside the fitting with the system open
+- Only at the compressor, where leaks usually are
+E: Refrigerant sinks, so search slowly beneath fittings and components. UV dye and soap bubbles are other methods.
+
+@F32|Diagnosis|ct
+Q: Both the low-side and high-side pressures are lower than normal, and the sight glass shows bubbles. What is the most likely cause?
++ A low refrigerant charge
+- An overcharge
+- A restricted orifice tube
+- Air in the system
+E: Low on both sides with bubbles in the sight glass means the system is low on refrigerant. Find the leak before recharging.
+
+@F32|Diagnosis|ct
+Q: Both air conditioning (A/C) pressures are higher than normal, and the condenser fan isn't running. What is the most likely cause?
++ Poor airflow across the condenser
+- A low refrigerant charge
+- A restricted expansion valve
+- A worn compressor
+E: The condenser can't get rid of heat, so high-side and low-side pressures rise. Also check for a dirty condenser or an overcharge.
+
+@F32|Diagnosis|ct
+Q: The low side is in a vacuum, the high side is low, and there is frost on the line just after the receiver-drier. What is the likely cause?
++ A restriction at the frosted point
+- A low refrigerant charge
+- An overcharge
+- A slipping compressor clutch
+E: A restriction drops pressure sharply at that spot and the line frosts. The low side gets starved and goes into a vacuum.
+
+@F32|Diagnosis|ct
+Q: The low-side pressure is high, the high-side pressure is low, and the cab isn't cooling. What is the likely cause?
++ The compressor isn't pumping properly
+- The condenser is plugged
+- The orifice tube is restricted
+- The system is overcharged
+E: When the compressor can't build pressure, the two sides move toward each other: high low side, low high side.
+
+@F32|Diagnosis|ct
+Q: An air conditioning (A/C) system cools normally for a while, then the low side drops into a vacuum and cooling stops; after shutting off for a few minutes it works again. What is the likely cause?
++ Moisture freezing at the orifice or valve
+- A low refrigerant charge from a leak
+- A failed compressor clutch
+- A plugged condenser and a weak fan
+E: Moisture freezes at the expansion valve or orifice tube, blocks flow, then thaws. Replace the drier, evacuate and recharge.
+
+@F32|Diagnosis|ct
+Q: Air conditioning (A/C) pressures are normal, but warm air comes from the vents. What should be checked?
++ The blend door and heater valve
+- The refrigerant charge by weight
+- The compressor clutch air gap
+- The condenser fins
+E: Normal pressures mean the A/C side is working. Warm air is likely being mixed in by a blend door or a heater valve stuck open.
+
+@F32|Service|ct
+Q: A technician mixes two different refrigerants in an air conditioning (A/C) system. What is the result?
++ Contaminated refrigerant that must be recovered as waste
+- Better cooling from the combined refrigerant blend
+- No effect if the oil types match
+- Lower operating pressures and longer compressor life
+E: Never mix refrigerants. Use the specified refrigerant and fittings for that system.
+
+@F32|Service|pa
+Q: When a major air conditioning (A/C) component is replaced, what must be done with the refrigerant oil?
++ Add the specified oil to replace what was lost
+- Drain all the oil and run the system dry
+- Add a full system charge of new oil every time
+- Use engine oil to top it up
+E: Each component holds some oil. Add the OEM-specified amount and type (often PAG) to keep the system correctly filled.
+
+@F32|Service|pa
+Q: Why is air conditioning (A/C) compressor oil (PAG) kept tightly capped?
++ It absorbs moisture from the air
+- It evaporates quickly
+- It is flammable when exposed to air
+- It thickens and won't pour
+E: PAG oil is hygroscopic. Moisture in the oil ends up in the system.
+
+@F33|Sound suppression|kr
+Q: Which component helps isolate the cab from engine and frame vibration?
++ Rubber cab mounts
+- The cab air filter
+- The muffler
+- The door latch
+E: Isolation mounts stop vibration (and noise) from passing from the frame into the cab structure.
+
+@F33|Sound suppression|ct
+Q: An operator reports that a loader's cab has become much noisier since a hydraulic repair. What is the most likely cause?
++ Insulation or seals left out
+- A low refrigerant charge
+- A plugged cab filter
+- A worn engine fan belt squealing
+E: Missing panels, insulation or grommets let noise in. Reinstall all sound suppression materials after repairs.
+
+@F33|Sound suppression|pa safe
+Q: Sound insulation in an engine compartment has become soaked with oil. What should be done?
++ Replace it with OEM fire-resistant insulation
+- Wash it with solvent and reinstall it
+- Leave it, as oil improves sound damping
+- Remove it permanently
+E: Oil-soaked insulation is a fire hazard. Fix the leak and replace the insulation with the correct material.
+
+@F33|Sound suppression|kr safe
+Q: Above what average noise level (over 8 hours) do most Canadian jurisdictions require hearing protection or noise controls?
++ About 85 dBA
+- About 50 dBA
+- About 65 dBA
+- About 120 dBA
+E: Most jurisdictions set the occupational exposure limit near 85 dBA over 8 hours. Louder exposure requires controls and hearing protection.
+
+@F33|Sound suppression|ct
+Q: A rattling noise in the cab appears only when the machine is working on rough ground. What is a likely cause?
++ A failed cab mount or loose panel
+- A low A/C refrigerant charge
+- A worn blower motor bearing
+- A plugged evaporator drain
+E: Movement-related rattles come from parts that can move: cab mounts, loose sheet metal, panels and brackets.
+
+@F33|Sound suppression|ct
+Q: Cab noise has increased and there is a rumble that changes with engine speed. What should be checked?
++ The exhaust and muffler for leaks
+- The cab air filter and its housing
+- The A/C condenser
+- The blend door
+E: An exhaust leak or failed muffler raises noise that follows engine speed. It's also a carbon monoxide risk.
+
+@F30|Heating|ct
+Q: A machine's heater output is weak, and the coolant is rusty and full of scale. What is the most likely cause?
++ A partly plugged heater core
+- A failed blower resistor
+- A stuck-closed engine thermostat
+- A blend door stuck on full heat
+E: Scale and rust build up in the small tubes of the heater core and restrict flow. Flush or replace the core and fix the coolant condition.
+
+@F30|Heating|pa
+Q: Before replacing a heater core, what should be checked to make sure it's the cause of a no-heat complaint?
++ Coolant level, heater valve operation and hose temperatures
+- The A/C refrigerant pressures and the compressor clutch
+- The cab air pressurization and door seals
+- The blower motor brushes and commutator
+E: Rule out the simple causes first: low coolant, a closed or stuck valve, an air lock or a kinked hose.
+
+@F30|Heating|ct
+Q: Hot coolant blows out of the heater hoses whenever the heater control valve closes quickly. What might be wrong?
++ Cooling system pressure is too high, or the cap is faulty
+- The blower resistor has failed open
+- The blend door is stuck in the defrost position
+- The heater core is partly plugged with scale
+E: A cap that doesn't relieve, or combustion gas pressurizing the system (head gasket), raises pressure in the heater circuit.
+
+@F30|Heating|kr
+Q: On many engines, where do the heater hoses connect so coolant flows through the heater core whenever the engine runs?
++ From a hot engine outlet back to the water pump inlet side
+- From the radiator bottom tank to the top tank
+- From the surge tank to the thermostat housing
+- From the oil cooler outlet to the fuel cooler inlet
+E: Coolant leaves the hot side of the engine and returns to the low-pressure (pump inlet) side, so it flows even with the thermostat closed.
+
+@F30|Heating|ct
+Q: A cab heater works well, but the windshield defrost is poor. What is a likely cause?
++ A mode door that isn't sending air to the defrost vents
+- A failed heater core
+- Low coolant level in the surge tank
+- A stuck-open engine thermostat
+E: If there's heat in the cab, the heat source is fine. The mode (defrost) door or its actuator isn't sending air to the windshield.
+
+@F31|Ventilation|ct
+Q: Cab windows fog up even with the air conditioning (A/C) running. The recirculation mode is always on. What should be done?
++ Bring in more fresh air through the fresh air filter
+- Add refrigerant to the A/C system
+- Turn off the blower to stop the airflow
+- Close the defrost vents so air goes to the floor
+E: Recirculating cab air with people breathing in it builds up moisture. Fresh air (and the A/C drying it) clears the windows.
+
+@F31|Ventilation|pa
+Q: A machine works in a spraying operation with chemical vapours. What cab filter should be fitted?
++ An activated carbon filter as specified by the OEM
+- A standard paper dust filter, changed more often
+- A foam pre-cleaner only
+- No filter, to give maximum airflow
+E: Carbon filters absorb chemical vapours. Some hazardous work needs a certified sealed cab and filters.
+
+@F31|Ventilation|ct
+Q: A cab pressurization test reads lower than specification, and the filters are new. What could cause this?
++ A missing door seal or open grommets
+- Too much refrigerant in the A/C system
+- A failed heater core leaking coolant
+- A plugged evaporator drain tube
+E: Leaks in the cab shell let the pressurized air escape. Check seals, grommets, floor plugs and window seals.

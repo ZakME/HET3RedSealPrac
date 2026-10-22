@@ -1,0 +1,359 @@
+@H37|Frames|pa hl
+Q: A technician needs to drill a hole in a truck frame rail to mount a bracket. Where should the hole be drilled?
++ In the web, away from the flanges
+- In the top flange
+- In the bottom flange
+- At the edge of the flange where it meets the web
+E: The flanges carry the highest bending stress. Drill only through the web, at least about 1½ in from the flange, per the OEM.
+
+@H37|Frames|pa hl
+Q: How should a technician mark a frame rail for drilling or cutting?
++ With chalk, soapstone or a marker
+- With a scriber
+- With a centre punch along the line
+- With a cutting torch
+E: Scribing or nicking the frame creates a stress riser where cracks can start.
+
+@H37|Frames|ct hl
+Q: A truck's frame rails are parallel, but one rail has been pushed ahead of the other. What is this damage called?
++ Diamond
+- Sidesway (sweep)
+- Sag
+- Bow
+E: Diamond damage puts the frame out of square. It's commonly caused by towing with only one tow hook.
+
+@H37|Frames|ct hl
+Q: A truck's frame is bent downward in the middle. What is this damage called?
++ Sag
+- Bow
+- Twist
+- Sidesway
+E: Sag = bent down; bow = bent up; twist = rolled; sidesway = bent to one side.
+
+@H37|Frames|ct hl
+Q: Why must a heat-treated frame rail not be heated for straightening?
++ Heat ruins the heat treatment and weakens it
+- It will warp the crossmembers next to it
+- It will burn off the paint
+- Heat-treated rails are too thick to heat
+E: Heat-treated frames must be cold worked. Heating changes the metal's strength permanently.
+
+@H37|Frames|kr hl
+Q: What are gussets used for on a truck frame?
++ To keep the frame from going out of square
+- To increase the frame's spring rate
+- To mount the suspension hangers
+- To protect the frame from corrosion
+E: Gussets are triangular plates at crossmember joints that resist diamond distortion.
+
+@H37|Frames|kr hl
+Q: The overall strength of a frame, combining its material yield strength and section modulus, is called the:
++ resisting bending moment
+- maximum bending moment
+- ultimate tensile strength
+- spring rate
+E: RBM = yield strength × section modulus. Section modulus depends on the rail's shape and size.
+
+@H37|Frames|pa hl
+Q: Why are hardened washers used when bolting brackets to a frame rail?
++ To stop the fasteners digging into the rail
+- To insulate the frame from the bracket
+- To allow the bracket to flex
+- To make the bolts easier to remove later
+E: Hardened washers spread the clamping load so the fasteners don't embed into the rail.
+
+@H37|Structures|kr hl
+Q: What does FOPS stand for, and what does it protect against?
++ Falling object protective structure; objects falling onto the operator
+- Frame overload protection system; frame bending
+- Fire operator protection shield; engine fires
+- Front operator protection screen; branches through the windshield
+E: FOPS protects the operator from falling rocks and debris. ROPS (roll-over protective structure) protects in a rollover.
+
+@H37|Structures|pa hl
+Q: A customer wants to weld a bracket for a light bar onto the roll over protective structure (ROPS) of a loader. What should the technician do?
++ Contact the OEM before welding or drilling it
+- Weld the bracket on with a low-heat setting
+- Drill holes through the post and bolt it on
+- Clamp it on with heavy exhaust clamps
+E: Welding or drilling can weaken a ROPS and void its certification. Only OEM-approved mounting and fasteners are used.
+
+@H37|Structures|ct
+Q: A crack is found at the toe of a weld on an excavator boom. Why do cracks often start at welds and holes?
++ They are stress risers where stress concentrates
+- Welds are always weaker than the base metal
+- Paint doesn't stick to welds
+- Holes are drilled with the wrong bit
+E: Sudden changes in shape (weld toes, holes, sharp corners) concentrate stress, so fatigue cracks start there.
+
+@H37|Structures|pa
+Q: An excavator stick pin knocks when the bucket is curled under load. What should be checked?
++ The pin and bushing at that joint
+- The hydraulic oil level
+- The swing bearing bolt torque
+- The track tension
+E: Knocking under load means clearance in the joint. Check the pin and bushing with a pry bar or by cycling the joint.
+
+@H37|Structures|pa
+Q: The pin bores in an excavator boom are worn oval. What is the usual repair?
++ Line bore them, then fit new bushings and pins
+- Install a larger pin in the worn bore
+- Weld washers onto both ends of the pin
+- Fill the bore with grease more often
+E: Worn bores are line bored (or built up and machined) and bushed so the pins fit and stay aligned.
+
+@H37|Structures|ct
+Q: Grease comes out of only one side of a pin joint when it's greased. What does this indicate?
++ Grease is reaching only part of the joint
+- The joint is perfectly lubricated
+- The grease is the wrong colour
+- The pin is too loose
+E: Fresh grease should purge from both sides. If not, a passage may be blocked or the bushing worn unevenly.
+
+@H38|Operator station|pa safe
+Q: A seat belt on a rock truck is frayed along its edge. What should be done?
++ Replace the seat belt assembly
+- Tape the frayed edge and keep using it
+- Trim the frayed edge with a knife
+- Reverse the belt in the buckle
+E: A damaged belt can fail in a rollover. The ROPS only protects a belted operator.
+
+@H38|Operator station|pa safe
+Q: When must a seat belt be replaced even if it looks fine?
++ After any rollover or accident
+- Every time the seat is replaced
+- Only when the buckle won't latch
+- Every 500 hours
+E: Belts that have been loaded in an accident may be stretched or damaged internally.
+
+@H38|Operator station|kr safe
+Q: What is the purpose of the hydraulic lockout (control lock) lever in an excavator cab?
++ To block pilot oil so the machine can't move
+- To lock the cab door
+- To hold the seat in its forward position
+- To set the swing brake only when parked
+E: Raising the lever cuts pilot oil, so bumping a joystick while getting in or out can't move the machine.
+
+@H38|Operator station|ct safe
+Q: The hydraulics on a machine stop working whenever the operator stands up. What is causing this?
++ The seat switch
+- A low hydraulic oil level
+- A failed main relief valve
+- A plugged pilot filter
+E: The seat switch disables functions when the operator isn't seated. If it acts up while seated, repair or adjust it; never bypass it.
+
+@H38|Controls|pa
+Q: An electronic joystick has been replaced. What usually needs to be done before the machine is returned to service?
++ Calibrate it with the service tool
+- Bleed the pilot circuit
+- Adjust the main relief valve setting
+- Replace the controller
+E: Electronic controls usually need calibration to set neutral and travel limits; otherwise the machine may creep or not reach full speed.
+
+@H38|Controls|kr
+Q: A pilot-operated joystick controls the main valve by:
++ sending low-pressure pilot oil to shift the main spools
+- moving the main spools with cables
+- sending a variable voltage to the main spools
+- opening the main relief valve
+E: Pilot joysticks are small valves that send low-pressure oil to shift the main control valve spools.
+
+@H38|Gauges|ct
+Q: At key-on, the warning lamps on a machine's dash light up for a few seconds and then go out. What does this mean?
++ It's a normal bulb check
+- Every system has a fault
+- The batteries are low
+- The ECM is resetting its memory
+E: Most warning lamps come on briefly at key-on to show the bulbs work, then go out if there's no fault.
+
+@H38|Operator station|pa safe
+Q: What must be checked on a machine's backup alarm during a pre-release check?
++ That it sounds whenever the machine is in reverse
+- That it sounds only at high engine speed
+- That it is disconnected during night work
+- That it sounds when the horn is pressed
+E: Backup alarms, horns, lights, mirrors and cameras are safety features and must work before the machine is released.
+
+@H38|Operator station|ct
+Q: A wheel loader's cab shakes more than normal and there is metal-to-metal contact noise under the floor. What is the most likely cause?
++ Failed cab isolation mounts
+- Worn articulation joint bearings
+- A loose seat belt anchor
+- Low tire pressure
+E: Cab mounts isolate vibration. When the rubber fails, the cab rides directly on the frame.
+
+@H38|Operator station|pa safe
+Q: A crack runs across the rear window of a roll over protective structure (ROPS) cab that is also the emergency exit. What should be done?
++ Replace it with OEM glass and test the exit
+- Seal the crack with silicone
+- Cover the window with a clear plastic sheet
+- Weld a bar across the window
+E: Damaged glass can fail, and the emergency exit must be usable. Use OEM glass and hardware.
+
+@H38|Operator station|pa
+Q: A suspension seat bottoms out with a heavy operator. What should be checked first?
++ The seat's weight adjustment and air supply
+- The cab mounts
+- The machine's tire pressures on the drive axle
+- The steering column
+E: Adjust the seat for the operator's weight (or check its air supply on air seats) before replacing parts.
+
+@H38|Operator station|pa
+Q: After repairs inside a cab, which checks should be made before releasing the machine?
++ All controls, interlocks and gauges work, panels are in
+- Only that the engine starts
+- Only that the A/C cools
+- Only that there are no active fault codes on the display
+E: Cab repairs can disturb harnesses, linkages and safety interlocks. Test them all and reinstall panels and seals.
+
+@H38|Operator station|kr safe
+Q: What is the purpose of a cab-mounted rear view camera or object detection system?
++ To show the operator the blind spots
+- To record the machine's hours and location
+- To monitor engine temperatures
+- To calibrate the joysticks
+E: Cameras and object detection reduce blind spots. Keep lenses clean and aimed correctly.
+
+@H38|Operator station|ct
+Q: A windshield wiper motor runs but the wipers don't move. What is the likely cause?
++ A loose or broken linkage or arm
+- A blown wiper fuse
+- A failed wiper switch
+- An open in the wiper motor winding
+E: If the motor runs, the electrical side is working; the mechanical drive (linkage, arm splines) has failed.
+
+@H39|Attachments|pa safe
+Q: After attaching a bucket with a hydraulic quick coupler, what must the operator do before working?
++ Check the lock indicator, then press the bucket on the ground to test
+- Raise the loaded bucket high to test the coupler
+- Disable the coupler's secondary lock
+- Start digging and check it at the end of the shift
+E: An unlocked coupler can drop the attachment. Confirm the lock visually and with a test before lifting.
+
+@H39|Attachments|ct
+Q: A hydraulic breaker on an excavator runs hot and hits weakly. What is a likely cause?
++ Auxiliary flow and pressure aren't set for it
+- The engine coolant is low
+- The breaker is mounted on the wrong side
+- The excavator's tracks are too tight
+E: Attachments need the right flow and pressure (and return routing). Wrong settings overheat the oil and reduce performance.
+
+@H39|Attachments|pa hl
+Q: When bolting new cutting edges onto a dozer blade, what must be done first?
++ Clean rust, dirt and paint off the mount
+- Paint the mounting surface
+- Apply grease to the mounting surface
+- Heat the blade to expand the holes
+E: Dirt and paint under the edge let the bolts loosen. Tighten bolts from the centre outward.
+
+@H39|Fifth wheel|pa hl
+Q: After coupling a tractor to a trailer, how is the fifth wheel lock confirmed?
++ Tug test in low gear, then look at the jaws
+- Look at the fifth wheel from the cab
+- Listen for the jaws clicking when backing under
+- Check that the trailer lights work
+E: A tug test and a visual check of the jaws around the kingpin confirm it's locked.
+
+@H39|Fifth wheel|pa hl
+Q: What lubricant is recommended on a fifth wheel top plate?
++ Water-resistant grease
+- Engine oil
+- Anti-seize compound
+- Dry silicone spray
+E: Water-resistant lithium grease on the top plate; light oil on the jaws and cam track.
+
+@H39|Fifth wheel|pa hl
+Q: A trailer kingpin is worn by 3 mm (⅛ in). What must be done?
++ Replace the kingpin
+- Build it up by welding and machine it
+- Rotate it 90° and reuse it
+- Use it until it is worn 6 mm
+E: Kingpins are replaced at ⅛ in (3 mm) wear and must be within 1° of vertical. Never weld a kingpin.
+
+@H39|Fifth wheel|kr hl
+Q: Which fifth wheel design tilts front to rear only, and is the most common?
++ Semi-oscillating
+- Fully oscillating
+- Rigid
+- Compensating
+E: Semi-oscillating fifth wheels tilt front to rear. Fully oscillating also tilt side to side. Compensating designs are for high centre-of-gravity loads.
+
+@H39|Fifth wheel|pa hl
+Q: How are the fifth wheel's oscillating pins and bushings checked for wear?
++ Pry against the top plate and look for movement
+- Measure the jaw opening with a caliper
+- Lock the jaws and pull the tractor forward
+- Remove the top plate and weigh the pins
+E: Prying shows movement in the bracket pins and bushings.
+
+@H39|Coupling|pa hl
+Q: A pintle hook is worn by ⅛ in. What should be done?
++ Replace it
+- Weld it up and grind it smooth
+- Turn it over and reuse it
+- Add a shim to take up the wear
+E: Pintle hooks are replaced at ⅛ in wear; wear lets the drawbar eye slam and can lead to separation.
+
+@H39|Landing gear|pa hl
+Q: Which gear should be used when raising or lowering a loaded trailer with the landing gear?
++ Low gear
+- High gear
+- Either gear
+- High gear until the pads touch, then neutral
+E: Low gear lifts the weight. High gear is only used to move the legs quickly when they are off the ground.
+
+@H39|Trailers|kr hl
+Q: Which trailer combination has its second trailer coupled to a fifth wheel on an extension of the lead trailer?
++ A B-train
+- An A-train
+- A C-train
+- A truck and pony
+E: A B-train's lead trailer has a fifth wheel at its rear, giving two articulation points and good stability. A-trains use a converter dolly on a pintle hitch.
+
+@H39|Fire suppression|pa safe hl
+Q: Before working on a machine with a fire suppression system, what should be done?
++ Install the safety pins and disable the system
+- Discharge the system to empty it
+- Remove the expellant gas cartridge only
+- Cover the detection wire with tape
+E: The system could fire during work (heat from welding can trigger linear detection wire). Pin and disable it, then restore it after.
+
+@H39|Fire suppression|kr hl
+Q: In an automatic fire suppression system, what usually happens before the agent discharges?
++ An alarm sounds and the engine shuts down
+- The hydraulic tank is pressurized
+- The batteries are disconnected
+- The doors lock
+E: Typical sequence: alarm, engine shutdown, hydraulic tank vent, then discharge.
+
+@H39|Accessories|pa
+Q: An accessory light bar is being added to a machine. How should its power feed be protected?
++ With a fuse or breaker at the power source, sized for the wire
+- With a fuse at the light bar end only
+- With no fuse if the wire is large enough
+- By splicing into the headlight circuit with no fuse
+E: Protection goes at the source so the whole wire is protected. Route away from heat and pinch points and use a good ground.
+
+@H38|Operator station|ct
+Q: An operator's display shows several warning messages, but the fault codes in the electronic control module (ECM) are all inactive. What is the best first step?
++ Talk to the operator about when the warnings appeared
+- Replace the display and clear the codes
+- Replace the ECM and reprogram it
+- Clear the codes and release the machine
+E: The operator can tell you the conditions when it happened, which helps reproduce an intermittent fault.
+
+@H38|Operator station|pa safe
+Q: A machine has an emergency exit hammer mounted in the cab. During a pre-release check, what must be confirmed?
++ The hammer is in place and the exit is marked and usable
+- The hammer has been used to test the window
+- The exit window is sealed shut to keep dust out
+- The hammer is stored away in the toolbox
+E: The emergency exit must be usable and its tool in place.
+
+@H38|Controls|ct
+Q: After a pilot joystick is replaced, the boom drifts up slightly with the joystick in neutral. What is the likely cause?
++ A sticking or leaking pilot valve in the new joystick
+- A low hydraulic oil level in the tank
+- A worn boom cylinder piston seal
+- A weak main relief valve spring
+E: A pilot valve that doesn't fully centre sends a little pilot pressure to the main spool, which moves the function.

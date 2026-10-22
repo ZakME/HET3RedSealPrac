@@ -1,0 +1,111 @@
+@A4|Coaching|kr p3
+Q: The four-step coaching method is:
++ plan, tell, show, do
+- tell, show, test, review
+- show, tell, do, review
+- plan, show, test, tell
+E: Plan how to teach, tell (describe), show (demonstrate), do (apprentice performs), then feedback.
+
+@A4|Coaching|kr p3
+Q: Saying "good job" without explaining what was done well is an example of:
++ empty feedback
+- positive feedback
+- constructive feedback
+- informal assessment
+E: Positive feedback describes the good elements. Empty feedback doesn't.
+
+@A4|Coaching|ct p3
+Q: Feedback that corrects a problem without insulting the apprentice is:
++ constructive feedback
+- empty feedback
+- negative feedback
+- formal assessment
+E: Constructive feedback fixes the problem respectfully.
+
+@A4|Coaching|kr p3
+Q: Who is responsible for keeping the apprentice record book up to date?
++ The apprentice
+- The training institution only
+- The employer only
+- The Apprenticeship and Industry Training (AIT) office
+E: Apprentices keep the record book current; journeypersons fill in their parts; employers make sure it's done.
+
+@A4|Coaching|kr p3
+Q: Which is a responsibility of the employer in apprenticeship training?
++ Ensure the apprentice is supervised and trained
+- Write the period exams
+- Sign off the Red Seal endorsement
+- Keep the apprentice's record book themselves
+E: Employers provide training, ensure supervision and make sure the journeyperson fills in the record book.
+
+@A4|Coaching|kr p3
+Q: A good lesson includes:
++ its point, its link to the trade, and the steps
+- a written test and a mark at the end
+- only a demonstration by the journeyperson
+- a lecture, with practice left for later
+E: Parts of a lesson: the point, the link to the trade, the steps.
+
+@A4|Coaching|kr p3
+Q: Which behaviour is part of good coaching?
++ Encouraging independent work
+- Sending the apprentice on pointless tasks
+- Doing every job for the apprentice
+- Only giving feedback when things go wrong
+E: Good coaches lead by example, are approachable, challenge and respect trainees and encourage independence.
+
+@A4|Red Seal|hl kr p3
+Q: The foundation document for the Red Seal exam is the:
++ National Occupational Analysis
+- apprentice record book
+- provincial trade regulation
+- set of individual learning module (ILM) booklets
+E: Highlighted: the NOA is the foundation document.
+
+@A4|Red Seal|hl kr p3
+Q: The pass mark for the Red Seal exam is:
++ 70%
+- 50%
+- 65%
+- 80%
+E: Highlighted: 70% or higher required to pass.
+
+@A4|Red Seal|kr p3
+Q: The main benefit of the Red Seal program is that it:
++ lets workers move between provinces
+- replaces provincial certification
+- lets apprentices skip period training
+- is required for all trades
+E: Red Seal gives interprovincial mobility and a standard of excellence.
+
+@A4|Red Seal|kr p3
+Q: The National Occupational Analysis (NOA) is organized into:
++ blocks, tasks and sub-tasks
+- chapters, objectives and outcomes
+- modules, periods and exams
+- levels, units and lessons
+E: Blocks are the major topics (electrical, hydraulics, etc.), broken into tasks and sub-tasks.
+
+@A4|Red Seal|ct p3
+Q: A Red Seal question that asks "what happens if..." (cause and effect) is a:
++ critical thinking question
+- recall (knowledge) question
+- definition question
+- procedural (application) question
+E: Critical thinking questions are the most common on newer exams.
+
+@A4|Red Seal|kr p3
+Q: A procedural (application) Red Seal question must involve:
++ at least two steps
+- a calculation
+- a diagram
+- one fact
+E: Application questions are process based and involve at least two steps.
+
+@A4|Red Seal|kr p3
+Q: Who develops the Red Seal exam questions?
++ Industry practitioners from across Canada
+- The host province's government alone
+- Equipment manufacturers
+- Apprenticeship instructors in one province
+E: Questions are developed by industry practitioners from across Canada.

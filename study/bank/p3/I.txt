@@ -1,0 +1,183 @@
+@I40|Electric drive|hl kr p3
+Q: On an electric drive haul truck, what is the order of power flow?
++ Generator, rectifier, direct current (DC) bus, inverters, motors
+- Rectifier, generator, inverters, direct current (DC) bus, motors
+- Generator, inverters, direct current (DC) bus, rectifier, motors
+- Generator, direct current (DC) bus, rectifier, inverters, motors
+E: Highlighted: AC from the generator is rectified to DC, stored on the DC bus, then inverted back to AC for the motors.
+
+@I40|Electric drive|hl kr p3
+Q: The direct current (DC) bus in an electric drive system:
++ stores DC voltage
+- converts alternating current (AC) to DC
+- converts DC to alternating current (AC)
+- cools the retarding grid
+E: Highlighted.
+
+@I40|Electric drive|hl kr p3
+Q: During dynamic braking on an electric drive truck:
++ the motors generate, and the grid burns it off
+- the generator drives the wheels backwards
+- the inverter applies the mechanical brakes
+- the direct current (DC) bus is disconnected from the motors
+E: Highlighted. Braking choppers control the grid; a blower motor cools it.
+
+@I40|Electric drive|hl kr p3
+Q: Braking choppers in an electric drive system are:
++ switches that control the grid
+- mechanical brake calipers
+- grid cooling fans
+- main rectifier diodes
+E: Highlighted.
+
+@I40|Electric drive|hl safe pa p3
+Q: Before working on an electric drive system, the direct current (DC) bus capacitors must be:
++ verified as discharged
+- charged to full voltage
+- disconnected while still charged
+- shorted out with a screwdriver
+E: Highlighted: the DC bus capacitor bank is a serious voltage hazard.
+
+@I40|Electric drive|hl safe kr p3
+Q: When working near energized electric drive components, the minimum safe working distance without personal protective equipment (PPE) is:
++ 2.5 ft
+- 12 in
+- 6 in
+- 10 ft
+E: Highlighted: 12 in with PPE, 2.5 ft without.
+
+@I40|Electric drive|hl safe kr p3
+Q: Correct hand protection for high-voltage electric drive work is:
++ rated rubber gloves under leather
+- heavy leather gloves only
+- nitrile gloves, double layered
+- insulated welding gloves
+E: Highlighted. Plus face shield and glasses.
+
+@I40|Electric drive|hl kr p3
+Q: In the electric drive generator, the stator is the:
++ fixed field, fed by a supply
+- rotating field winding
+- Direct current (DC) bus capacitor bank
+- retarding grid resistor
+E: Highlighted.
+
+@I40|Electric drive|hl safe pa p3
+Q: Who should work on electric drive systems?
++ Technicians with specialized training
+- Any licensed heavy equipment technician
+- Apprentices under any supervision
+- Operators with a lockout key
+E: Highlighted: you need specialized training.
+
+@I40|Obj 3|pa p3 ilm
+Q: In an alternating current (AC) electric drive haul truck, which mechanical powertrain components are replaced by electrical equivalents?
++ Torque converter, transmission and differential
+- Engine, final drives and driveshaft
+- Final drives and wheel hubs only
+- Engine and torque converter only
+E: The engine drives a generator. The control cabinet and wheel motors replace the torque converter, transmission and differential. The planetary final drive stays.
+
+@I40|Obj 3|kr p3 ilm
+Q: On an electric drive haul truck, what is the function of the planetary final drive?
++ It still multiplies torque
+- It converts electrical energy to mechanical energy
+- It provides differential action between wheels
+- It is used only during dynamic braking
+E: The final drive's job (torque multiplication) doesn't change. The wheel motor drives it.
+
+@I40|Obj 3|kr p3 ilm
+Q: A major ADVANTAGE of direct current (DC) traction motors is:
++ tremendous torque at low speed
+- low maintenance, with no brushes
+- tolerance of moisture and dirty cooling air
+- no need for a commutator
+E: DC motor torque is proportional to current, and its low-resistance windings allow very high current at low speed. Speed is controlled by varying the DC voltage.
+
+@I40|Obj 3|kr p3 ilm
+Q: A major DISADVANTAGE of direct current (DC) traction motors is:
++ high brush and commutator maintenance
+- poor torque at low speed
+- they require complex inverter controls
+- speed cannot be varied by the operator
+E: Brushes and commutators need constant maintenance, the internals are exposed to the environment, and there are many solder points.
+
+@I40|Obj 3|kr p3 ilm
+Q: In alternating current (AC) drive terminology, which is correct?
++ A converter changes AC to direct current (DC). An inverter changes DC to AC.
+- A converter changes direct current (DC) to AC. An inverter changes AC to DC.
+- Both change AC to direct current (DC)
+- An inverter changes AC voltage to a higher AC voltage
+E: Converter (rectifier) AC → DC. Inverter DC → variable AC.
+
+@I40|Obj 3|kr p3 ilm
+Q: What are the three main sections of a variable frequency drive (VFD), in order?
++ Rectifier → direct current (DC) bus → inverter
+- Inverter → direct current (DC) bus → rectifier
+- Generator → inverter → rectifier
+- Rectifier → inverter → direct current (DC) bus
+E: The rectifier converts the generator AC to DC, the DC bus stores it, and the inverter makes variable voltage and variable frequency AC for the motors.
+
+@I40|Obj 3|ct p3 ilm
+Q: The generator already produces alternating current (AC). Why does an AC drive truck rectify it to direct current (DC) and then invert it back to AC?
++ To vary frequency and voltage independently of engine speed
+- Because AC can't be sent through cables to the wheels
+- To raise the generator's output voltage for the motors
+- Because the wheel motors are actually DC motors
+E: Generator frequency is tied to engine and generator speed (e.g., 60 Hz). Going through DC lets the inverter synthesize whatever frequency and voltage the motors need.
+
+@I40|Obj 3|kr p3 ilm
+Q: What does an insulated gate bipolar transistor (IGBT) need in order to turn on and conduct between its collector and emitter?
++ Voltage applied to the gate
+- Current through the base
+- A magnetic field
+- Reverse polarity across the emitter
+E: An IGBT is like a transistor whose base is called a gate. Its very fast switching made accurate AC motor control possible.
+
+@I40|Obj 3|kr p3 ilm
+Q: The inverter produces a pulsed direct current (DC) that mimics an alternating current (AC) sine wave. This output is sometimes called:
++ chopped DC
+- true AC
+- rectified AC
+- ripple DC
+E: PWM switches the DC on and off, varying the duty cycle to build a sine-like average voltage. It's not true AC.
+
+@I40|Obj 3|kr p3 ilm
+Q: How is cooling air supplied to the electric drive components on a typical alternating current (AC) drive truck?
++ A blower pulls air through the inverter cabinet, then to the generator and motors
+- Each wheel motor has its own fan driven by the wheel
+- Engine coolant is circulated through the wheel motors and cabinet
+- Ram air from forward travel, through grilles in the front
+E: The blower is controlled by a module that monitors ambient temperature, component temperatures and duct air pressure.
+
+@I40|Obj 3|kr p3 ilm
+Q: What energy conversions happen in an alternating current (AC) drive powertrain?
++ Mechanical → electrical (generator), electrical → mechanical (wheel motors)
+- Electrical → mechanical (generator) only
+- Chemical → electrical (inverter), electrical → mechanical (grid)
+- Hydraulic → electrical (wheel motors)
+E: Engine (mechanical) → generator (electrical) → rectifier/DC bus/inverter → wheel motor (mechanical) → final drive.
+
+@I40|Obj 3|pa p3 ilm
+Q: Who should perform maintenance or repair on inverter cabinet components?
++ Qualified electricians or factory trained technicians
+- Any heavy equipment technician (HET) apprentice with a multimeter
+- The operator, after shutting the truck down
+- Only the original equipment manufacturer (OEM), at the factory
+E: High generator voltage is present in the cabinet. The guide says this work must be done by qualified electricians or factory trained technicians.
+
+@I40|Obj 4|gk pa p3 ilm
+Q: What additional hazard exists at the retarding grid box right after an alternating current (AC) drive truck has been working downhill?
++ The resistors may be extremely hot, and carry high voltage
+- The grid holds compressed air
+- The grid contains hydraulic accumulators
+- There is no hazard. The grid only operates when the truck moves.
+E: Retarding energy is dissipated as heat in the grid, so it can cause burns. It is also connected to the high voltage circuit. (General knowledge.)
+
+@I40|Obj 3|gk ct p3 ilm
+Q: On an alternating current (AC) drive haul truck descending a grade, the wheel motors are used for retarding. What is happening?
++ The motors act as generators, and the grid burns off the energy
+- The motors are reversed and drive against the direction of travel at full power
+- The service brakes do all the retarding while the motors freewheel
+- Energy is stored in the engine flywheel
+E: This is dynamic braking, which the guide lists as an AC motor advantage. The grid blowers cool the resistors. (General knowledge.)

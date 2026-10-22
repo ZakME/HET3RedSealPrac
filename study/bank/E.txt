@@ -1,0 +1,223 @@
+@E24|Fluid coupling|kr
+Q: What is the main difference between a fluid coupling and a torque converter?
++ A fluid coupling has no stator, so it can't multiply torque
+- A fluid coupling has a stator, so it multiplies torque more
+- A fluid coupling is mechanically locked at all times
+- A fluid coupling has no impeller
+E: A fluid coupling has only an impeller and a turbine. The stator is what lets a torque converter multiply torque.
+
+@E24|Fluid coupling|ct
+Q: In a fluid coupling, how does the output (turbine) speed compare with the input (impeller) speed under load?
++ Slightly slower, because of slip
+- Exactly the same, with no slip
+- Slightly faster, because of the stator
+- It is exactly half
+E: A fluid coupling needs some slip to transfer torque. It never quite reaches input speed under load.
+
+@E25|Gearing|ct calc hl
+Q: A 15-tooth drive gear turns a 45-tooth driven gear. If the input torque is 200 lb-ft, what is the output torque (ignoring losses)?
++ 600 lb-ft
+- 67 lb-ft
+- 200 lb-ft
+- 3000 lb-ft
+E: Ratio = driven ÷ drive = 45 ÷ 15 = 3:1. Torque is multiplied by the ratio: 200 × 3 = 600 lb-ft. Speed is divided by 3.
+
+@E25|Gearing|ct calc hl
+Q: A gear train has a first reduction of 2:1 and a second reduction of 4:1. What is the total ratio?
++ 8:1
+- 6:1
+- 2:1
+- 0.5:1
+E: Multiply the ratios: 2 × 4 = 8:1.
+
+@E25|Gearing|ct hl
+Q: An idler gear is added between a drive gear and a driven gear. What changes?
++ The output's direction
+- The gear ratio
+- The output speed
+- The output torque and speed
+E: An idler has no effect on ratio, speed or torque. It only changes the direction of the output.
+
+@E25|Manual transmission|kr
+Q: In a synchronized manual transmission, the synchronizer's job is to:
++ match gear and shaft speed before engagement
+- lock two gears together for direct drive
+- prevent two shift rails from moving at once
+- hold the transmission in gear on rough ground
+E: Blocker rings use friction to bring the gear and shaft to the same speed so the shift is smooth.
+
+@E25|Manual transmission|ct
+Q: A twin countershaft transmission is being reassembled. What must be done with the countershafts?
++ Time them to the main drive gear using the marked teeth
+- Install them in any position
+- Install them with no end play
+- Install one countershaft only and add the second later
+E: Both countershafts share the load and must be timed (marked teeth aligned) or the gears won't mesh correctly.
+
+@E25|Manual transmission|ct
+Q: A manual transmission jumps out of only one gear. What is a likely cause?
++ Worn clutching teeth on that gear or collar
+- Low oil level in the transmission
+- A worn input shaft bearing in the clutch housing
+- A dragging clutch
+E: Worn, tapered clutching teeth push the collar out of engagement. Weak detents, bent forks or misalignment can also cause it.
+
+@E25|Manual transmission|ct
+Q: A manual transmission is noisy in every gear, including neutral with the clutch engaged. Where is the problem most likely?
++ Input or countershaft bearings, or low oil
+- The reverse idler gear only
+- The third gear synchronizer blocker ring
+- The output shaft seal
+E: Parts that turn in all gears (input, countershafts and their bearings) cause noise in every gear. Noise in one gear only points to that gear set.
+
+@E25|Manual transmission|kr
+Q: What prevents a manual transmission from being shifted into two gears at the same time?
++ The shift rail interlock
+- The synchronizers
+- The detent balls and springs
+- The clutch brake
+E: The interlock lets only one shift rail move at a time. Detents hold the rail in each position.
+
+@E25|Manual transmission|pa
+Q: On a non-synchronized truck transmission with a clutch brake, when should the clutch brake be used?
++ To stop the countershaft when shifting into first while stopped
+- To slow the truck when going down a steep hill
+- For every upshift while moving
+- To hold the truck stopped on a steep hill
+E: The clutch brake only engages in the last part of pedal travel to stop the countershaft. Using it while moving wears it out.
+
+@E25|Transfer case|ct
+Q: A part-time four-wheel-drive transfer case is left engaged on dry pavement. What is the result?
++ Driveline wind-up and tire scrubbing
+- Better fuel economy
+- Overheating of the inter-axle differential
+- No effect
+E: A part-time case locks the front and rear outputs together. The axles turn at slightly different speeds in turns, so the driveline winds up.
+
+@E25|Transfer case|kr
+Q: A full-time all-wheel-drive transfer case uses which component to let the front and rear axles turn at different speeds?
++ An inter-axle differential
+- A locking hub
+- A sliding clutch collar
+- A fluid coupling
+E: An inter-axle differential splits torque and lets the axles turn at different speeds. It's often lockable for poor traction.
+
+@E25|PTO|pa
+Q: How should a gear-type power take-off (PTO) without its own clutch be engaged?
++ With the clutch disengaged and the gears stopped
+- At high idle with the clutch engaged
+- While the vehicle is moving in top gear
+- At any engine speed, as long as the PTO switch is on
+E: Engaging gears that are turning grinds the teeth. Engage with the gears stopped, then let the clutch out.
+
+@E26|Powershift|ct
+Q: What is the result of overfilling a powershift transmission?
++ Overheating from churned, aerated oil
+- Low clutch pressure in all ranges
+- No forced downshift
+- Low stall speed
+E: Gears and clutches churn the extra oil into foam, which overheats and can't cool or lubricate properly.
+
+@E27|Driveline|ct
+Q: A driveshaft's slip yoke was reassembled 90° out of phase with the yoke at the other end. What will the result be?
++ Vibration that rises with speed
+- Lower driveline angles
+- Quieter operation under heavy load
+- Better U-joint lubrication
+E: Yokes on the same shaft must be in phase. Out of phase, the speed variations of the two U-joints add up instead of cancelling.
+
+@E27|Driveline|kr
+Q: For a two-joint driveshaft to run smoothly, the working angles of the U-joints should be:
++ equal at each end
+- as large as possible
+- zero at both ends
+- different, larger at the rear
+E: Equal working angles let the second joint cancel the speed changes of the first (with yokes in phase).
+
+@E27|Driveline|ct fail
+Q: A universal joint that runs at an exactly 0° working angle may fail by:
++ brinelling, since the needles don't roll
+- overheating from too much needle movement
+- loosening of the bearing caps
+- excessive grease leaking out
+E: With no angle, the needles never rotate, so they dent (brinell) the races. A small working angle keeps them moving.
+
+@E27|Driveline|pa
+Q: How do you know a U-joint has been greased properly?
++ Fresh grease purges at all four seals
+- Grease comes out of the slip yoke
+- The grease gun gets hard to pump
+- Grease shows at one of the bearing caps
+E: Keep greasing until fresh grease comes out of all four seals. If one won't purge, try loosening that cap or replace the joint.
+
+@E27|Driveline|ct fail
+Q: The bearing races of a U-joint are dented in the shape of the needle rollers. What is this called?
++ True brinelling
+- False brinelling
+- Spalling
+- Fretting
+E: True brinelling is actual dents from overload, too small an angle or wear. False brinelling is polished marks with no real dent, from vibration without rotation.
+
+@E27|Driveline|ct
+Q: A truck has a vibration that changes with road speed but not with engine speed. What should be checked?
++ The driveline and tires
+- The engine vibration damper
+- The engine mounts
+- The fan clutch
+E: A vibration that follows road speed comes from parts turning with the wheels: driveline, tires, wheels.
+
+@E27|Driveline|pa
+Q: A driveshaft is missing a balance weight. What should be done?
++ Have it rebalanced before reinstalling it
+- Install it as is, if it isn't bent
+- Add a hose clamp around the tube
+- Swap it end for end
+E: Missing weights cause vibration that damages U-joints and bearings. Have it rebalanced (and check that it's straight).
+
+@E27|Driveline|kr
+Q: What is the purpose of a slip joint in a driveline?
++ To let the driveline's length change
+- To allow the driveline to change angle
+- To cancel speed changes from the U-joints
+- To absorb shock loads from the engine
+E: The splined slip yoke lets the shaft get longer and shorter as the axle moves. U-joints handle the angle change.
+
+@E27|Driveline|kr
+Q: A double Cardan joint is used to:
++ give constant velocity at larger angles
+- allow the driveline length to change
+- reduce the driveline's weight
+- replace the centre bearing
+E: Two joints built close together act as a constant velocity (CV) joint, so the output speed stays even at bigger angles.
+
+@E27|Driveline|pa
+Q: What instrument is used to measure driveline working angles?
++ An inclinometer (angle finder)
+- A dial indicator
+- A straightedge and feeler gauge
+- A protractor on the frame rail
+E: Measure each component's angle (transmission, shaft, axle) with an inclinometer and calculate the working angles.
+
+@E27|Driveline|ct
+Q: A centre (hanger) bearing on a long driveline has a cracked, collapsed rubber cushion. What symptom is likely?
++ Vibration and clunking near the middle
+- A whine from the differential in coast
+- Hard shifting into the higher gears
+- Gear oil leaking from the axle
+E: The cushion supports and isolates the shaft. When it fails, the shaft moves around and vibrates.
+
+@E27|Driveline|pa safe
+Q: Before removing a driveshaft from a truck with a driveline parking brake, what must be done?
++ Block the wheels so the vehicle can't roll
+- Apply the parking brake firmly
+- Put the transmission in reverse
+- Raise the drive axle off the ground
+E: Once the driveshaft is out, a driveline parking brake no longer holds the wheels.
+
+@E27|Driveline|pa
+Q: When removing a driveshaft, why should the U-joint bearing caps be taped or strapped in place?
++ So the caps and needles don't fall off
+- So the shaft stays balanced when it's reinstalled
+- So the yoke phasing changes
+- So the grease stays warm
+E: Loose caps can drop off and scatter the needles; dirt gets in. Support the shaft so the joints aren't damaged.

@@ -1,0 +1,2863 @@
+@E25|Gear terms|hl kr p3
+Q: The top portion of a gear tooth, above the pitch line, is the:
++ face
+- flank
+- heel
+- root fillet
+E: Face = top portion. Flank = bottom portion. The pitch line divides them.
+
+@E25|Gear terms|hl kr p3
+Q: On a bevel gear tooth, the heel is the:
++ larger (outer) end
+- smaller (inner) end
+- top portion
+- valley between teeth
+E: Heel = large end. Toe = small end.
+
+@E26|Gear terms|hl kr p3
+Q: The drive side of a ring gear tooth is the:
++ convex side (curved out)
+- concave side (curved in)
+- toe end
+- side driven by the load when coasting
+E: Drive side = convex. Coast side = concave, driven by the load in neutral/coasting.
+
+@E25|Gear terms|hl kr p3
+Q: Gear "clearance" is the gap between:
++ one tooth's tip and the mating root
+- the faces of two meshing teeth
+- the gear and its housing wall
+- the toe and heel of a tooth
+E: Clearance (tip to root) is needed for lubrication. Backlash is the face/flank gap.
+
+@E25|Gear terms|hl kr p3
+Q: Backlash is needed to allow for:
++ expansion and lubrication
+- axial thrust loads
+- gear timing marks
+- hunting tooth wear
+E: The flank/face gap between meshing teeth allows for expansion and an oil film.
+
+@E25|Gear terms|hl kr p3
+Q: A gear set whose ratio is a whole number (for example 3:1) is:
++ non-hunting and must be timed
+- hunting and needs no timing
+- partial non-hunting
+- always a planetary set
+E: Non-hunting gears mesh the same teeth repeatedly, develop distinct wear patterns and must be timed.
+
+@E25|Gear terms|hl kr p3
+Q: In a hunting gear set:
++ every tooth meets every mate; no timing
+- the same teeth always mesh; must be timed
+- the ratio is always a whole number
+- only half the teeth ever make contact
+E: Uneven ratios (3.333:1) mean teeth "hunt" through every mate.
+
+@E25|Gear terms|kr p3
+Q: A gear set with a ratio of 4.5:1 is classed as:
++ partial non-hunting and must be timed
+- hunting, no timing needed
+- non-hunting with a whole-number ratio
+- an overdrive set
+E: Partial non-hunting: one or two decimals, several revolutions before teeth repeat. Still timed.
+
+@E25|Ratios|calc hl ct p3
+Q: A 12-tooth drive gear meshes with a 48-tooth driven gear. The ratio is:
++ 4:1
+- 0.25:1
+- 36:1
+- 1:4
+E: Ratio = driven ÷ drive = 48 ÷ 12 = 4:1, a reduction.
+
+@E25|Ratios|calc hl ct p3
+Q: An engine delivers 500 lb·ft at 2000 RPM into a 4:1 reduction. Output torque and speed are:
++ 2000 lb·ft at 500 RPM
+- 125 lb·ft at 8000 RPM
+- 2000 lb·ft at 8000 RPM
+- 500 lb·ft at 500 RPM
+E: Multiply torque (500 × 4) and divide RPM (2000 ÷ 4). Losses ignored.
+
+@E25|Ratios|calc hl ct p3
+Q: A 3:1 transmission ratio feeds a 5:1 final drive. The total ratio is:
++ 15:1
+- 8:1
+- 1.67:1
+- 2:1
+E: Highlighted: multiple ratios are multiplied together.
+
+@E25|Ratios|hl kr p3
+Q: A large drive gear turning a small driven gear produces:
++ overdrive: RPM up, torque down
+- reduction: RPM down, torque up
+- direct drive: no change at all
+- reverse: direction change only
+E: Overdrive ratios are written like 0.5:1.
+
+@E25|Ratios|hl kr p3
+Q: Adding an idler gear between a drive and driven gear will:
++ change direction only
+- double the gear ratio
+- reduce output torque
+- produce an overdrive
+E: Highlighted: idlers change direction only.
+
+@E25|Gear types|hl kr p3
+Q: Compared with spur gears, helical gears:
++ are quieter and stronger but create end thrust
+- create no end thrust and run quieter
+- are cheaper and simpler to machine
+- only have one tooth in contact at a time
+E: Highlighted. Angled teeth keep several teeth in contact but push the gear sideways.
+
+@E25|Gear types|hl kr p3
+Q: Double helical (herringbone) gears are used because:
++ their axial loads cancel out
+- they are the cheapest gear to make
+- they turn the power flow 90°
+- they need no lubrication
+E: Two opposite helix angles cancel the thrust.
+
+@E25|Gear types|hl kr p3
+Q: In an angle drive, the small drive gear is the ___ and the large driven gear is the ___.
++ pinion; crown
+- crown; pinion
+- sun; ring
+- idler; bull gear
+E: Highlighted: pinion = small drive gear, crown = large driven gear.
+
+@E25|Gear types|hl kr p3
+Q: An amboid gear set has its pinion centreline:
++ above the crown centreline
+- below the crown centreline
+- in line with the crown centreline
+- at 45° to the crown
+E: "A for above." The driveshaft sits higher, increasing ground clearance.
+
+@E25|Gear types|hl kr p3
+Q: A hypoid gear set has its pinion centreline:
++ below the crown centreline
+- above the crown centreline
+- in line with the crown centreline
+- at 45° to the crown centreline
+E: Hypoid = below; lots of sliding contact and pressure, so EP oil is required.
+
+@E26|Planetary|hl plan kr p3
+Q: When calculating a simple planetary ratio, the planet carrier is given a tooth count equal to:
++ the sun gear teeth plus the ring gear teeth
+- the number of planet pinion teeth
+- the ring gear teeth minus the sun gear teeth
+- twice the sun gear teeth
+E: Highlighted: don't count planet pinion teeth. Add sun and ring together.
+
+@E26|Planetary|calc plan ct p3
+Q: A simple planetary has a 30-tooth sun and a 60-tooth ring. The sun drives, the ring is held and the carrier is the output. The ratio is:
++ 3:1 reduction
+- 2:1 reduction
+- 0.33:1 overdrive
+- 2:1 reverse
+E: Carrier = 30 + 60 = 90. Ratio = driven ÷ drive = 90 ÷ 30 = 3:1 (sun in, ring held is the largest reduction).
+
+@E26|Planetary|calc plan ct p3
+Q: A simple planetary has a 30-tooth sun and a 60-tooth ring. The carrier is held, the sun drives and the ring is the output. The result is:
++ 2:1 reduction in reverse
+- 3:1 reduction forward
+- 0.5:1 overdrive forward
+- direct drive
+E: Carrier held = reverse. Ratio = ring ÷ sun = 60 ÷ 30 = 2:1.
+
+@E26|Planetary|calc plan ct p3
+Q: A simple planetary has a 30-tooth sun and a 60-tooth ring. The ring drives, the sun is held and the carrier is the output. The ratio is:
++ 1.5:1 reduction
+- 3:1 reduction
+- 0.67:1 overdrive
+- 2:1 reverse
+E: Carrier = 30 + 60 = 90. Ratio = driven ÷ drive = 90 ÷ 60 = 1.5:1 (small reduction, forward).
+
+@E26|Planetary|hl plan kr p3
+Q: In a simple planetary, which condition always gives reverse?
++ Carrier held
+- Carrier driven
+- Carrier as input
+- Any two members locked
+E: Highlighted: reverse = carrier held. Reduction = carrier driven (output). Overdrive = carrier as drive (input).
+
+@E26|Planetary|hl plan kr p3
+Q: A simple planetary set is in neutral when:
++ no member is held
+- the carrier is held
+- two members are locked together
+- the sun gear is held
+E: With nothing held there is no reaction member, so no power is transmitted.
+
+@E26|Planetary|plan kr p3
+Q: With the carrier driving, ring held and sun as output, a simple planetary gives:
++ large overdrive, forward
+- large reduction, forward
+- overdrive, reverse
+- direct drive
+E: Carrier input = overdrive. Sun output is the fastest member = large overdrive.
+
+@E24|Fluid coupling|hl kr p3
+Q: A hydrodynamic drive transfers energy through:
++ fluid motion
+- fluid pressure
+- friction discs
+- gear teeth
+E: Hydrodynamic = kinetic energy of moving fluid. (Hydrostatic = pressure.)
+
+@E24|Fluid coupling|hl ct p3
+Q: The main reason a fluid coupling or torque converter replaces a mechanical clutch is that:
++ slip lets the machine stop without stalling
+- it multiplies torque at all speeds
+- it is more efficient than a clutch
+- it removes the need for a transmission
+E: Highlighted: slippage prevents engine stall with the machine stopped.
+
+@E24|Fluid coupling|hl kr p3
+Q: In a torque converter, the impeller is connected to the ___ and the turbine to the ___.
++ engine; transmission
+- transmission; engine
+- stator; engine
+- engine; stator
+E: Impeller = engine side. Turbine = driveline side.
+
+@E24|Fluid coupling|hl kr p3
+Q: In a fluid coupling, slippage is greatest at:
++ low engine speed
+- high engine speed
+- coupling speed
+- lockup
+E: Highlighted: low engine speed = high slippage; high speed = low slippage.
+
+@E24|Fluid coupling|hl kr p3
+Q: A basic fluid coupling (no stator) can:
++ only transmit torque
+- multiply torque up to 2:1
+- multiply torque at stall
+- lock up mechanically
+E: Highlighted: fluid couplings only transmit torque. A torque converter can multiply it.
+
+@E24|Torque converter|hl kr p3
+Q: A torque converter is best defined as a:
++ torque-multiplying fluid coupling
+- wet multi-disc clutch pack
+- fluid driven planetary gear set
+- hydrostatic pump and motor pair
+E: Highlighted. The stator redirects oil to make multiplication possible.
+
+@E24|Flow|hl ct p3
+Q: Vortex flow in a torque converter occurs when:
++ the turbine is much slower than the impeller
+- impeller and turbine turn at about the same speed
+- the lockup clutch is engaged
+- the stator freewheels on its clutch
+E: Highlighted: vortex (converter phase): turbine slower, high heat, low speed, high torque.
+
+@E24|Flow|hl kr p3
+Q: Rotary flow in a torque converter is associated with the:
++ coupling phase: low heat, high speed, low torque
+- converter phase: high heat, high torque
+- stall condition
+- lockup phase only
+E: Highlighted: oil flows in the same direction as impeller rotation; impeller and turbine at similar speed.
+
+@E24|Stator|hl kr p3
+Q: The stator in a torque converter:
++ redirects oil to the impeller when held
+- connects the turbine to the transmission
+- is bolted to the flywheel and cover
+- locks the impeller to the turbine
+E: Highlighted: reaction member; multiplication only when it is held stationary.
+
+@E24|Stator|hl kr p3
+Q: A freewheeling stator is:
++ held when converting, free when coupling
+- free to turn in both phases
+- held stationary at all times
+- driven by the turbine through gears
+E: An overrunning clutch lets it turn freely in the direction of impeller and turbine rotation once coupling speed is reached.
+
+@E24|Stator|ct p3
+Q: A fixed stator torque converter:
++ never fully couples and runs hot
+- has no torque multiplication at all
+- freewheels once at high speed
+- is the most efficient design
+E: Fixed stators give constant multiplication and very high heat because rotary flow can't fully develop.
+
+@E24|Converter parts|hl kr p3
+Q: The split guide ring in a torque converter:
++ reduces turbulence in the oil flow
+- locks the turbine to the impeller
+- holds the stator stationary
+- seals the converter housing halves
+E: Highlighted: reduces turbulence.
+
+@E24|Lockup|hl kr p3
+Q: A torque converter lockup clutch:
++ locks impeller to turbine for 1:1 drive
+- multiplies torque at stall
+- holds the stator stationary
+- disconnects the engine for shifting
+E: Highlighted: eliminates slip, used in rotary flow, no torque multiplication.
+
+@E24|Phases|hl kr p3
+Q: The number of "stages" in a torque converter refers to the:
++ number of turbines
+- number of stators
+- number of impellers
+- number of phases
+E: Highlighted: stages = number of turbines (times oil strikes a turbine before returning). Usually 1.
+
+@E24|Stall|hl kr p3
+Q: Torque converter stall is the condition where:
++ the turbine is stopped, impeller at max speed
+- impeller and turbine turn at the same speed
+- the lockup clutch slips under load
+- the engine stalls under load
+E: Highlighted: max torque, max vortex flow, lots of heat.
+
+@E24|Variable capacity|hl kr p3
+Q: A variable capacity torque converter is designed to:
++ vary torque to suit demand
+- run at a fixed 1:1 ratio
+- eliminate the need for a stator
+- run without a charging pump
+E: Highlighted. Uses dual impellers, dual turbines or a variable pitch stator.
+
+@E24|Temperature|hl pa p3
+Q: The torque converter temperature sender is installed in the:
++ converter oil outlet
+- converter inlet
+- transmission sump
+- cooler return line
+E: Highlighted. Oil temperature should not exceed 250 °F (121 °C).
+
+@E24|Temperature|hl pa p3
+Q: Torque converter outlet oil temperature should not exceed:
++ 250 °F (121 °C)
+- 180 °F (82 °C)
+- 300 °F (149 °C)
+- 212 °F (100 °C)
+E: Highlighted.
+
+@E24|Oil|hl ct p3
+Q: In very cold weather, a machine creeps forward at start-up even in gear at idle with the brakes on. A likely reason is:
++ oil too heavy, transmitting torque when cold
+- the stator overrunning clutch has failed
+- the lockup clutch is stuck engaged
+- the converter is low on oil
+E: Highlighted: too heavy an oil transmits torque in the cold, so start in neutral.
+
+@E24|Housings|hl kr p3
+Q: A wet torque converter housing:
++ lubricates gears and can run a power take-off (PTO)
+- is sealed off from all oil to cut drag on the converter
+- must be kept completely full of oil at all times
+- needs no scavenge pump or gravity drain to empty it
+E: Highlighted. The oil level must be kept low to avoid drag on the converter.
+
+@E24|Housings|hl kr p3
+Q: A scavenging pump is needed on a torque converter when:
++ the converter is level with the transmission
+- the converter is above the transmission
+- the converter housing is dry
+- the converter is remote mounted
+E: If the converter is above the transmission, gravity drains it. If level, a scavenge pump is needed.
+
+@E24|Torque divider|hl kr p3
+Q: A torque divider combines:
++ a torque converter and a planetary gear set
+- two torque converters
+- a fluid coupling and a lockup clutch
+- a hydraulic retarder and a converter
+E: Highlighted: torque is split between them for more multiplication than a plain converter.
+
+@E24|Torque divider|hl kr p3
+Q: In a torque divider, which members turn at engine speed?
++ Impeller and sun gear
+- Turbine and ring gear
+- Planet carrier and output shaft
+- Stator and ring gear
+E: Impeller and sun at engine speed; turbine and ring together; carrier = output.
+
+@E24|Torque divider|hl ct p3
+Q: In a torque divider with the output shaft stalled, the turbine:
++ rotates in reverse
+- is stopped
+- turns at engine speed
+- freewheels forward
+E: Highlighted: with the carrier held (output stalled), the sun drives the ring (and turbine) backwards. Maximum speed differential.
+
+@E24|Mounting|hl kr p3
+Q: A torque converter driven directly by the engine flywheel is:
++ engine mounted (integral)
+- remote mounted
+- driveline mounted
+- transmission mounted
+E: Highlighted. Remote mount uses a driveline between engine and converter.
+
+@E24|Diagnostics|hl pa p3
+Q: A torque converter stall test is normally done in:
++ the highest gear
+- the lowest gear
+- neutral
+- reverse
+E: Highlighted: low gears may cause transmission/driveline damage.
+
+@E24|Diagnostics|hl ct p3
+Q: During a converter stall test, the engine speed is HIGHER than specified. The likely cause is:
++ a slipping clutch
+- a weak engine
+- a slipping stator clutch
+- cold oil
+E: High stall: converter not multiplying torque or clutch slipping. Low stall: engine weak or stator clutch slipping.
+
+@E24|Diagnostics|hl ct p3
+Q: During a converter stall test, the engine speed is LOWER than specified. Possible causes are:
++ a weak engine or a slipping stator clutch
+- slipping transmission clutches
+- low oil level causing cavitation
+- a stuck open converter relief valve
+E: Low stall = weak engine or slipping stator clutch. If the stator freewheels at stall, returning oil strikes the impeller against its rotation, loading the engine and pulling stall speed down.
+
+@E24|Diagnostics|ct p3
+Q: Which would NOT cause torque converter overheating?
++ Operating in a lower gear under load
+- Operating in too high a gear under load
+- A plugged oil cooler
+- Low or high oil level
+E: Too high a gear keeps the converter in vortex flow (heat). Also plugged cooler, bad charge pump, low or high oil and high ambient temperature.
+
+@E24|Service|hl pa p3
+Q: When removing a torque converter, it may need to be:
++ secured to the transmission
+- filled with oil first
+- removed with the engine running
+- separated from the flexplate at the crank bolts
+E: Highlighted: sometimes the converter must be secured to the transmission for removal.
+
+@E24|Service|hl pa p3
+Q: A rebuilt torque converter going into storage should have:
++ all holes covered with plugs
+- its oil drained and left open to dry
+- the stator removed
+- its lockup clutch applied
+E: Highlighted: cover all holes with plugs if storing.
+
+@E24|Service|hl ct p3
+Q: Improperly adjusted shift linkage on a powershift transmission can cause:
++ two gears to engage at once
+- torque converter stall
+- converter overheating only
+- lockup clutch slip
+E: Highlighted: shift linkages control which gear the transmission is in.
+
+@E26|Transmission types|hl kr p3
+Q: A powershift transmission is one in which:
++ the operator shifts, even under full load
+- shifts happen with no operator action
+- the operator uses a clutch pedal to shift
+- there is only one forward speed
+E: Highlighted. Often used in cycling applications (forward-reverse).
+
+@E26|Transmission types|hl kr p3
+Q: An automatic transmission is often used for:
++ hauling, with long runs in one direction
+- short forward-reverse loading cycles
+- stationary pumps and generators
+- skid steers and small loaders
+E: Automatics shift speeds by themselves; the operator still selects forward or reverse.
+
+@E26|Transmission functions|hl kr p3
+Q: Which is a function of a transmission?
++ Provide a place for a power take-off
+- Turn power 90° to the wheels
+- Allow wheels to turn at different speeds
+- Provide the last gear reduction
+E: Highlighted: provide a place for auxiliary power/PTO, plus multiply torque, reverse, and shift without interrupting power.
+
+@E26|Planetary|hl plan kr p3
+Q: In a planetary transmission, a planet carrier used as the OUTPUT always gives:
++ a reduction
+- an overdrive
+- reverse
+- direct drive
+E: Carrier output = reduction. Carrier input = overdrive. Carrier held = reverse.
+
+@E26|Planetary|hl plan kr p3
+Q: Direct drive through a planetary set is obtained by:
++ locking any two members
+- holding the planet carrier
+- holding the sun gear
+- releasing every member
+E: Highlighted: locking any two members, or driving two members at the same speed.
+
+@E26|Planetary|plan kr p3
+Q: An external gear in mesh with an internal gear will turn:
++ in the same direction
+- in the opposite direction
+- at the same speed
+- only if an idler is used
+E: Two externals turn opposite; external with internal turn the same direction.
+
+@E26|Planetary|plan kr p3
+Q: In the "second speed reduction" combination of a simple planetary:
++ the sun is held, the ring is input and the carrier is output
+- the sun is input, the ring is held and the carrier is output
+- the carrier is held
+- the ring is output
+E: First reduction: sun in, ring held. Second reduction: ring in, sun held. Carrier is output for both.
+
+@E26|Planetary|hl plan kr p3
+Q: A dual input planetary has:
++ two inputs, one output, none held
+- one input and two outputs
+- two held members and one output
+- two inputs and no output
+E: Highlighted. Inputs the same direction = more speed; opposite = less.
+
+@E26|Planetary|plan ct p3
+Q: In a dual input planetary, both inputs turn at equal tooth speed in opposite directions. The output speed is:
++ zero
+- double the input speed
+- the same as one input
+- half of one input
+E: Equal but opposite inputs cancel, giving zero output RPM.
+
+@E26|Planetary|hl plan kr p3
+Q: Tooth speed is:
++ teeth passing a point per second
+- the same as shaft RPM
+- the speed of the planet carrier
+- the gear ratio times the RPM
+E: Highlighted.
+
+@E26|Clutches|hl kr p3
+Q: Transmission clutches in a powershift are typically:
++ hydraulically applied and spring released
+- spring applied and hydraulically released
+- mechanically applied
+- air applied
+E: Highlighted.
+
+@E26|Clutches|hl kr p3
+Q: A stationary clutch in a planetary transmission:
++ locks a ring gear to the transmission housing
+- locks two rotating members together
+- connects the engine to the converter
+- holds the turbine shaft
+E: Highlighted: rotating clutch = locks two rotating components; stationary clutch = locks a gear to the housing.
+
+@E26|Clutches|hl kr p3
+Q: The grooves on the face of a clutch friction disc:
++ lube it when released and clear oil when applied
+- increase the friction coefficient
+- lock the disc to the clutch hub
+- show when the disc is worn out
+E: Highlighted. Escaping oil prevents delayed engagement/disengagement.
+
+@E26|Clutches|hl kr p3
+Q: Where are steel clutch plates located in a clutch pack?
++ Between each pair of friction discs
+- Only at the two ends of the pack
+- Only directly behind the piston
+- Bonded to the friction discs
+E: Highlighted. The plates provide the reaction surface.
+
+@E26|Clutches|hl kr p3
+Q: Clutch pistons are:
++ hydraulically moved to apply the clutch
+- spring applied and oil released
+- driven by the turbine shaft
+- used only to release the clutch
+E: Highlighted. Return springs release them; splines keep the piston from rotating.
+
+@E26|Countershaft|hl kr p3
+Q: A countershaft transmission uses:
++ parallel shafts, with clutches locking gears
+- planetary sets with stationary clutches
+- one shaft with sliding gears
+- chains between parallel shafts
+E: Highlighted.
+
+@E26|Countershaft|hl kr p3
+Q: A disadvantage of countershaft transmissions compared with planetary transmissions is that they:
++ are bulkier and need big thrust bearings
+- are more expensive to make
+- can't shift under load
+- can't provide a reverse
+E: Highlighted: not as compact. They are, however, significantly cheaper.
+
+@E26|Countershaft|hl kr p3
+Q: A useful feature of a countershaft transmission is that it can:
++ drop the power path and feed both axles
+- cancel all of its thrust loads
+- provide infinitely variable ratios
+- shift without any clutches
+E: Highlighted: used to lower the path of power.
+
+@E26|Countershaft|hl kr p3
+Q: In a countershaft transmission, a reversing unit has:
++ an idler between the input and the countershaft
+- no idler between the input and countershaft
+- two countershafts with no idler
+- a planetary set
+E: Highlighted. A high/low unit has no idler, so both turn the same direction.
+
+@E26|Circuits|hl kr p3
+Q: In a powershift transmission, the three main hydraulic circuits receive oil in which order?
++ Clutch application, torque converter charging, lubrication
+- Lubrication, converter charging, clutch application
+- Converter charging, clutch application, lubrication
+- Clutch application, lubrication, converter charging
+E: Highlighted: clutch application first (highest pressure), converter second, lube last.
+
+@E26|Circuits|ct p3
+Q: Which transmission circuit runs at the highest pressure?
++ Clutch application
+- Torque converter charging
+- Lubrication
+- Scavenge
+E: The clutch circuit receives flow first and at the highest pressure.
+
+@E26|Pumps|hl safe ct p3
+Q: Why must care be taken when towing a machine with a powershift transmission?
++ No pump flow means no lubrication
+- The converter will lock up solid
+- The parking brake will apply
+- Two gears may engage at once
+E: Highlighted. Disconnect the driveshaft or elevate the drive wheels.
+
+@E26|Pumps|hl kr p3
+Q: The transmission scavenging pump:
++ returns housing leakage oil to the tank
+- supplies the clutch circuit
+- supplies oil to the converter
+- pressurizes the lube circuit
+E: Highlighted. It prevents overheating caused by excess oil. The converter scavenge pump does the same for the converter housing.
+
+@E26|Valves|hl kr p3
+Q: The priority valve in a transmission/steering system is normally closed and:
++ feeds steering and brakes first
+- limits maximum clutch pressure
+- controls clutch modulation
+- relieves converter pressure
+E: Highlighted.
+
+@E26|Valves|hl kr p3
+Q: The shift selector valve controls:
++ speed and direction changes
+- maximum clutch pressure
+- converter outlet pressure
+- lube pressure
+E: Highlighted: speed selector spool and direction selector spool.
+
+@E26|Valves|hl kr p3
+Q: The modulating relief valve in a powershift control controls:
++ maximum clutch pressure
+- the rate of clutch pressure rise
+- converter inlet pressure
+- shift points
+E: Highlighted. The load piston controls the rate of pressure rise.
+
+@E26|Valves|hl kr p3
+Q: The load piston in a powershift control valve:
++ controls how fast clutch pressure rises
+- sets the maximum clutch pressure
+- selects the direction clutch
+- relieves converter inlet pressure
+E: Highlighted: prevents shift shock (too fast) and slipping (too slow).
+
+@E26|Valves|hl kr p3
+Q: The torque converter outlet relief valve:
++ limits converter pressure, keeps it full
+- limits maximum clutch pressure
+- stops oil entering the converter
+- controls converter lockup timing
+E: Highlighted. It also protects the converter on cold start-up.
+
+@E26|Modulation|hl kr p3
+Q: Clutch modulation is:
++ a gradual pressure rise as the clutch applies
+- instant full pressure to the clutch
+- reduced pressure in the lube circuit
+- the rate a clutch releases
+E: Highlighted: prevents harsh shifting/shift shock.
+
+@E26|Auto shifting|hl kr p3
+Q: The two main factors that determine shift points in a hydraulically controlled automatic transmission are:
++ ground speed and throttle position
+- engine temperature and oil pressure
+- engine speed and steering angle
+- converter temperature and load
+E: Highlighted: machine ground speed and operator demand for power.
+
+@E26|Governor|hl kr p3
+Q: The governor in a hydraulic automatic transmission:
++ converts output shaft speed into hydraulic pressure
+- converts throttle position into hydraulic pressure
+- limits maximum engine speed
+- controls lockup
+E: Highlighted. Low output speed = low pressure; high speed = high pressure.
+
+@E26|Governor|hl kr p3
+Q: As transmission output speed increases, governor pressure will:
++ increase
+- decrease
+- stay constant
+- drop to zero
+E: Rotating flyweights open the spool as speed increases.
+
+@E26|Governor|hl kr p3
+Q: Shift signal valves apply and release clutches through a:
++ relay valve
+- trimmer valve
+- load piston
+- priority valve
+E: Highlighted. Lower gear signal valves have weaker springs so they open at lower pressures.
+
+@E26|Governor|hl ct p3
+Q: The orifice in the governor line of an automatic transmission prevents:
++ a sudden downshift if pressure is lost
+- an early upshift at full throttle
+- governor pressure from rising
+- clutch slip under heavy load
+E: Highlighted: a sudden loss from hard braking or governor failure could cause a rapid downshift.
+
+@E26|Modulator|hl kr p3
+Q: The modulator circuit in an automatic transmission:
++ moves shift points with throttle
+- turns output speed into pressure
+- controls clutch release rate
+- sets maximum clutch pressure
+E: Highlighted. It opposes governor pressure.
+
+@E26|Modulator|hl ct p3
+Q: With the throttle fully open, a hydraulically controlled automatic transmission will:
++ delay its shift points
+- shift earlier
+- not shift at all
+- shift into neutral
+E: Highlighted. This allows more horsepower and momentum in each gear.
+
+@E26|Shift quality|hl ct p3
+Q: A clutch released too fast before the next clutch engages causes:
++ RPM flare and freewheeling
+- lugging and shift shock
+- slip in the new gear
+- torque converter stall
+E: Highlighted. The transmission is momentarily out of gear.
+
+@E26|Shift quality|hl ct p3
+Q: A clutch released too slowly so that it overlaps the next clutch causes:
++ lugging and a harsh shift
+- RPM flare on the shift
+- momentary freewheeling
+- only a delayed upshift
+E: Highlighted: two clutches are partly applied at once.
+
+@E26|Shift quality|hl kr p3
+Q: The trimmer valve in an automatic transmission controls:
++ clutch application rate
+- clutch release rate
+- maximum clutch pressure
+- governor pressure
+E: Highlighted. Orifices control release rates.
+
+@E26|Shift quality|hl ct p3
+Q: Trimmer valve modulator boost pressure is used to:
++ stop trimming under heavy load
+- delay shifts at full throttle
+- soften shifts at light throttle
+- prevent downshifts when braking
+E: Highlighted: prevents trimmer operation under heavy load.
+
+@E26|Electronic|hl kr p3
+Q: In an electronically controlled automatic transmission, the input and output speed sensors:
++ replace the governor
+- replace the modulator
+- are needed on powershifts too
+- control lockup directly
+E: Highlighted: not needed on powershift, only automatic.
+
+@E26|Electronic|hl pa p3
+Q: In an electronic automatic transmission, the throttle position sensor replaces the:
++ modulator valve
+- governor valve
+- trimmer valve
+- priority valve
+E: Highlighted: it indicates operator demand for power.
+
+@E26|Electronic|hl kr p3
+Q: Which output component is responsible for transmission speed, direction and lockup changes in an electronic transmission?
++ Shift solenoids
+- Speed sensors
+- Throttle position sensor
+- Warning lamp
+E: Highlighted.
+
+@E24|Retarders|hl kr p3
+Q: A hydraulic retarder is designed to:
++ slow the machine, not stop it
+- stop the machine in an emergency
+- replace the service brakes
+- hold the machine when parked
+E: Highlighted: absorbs kinetic energy by fluid friction and extends brake life.
+
+@E24|Retarders|hl ct p3
+Q: An output retarder is most effective:
++ at high vehicle speed
+- at low speed in a low gear
+- only at high engine RPM
+- with the converter in vortex flow
+E: Highlighted.
+
+@E24|Retarders|hl kr p3
+Q: An input retarder is usually:
++ built into the transmission
+- on the output shaft
+- remote mounted on the driveline
+- part of the final drive
+E: Highlighted. Downshift after the retarder engages to increase effectiveness.
+
+@E24|Retarders|hl kr p3
+Q: In a hydraulic retarder, the input side component is the:
++ rotor
+- stator
+- housing
+- accumulator
+E: Highlighted. The housing (stator) is the stationary member.
+
+@E24|Retarders|hl pa p3
+Q: Hydraulic retarder oil temperature should not exceed:
++ 250 °F (121 °C)
+- 180 °F (82 °C)
+- 350 °F (177 °C)
+- 212 °F (100 °C)
+E: Highlighted. Operation above 275 °F (135 °C) can damage the retarder.
+
+@E24|Retarders|hl kr p3
+Q: Which is a control method for hydraulic retarders?
++ Air over hydraulic
+- Mechanical band
+- Vacuum assist
+- Centrifugal weights
+E: Highlighted.
+
+@E24|Retarders|hl kr p3
+Q: When a hydraulic retarder is disengaged:
++ all oil is drained from the housing
+- the housing stays full to keep the rotor lubricated
+- the rotor stops
+- the stator turns with the rotor
+E: Highlighted. Oil in the housing would cause drag.
+
+@E24|Retarders|hl kr p3
+Q: A hydraulic retarder converts kinetic energy into heat by:
++ friction between rotor and oil
+- friction between wet brake discs
+- compressing nitrogen gas
+- generating electricity for a grid
+E: Highlighted.
+
+@E24|Retarders|kr p3
+Q: An accumulator in a retarder circuit is used to:
++ allow a fast fill of the retarder
+- store heat
+- hold the retarder off
+- supply lube when the engine is off
+E: The accumulator lets the housing fill quickly when the retarder is applied.
+
+@E24|Retarders|fail ct p3
+Q: Aluminum particles in the retarder oil filter most likely come from the:
++ retarder rotor
+- pump
+- seals or hoses
+- transmission gears
+E: Shiny steel = pump wear, aluminum = rotor, rubber = seals or hoses, iron/steel chips = broken parts.
+
+@E24|Retarders|hl ct p3
+Q: A retarder repeatedly overheats on a long grade with correct oil level. A likely cause is:
++ the retarder is too small for the application
+- the retarder is too large
+- the rotor clearance is too small to make heat
+- the oil is too clean
+E: Highlighted: too small a retarder overheats. Overheating speeds oxidation and reduces lubrication.
+
+@E24|Retarders|kr p3
+Q: A converter lockup clutch is required with a retarder when the retarder is mounted:
++ between crank and flywheel
+- on the transmission output
+- remote on the driveline
+- in the final drive
+E: The lockup engages when the retarder is applied.
+
+@E26|Diagnosis|hl ct p3
+Q: When diagnosing a powershift transmission, what should always be checked first during the visual inspection?
++ Oil level and condition
+- Clutch pressures
+- Stall speed
+- Shift linkage adjustment
+E: Highlighted: oil level/condition always first. Water/glycol contamination is especially damaging.
+
+@E26|Diagnosis|hl pa p3
+Q: Transmission oil should be warmed to what range before testing?
++ 150–180 °F
+- 100–120 °F
+- 200–250 °F
+- 250–275 °F
+E: Highlighted: leakage increases with temperature, so problems may not show when the oil is cold.
+
+@E26|Diagnosis|hl ct p3
+Q: Why must transmission oil be at operating temperature before pressure testing?
++ Leakage rises with heat, so cold oil hides faults
+- Cold oil makes every pressure read too low
+- Gauges are only accurate when warmed up
+- The converter relief only opens when hot
+E: Hot oil is thinner and leaks more. Testing cold can hide worn seals and clearances.
+
+@E26|Stall test|hl safe pa p3
+Q: Which is a correct precaution during a transmission stall test?
++ Open area, watch temperature, expect movement
+- Lowest gear, park brake off, brakes released
+- Hold the stall until oil reaches 275 °F
+- Have a helper stand in front to watch it
+E: Highlighted. Stall for no more than 30 seconds, then neutral for 30 seconds to cool.
+
+@E26|Stall test|safe pa p3
+Q: During a transmission stall test, how long should each stall be held?
++ 30 s max, then 30 s in neutral
+- At least 2 minutes for a stable reading
+- Until the engine stalls or oil boils
+- 10 s per gear, no cooling needed
+E: Don't overheat the transmission oil.
+
+@E26|Stall test|hl ct p3
+Q: Transmission stall speed is HIGHER than specified. Which is a likely cause?
++ Slipping transmission clutches
+- A weak engine
+- A slipping converter stator
+- A plugged oil cooler
+E: Highlighted: high stall = excessive engine power, slipping clutches, converter cavitation (low oil).
+
+@E26|Stall test|hl ct p3
+Q: Transmission stall speed is LOWER than specified. Which is a likely cause?
++ A weak engine or a slipping stator
+- Slipping clutches
+- Low oil level causing converter cavitation
+- Excessive engine power
+E: Highlighted: low stall = weak engine, torque converter stator slipping.
+
+@E26|Pressure tests|hl pa p3
+Q: Pressure gauges for transmission testing should be rated for:
++ double the system pressure
+- exactly the system pressure
+- half the system pressure
+- ten times the system pressure
+E: Highlighted.
+
+@E26|Pressure tests|hl ct p3
+Q: Transmission charging pump inlet pressure is below 12 psia. This indicates:
++ an inlet restriction (cavitation risk)
+- air being drawn into the inlet line
+- a worn charge pump with high slip
+- a converter relief stuck open
+E: Below about 12 psia means the pump is pulling too hard against a restriction in the inlet line, which leads to cavitation. Air being drawn in through a leak would make inlet pressure read higher (less vacuum), not lower.
+
+@E26|Pressure tests|hl pa p3
+Q: Clutch application pressure should be checked at:
++ low and high idle (should match)
+- high idle only, in each range
+- converter stall only
+- low idle only, in neutral
+E: Highlighted. It's controlled by the clutch pressure regulator valve, which may be adjustable.
+
+@E26|Pressure tests|hl ct p3
+Q: Clutch pressure is low at low idle but normal at high idle. This indicates:
++ internal leakage
+- a regulator set too high
+- a restricted pump inlet
+- normal operation
+E: Highlighted. At low idle the pump can't keep up with the leakage; at high idle it can.
+
+@E26|Pressure tests|hl pa p3
+Q: Torque converter charge pressure is limited by the converter relief valve, which is installed on the:
++ inlet side of the converter
+- outlet side of the converter
+- lube circuit
+- cooler return
+E: Highlighted. Converter charge pressure shows resistance to flow in the converter.
+
+@E26|Pressure tests|ct p3
+Q: Torque converter charge pressure is low. Which is a possible cause?
++ Leakage in the clutch application circuit
+- A plugged converter outlet line
+- A cooler that is too large
+- Converter outlet relief set too high
+E: Low converter pressure: insufficient charge pump flow, clutch circuit leakage or converter circuit leakage.
+
+@E26|Pressure tests|hl kr p3
+Q: Which transmission circuit is the last to receive oil flow?
++ Lubrication
+- Clutch application
+- Torque converter charging
+- Priority (steering)
+E: Highlighted. So low lube pressure can reflect leaks anywhere upstream.
+
+@E26|Pressure tests|ct p3
+Q: Lube pressure is low in only one speed range. The most likely cause is:
++ that range's clutch piston leaking
+- a weak, worn charge pump
+- a stuck lube relief valve
+- a converter circuit leak
+E: A leak that only shows in one range points to that range's clutch piston seals.
+
+@E26|Flowmeter|hl pa p3
+Q: A flowmeter installed in series in a transmission circuit is used to:
++ measure internal leakage upstream of it
+- set the clutch pressure regulator
+- find the converter stall speed
+- adjust the shift points
+E: Highlighted.
+
+@E26|Shift points|hl pa p3
+Q: Shift points on a hydraulically controlled automatic transmission are adjusted in relation to:
++ governor pressure readings
+- clutch application pressure
+- converter outlet temperature
+- engine coolant temperature
+E: Highlighted. Also output shaft speed and vehicle odometer. Check governor pressure before adjusting.
+
+@E26|Electronic|hl ct p3
+Q: When diagnosing an electronic transmission fault code, you should:
++ follow the manufacturer's diagnostic steps
+- replace the electronic control module (ECM) first
+- clear the code and test drive it only
+- check the governor pressure first
+E: Highlighted.
+
+@E26|Rebuild|hl ct p3
+Q: Nicks and scratches on transmission valve components will result in:
++ sticking valves
+- higher lube pressure
+- clutch slip only
+- converter cavitation
+E: Highlighted.
+
+@E26|Rebuild|hl pa p3
+Q: Bearings and clutch friction discs should only be cleaned with:
++ mineral spirits
+- hot caustic solution
+- brake cleaner
+- water-based degreaser
+E: Highlighted. Dry with dry compressed air (don't spin bearings).
+
+@E26|Rebuild|hl pa p3
+Q: Clutch disc warpage and cone are checked by:
++ placing the disc on a flat surface and using a feeler gauge
+- measuring thickness with a micrometer
+- spinning the disc on a shaft with a dial indicator
+- checking the disc colour
+E: Highlighted. Excessive cone/warpage causes clutch drag. Micrometer = wear.
+
+@E26|Rebuild|hl ct p3
+Q: Insufficient clutch clearance in a transmission clutch pack will cause:
++ drag and heat
+- delayed engagement
+- low clutch pressure
+- RPM flare on shifts
+E: Highlighted. Excessive clearance causes slightly delayed application.
+
+@E26|Rebuild|hl kr p3
+Q: Clutch pack clearance can be altered by:
++ changing reaction disc or piston thickness
+- adjusting the clutch pressure regulator
+- adding shims under the return springs
+- changing to a thicker oil viscosity
+E: Highlighted. Measure with feeler gauges, go/no-go or stack height.
+
+@E26|Rebuild|hl ct p3
+Q: After a transmission rebuild, a valve spool binds. A likely cause is:
++ wrong valve body bolt torque
+- too much clutch clearance
+- the wrong oil viscosity
+- a missing lube relief valve
+E: Highlighted: incorrect torquing may cause valve spool binding.
+
+@E26|Installation|hl pa p3
+Q: When installing a rebuilt transmission, you should:
++ new oil and filters; flush the cooler
+- reuse the old oil for its additives
+- leave the cooler alone if it's not leaking
+- skip filters until the first service
+E: Highlighted. Debris left in the cooler will contaminate the new unit.
+
+@E26|Installation|hl pa p3
+Q: Crankshaft endplay must be checked:
++ before removal and after installation
+- only after installation
+- only before removal
+- only if the converter was replaced
+E: Highlighted. If insufficient after install, remove the transmission, recheck and repair.
+
+@E26|Installation|hl ct p3
+Q: After installing a transmission, there is a vibration that wasn't there before. A likely cause is:
++ flywheel housing misalignment
+- low lubrication pressure
+- incorrect clutch pack clearance
+- wrong shift point settings
+E: Highlighted: any misalignment will cause vibration.
+
+@E29|Final drives|hl kr p3
+Q: In a typical planetary final drive, the input, output and held members are:
++ sun input, carrier output, ring held
+- ring input, sun output, carrier held
+- carrier input, ring output, sun held
+- sun input, ring output, carrier held
+E: Highlighted. That gives the largest forward reduction.
+
+@E29|Final drives|hl kr p3
+Q: An inboard planetary final drive requires:
++ a very thick driveshaft
+- a small, light driveshaft
+- no wheel bearings
+- a chain drive to the wheel
+E: Highlighted. Outboard final drives let the drive axles stay small.
+
+@E29|Final drives|hl kr p3
+Q: An advantage of an outboard planetary final drive is that it is:
++ much easier to service
+- lighter at the wheel
+- able to use a thinner housing
+- free of any reduction
+E: Highlighted. The carrier often acts as the cover and wheel mount.
+
+@E29|Final drives|calc ct p3
+Q: A double reduction final drive has a first stage of 3:1 and a second stage of 4:1. The total ratio is:
++ 12:1
+- 7:1
+- 1.33:1
+- 0.75:1
+E: Total ratio = first × second.
+
+@E29|Chain drives|hl kr p3
+Q: Chain final drives are commonly found on:
++ skid steers and motor graders
+- haul trucks and wheel loaders
+- excavators and dozers
+- scrapers and cranes
+E: Highlighted.
+
+@E29|Chain drives|hl kr p3
+Q: The tandem housing on a motor grader works similar to a:
++ walking beam
+- panhard rod
+- equalizer bar
+- planetary carrier
+E: Highlighted: the chain housing pivots so the tandem wheels follow the ground.
+
+@E29|Spur drives|hl kr p3
+Q: In a spur gear final drive, the small drive gear is called the ___ and the large driven gear the ___.
++ bull pinion; bull gear
+- bull gear; bull pinion
+- sun; ring
+- crown; pinion
+E: Highlighted.
+
+@E29|Maintenance|hl pa p3
+Q: To check a final drive oil level, the machine should be on level ground with:
++ the level line parallel to the ground
+- the drain plug straight down
+- the fill plug at 12 o'clock
+- the engine running at idle
+E: Highlighted.
+
+@E29|Maintenance|hl safe ct p3
+Q: Why use caution removing the small cover in the centre of a planetary final drive?
++ It isn't vented; pressure builds when warm
+- It holds the ring gear in place
+- It is spring loaded against the sun
+- It holds a nitrogen charge
+E: Highlighted. The cover gives access to the sun gear and axle shaft.
+
+@E28|Axle basics|hl kr p3
+Q: GAWR stands for:
++ gross axle weight rating
+- gear and wheel ratio
+- gross axle wheel resistance
+- general axle wear rating
+E: Highlighted. The housing is the main factor in GAWR.
+
+@E28|Axle basics|hl kr p3
+Q: A full-floating axle shaft:
++ can be pulled with weight on the tires
+- supports the weight of the machine
+- needs the wheel raised for removal
+- has no bearings at the wheel hub
+E: Highlighted. A semi-floating shaft carries the load, so the wheel must be raised.
+
+@E28|Carrier|hl pa p3
+Q: Drive pinion depth is adjusted using:
++ pinion cage shims
+- the side bearing adjusting rings
+- the thrust screw and jam nut
+- the yoke nut torque
+E: Highlighted.
+
+@E28|Carrier|hl kr p3
+Q: A straddle mounted drive pinion has:
++ a bearing on the pinion nose
+- no support on the pinion nose
+- two pinions side by side
+- a pilot bushing in the yoke
+E: Highlighted. Straddle mounting helps with high torque loads. Overhung = no support on the end.
+
+@E28|Carrier|hl kr p3
+Q: The bevel (ring) gear is bolted to the:
++ flanged differential case half
+- plain differential case half
+- cross shaft
+- pinion cage
+E: Highlighted. It delivers torque to the differential case.
+
+@E28|Carrier|hl kr p3
+Q: The thrust screw in a differential carrier:
++ stops the bevel gear deflecting
+- sets the pinion depth
+- sets side bearing preload
+- locks the differential case
+E: Highlighted. It sits opposite the pinion, behind the bevel gear.
+
+@E28|Carrier|hl kr p3
+Q: The differential cross shaft (spider):
++ carries the pinions between the case halves
+- connects the drive pinion to the yoke
+- supports the carrier side bearings
+- drives the axle shafts directly
+E: Highlighted.
+
+@E28|Power path|hl kr p3
+Q: In a drive axle, power flows from the differential case to the:
++ cross shaft, pinions, side gears, axles
+- side gears, cross shaft, pinions, axles
+- pinions, cross shaft, side gears, axles
+- bevel gear, pinion, side gears, axles
+E: Highlighted: yoke, pinion, bevel gear, case, cross shaft, diff pinions, side gears, axle shafts, wheels.
+
+@E28|Differential|hl kr p3
+Q: The main purpose of a differential is to:
++ let wheels turn at different speeds
+- multiply torque to the wheels
+- split torque front to rear
+- lock both wheels together
+E: Highlighted. The outer wheel must travel faster than the inner in a turn.
+
+@E28|Differential|hl kr p3
+Q: Most differential carriers are:
++ single speed, single reduction
+- two speed, double reduction
+- planetary
+- locked
+E: Highlighted. The ratio is set by the drive pinion and bevel gear.
+
+@E28|Differential|hl ct p3
+Q: One wheel of an open differential axle is on ice with almost no traction. The other wheel will receive:
++ only as much torque as the spinning wheel
+- all of the torque
+- twice the torque of the spinning wheel
+- no torque at all
+E: Highlighted: torque is identical at each wheel regardless of RPM.
+
+@E28|Differential|calc hl ct p3
+Q: An open differential's bevel gear delivers 10 000 lb·ft. Each axle shaft receives:
++ 5000 lb·ft
+- 10 000 lb·ft
+- 20 000 lb·ft
+- 2500 lb·ft
+E: Highlighted: take torque from the bevel gear and divide by 2.
+
+@E28|Differential|calc hl ct p3
+Q: The bevel gear is turning 100 RPM. One wheel is stopped. The other wheel turns at:
++ 200 RPM
+- 100 RPM
+- 50 RPM
+- 0 RPM
+E: Highlighted: total RPM of the wheels = bevel gear RPM × 2. RPM can't be lost.
+
+@E28|Differential|calc ct p3
+Q: In a turn, the bevel gear turns 300 RPM and the inner wheel turns 270 RPM. The outer wheel turns:
++ 330 RPM
+- 300 RPM
+- 270 RPM
+- 600 RPM
+E: Total = 300 × 2 = 600. 600 − 270 = 330 RPM. What one side loses, the other gains.
+
+@E28|Transfer case|hl kr p3
+Q: A transfer case (drop box):
++ splits power front/rear and drops it down
+- lets wheels on one axle turn at different speeds
+- provides the last gear reduction
+- locks the inter-axle differential
+E: An optional inter-axle differential lets torque split at varying amounts front to rear.
+
+@E28|Traction|hl kr p3
+Q: When a differential lock is engaged:
++ both wheels turn at the same RPM
+- the wheels turn at different speeds
+- torque is always split evenly
+- the bevel gear locks to the housing
+E: Highlighted. More torque goes to the wheel with the most traction.
+
+@E28|Traction|hl safe pa p3
+Q: A jaw (dog) type differential lock should be engaged:
++ at low speed, travelling straight
+- at high speed, while turning
+- while a wheel is spinning
+- only in reverse, at idle
+E: Highlighted. Disc type locks are more forgiving during wheel spin.
+
+@E28|Traction|hl kr p3
+Q: A no-spin differential:
++ acts locked but lets wheels differ in turns
+- is a disc lock engaged by the operator
+- acts as an open differential at all times
+- needs an air supply to engage
+E: Highlighted. It ratchets audibly in corners.
+
+@E28|Lubrication|hl pa p3
+Q: Drive axle oil level should be:
++ level with the filler opening
+- one inch below the filler opening
+- at the centre of the axle shaft
+- level with the drain plug
+E: Highlighted.
+
+@E28|Lubrication|hl pa p3
+Q: Pressure lubricated drive axles use an internal pump that is often:
++ overdriven to lube at low speed
+- driven by the axle shaft at reduced speed
+- electric, with its own relay
+- only active above 10 km/h
+E: Highlighted.
+
+@E28|Diagnosis|ct p3
+Q: A drive axle is noisy only when the machine is turning. The most likely cause is:
++ worn side gears or diff pinions
+- incorrect drive pinion depth
+- a warped bevel (ring) gear
+- worn drive pinion bearings
+E: Noise on turns = anything that only works during turns: side gears, pinions, spider, thrust washers, axle splines.
+
+@E28|Diagnosis|hl pa p3
+Q: Before disassembling a carrier, backlash should be checked with a dial indicator:
++ 90° to a tooth, at four places
+- on the pinion yoke, at one place
+- on the ring gear back face
+- on the axle flange, at two places
+E: Highlighted.
+
+@E28|Service|hl ct p3
+Q: If the drive pinion is damaged, it must be replaced together with:
++ the bevel gear
+- the side gears
+- the cross shaft
+- nothing else
+E: Highlighted: bevel gear and input pinion are changed as a matched set.
+
+@E28|Service|hl safe pa p3
+Q: When removing the case half bolts of a no-spin differential, be careful because:
++ the case halves are spring loaded
+- the bolts are left-hand thread
+- the case contains nitrogen
+- the bolts are torque-to-yield
+E: Highlighted.
+
+@E28|Assembly|hl pa p3
+Q: Drive pinion bearing preload is adjusted with:
++ shims between the pinion bearings
+- shims under the pinion cage
+- the side bearing adjusting rings
+- the thrust screw setting
+E: Highlighted. More shim = less preload.
+
+@E28|Assembly|hl pa p3
+Q: When checking pinion bearing preload, rotating torque should be measured:
++ while it is turning
+- at breakaway
+- with the yoke nut loose
+- with the bearings unloaded
+E: Highlighted.
+
+@E28|Assembly|hl kr p3
+Q: The pinion nominal dimension is the distance from the:
++ pinion end to bevel gear centreline
+- pinion bearing to the yoke face
+- ring gear to the flanged case
+- pinion teeth to the cage face
+E: Highlighted. The variance is etched on the end of the pinion.
+
+@E28|Assembly|hl kr p3
+Q: A new pinion is etched "+3". The pinion must be set:
++ further from the bevel gear than nominal
+- closer to the bevel gear than nominal
+- at the nominal dimension
+- with three extra shims between the bearings
+E: Highlighted: + = further away (increase gap); − = closer.
+
+@E28|Assembly|hl ct p3
+Q: Adding thickness to the shim pack between the bearing cage and the carrier will move the pinion:
++ further away from the bevel gear
+- closer to the bevel gear
+- with no change in depth
+- and increase bearing preload
+E: Highlighted. Shims between the inner bearing and pinion gear do the opposite (thicker = closer).
+
+@E28|Assembly|hl pa p3
+Q: To increase backlash in a carrier with adjusting rings, move the bevel gear:
++ away from the pinion (loosen flanged side)
+- toward the pinion (tighten flanged side)
+- by adding shims at the pinion cage
+- by tightening both rings equally
+E: Highlighted. Turn both rings the same amount to keep preload.
+
+@E28|Tooth pattern|hl ct p3
+Q: The tooth contact pattern is heavy on the face of the bevel gear teeth. The fix is to:
++ move the pinion in, then reset backlash
+- move the pinion out, then reset backlash
+- move the ring gear toward the pinion
+- move the ring gear away from the pinion
+E: Highlighted: excessive face = pinion out too far, move pinion in.
+
+@E28|Tooth pattern|hl ct p3
+Q: The tooth contact pattern is heavy on the flank of the bevel gear teeth. The fix is to:
++ move the pinion out, then reset backlash
+- move the pinion in, then reset backlash
+- move the ring gear toward the pinion
+- move the ring gear away from the pinion
+E: Highlighted: excessive flank = pinion in too far.
+
+@E28|Tooth pattern|hl ct p3
+Q: The tooth contact pattern is heavy at the heel. The fix is to:
++ move the ring gear toward the pinion
+- move the ring gear away from the pinion
+- move the pinion in, then reset backlash
+- move the pinion out, then reset backlash
+E: Highlighted: excessive heel = ring gear out too far.
+
+@E28|Tooth pattern|hl ct p3
+Q: The tooth contact pattern is heavy at the toe. The fix is to:
++ move the ring gear away from the pinion
+- move the ring gear toward the pinion
+- move the pinion in, then reset backlash
+- add shims between the pinion bearings
+E: Highlighted: excessive toe = ring gear in too far.
+
+@E28|Tooth pattern|hl pa p3
+Q: When checking tooth contact pattern, marking compound is applied to:
++ the convex side of the bevel gear
+- the concave side of the bevel gear
+- the pinion teeth only
+- the back face of the bevel gear
+E: Highlighted. Keep some drag on the pinion for a clear pattern.
+
+@E28|Failures|fail ct p3
+Q: Bevel gear teeth are fractured at the toe. Likely causes are:
++ shock load or too little backlash
+- normal wear over time
+- too much backlash
+- an overfilled carrier
+E: From the failure table.
+
+@E23|Overcentre clutch|hl kr p3
+Q: An overcentre clutch is applied by:
++ an overcentre linkage
+- strong coil springs
+- hydraulic pressure only
+- a diaphragm spring
+E: Highlighted. The lever "snaps" the clutch in and it stays engaged without operator force.
+
+@E23|Overcentre clutch|hl kr p3
+Q: An overcentre clutch is used:
++ as an on/off coupler; it does not control speed
+- to shift gears in a transmission
+- to modulate speed like a torque converter
+- as a one-way clutch
+E: Highlighted. Typically for stationary applications like pumps and generators.
+
+@E23|Overcentre clutch|hl kr p3
+Q: Which overcentre clutch components always rotate at engine speed?
++ Flywheel, drive ring and clutch disc
+- Pressure plates, hub and output shaft
+- Output shaft and release bearing
+- Floating plate and forks
+E: Highlighted. The pressure plates, hub and output shaft only turn at flywheel speed when engaged.
+
+@E23|Overcentre clutch|hl pa p3
+Q: To increase the engagement force of an overcentre clutch, the adjusting ring is turned:
++ toward the pressure plates
+- away from the pressure plates
+- until the linkage passes 90°
+- fully out, then back one notch
+E: Highlighted. The release pin must be pulled to adjust.
+
+@E23|Overcentre clutch|hl kr p3
+Q: The path of power through an overcentre clutch is:
++ engine, drive ring, clutch disc, pressure plate assembly, output shaft
+- engine, pressure plate, clutch disc, drive ring, output shaft
+- engine, output shaft, pressure plate, disc
+- engine, clutch disc, drive ring, output shaft
+E: Highlighted.
+
+@E23|Maintenance|hl ct p3
+Q: Why is the pull-in force of an overcentre clutch lever checked with a pull scale?
++ It sets clamping force and torque capacity
+- It sets the release bearing clearance
+- It keeps the pilot bearing from overheating
+- It adjusts the crankshaft endplay
+E: Highlighted.
+
+@E23|Maintenance|hl ct p3
+Q: An overcentre clutch slips. Oil is found on the friction disc from a leaking engine seal. The fix is to:
++ repair the leak and replace the glazed discs
+- clean the discs with solvent and reinstall
+- increase the clutch adjustment
+- add more grease to the bearings
+E: Highlighted: oil glazes the friction disc; discs must be replaced.
+
+@E23|Maintenance|hl kr p3
+Q: Which overcentre clutch component requires regular greasing?
++ The bearings
+- The friction disc
+- The drive ring teeth
+- The adjusting ring threads
+E: Highlighted.
+
+@E23|Measurement|hl pa p3
+Q: When measuring flywheel face runout, the crankshaft should be:
++ pushed fully one way to remove endplay
+- left free to move in and out
+- rotated backwards only
+- held at top dead centre (TDC) number one
+E: Highlighted. Then add up all the readings, ignoring whether they were positive or negative.
+
+@E23|Special clutches|hl kr p3
+Q: An overrunning clutch:
++ drives in one direction and freewheels in the other
+- drives in both directions
+- slips when overloaded in either direction
+- is applied by current
+E: Highlighted. The output shaft can turn faster than the input.
+
+@E23|Special clutches|kr p3
+Q: A sprag clutch is a type of:
++ overrunning clutch
+- cone clutch
+- electromagnetic clutch
+- overcentre clutch
+E: Roller, sprag and dog/jaw clutches can all act as one-way (overrunning) devices.
+
+@E23|Special clutches|hl kr p3
+Q: An electromagnetic clutch, such as on an air conditioning (A/C) compressor, is applied when:
++ current is applied
+- current is removed
+- oil pressure rises
+- a spring is released by heat
+E: Highlighted. Current removed = clutch disengaged.
+
+@E23|Special clutches|kr p3
+Q: In a wet (oil) clutch, the oil is used to:
++ cool and clean the clutch parts
+- apply the clutch springs
+- lock the clutch permanently
+- increase friction
+E: A hydraulic piston clamps the discs and plates; the oil cools and cleans.
+
+@E25|Obj 1|ct p3 ilm
+Q: Gear teeth are designed to be strongest when tooth contact occurs:
++ where the pitch line and the centreline intersect
+- at the tip of the tooth, where leverage is lowest
+- down at the root fillet, where the tooth is thickest
+- at the heel (large end) of the tooth
+E: Maximum strength is where the pitch line and centreline intersect. The further the contact moves from that point (toward heel, toe, up the face or down the flank), the weaker the tooth and the more likely it is to be damaged.
+
+@E25|Obj 1|ct p3 ilm
+Q: A gear tooth wear pattern that has moved down the flank toward the root fillet indicates:
++ an increased chance of gear tooth damage
+- a normal break-in pattern
+- correct backlash for an off-road gear set
+- reduced load on the tooth
+E: Any time the pattern drifts toward the heel, toe, up the face or down the flank, contact is moving away from the strongest point (pitch line / centreline intersection) and the risk of tooth damage increases.
+
+@E25|Obj 1|ct p3 ilm
+Q: Insufficient clearance between the tip of one gear's tooth and the root of the mating gear will most likely cause:
++ poor lubrication, and damage as the gears heat and expand
+- excessive backlash, causing gear rattle under light load
+- added axial thrust on the shaft support bearings
+- quieter operation with less tooth wear over time
+E: Tip-to-root clearance is needed for lubrication and for heat expansion. With too little clearance, the gears expand under torque and heat and damage occurs.
+
+@E25|Obj 1|pa p3 ilm
+Q: Which procedure correctly measures gear backlash?
++ Hold one gear stationary and move the other, with the gear set not under load
+- Rotate both gears together under load and read the dial indicator
+- Load the gear set and measure the gap on the drive side of the tooth
+- Move both gears in opposite directions and halve the reading
+E: Backlash is measured with no load: one gear is held and the other is moved. It doesn't matter which one, but only one moves.
+
+@E25|Obj 1|pa p3 ilm
+Q: If backlash is measured incorrectly (e.g., both gears allowed to move), the reading will usually be:
++ greater than the actual backlash
+- less than the actual backlash
+- exactly half the actual backlash
+- unaffected
+E: The learning guide states that an incorrect procedure usually reads more backlash than actually exists.
+
+@E25|Obj 1|kr p3 ilm
+Q: When a gear set is transmitting torque, where is the backlash gap found?
++ On the side opposite the direction of travel
+- On the loaded (driving) side of the tooth
+- Split evenly on both sides of the tooth
+- At the tooth root, between the two gears
+E: Under load the drive side of the tooth is in contact, so the backlash gap is on the opposite side to the direction of travel.
+
+@E25|Obj 1|kr p3 ilm
+Q: As gear teeth wear, backlash will:
++ increase
+- decrease
+- stay the same, because backlash is set by the bearings
+- decrease and then increase
+E: Wear removes tooth material, so the gap between mating teeth (and the movement between them) grows.
+
+@E25|Obj 1|kr p3 ilm
+Q: Gear "timing" is also known in industry as:
++ indexing
+- phasing
+- lapping
+- preloading
+E: Timing (indexing) means assembling gear sets by aligning marks or putting them in a specific position. Check whether a set needs timing BEFORE disassembly and add marks if they are missing.
+
+@E25|Obj 1|ct p3 ilm
+Q: You are about to tear down a gear train and can't find any timing marks. What is the best practice?
++ Verify whether the set requires timing and add your own marks before disassembly
+- Disassemble it. If there are no marks, timing is not required.
+- Disassemble it and time the gears by trial and error on reassembly
+- Replace the gear set, since missing marks mean the gears are not original
+E: The guide says all gear sets should be checked for timing requirements before disassembly, and marks added if missing. Damage occurs if timed gears are installed out of time.
+
+@E25|Obj 2|kr p3 ilm
+Q: The term "gear ratio" refers to:
++ the number of revolutions the drive gear makes for one revolution of the driven gear
+- the number of revolutions the driven gear makes for one revolution of the drive gear
+- the torque output divided by the speed output
+- the number of teeth on the drive gear divided by the driven gear
+E: The ratio is drive (input) revolutions per one driven (output) revolution, which is the same as driven teeth divided by drive teeth.
+
+@E25|Obj 2|kr p3 ilm
+Q: A 15-tooth drive gear meshes with a 45-tooth driven gear. Input is 1800 rpm at 200 lb-ft. Ignoring losses, what is the output?
++ 600 rpm and 600 lb-ft
+- 5400 rpm and 67 lb-ft
+- 600 rpm and 67 lb-ft
+- 5400 rpm and 600 lb-ft
+E: Ratio = 45 / 15 = 3:1. Output rpm = 1800 / 3 = 600 rpm. Output torque = 200 x 3 = 600 lb-ft.
+
+@E25|Obj 2|kr p3 ilm
+Q: A 48-tooth drive gear drives a 20-tooth idler, which drives a 16-tooth driven gear. What is the ratio and output direction?
++ 0.33:1 overdrive, output turns the same direction as the input
+- 0.33:1 overdrive, output turns opposite to the input
+- 3:1 reduction, output turns the same direction as the input
+- 0.42:1 overdrive, output turns opposite to the input
+E: Ignore the simple idler for ratio: 16 / 48 = 0.33:1 (overdrive). One idler makes the output turn the same direction as the input.
+
+@E25|Obj 2|kr p3 ilm
+Q: A simple idler gear placed between a drive and driven gear will:
++ change only the direction of rotation of the output
+- change the output speed but not the direction
+- increase output torque
+- change both ratio and direction
+E: Simple idlers only affect direction of rotation. They can be ignored when finding the ratio.
+
+@E25|Obj 2|kr p3 ilm
+Q: When the output gear rotates in the SAME direction as the input gear, it is considered to be rotating:
++ in reverse to the normal direction
+- in the normal (forward) direction
+- in overdrive relative to the input
+- in direct drive, at a 1:1 ratio
+E: With no idlers the output turns opposite to the input (normal). Adding one idler makes the output turn the same as the input, which the guide calls reverse to normal.
+
+@E25|Obj 2|ct p3 ilm
+Q: A drive gear turns clockwise and drives the output through TWO simple idlers in series. Which way does the output turn?
++ Counterclockwise (opposite to the input)
+- Clockwise (same as the input)
+- It depends on the idler tooth counts
+- The output will lock up against the idlers
+E: Each mesh reverses direction: drive CW, idler 1 CCW, idler 2 CW, output CCW. An even number of idlers gives the same direction as no idler.
+
+@E25|Obj 2|kr p3 ilm
+Q: In the heavy equipment industry, a 4:1 ratio (high torque, low speed) is called a:
++ low gear ratio
+- high gear ratio
+- overdrive ratio
+- direct ratio
+E: A low gear ratio has high torque and low speed (e.g., 4:1). A ratio like 2:1 is called a higher gear ratio (more speed, less torque).
+
+@E25|Obj 2|ct p3 ilm
+Q: An overdrive ratio of one half would be correctly written as:
++ 0.5:1
+- 1:2
+- 2:1
+- 1:0.5
+E: Ratios are always expressed with 1 as the second term. Overdrive has the smaller number in front, e.g., 0.5:1. It would never be written 1:2.
+
+@E25|Obj 2|pa p3 ilm
+Q: Just by looking at the path of power, how can a technician recognize a gear REDUCTION?
++ The drive gear is smaller than the driven gear
+- The drive gear is larger than the driven gear
+- The gears have the same number of teeth
+- An idler gear is present
+E: Reduction: small drive gear driving a large driven gear, so torque goes up and speed goes down. Overdrive is the opposite.
+
+@E25|Obj 2|ct p3 ilm
+Q: A compound gear train: a 12T gear drives a 36T gear. A 15T gear on the same shaft as the 36T gear drives a 45T output gear. Input is 900 rpm. What is the output speed?
++ 100 rpm
+- 300 rpm
+- 450 rpm
+- 8100 rpm
+E: Compound ratios multiply: (36/12) x (45/15) = 3 x 3 = 9:1. 900 / 9 = 100 rpm. This is not like an idler, because the 36T and 15T are separate gears locked to one shaft.
+
+@E25|Obj 2|ct p3 ilm
+Q: If output speed from a gear set increases, what happens to output torque (ignoring losses)?
++ Torque decreases proportionally
+- Torque increases proportionally
+- Torque stays the same
+- Torque doubles
+E: Speed and torque trade off. If speed goes up, torque goes down, and vice versa (power in = power out minus losses).
+
+@E25|Obj 3|kr p3 ilm
+Q: Straight cut spur gears, under load, are subjected to:
++ radial thrust only
+- axial thrust only
+- both radial and axial thrust
+- no thrust loads
+E: Spur gears produce radial thrust only (the force that pushes meshing gears apart). This can be handled with inexpensive ball bearings.
+
+@E25|Obj 3|kr p3 ilm
+Q: Spur gears are considered low-torque gears, but they can be used in high-torque applications when:
++ used with multiple countershafts
+- they are case hardened
+- they are made double helical
+- used with a single idler
+E: Using multiple countershafts shares the load between several gear meshes.
+
+@E25|Obj 3|ct p3 ilm
+Q: Why are helical gears quieter and stronger than spur gears?
++ Multiple teeth are always in contact, and the angled teeth are longer
+- They have fewer teeth, so fewer meshing impacts
+- They produce no thrust load, so bearings run cooler
+- They run with zero backlash, so the teeth can't hammer
+E: Helical teeth overlap, so more than one tooth is always in contact (quieter), and the angled tooth is longer (stronger).
+
+@E25|Obj 3|kr p3 ilm
+Q: What is the main drawback of a single helical gear compared to a spur gear?
++ It produces axial thrust in addition to radial thrust
+- It is noisier than a spur gear under load
+- It can only be used for overdrive
+- It cannot transmit high torque at low speed
+E: Single helical gears produce axial (end) thrust under load, as well as radial thrust, so bearings must handle the end loads.
+
+@E25|Obj 3|kr p3 ilm
+Q: Double helical gears (two helical gears with opposite tooth angles running together on one shaft) are used to:
++ cancel out axial thrust loads
+- cancel out radial thrust loads
+- change the path of power 90 degrees
+- provide a reverse output
+E: The opposite-angle halves create equal and opposite axial thrust, which cancels. Radial thrust is still present.
+
+@E25|Obj 3|kr p3 ilm
+Q: Which gear type changes the path of power by 90 degrees and can provide a very large reduction for its size?
++ Worm gear
+- Spur gear
+- Double helical gear
+- Internal ring gear
+E: Worm and spiral bevel sets change the power path by an angle (90 degrees in the examples). The worm gear is capable of very large reductions for its size.
+
+@E25|Obj 3|kr p3 ilm
+Q: Spiral bevel gear sets are most commonly found in:
++ drive axle assemblies
+- planetary final drives
+- engine timing gear trains
+- countershaft transmissions
+E: Spiral gear sets are most commonly used in drive axle assemblies (module 303j) to turn the path of power 90 degrees.
+
+@E25|Obj 3|kr p3 ilm
+Q: The radial thrust load in a gear set acts to:
++ force the meshing gears apart
+- push the gear along its shaft
+- pull the gears tighter into mesh
+- twist the gear on its shaft
+E: Radial thrust (torque) is transferred from one gear to its mate and acts to force the gears apart. It loads both the gear and its shaft.
+
+@E26|Obj 4|kr p3 ilm
+Q: When comparing size in a planetary gear set for ratio purposes, which ranking is correct?
++ Sun smallest, ring intermediate, carrier largest
+- Sun smallest, carrier intermediate, ring largest
+- Ring smallest, sun intermediate, carrier largest
+- Carrier smallest, sun intermediate, ring largest
+E: Basic planetary rule: the sun is the smallest, the ring is intermediate and the carrier is the "largest" gear.
+
+@E26|Obj 4|kr p3 ilm
+Q: The carrier has no teeth. What tooth count is used for the carrier in ratio calculations?
++ Ring gear teeth + sun gear teeth
+- Ring gear teeth - sun gear teeth
+- The number of planet pinions multiplied by their teeth
+- Ring gear teeth / sun gear teeth
+E: Tc = Tr + Ts. The planet pinions are only idlers, so their tooth count has no effect on the ratio.
+
+@E26|Obj 4|ct p3 ilm
+Q: Why does the number of teeth on the planet pinions have NO effect on a planetary gear set's ratio?
++ The planet pinions always act as idlers
+- The planet pinions always have the same number of teeth as the sun
+- The planet pinions are splined to the carrier
+- The pinions only carry radial load
+E: The planet pinions act as idlers between the sun and ring, so (like any simple idler) they don't change the ratio.
+
+@E26|Obj 4|kr p3 ilm
+Q: A planetary set has a 20T sun and a 60T ring. The sun is the input, the ring is held and the carrier is the output. What is the ratio?
++ 4:1 reduction
+- 3:1 reduction
+- 0.25:1 overdrive
+- 1.33:1 reduction
+E: Tc = 60 + 20 = 80. Ratio = driven / drive = 80 / 20 = 4:1. Also (Ring/Sun) + 1 = 3 + 1 = 4.
+
+@E26|Obj 4|ct p3 ilm
+Q: A planetary set has a 20T sun and a 60T ring. The carrier is held and the sun drives. What happens at the ring gear?
++ 3:1 reduction in reverse
+- 3:1 reduction in the same direction
+- 0.33:1 overdrive in reverse
+- 4:1 reduction in reverse
+E: With the carrier held, the pinions act as simple idlers between the sun and the internal ring, so the ring turns opposite to the sun. Ratio = 60 / 20 = 3:1, in reverse.
+
+@E26|Obj 4|ct p3 ilm
+Q: A planetary set has a 20T sun and a 60T ring. The ring is held and the carrier drives, with the sun as output. What is the result?
++ 0.25:1 overdrive, same direction
+- 4:1 reduction, same direction
+- 0.25:1 overdrive, reverse
+- 0.75:1 overdrive, same direction
+E: Ratio = driven / drive = 20 (sun) / 80 (carrier) = 0.25:1. The carrier is the input, so this is overdrive in the same direction.
+
+@E26|Obj 4|kr p3 ilm
+Q: The shortcut formula Ratio = (Ring teeth / Sun teeth) + 1 only works when:
++ the carrier is the output member
+- the ring gear is the output
+- the sun gear is the held member
+- the carrier is the held member
+E: The guide notes that this version only works with the carrier as the output. Use the Tc = Tr + Ts method for other combinations.
+
+@E26|Obj 4|kr p3 ilm
+Q: In a simple planetary gear set, direct drive (1:1) is obtained when:
++ any two members are locked together
+- no member is held
+- only the ring gear is held stationary
+- the carrier is held and the sun drives
+E: Lock any two members together and the whole set turns as one unit (1:1). With no member held, you get neutral.
+
+@E26|Obj 4|kr p3 ilm
+Q: A simple planetary gear set with an input but NO member held will produce:
++ neutral
+- direct drive
+- maximum reduction
+- reverse
+E: Without a reaction (held) member, the gears just spin freely and no torque is transmitted.
+
+@E26|Obj 4|ct p3 ilm
+Q: Which simple planetary combination gives the GREATEST forward reduction?
++ Sun input, ring held, carrier output
+- Ring input, sun held, carrier output
+- Carrier input, ring held, sun output
+- Sun input, carrier held, ring output
+E: The smallest member (sun) drives the largest (carrier) = maximum reduction. Ring input to carrier is a smaller reduction, carrier input is overdrive, and a held carrier gives reverse.
+
+@E26|Obj 4|ct p3 ilm
+Q: A planetary set has an 18T sun and a 72T ring. The ring is the input, the sun is held and the carrier is the output. What is the ratio?
++ 1.25:1 reduction
+- 5:1 reduction
+- 4:1 reduction
+- 0.8:1 overdrive
+E: Tc = 72 + 18 = 90. Ratio = carrier / ring = 90 / 72 = 1.25:1. This is the "minimum reduction" combination.
+
+@E29|Obj 1|kr p3 ilm
+Q: What is the primary function of a final drive?
++ To provide the last speed reduction and torque increase
+- To allow speed differences between left and right wheels
+- To change the path of power 90 degrees to the wheels
+- To disconnect the engine from the drivetrain when stopped
+E: Final drives transfer power to the tires or tracks while reducing speed and increasing torque. They are closed (sealed) systems, so their maintenance is easy to overlook.
+
+@E29|Obj 1|kr p3 ilm
+Q: Which is the most versatile and most common final drive type in the heavy equipment industry?
++ Planetary
+- Chain and sprocket
+- Spur gear single reduction
+- Worm gear
+E: The guide identifies the planetary final drive as the most common and most versatile.
+
+@E29|Obj 1|ct p3 ilm
+Q: In a double reduction final drive with a spur gear set and a planetary, where does the FIRST reduction occur?
++ Between the spur gear and the bull gear
+- Between the drive pinion and the bevel gear
+- In the planetary gear set
+- Between the carrier and the drive hub
+E: Pinion → bevel gear → spur gear → bull gear (first reduction) → bull gear shaft drives the sun → planetary (second reduction) → carrier → drive hub.
+
+@E29|Obj 1|kr p3 ilm
+Q: In that double reduction final drive, how is the planetary set arranged?
++ Sun input, ring held, carrier output
+- Ring input, sun held, carrier output
+- Carrier input, ring held, sun output
+- Sun input, carrier held, ring output
+E: The sun is the drive member, the ring gear is attached to the housing (held), and the planet carrier drives the hub. This is a maximum reduction combination.
+
+@E29|Obj 1|pa p3 ilm
+Q: How are motor grader tandem chain drives lubricated?
++ Splash lubricated, separate from the internal reduction
+- Pressure lubricated from the transmission pump
+- Greased through zerk fittings on each chain
+- Splash lubricated, sharing oil with the inboard planetary
+E: The tandem chain cases are splash lubricated in their own oil, independent of the internal reduction.
+
+@E29|Obj 2|kr p3 ilm
+Q: A motor grader and a skid steer both use chain final drives. How do their chain drive ratios compare?
++ The motor grader chain is 1:1. The skid steer chain provides a reduction.
+- Both provide a reduction
+- The motor grader chain provides a reduction. The skid steer chain is 1:1.
+- Both are 1:1
+E: The grader gets its reduction in the inboard planetary, and its tandem chain is 1:1. The skid steer's hydraulic motor drives the chain and sprocket, which provides a reduction.
+
+@E29|Obj 2|kr p3 ilm
+Q: The motor grader's final drive reduction is provided by:
++ an inboard planetary, with a 1:1 chain to the wheels
+- an outboard planetary in each wheel hub
+- the tandem chain and sprocket only, with no planetary
+- a worm gear and sprocket in each tandem
+E: The inboard planetary reduces, then the tandem chains transfer power 1:1.
+
+@E29|Obj 5|kr p3 ilm
+Q: On a hydraulic excavator's track drive, what drives the planetary final drive?
++ A hydraulic motor driving the sun gear
+- The engine through a bevel gear and cross shaft
+- An electric wheel motor driving the ring gear
+- A chain from the swing drive motor
+E: The planetary is built into the sprocket, and the hydraulic motor drives its sun gear. This lets the machine travel independently of house rotation.
+
+@E29|Obj 5|ct p3 ilm
+Q: Why does a hydraulically driven final drive suit an excavator so well?
++ Travel works no matter where the house is swung
+- It eliminates the need for a planetary reduction
+- It allows the tracks to run without tension
+- It provides a direct mechanical link to the engine for maximum torque
+E: Hydraulic lines pass through the swivel (rotary manifold), so travel motors can be driven no matter where the house is pointing. A mechanical driveline can't do that.
+
+@E29|Obj 3|kr p3 ilm
+Q: Which component dissipates energy during electric (dynamic) braking on an alternating current (AC) drive truck?
++ The resistor grid box
+- The direct current (DC) bus capacitors
+- The blower motor
+- The rectifier
+E: During retarding the wheel motors act as generators, and the energy is burned off as heat in the resistor grid.
+
+@E29|Obj 3|kr p3 ilm
+Q: Which list contains only direct current (DC) motor components?
++ Brushes, commutator, armature, field windings
+- Stator, squirrel cage rotor, bearings
+- Stator, commutator, squirrel cage rotor
+- Insulated gate bipolar transistor (IGBT), squirrel cage rotor, pole shoes
+E: DC motor: brushes, commutator, armature (rotating), field windings and pole shoes (stationary), bearings. An AC induction motor is just a stator, a squirrel cage rotor and bearings.
+
+@E29|Obj 3|kr p3 ilm
+Q: How is the magnetic field created in the rotor of an alternating current (AC) induction motor?
++ Induced by the changing stator field cutting the rotor bars
+- By current fed through brushes and a commutator to the rotor
+- By permanent magnets embedded in the rotor
+- By direct current (DC) fed to the rotor through slip rings
+E: No voltage is applied directly to the rotor. The stator's alternating (expanding and collapsing) field induces voltage and current in the squirrel cage bars, which creates the rotor field.
+
+@E29|Obj 3|kr p3 ilm
+Q: Which is listed as a DISADVANTAGE of alternating current (AC) induction motors?
++ They need expensive, complex electronic speed controls
+- High brush and commutator maintenance
+- Poor sealing against dirt and moisture
+- No dynamic braking capability at all
+E: AC motors are low maintenance and well sealed, and they offer dynamic braking. Their downside is the need for sophisticated drive electronics.
+
+@E29|Obj 3|kr p3 ilm
+Q: The speed of an alternating current (AC) induction wheel motor is directly proportional to:
++ the applied voltage and frequency
+- the current only
+- the generator field strength only
+- the number of rotor bars
+E: Changing the frequency (with voltage) changes motor speed. That's why the DC is inverted back to a variable frequency.
+
+@E29|Obj 3|kr p3 ilm
+Q: How does pulse width modulation (PWM) change the average voltage applied to the motor?
++ By changing the duty cycle (pulse width)
+- By changing the peak voltage of each pulse
+- By changing the generator field current only
+- By reversing polarity on every pulse
+E: Wider pulses give a higher average voltage. Varying pulse width over time shapes the sine wave, and changing the amplitude and frequency changes speed.
+
+@E29|Obj 4|gk ct p3 ilm
+Q: After shutting down an alternating current (AC) drive haul truck, why can't you go straight into the high voltage components?
++ Direct current (DC) link capacitors can hold a lethal charge after shutdown
+- The generator keeps spinning and producing power for several minutes
+- The batteries supply high voltage to the direct current (DC) link
+- The wheel motors become magnetized and shock you
+E: Follow the OEM shutdown and lockout procedure and wait for the DC link to discharge. Never rely on one indicator alone. (General knowledge. Your PDF for this objective is ILM-only.)
+
+@E29|Obj 4|gk pa p3 ilm
+Q: Which practice is correct before working on an alternating current (AC) drive truck's high voltage system?
++ Follow the manufacturer's lockout, wear rated protective gear, verify zero energy
+- Disconnect the 24 V batteries, since that isolates all high voltage
+- Ground the frame to the generator housing with a jumper lead
+- Leave the engine at low idle so the fans keep the components cool
+E: The high voltage system has its own isolation and lockout points and stored energy. (General knowledge. Always follow the OEM procedure.)
+
+@E29|Obj 6|ct p3 ilm
+Q: Why is regular oil sampling (oil analysis) of final drives recommended?
++ It predicts wear-related problems before failure
+- It replaces the need for scheduled oil changes
+- It is needed to calculate the gear ratio
+- It confirms the correct gear ratio is installed
+E: Scheduled oil analysis tracks wear metals, contamination and oil condition, so problems are caught early.
+
+@E29|Obj 6|kr p3 ilm
+Q: A benefit of good maintenance record keeping is that:
++ parts can be ordered ahead of service
+- the machine won't need daily inspections
+- oil analysis is no longer needed
+- warranty is automatically extended
+E: Records take the guesswork out of service intervals and let parts be ordered ahead of time.
+
+@E29|Obj 6|ct p3 ilm
+Q: A final drive oil sample comes back with high silicon and rising iron. What is the most likely interpretation?
++ Dirt is getting in and causing abrasive wear
+- Normal break-in wear of new gears
+- Coolant leaking into the final drive
+- The oil is too thin for the ambient temperature
+E: Silicon usually means dirt and dust. Together with rising wear metals, it points to contamination entry causing abrasive wear. Cleanliness during service is key.
+
+@E29|Obj 6|gk ct p3 ilm
+Q: A newly installed final drive Duo-Cone seal leaks soon after service. Which installation error is most likely?
++ Twisted or unevenly seated toric rings
+- The seal faces were not coated with grease
+- Too much oil was put in the final drive
+- The sprocket bolts were over-torqued
+E: The toric rings must seat evenly without twisting, and the lapped faces must be perfectly clean. Even finger oil can damage them. (General knowledge + 303h guide.)
+
+@E29|Obj 5|kr p3 ilm
+Q: Which statement about electrically driven final drives is correct?
++ Most use planetaries, but any final drive type is possible
+- They never use a gear reduction, because motor torque is enough
+- They always use chain final drives to isolate the motor
+- The wheel motor drives the rim directly, with no reduction
+E: Electric motors usually drive planetary final drives for extra torque, but the guide notes that any combination is possible.
+
+@E29|Obj 1|ct p3 ilm
+Q: A double reduction final drive has a 3:1 spur gear / bull gear first reduction and a planetary with a 20T sun and 80T ring (ring held, carrier output). What is the total final drive reduction?
++ 15:1
+- 12:1
+- 7:1
+- 4:1
+E: Planetary: (80/20) + 1 = 5:1. Total = 3 x 5 = 15:1. Ratios in series multiply.
+
+@E28|Obj 1|kr p3 ilm
+Q: Which of these is NOT a function of an off-road drive axle?
++ Allowing speed differences between the front and rear axles
+- Supporting the gross vehicle weight
+- Turning the path of power 90 degrees to the wheel ends
+- Providing a final gear reduction
+E: Front-to-rear speed differences are handled by an INTERAXLE differential (in a transfer case). The drive axle supports weight, turns power 90 degrees, reduces, provides side-to-side differential action, and adds stability.
+
+@E28|Obj 1|kr p3 ilm
+Q: What is the Gross Axle Weight Rating (GAWR)?
++ The rated maximum load that a unit should carry on that axle
+- The maximum torque the axle can transmit
+- The weight of the axle assembly itself
+- The combined weight of all axles and the load
+E: GAWR is the maximum load per axle. All the GAWRs added together = GVW. GAWR has no relation to the torque or speed the machine develops.
+
+@E28|Obj 1|kr p3 ilm
+Q: Gross Vehicle Weight (GVW) is determined by:
++ adding together the gross axle weight ratings (GAWRs) of all the axles
+- multiplying one axle's gross axle weight rating (GAWR) by the number of axles
+- the machine's weight with no load
+- the engine torque multiplied by the final drive ratio
+E: The sum of the axle ratings = the maximum weight rating for the unit's design and application.
+
+@E28|Obj 1|kr p3 ilm
+Q: What is the correct path of power through a single reduction differential?
++ Pinion → ring gear → case → cross shafts → diff pinions → side gears → axles
+- Pinion → diff pinions → ring gear → case → cross shafts → side gears → axles
+- Ring gear → pinion → case → side gears → cross shafts → diff pinions → axles
+- Pinion → ring gear → side gears → diff pinions → cross shafts → case → axles
+E: Pinion to ring gear, ring gear to case, case to cross shafts (spider), cross shafts to differential pinions, pinions to side gears, side gears to axles, axles to wheels.
+
+@E28|Obj 1|kr p3 ilm
+Q: Inside a drive axle carrier, what do the pinion/bevel gear set and the differential section each do?
++ Pinion/bevel: 90° turn and reduction. Differential: cornering, equal torque.
+- Pinion/bevel: cornering action. Differential: 90° turn and reduction.
+- Both provide the 90° turn, and the differential also reduces
+- Pinion/bevel: torque equalization. Differential: reduction.
+E: These are two very different sections with different jobs.
+
+@E28|Obj 1|ct p3 ilm
+Q: Why can a full floating axle carry heavier loads than a semi-floating axle?
++ The hub rides on two bearings on the spindle, so the shaft carries no weight
+- The axle shaft is larger in diameter and heat treated
+- The axle is held in by a C-clip at the differential
+- The axle is supported by one large bearing at the wheel end
+E: With a full floating axle, the housing, spindle and hub bearings carry the weight, and the shaft only transmits torque.
+
+@E28|Obj 1|kr p3 ilm
+Q: What caution applies when pulling full floating axle shafts?
++ Chock the wheels, since the machine could roll freely
+- Raise the machine off the ground first to unload the shafts
+- Remove the wheel and tire first to reach the shaft
+- Release the parking brake to unload the axles
+E: The shafts can come out without lifting the machine or removing the wheels. But with the axle out, the drive and brakes may not hold the machine, so chock it.
+
+@E28|Obj 1|kr p3 ilm
+Q: How are semi-floating axles typically retained?
++ By a C-clip or an outer clamping arrangement
+- By the two wheel hub bearings
+- By the planetary carrier splines
+- By the differential lock collar
+E: A semi-floating shaft carries the weight on one bearing at its outer end and is held by a C-clip or a clamp.
+
+@E28|Obj 1|ct p3 ilm
+Q: Why does an axle with an INBOARD planetary need larger axle shafts than one with an outboard planetary?
++ The shaft carries torque after the major reduction
+- Inboard planetaries spin the shaft faster
+- The axle shaft also supports the wheel weight
+- Inboard planetaries need the shaft as a reaction member
+E: Torque is multiplied before the shaft, so the shaft must be larger. Outboard hubs do the big reduction at the wheel, so the shafts can be smaller.
+
+@E28|Obj 1|ct p3 ilm
+Q: Why is the outboard planetary drive axle the most common setup in heavy equipment?
++ Lighter shafts and parts can be used, keeping weight and cost down
+- It eliminates the need for a differential
+- It provides a higher top speed on haul roads
+- Its hubs don't need separate lubrication
+E: Reduction at the wheel means only differential-level torque goes through the shaft.
+
+@E28|Obj 1|kr p3 ilm
+Q: A drive axle has a 3:1 pinion and bevel gear and an outboard DOUBLE reduction planetary with two 4:1 stages. What is the total reduction?
++ 48:1
+- 11:1
+- 24:1
+- 12:1
+E: Multiply: 3 x 4 x 4 = 48:1. The input turns 48 times for one wheel revolution.
+
+@E28|Obj 1|kr p3 ilm
+Q: Some carriers have a lube pump. How is it typically driven?
++ By a gear attached to the differential case
+- By the engine accessory drive
+- By a small electric motor
+- By the wheel hub planetary
+E: Pump driven by a gear on the differential case (carrier). This ensures all bearings get pressure lube. Some units use an external pump.
+
+@E28|Obj 1|kr p3 ilm
+Q: What is the purpose of a bevel gear thrust support (thrust screw) in a carrier?
++ To stop the bevel gear deflecting away from the pinion
+- To set pinion bearing preload under load
+- To adjust ring gear backlash
+- To lock the differential in soft ground
+E: Under high starting torque or in soft ground, the bevel gear wants to deflect away from the pinion. The thrust block or screw limits that.
+
+@E28|Obj 2|ct p3 ilm
+Q: Why are drive axle housings often cast as a single piece?
++ It is much stronger than a built-up housing
+- It is cheaper to replace
+- It allows the differential to be removed from either side
+- It reduces oil capacity
+E: A one-piece housing is molded or cast and then machined, which gives better strength to carry the GVW.
+
+@E28|Obj 2|pa p3 ilm
+Q: What is the main advantage of a REMOVABLE differential carrier over an integral carrier housing?
++ It can be removed as a unit, reducing downtime
+- It is lighter than an integral housing
+- It doesn't need bearing preload
+- It allows a higher gear ratio
+E: An integral carrier housing takes more time to remove and repair.
+
+@E28|Obj 2|kr p3 ilm
+Q: How is pinion bearing preload set and maintained?
++ With a select spacer or crush sleeve, plus yoke nut torque
+- With shims between the bevel gear and the case
+- By adjusting the side bearing adjusting rings
+- With the thrust screw and jam nut
+E: Preload keeps the bearings turning properly and the pinion aligned. A select spacer or crush sleeve combined with yoke nut torque sets it.
+
+@E28|Obj 2|kr p3 ilm
+Q: How does a straddle mount drive pinion differ from an overhung pinion?
++ It adds a pilot bearing on the far side of the gear
+- It has only one tapered bearing, behind the gear
+- Its bearings are both in front of the gear teeth
+- It is used only in light-duty axles
+E: The overhung pinion has both tapered bearings behind the gear, so it deflects under extreme torque. The straddle mount adds a pilot (roller or ball) bearing on the other side.
+
+@E28|Obj 2|kr p3 ilm
+Q: A gear set with the drive pinion ABOVE the bevel gear centreline is called:
++ amboid. Used off-road for ground clearance.
+- hypoid. Used off-road for ground clearance.
+- spiral bevel. Used on highway trucks.
+- centreline. Used in low profile forklifts.
+E: Amboid = pinion above the centreline (more clearance). Hypoid = pinion below the centreline (lower vehicles, mostly on-road).
+
+@E28|Obj 2|kr p3 ilm
+Q: A gear set with the drive pinion BELOW the bevel gear centreline is called a:
++ hypoid. Most common on-road, to keep vehicles low.
+- amboid. Most common on-road, to keep vehicles low.
+- straddle. Most common off-road, for pinion support.
+- centreline. Most common in haul trucks.
+E: Hypoid = below centreline. It lets on-road vehicles sit lower to the ground.
+
+@E28|Obj 2|kr p3 ilm
+Q: Centreline pinion mounting is common on machines with restricted height and ground clearance, such as:
++ an all-terrain forklift
+- a large haul truck
+- a motor grader
+- a wheel loader
+E: That is the example given in the guide.
+
+@E28|Obj 2|ct p3 ilm
+Q: Why can off-road equipment often have just the pinion OR just the bevel gear replaced, instead of a matched set?
++ Low operating speeds, and very expensive parts
+- Off-road gear sets are not lapped at the factory
+- Off-road gears have no etched set numbers
+- Matched sets aren't available for off-road equipment
+E: The focus off-road is downtime and repair cost. On-road gear sets should be replaced as a matched (etched) set.
+
+@E28|Obj 2|kr p3 ilm
+Q: What does the pinion etch number refer to?
++ A change from the nominal dimension
+- The gear ratio of the set
+- The recommended backlash setting
+- The heat treatment code
+E: Tooth combination = pinion and crown tooth counts. Etch number = deviation from nominal. There may also be a separate number stating the optimal backlash.
+
+@E28|Obj 2|ct p3 ilm
+Q: What happens if the bevel gear thrust screw is adjusted too TIGHT?
++ It rubs the bevel gear, causing heat and metal debris
+- The bevel gear deflects away from the pinion
+- Backlash increases as the gear is pushed over
+- Side bearing preload drops to zero
+E: Too tight = rubbing, heat and metal particles. Too loose = the bevel gear can deflect away from the pinion and overstress the teeth. Lock it with the jam nut.
+
+@E28|Obj 2|pa p3 ilm
+Q: What do the differential side bearing adjusting rings do?
++ Set side bearing preload and backlash
+- Set pinion depth and pinion bearing preload
+- Set pinion bearing preload and yoke position
+- Hold the spider gears and cross shafts in position
+E: The rings move the case and bevel gear side to side (backlash) and squeeze the side bearings (preload).
+
+@E28|Obj 2|ct p3 ilm
+Q: Why is backlash required between the pinion and bevel gear?
++ For heat expansion and lubrication
+- To let the differential pinions walk during turns
+- To reduce gear ratio under load
+- To allow the axle to float
+E: Zero backlash would bind as the gears heat and expand, and it would squeeze out the oil film.
+
+@E28|Obj 2|kr p3 ilm
+Q: A matched set of differential pinion (spider) gears and side gears is sometimes called a:
++ nest kit
+- gear cluster
+- crown set
+- spider pack
+E: Don't confuse the differential pinions (spiders) with the input drive pinion.
+
+@E28|Obj 2|kr p3 ilm
+Q: In the differential case, what is the purpose of the thrust washers behind the differential pinions and side gears?
++ To absorb thrust load and provide a wear surface
+- To set backlash between the pinion and ring gear
+- To lock the differential
+- To set side bearing preload
+E: The thrust washers take the gear thrust loads and are a replaceable wear surface.
+
+@E28|Obj 3|kr p3 ilm
+Q: A drive pinion has 6 teeth and the bevel gear has 39 teeth. What is the ratio?
++ 6.5:1
+- 0.15:1
+- 33:1
+- 4.5:1
+E: Driven / drive = 39 / 6 = 6.5:1.
+
+@E28|Obj 3|kr p3 ilm
+Q: A machine needs 1000 lb-ft at the differential to move, although the driveline can deliver 2500 lb-ft. How much torque does each drive wheel receive?
++ 500 lb-ft
+- 1250 lb-ft
+- 1000 lb-ft
+- 2500 lb-ft
+E: Only the torque needed to move the load is delivered (1000 lb-ft), and the differential splits it equally: 500 each.
+
+@E28|Obj 3|ct p3 ilm
+Q: One wheel is on ice and spins with only 150 lb-ft. The other wheel is on dry ground. How much total torque is delivered to the differential?
++ 300 lb-ft
+- 150 lb-ft
+- The full engine torque
+- Zero
+E: Torque is always equal on both sides of an open differential. The wheel with the least traction sets the limit: 150 + 150 = 300 lb-ft. That is often not enough to move the machine.
+
+@E28|Obj 3|kr p3 ilm
+Q: The differential case turns at 100 rpm. In a turn, the inside wheel slows to 80 rpm. What is the outside wheel speed?
++ 120 rpm
+- 100 rpm
+- 180 rpm
+- 80 rpm
+E: Speed lost on one side is gained on the other: 100 - 20 = 80 inside, 100 + 20 = 120 outside. Case speed = the average of the two sides.
+
+@E28|Obj 3|ct p3 ilm
+Q: One wheel is completely stopped (stuck) and the other spins. The differential case turns at 200 rpm. How fast does the spinning wheel's side gear turn?
++ 400 rpm
+- 200 rpm
+- 100 rpm
+- 0 rpm
+E: The average of the two sides = case speed. (0 + x) / 2 = 200, so x = 400. This is twice the input. That's why prolonged wheel spin can starve the gears and thrust washers of lube and destroy them.
+
+@E28|Obj 3|ct p3 ilm
+Q: What happens inside the differential when a machine turns?
++ The pinions walk around the slowed inner side gear, speeding up the outer
+- The differential pinions stop rotating on their shafts
+- Both side gears slow down equally with the case
+- Torque increases on the outer wheel to push the turn
+E: The pinions rotate on their shafts and revolve with the case. Speed is redistributed, with no effect on torque.
+
+@E28|Obj 3|ct p3 ilm
+Q: Without a differential on a drive axle, a machine turning would:
++ scuff tires and resist turning
+- turn more sharply and easily
+- deliver more torque to the outer wheel
+- experience no difference on hard ground
+E: Differentials extend tire life and make turns easier by allowing the outer wheel to turn faster than the inner wheel.
+
+@E28|Obj 4|kr p3 ilm
+Q: A basic transfer case (drop box) is used to:
++ drop power below the engine and split it equally, no reduction
+- provide two speed ranges with a shift collar
+- allow speed differences between front and rear axles
+- split torque unevenly, 40/60 front to rear
+E: The basic drop box just changes the plane of power flow and splits it.
+
+@E28|Obj 4|kr p3 ilm
+Q: What is the purpose of an interaxle differential in a transfer case?
++ To allow speed differences between the front and rear axle assemblies
+- To allow speed differences between the left and right wheels
+- To provide a gear reduction
+- To lock the front axle
+E: Turning, uneven terrain and slippery conditions cause front-to-rear speed differences, and the interaxle differential accommodates them.
+
+@E28|Obj 4|kr p3 ilm
+Q: When must a differential lock NEVER be engaged?
++ While the wheels are spinning
+- When the machine is stopped
+- In soft or muddy conditions
+- At low ground speed
+E: Engaging a lock (especially a jaw clutch) while a wheel is spinning can cause catastrophic failure. Engage it before you need it, at low speed with no wheel spin.
+
+@E28|Obj 4|kr p3 ilm
+Q: Which transfer case style divides output torque UNEVENLY between the front and rear (e.g., 40% front, 60% rear)?
++ Planetary style transfer case
+- Basic drop box
+- Two speed transfer case with a shift collar
+- Spur gear transfer case with a lockup
+E: A planetary interaxle can be designed to split torque unequally.
+
+@E28|Obj 4|kr p3 ilm
+Q: In a two speed transfer case, how are the two ratios selected?
++ A shift collar locks one gear set to the input shaft
+- A planetary ring gear brake band
+- A hydraulic clutch pack in the drop gear
+- By reversing the drive shaft rotation
+E: The shift collar selects one of the two gear sets. Two speed transfer cases also include an interaxle differential.
+
+@E28|Obj 4|kr p3 ilm
+Q: When a jaw-type differential lock is engaged, the shift collar splined to the axle shaft locks to the:
++ differential case
+- differential carrier housing
+- axle housing
+- input pinion
+E: The guide corrects the ILM here. The carrier is bolted to the housing and doesn't rotate. The collar engages teeth on the rotating differential CASE, which locks the axle to the case and eliminates differential action.
+
+@E28|Obj 4|kr p3 ilm
+Q: With the differential lock engaged, what determines how much torque is delivered through the driveline?
++ The wheel with the greatest traction
+- The wheel with the least traction
+- Torque is always split 50/50
+- The transmission gear selected only
+E: Locked = equal speed, but no longer equal torque. The wheel with traction can take as much torque as it can hold.
+
+@E28|Obj 4|kr p3 ilm
+Q: Which are the two most common differential lock designs used off-road?
++ Jaw (dog) clutch and plate-and-disc clutch
+- Limited slip cones and viscous couplings
+- Torsen and spool
+- Sprag and roller clutch
+E: Jaw clutch = a toothed collar meshing with the case. Plate-and-disc = hydraulic or air piston clamps discs to lock the case to the axle.
+
+@E28|Obj 5|pa p3 ilm
+Q: Which is the most common way a differential is lubricated?
++ Splash, from the bevel gear
+- Pressure lubrication from the engine
+- Grease packed bearings
+- Oil mist from the transmission
+E: Splash is most common. Where splash can't reach everything, a pressurized system is used (pump driven by a gear on the carrier/case).
+
+@E28|Obj 5|ct p3 ilm
+Q: Why must a machine be on level ground when checking differential oil level?
++ On big machines, a slight angle skews the reading a lot
+- Oil can only flow to the bearings when level
+- The breather only works when level
+- The fill plug is sealed when the unit is on an incline
+E: Because of the size of the housings, small angles make big level errors.
+
+@E28|Obj 5|ct p3 ilm
+Q: Why should drive axle housings be kept clean?
++ So heat can transfer to the air
+- So the breather can be found
+- To make oil sampling easier
+- To prevent rust on the housing
+E: The lubricant carries heat to the housing, and the housing gives it off to the air. Caked mud insulates it.
+
+@E28|Obj 5|kr p3 ilm
+Q: What is a filter cart used for on large haul trucks?
++ Filtering the axle oil and returning it, instead of changing it
+- Transferring new oil from a drum into the axle
+- Pressure testing the carrier seals and gaskets
+- Flushing out water and sludge with solvent
+E: Changing huge volumes isn't always cost effective. The filter cart cleans the oil and returns it to the carrier.
+
+@E28|Obj 5|ct p3 ilm
+Q: What is a likely result of using a differential lubricant that is too THIN for the conditions?
++ The oil film breaks down, allowing metal contact
+- It won't adhere to the gears and is thrown off
+- It will plug the breather
+- It will cause foaming of the hydraulic system
+E: Too thin = film breakdown. The guide says too thick may not adhere to the gears properly. Follow the OEM grade for the temperature.
+
+@E28|Obj 6|ct p3 ilm
+Q: A drive axle is leaking oil at several seals and gaskets at once. Which is the most likely common cause?
++ A plugged housing breather
+- Low oil level
+- Worn spider gears
+- An overfilled planetary hub
+E: When the breather is plugged, heat expansion pressurizes the housing and oil escapes through seals, gaskets or cracks. Check the breather at every service.
+
+@E28|Obj 6|ct p3 ilm
+Q: Besides venting pressure, why does a working breather also protect seals when a machine is shut down?
++ It lets air in as the housing cools, so no vacuum forms
+- It drains condensed water out of the housing
+- It keeps the oil from foaming at speed
+- It supplies air to the lube pump
+E: The breather allows air in and out both ways. A cooling sealed housing creates a vacuum that pulls dirt and water past the lips.
+
+@E28|Obj 6|ct p3 ilm
+Q: Before road testing a machine for a differential noise complaint, you should:
++ turn the radio off and use a safe test area
+- remove the drive shaft to isolate the axle
+- overfill the differential to quiet the gears
+- disconnect the differential lock system
+E: Operators often miss noises because of the radio. Common causes of noise are bad bearings and worn or misaligned gears.
+
+@E28|Obj 6|kr p3 ilm
+Q: What does correct driveline phasing mean?
++ Yokes aligned, and equal working angles at each end
+- The driveshaft is balanced to zero runout
+- The front and rear axles have the same ratio
+- Slip yoke splines greased, and the joints timed 90° apart
+E: Out-of-phase yokes or unequal working angles cause vibration and component damage.
+
+@E28|Obj 6|ct p3 ilm
+Q: Right after a driveshaft was removed and reinstalled during a carrier job, the machine has a new driveline vibration. What is the most likely cause?
++ The slip yoke was reassembled out of phase
+- The differential oil level is low
+- Backlash was disturbed when the shaft was removed
+- The axle breather is plugged
+E: Mark the slip joint before separating it. If it's reassembled a spline off, the yokes are out of phase and cause vibration.
+
+@E28|Obj 7|gk pa p3 ilm
+Q: Before removing a differential carrier from a drive axle housing, which steps are typically required?
++ Chock it, drain the oil, pull the axle shafts, disconnect the driveshaft, support the carrier
+- Remove the wheel hubs and brakes, drain the oil, then lift the carrier out by hand
+- Chock it, drain the oil, remove the planetary hubs, and leave the axle shafts in
+- Drain the oil and disconnect the driveshaft. The shafts slide out with the carrier.
+E: The axle shafts are splined into the side gears and must be withdrawn first. Carriers are heavy, so use rated lifting equipment. (General knowledge. Your PDF for this objective is ILM-only.)
+
+@E28|Obj 8|pa p3 ilm
+Q: Before removing the differential carrier bearing caps and adjuster rings, you should:
++ mark the caps and count the adjuster ring turns
+- heat the caps so they release from the bores
+- loosen the pinion nut to remove preload
+- set a new backlash value to free the gear
+E: The cap marks keep the caps matched to their bores, and the turn count gives a starting point for preload on reassembly. Also check carrier end play to confirm that preload is present.
+
+@E28|Obj 8|pa p3 ilm
+Q: What pre-disassembly checks should be recorded on a carrier?
++ Backlash, rotational torque (preload) and tooth contact pattern
+- Oil level, oil temperature and breather condition
+- Axle shaft length and spline count
+- Ring gear tooth count only
+E: These readings let you return reused gears to their original settings.
+
+@E28|Obj 8|ct p3 ilm
+Q: After a carrier overhaul, the new pinion bearings fail quickly from lack of lubrication. Which assembly error fits best?
++ The shim pack was rotated, blocking the oil galleries
+- The thrust screw was set too loose
+- The ring gear was installed with bolts instead of rivets
+- Backlash was set at the tight end of spec
+E: Shim packs often fit in more than one position, and their holes must line up with the oil passages in the cage and housing. If installed wrong, the pinion gets no lube and the bearings burn up.
+
+@E28|Obj 8|pa p3 ilm
+Q: (Removable pinion bearing cage) The original pinion is etched +0.002 and the new pinion is etched +0.007. What shim change is needed?
++ Add 0.005 in. (pinion moves away from centreline)
+- Remove 0.005 in. (pinion moves toward centreline)
+- Add 0.009 in. (pinion moves away from centreline)
+- No change is needed. Both numbers are positive.
+E: Count from +2 to +7 = 5 increments to the right, so ADD 0.005 to the shim pack. A thicker pack moves the pinion away from the centreline. Decreasing shims moves it closer.
+
+@E28|Obj 8|pa p3 ilm
+Q: (Removable pinion bearing cage) The original pinion is etched +0.002 and the new pinion is etched -0.003. What shim change is needed?
++ Remove 0.005 in. from the shim pack
+- Add 0.005 in. to the shim pack
+- Remove 0.001 in. from the shim pack
+- Add 0.001 in. to the shim pack
+E: On the +/- scale, counting from +2 to -3 is 5 increments to the LEFT, so subtract 0.005.
+
+@E28|Obj 8|ct p3 ilm
+Q: Why is the integral pinion bearing mount rarely used in off-road applications?
++ Shim changes require pressing the bearing off
+- It can't be preloaded properly
+- It doesn't support a straddle mount pinion
+- It needs a new crush sleeve every time
+E: With a removable cage, shims are changed between the cage and the housing much more easily.
+
+@E28|Obj 8|pa p3 ilm
+Q: When inspecting axle shafts during an overhaul, where should you look closely for cracks?
++ Near and between the splines
+- At the centre of the shaft length
+- On the flange bolt holes only
+- At the paint line
+E: Also look for spline wear from the side gears, such as a ridge or a narrowed or sharpened spline, which could cause a future failure.
+
+@E28|Obj 8|pa p3 ilm
+Q: Example procedure: once all side bearing end play is removed, how is side bearing preload applied?
++ Tighten the adjusting ring opposite the bevel gear 2 to 3 notches
+- Tighten both adjusting rings 1 full turn
+- Loosen the ring on the bevel gear side 2 to 3 notches
+- Torque the bearing caps to spec, since that sets the preload
+E: First zero the end play (dial indicator on the back of the bevel gear, pry side to side), then tighten the ring opposite the bevel gear 2 to 3 notches. Always follow the OEM spec.
+
+@E28|Obj 8|ct p3 ilm
+Q: To change backlash without changing side bearing preload, you would:
++ loosen one ring N notches, tighten the other N notches
+- tighten only the ring on the bevel gear side
+- add shims behind the pinion cage
+- loosen both rings the same number of notches
+E: Moving the case over while keeping the same total squeeze keeps the preload. For example, loosen the bevel gear side 3 notches and tighten the opposite side 3 notches.
+
+@E28|Obj 8|pa p3 ilm
+Q: When an original (used) gear set is being reinstalled, it should be set up to:
++ the original recorded settings and pattern
+- new gear set specifications from the manual
+- minimum backlash to reduce noise
+- whatever pattern looks best on the coast side
+E: Worn-in gears run on their established wear pattern. New settings create a new small contact patch, which causes noise and possible tooth fracture. If no records exist, use the manufacturer's specs.
+
+@E28|Obj 8|pa p3 ilm
+Q: Which side of the bevel gear teeth is painted to check the drive pattern?
++ The convex side (drive side)
+- The concave side (coast side)
+- The heel
+- The toe
+E: The convex side is the drive side, the largest and strongest part, which the pinion loads in normal forward travel. The concave side is the coast side.
+
+@E28|Obj 8|kr p3 ilm
+Q: Moving the RING GEAR AWAY from the pinion moves the contact pattern toward the:
++ heel
+- toe
+- face
+- flank
+E: Ring gear away = toward the heel (and more backlash). Ring gear toward the pinion = toward the toe.
+
+@E28|Obj 8|kr p3 ilm
+Q: Moving the PINION TOWARD the ring gear moves the contact pattern toward the:
++ flank
+- face
+- heel
+- toe
+E: Pinion toward the ring gear = flank (lower part of the tooth). Pinion away = face (top of the tooth). Pinion position mainly affects face and flank, and backlash (ring gear position) mainly affects heel and toe.
+
+@E28|Obj 8|ct p3 ilm
+Q: The drive side pattern on a new gear set sits high on the FACE of the bevel gear teeth. What is the first correction?
++ Move the pinion toward the ring gear
+- Move the ring gear away from the pinion
+- Move the ring gear toward the pinion
+- Move the pinion away from the ring gear
+E: Face → you need to go toward the flank, so move the pinion IN. Pinion position is done first, and backlash must be checked and corrected every time pinion depth changes.
+
+@E28|Obj 8|pa p3 ilm
+Q: A correct drive side pattern on off-road equipment (under light load) should:
++ start near the toe, a bit over half the tooth length
+- be centred exactly between the heel and toe
+- cover the entire tooth from heel to toe
+- start at the heel and extend to the middle
+E: Under real load, the bevel gear deflects and the pattern spreads toward the heel. That's why a light-load pattern starts nearer the toe.
+
+@E28|Obj 8|pa p3 ilm
+Q: What must be done every time the pinion depth is adjusted?
++ Backlash must be rechecked
+- The pinion bearings must be replaced
+- The side bearing preload must be reduced
+- The thrust screw must be backed off fully
+E: Moving the pinion changes how it meshes with the ring gear, so backlash changes too.
+
+@E23|Obj 1|kr p3 ilm
+Q: Which statement describes a basic overcentre clutch?
++ It stays engaged or disengaged until the operator moves it
+- It engages automatically when engine speed rises
+- It is spring applied and releases when the pedal is pushed
+- It disengages automatically under overload
+E: Push the lever to engage and pull it to disengage. It stays put until moved, because the linkage locks over centre.
+
+@E23|Obj 1|kr p3 ilm
+Q: Which is NOT listed as a benefit of using an overcentre clutch between an engine and a driven component?
++ Automatic torque multiplication
+- Improved safety (the driven component can be stopped while the engine runs)
+- Easier speed changes
+- Cold weather starting without the driven load on the starting system
+E: The clutch only connects and disconnects. It doesn't multiply torque.
+
+@E23|Obj 1|kr p3 ilm
+Q: Which of these is a typical overcentre clutch application?
++ A crane's draw works
+- A torque converter stator support
+- An air conditioning (A/C) compressor pulley drive
+- A differential lock on a loader axle
+E: Applications include transmissions, pump drives, conveyors and crane draw works. They can be operated remotely by an air or hydraulic cylinder.
+
+@E23|Obj 1|kr p3 ilm
+Q: How is engine torque transferred into an overcentre clutch's friction discs?
++ Through a toothed drive ring bolted to the flywheel
+- Through a splined hub on the crankshaft
+- Through a damper spring disc on the flywheel face
+- Through a fluid coupling in the flywheel
+E: The drive ring (internal teeth) is bolted to the flywheel, and the discs (external teeth) mesh with it.
+
+@E23|Obj 1|pa p3 ilm
+Q: What is the purpose of the pilot bearing in an overcentre clutch installation?
++ To keep the shaft aligned when disengaged
+- To take the release thrust load
+- To transmit torque to the pressure plate
+- To set clutch adjustment
+E: The pilot bearing in the centre of the flywheel supports and aligns the shaft when it isn't locked to the flywheel through the discs.
+
+@E23|Obj 1|pa p3 ilm
+Q: How can a technician tell from the release linkage that an overcentre clutch is ENGAGED?
++ The linkage angle is less than 90 degrees
+- The linkage angle is greater than 90 degrees
+- The linkage is exactly at 90 degrees
+- The release bearing is pulled fully rearward
+E: In the guide's photos: released = linkage angle greater than 90 degrees, engaged = less than 90 degrees. The linkage pushes the release collar to full engaged travel and clamps the discs.
+
+@E23|Obj 1|ct p3 ilm
+Q: Why does an overcentre clutch "snap" into position when it is engaged or disengaged?
++ Force peaks as the linkage passes centre
+- A detent spring on the control lever
+- Hydraulic assist on the release yoke
+- The discs suddenly lock together
+E: Peak force is at centre. Once past it, the linkage locks itself in position.
+
+@E23|Obj 1|pa p3 ilm
+Q: At what engine speed should an overcentre clutch be engaged and disengaged?
++ Low engine rpm
+- High idle, to prevent stalling
+- Rated speed, for a firm engagement
+- It doesn't matter
+E: Low rpm protects the clutch and the driven component.
+
+@E23|Obj 1|ct p3 ilm
+Q: Why must care be taken when disengaging an overcentre clutch in an emergency with the engine under load?
++ The engine can overspeed when the load drops
+- The clutch will re-engage on its own
+- The pilot bearing will seize from the shock
+- The release bearing will lock up
+E: The guide warns that rpm can rise rapidly when the load suddenly disappears.
+
+@E23|Obj 1|pa p3 ilm
+Q: How is overcentre clutch adjustment checked?
++ With a pull scale on the lever, compared to spec
+- By measuring disc thickness with a micrometer
+- By checking release bearing end play with a dial indicator
+- By counting the adjusting ring notches showing
+E: The manufacturer specifies the engagement force.
+
+@E23|Obj 1|pa p3 ilm
+Q: To adjust an overcentre clutch, the technician:
++ releases the ring lock, turns the ring in small steps to spec, then re-locks it
+- lengthens the mechanical release linkage until it goes over centre firmly
+- adds shims behind the pressure plate to cut the clearance
+- adjusts the remote control linkage until the lever is tight
+E: Make small adjustments in stages, because clearance reduces quickly. The mechanical release linkage has NO adjustment.
+
+@E23|Obj 1|ct p3 ilm
+Q: What happens if the overcentre clutch adjusting ring lock (pin or clip) is not re-installed correctly?
++ The adjustment changes rapidly when disengaged
+- The clutch can't be engaged at all
+- The release bearing will over-lubricate
+- The pilot bearing will spin in the flywheel
+E: Without the lock, the ring rotates and the adjustment is lost, which leads to slip and damage.
+
+@E23|Obj 1|pa p3 ilm
+Q: Which statement about overcentre clutch linkage adjustment is correct?
++ Release linkage: not adjustable. Remote linkage: only for wear or new parts.
+- The release linkage is adjusted to set clutch pull force
+- The remote linkage is adjusted to set disc clearance
+- Both linkages are adjusted at every preventive maintenance (PM) to set the pull force
+E: Remote linkage doesn't affect clutch adjustment. If it's adjusted wrong, it causes excessive release bearing wear.
+
+@E23|Obj 1|ct p3 ilm
+Q: During inspection, wear on the inner surface of ONE flange of the release bearing collar indicates:
++ improperly adjusted remote linkage
+- normal wear
+- worn clutch discs
+- excessive output shaft end play
+E: The release yoke is loading one side constantly, which points to remote linkage adjustment.
+
+@E23|Obj 1|pa p3 ilm
+Q: What should be checked on overcentre clutch pressure plates?
++ Warpage, heat cracking and surface wear
+- Spline count and tooth profile
+- Magnetism and hardness
+- Paint condition and balance marks
+E: Also inspect the geared discs for surface wear, cracks and cracked or worn external teeth.
+
+@E23|Obj 1|pa p3 ilm
+Q: What is the typical end play on a properly adjusted overcentre clutch output shaft (tapered roller bearings)?
++ 0.004 to 0.009 in.
+- 0.000 in. (preloaded)
+- 0.020 to 0.030 in.
+- 0.050 to 0.100 in.
+E: Check with a dial indicator. The figure varies by manufacturer. This adjustment also maintains shaft alignment.
+
+@E23|Obj 1|pa p3 ilm
+Q: What is one of the last checks after an overcentre clutch installation?
++ Confirm engine crankshaft end play is still within spec
+- Check engine valve lash at top dead centre (TDC)
+- Check transmission oil level hot
+- Measure flywheel runout with the clutch engaged
+E: The installation must not load the crankshaft thrust bearing.
+
+@E23|Obj 1|pa p3 ilm
+Q: What precaution applies when installing the overcentre clutch assembly onto the flywheel drive ring?
++ Align carefully to protect the disc teeth
+- Engage the clutch first, then slide it on
+- Heat the drive ring so it expands
+- Lightly lubricate the friction faces
+E: The assemblies are very heavy and the disc teeth are easily damaged if misaligned.
+
+@E23|Obj 1|ct p3 ilm
+Q: An overcentre clutch on a pump drive slips and smells hot under load. The lever goes over centre with much less force than spec. What is the most likely cause and fix?
++ Worn discs. Adjust the ring to spec pull force.
+- The pilot bearing is worn. Replace the pilot bearing.
+- The remote linkage is too short. Lengthen it.
+- The release bearing is dry. Grease it.
+E: Low engagement force = not enough clamp load. Wear increases clearance, and adjusting the ring restores the clamp force. If it's already at the adjustment limit, the discs and plates need replacing.
+
+@E23|Obj 2|kr p3 ilm
+Q: An overrunning clutch allows:
++ the output shaft to turn faster than the input
+- the input to turn faster than the output under load
+- both shafts to lock in both directions
+- slip at a preset torque limit
+E: Overrunning (one-way) clutches drive one way and freewheel the other. They're used in torque converters, hoisting winches and similar.
+
+@E23|Obj 2|kr p3 ilm
+Q: What are the two common types of overrunning clutch used in heavy equipment?
++ Spring and roller, and sprag
+- Dog and cone
+- Plate and disc, and band
+- Electromagnetic and centrifugal
+E: Both lock the inner and outer races in one direction.
+
+@E23|Obj 2|ct p3 ilm
+Q: Why can a sprag clutch handle more torque than a spring and roller clutch of a similar size?
++ No springs, so more sprags fit
+- Its sprags are made of softer metal
+- It uses hydraulic pressure to wedge
+- It uses larger, stiffer springs
+E: More contact elements = more load capacity.
+
+@E23|Obj 2|kr p3 ilm
+Q: In a spring and roller clutch, what is the job of the springs?
++ To hold the rollers snug against the races
+- To release the rollers under load
+- To provide the clutch's clamping force
+- To return the clutch to neutral
+E: The springs keep the rollers ready to wedge.
+
+@E23|Obj 2|kr p3 ilm
+Q: Under what condition is a dog (jaw) clutch normally engaged or disengaged?
++ With both input and output shafts stopped, to avoid tooth damage
+- At high speed, to synchronize the shafts
+- Under full load
+- Whenever the operator chooses, since the teeth are self-aligning
+E: The jaw teeth have no slip ability. A common use is a differential lock (equal speed to both axles).
+
+@E23|Obj 2|pa p3 ilm
+Q: When troubleshooting a slipping electromagnetic clutch, where should you start?
++ Battery voltage, wiring and ground
+- Replace the clutch coil and hub
+- Check the clutch friction material
+- Check the compressor oil level
+E: Low voltage, bad wiring or a poor ground means a weak magnet, low clamp force and slip, which can lead to a catastrophic failure. The air gap must also be within spec.
+
+@E23|Obj 2|ct p3 ilm
+Q: A compressor electromagnetic clutch slips. There are 12.6 V at the battery but only 10.1 V at the clutch coil connector with the clutch engaged. What is the next step?
++ Voltage drop test the feed and ground circuits
+- Replace the clutch coil, since it's drawing too much
+- Reduce the air gap to below spec to compensate
+- Charge the battery and retest
+E: A 2.5 V loss under load means resistance in the circuit (a connection, wire, relay or ground). The coil can't build full magnetic clamp force.
+
+@E23|Obj 2|kr p3 ilm
+Q: Wet (oil) clutches in powershift transmissions consist of:
++ steel plates, friction discs and a hydraulic piston
+- friction plates, steel discs and a Belleville spring only
+- a cone and a cup
+- sprags and races
+E: Hydraulic pressure on the piston clamps the plates and discs together. Transmission oil from the pump lubricates and cools them.
+
+@E23|Obj 2|ct p3 ilm
+Q: Why is it important to use the manufacturer's specified oil in powershift transmissions with wet clutches?
++ Incompatible additives can damage the clutches
+- Other oils won't lubricate the gears properly
+- The oil colour is used for diagnosis
+- It voids the engine warranty
+E: Friction material is sensitive to oil chemistry.
+
+@E23|Obj 2|gk kr p3 ilm
+Q: Where is a cone clutch commonly found in a drivetrain?
++ In transmission synchronizers
+- In the differential lock
+- In a torque converter lockup
+- In an air conditioning (A/C) compressor
+E: The tapered (cone) friction surface multiplies clamping force by wedging, which makes it compact for synchronizing. (General knowledge.)
+
+@E23|Obj 2|gk ct p3 ilm
+Q: A torque converter's stator one-way clutch has failed and now freewheels in BOTH directions. What symptom would you expect?
++ Poor torque multiplication: weak acceleration or pulling from a stop, and low stall speed
+- Overheating only at high cruising speed
+- No change, because the stator only matters at coupling
+- The machine won't move at all
+E: The stator must be held during multiplication to redirect oil. If it freewheels, multiplication is lost. A stator seized solid instead causes overheating at coupling speed. (General knowledge, applying 303k Obj 2.)

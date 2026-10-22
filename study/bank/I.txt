@@ -1,0 +1,143 @@
+@I40|Hybrid|kr
+Q: In a series hybrid (diesel-electric) machine, the engine:
++ drives a generator, and electric motors drive the machine
+- drives the wheels directly, with an electric motor assisting
+- only charges the batteries when the machine is parked
+- drives the hydraulic pump only
+E: In a series hybrid, the engine only makes electricity. Traction motors do all the driving.
+
+@I40|Hybrid|ct
+Q: Which is a main advantage of a diesel-electric drive on a large machine?
++ The engine can run at its most efficient speed
+- It doesn't need any cooling system
+- It doesn't need any high-voltage safety procedures
+- It removes the need for an engine
+E: Electric drive decouples engine speed from ground speed and allows dynamic or regenerative braking.
+
+@I40|Hybrid|kr
+Q: Regenerative braking on a hybrid machine:
++ uses the motors as generators to recover energy
+- applies the friction brakes harder
+- uses the engine to slow the machine
+- recharges the batteries from the alternator only
+E: When slowing, the motors act as generators. The energy is stored (batteries, capacitors) or burned off in a grid.
+
+@I40|Safety|pa safe
+Q: Before working on a hybrid machine's high-voltage system, what is the correct sequence?
++ Isolate, lock out, wait, then verify zero voltage
+- Disconnect the 12 V battery and start work immediately
+- Verify zero voltage, then open the disconnect and lock it
+- Let the engine cool, then unplug the orange cables
+E: Follow the OEM procedure: isolate, lock and tag, wait for capacitors to discharge, then test for zero voltage with a rated meter.
+
+@I40|Safety|kr safe
+Q: High-voltage cables on hybrid and electric equipment are usually identified by:
++ orange insulation
+- red insulation
+- black insulation with yellow stripes
+- blue insulation
+E: Orange marks high-voltage cables. Treat them as live until proven otherwise.
+
+@I40|Safety|pa safe
+Q: What must be done with insulated (rubber) high-voltage gloves before each use?
++ Inspect and air test them for holes
+- Wash them in solvent
+- Dust the inside with graphite powder
+- Wear them without leather protectors
+E: A pinhole makes the gloves useless. Inspect and air test before each use, and wear leather protectors over them.
+
+@I40|Safety|pa safe
+Q: Which type of meter should be used to verify zero voltage on a high-voltage system?
++ A meter and leads rated CAT III or CAT IV
+- Any digital multimeter with fresh batteries
+- An analog meter set to the 20 V DC range
+- A 12 V test light
+E: The meter must be rated for the voltage and energy. Check it on a known source before and after the test.
+
+@I40|Diagnosis|pa
+Q: How is the insulation of a high-voltage cable tested for leakage to the frame?
++ With an insulation resistance tester
+- With a standard ohmmeter
+- With a 12 V test light
+- With an inductive amp clamp on the cable
+E: An insulation tester applies a high test voltage to find leakage that an ordinary ohmmeter can't detect.
+
+@I41|Electric|kr
+Q: In a battery electric machine, what converts the battery's direct current (DC) power into alternating current (AC) for the traction motors?
++ The inverter
+- The rectifier
+- The DC-DC converter
+- The battery management system
+E: Inverters turn DC from the pack into variable-frequency AC to drive the motors.
+
+@I41|Electric|kr
+Q: On a battery electric machine, what charges the 12 V or 24 V system that runs the lights and controls?
++ A DC-DC converter fed from the high-voltage pack
+- An engine-driven alternator
+- The traction motors directly
+- A separate charger plugged in at night only
+E: There's no engine alternator. A DC-DC converter steps the pack voltage down to charge the low-voltage battery.
+
+@I41|Electric|kr
+Q: What does a battery management system (BMS) do?
++ Monitors and balances the cells and protects the pack
+- Converts DC to AC for the motors
+- Controls the hydraulic pumps
+- Charges the pack directly from a wall outlet
+E: The BMS keeps cells in a safe window and opens the contactors if there is a dangerous condition.
+
+@I41|Electric|kr safe
+Q: What is the purpose of a high-voltage interlock loop (HVIL)?
++ To open the contactors if a connector is removed
+- To charge the battery faster
+- To measure insulation resistance
+- To lock the charging cable in place while charging
+E: A low-voltage circuit runs through each high-voltage connector. Break it and the system de-energizes.
+
+@I41|Electric|ct
+Q: A battery electric loader has much shorter run time on very cold days. What is the most likely reason?
++ Cold cuts the battery's capacity
+- The traction motors are worn
+- The inverter is failing
+- The hydraulic oil is too thin in the cold
+E: Lithium-ion cells deliver less energy when cold, and some energy is used to heat the pack.
+
+@I41|Safety|ct safe
+Q: A lithium-ion battery pack was damaged in a collision but shows no signs of fire. What is the correct action?
++ Isolate it outdoors, away from buildings, and monitor it
+- Return the machine to service if it runs normally
+- Store it inside the shop to keep it dry and warm
+- Puncture the case to vent any gas
+E: Damaged packs can go into thermal runaway hours or days later. Quarantine them safely and follow the OEM and fire department guidance.
+
+@I41|Safety|kr safe
+Q: What is thermal runaway in a lithium-ion battery?
++ A self-heating reaction that can cause fire and toxic gases
+- A cooling system failure in the inverter
+- Normal heating during fast charging
+- A software fault in the battery management system
+E: Once a cell overheats past a point, it heats itself and its neighbours. These fires are hard to put out and can re-ignite.
+
+@I41|Electric|ct
+Q: An electric machine won't power up and shows a low-voltage system fault. What should be checked first?
++ The 12 V or 24 V battery and its connections
+- The high-voltage pack's cell balance
+- The traction motor windings
+- The insulation resistance of the orange cables
+E: The low-voltage system powers the modules and contactors. A weak 12/24 V battery can stop the whole machine from starting.
+
+@I41|Electric|kr
+Q: On an electric machine, why might the hydraulic pump motor only run when a function is used?
++ To save battery energy by running on demand
+- Because electric motors can't run continuously
+- To keep the hydraulic oil cold
+- Because the pump has no relief valve
+E: Running pumps only on demand cuts energy use, which extends run time.
+
+@I41|Transport|kr safe
+Q: Shipping a lithium-ion battery pack for repair must follow which rules?
++ Transportation of dangerous goods
+- WHMIS workplace labelling rules
+- CVIP inspection rules
+- No special rules apply
+E: Lithium batteries are regulated dangerous goods for transport, especially when damaged.

@@ -1,0 +1,559 @@
+@G34|Basics|pa hl
+Q: A hydraulic system malfunctions. What is checked first?
++ The fluid level
+- The pump flow
+- The system relief pressure
+- The cycle times
+E: Start with the simplest, most likely cause. Low oil level causes cavitation, aeration, heat and slow operation.
+
+@G34|Basics|ct hl
+Q: A hydraulic cylinder extends slowly but has full force. What is the most likely type of problem?
++ A flow problem
+- A pressure problem
+- A relief valve set too low
+- A cylinder that is too small
+E: Flow sets speed and pressure sets force. Slow with full force points to low flow (worn pump, low engine speed, internal leakage, flow control).
+
+@G34|Basics|ct hl
+Q: A loader can't lift a full bucket but raises an empty bucket at normal speed. What is the most likely problem?
++ Low relief valve pressure
+- A worn pump with low flow
+- A plugged return filter
+- Low engine idle speed
+E: Normal speed means flow is fine. Not enough force means not enough pressure, often a low or leaking relief valve.
+
+@G34|Basics|kr hl
+Q: In a hydraulic system, what creates pressure?
++ Resistance to flow
+- The pump alone
+- The reservoir height
+- The size of the hydraulic lines
+E: Pumps make flow. Pressure builds only when that flow meets a resistance such as a load or restriction.
+
+@G34|Basics|ct hl
+Q: Two cylinders are connected in parallel to the same pump. Which one moves first?
++ The one with the lightest load
+- The one closest to the pump
+- The one with the smallest bore
+- Both move at exactly the same time
+E: Oil takes the path of least resistance. The lightest-loaded (or largest-area) cylinder moves first.
+
+@G34|Basics|ct calc hl
+Q: A hydraulic pump has a displacement of 2.31 in³ per revolution and turns at 1000 RPM. What is its theoretical flow?
++ 10 GPM
+- 2.31 GPM
+- 23.1 GPM
+- 100 GPM
+E: GPM = (displacement × RPM) ÷ 231 = (2.31 × 1000) ÷ 231 = 10 GPM.
+
+@G34|Basics|ct hl
+Q: A hydraulic system has jerky, spongy actuator movement, foamy oil and a noisy pump. What is the most likely cause?
++ Air getting into the oil
+- A main relief valve set too high
+- A plugged case drain
+- Oil that is too thick
+E: Air is compressible, so actuators move erratically. Check the oil level and look for leaks on the pump inlet side.
+
+@G34|Basics|ct hl
+Q: A pump whines, there's pitting inside it, and the inlet vacuum is high. What is the problem?
++ Cavitation from an inlet restriction
+- Aeration from a leaking return line
+- A relief valve stuck open
+- Too much case drain flow
+E: High inlet vacuum means the pump can't fill. Oil vaporizes and the bubbles implode, pitting the parts. Check the strainer, inlet hose and oil viscosity.
+
+@G34|Basics|ct hl
+Q: A double acting cylinder has a large rod. Compared with extending, how does it retract?
++ Faster, with less force
+- Slower, with more force
+- At the same speed and force
+- Faster, with more force
+E: The rod takes up area on the rod side, so the same flow fills it faster but the same pressure acts on less area.
+
+@G34|Reservoir|pa safe hl
+Q: Before removing the fill cap on a pressurized hydraulic reservoir, the technician must:
++ relieve the reservoir pressure
+- start the engine to circulate the oil
+- warm the oil to operating temperature
+- loosen the return filter
+E: Pressurized reservoirs can spray hot oil. Lower implements, shut off and relieve the pressure first.
+
+@G34|Filtration|kr hl
+Q: A filter with a beta ratio of 200 at 10 microns means:
++ 200 particles (10 µm) in for every 1 out
+- it removes all particles 200 microns and larger
+- it can pass 200 GPM at 10 psi
+- it stops 10% of the particles at 200 microns
+E: Beta ratio = particles upstream ÷ particles downstream at a given size. Higher numbers mean better filtration.
+
+@G34|Filtration|ct hl
+Q: Why does a hydraulic filter have a bypass valve?
++ To protect the element when the pressure drop gets too high
+- To send the oil through the filter a second time
+- To let oil bypass the oil cooler when it's cold
+- To increase system pressure
+E: When the pressure drop gets too high, the bypass opens and unfiltered oil passes. That's why filters are changed on schedule.
+
+@G35|Hydrostatic|kr
+Q: In a closed loop hydrostatic transmission, oil returning from the motor goes:
++ directly back to the pump inlet
+- back to the reservoir through the cooler
+- through the main relief valve to tank
+- to the charge pump inlet
+E: In a closed loop, the oil circulates between the pump and motor. Only leakage and flushing oil go to the case and tank.
+
+@G35|Hydrostatic|kr
+Q: What is the main job of the charge pump in a hydrostatic drive?
++ To make up leakage and keep the loop's low side pressurized
+- To drive the hydraulic motors directly at low speed
+- To supply the implement hydraulics at high flow
+- To set the high-pressure relief valve setting
+E: The charge pump makes up leakage, keeps the loop's low side pressurized to prevent cavitation, supplies cool filtered oil and often feeds the servo control.
+
+@G35|Hydrostatic|ct
+Q: A hydrostatic machine is sluggish in both directions and the pump is noisy. Which pressure should be checked first?
++ Charge pressure
+- Main relief pressure
+- Case drain pressure
+- Pilot pressure to the implement valve
+E: Without proper charge pressure, the loop can't stay full and the pump may not stroke. Check it before loop pressures.
+
+@G35|Hydrostatic|ct
+Q: A hydrostatic drive pulls well forward but is weak in reverse only. What is a likely cause?
++ A faulty relief or make-up valve on the reverse side
+- Low charge pressure
+- A worn charge pump or charge relief
+- A plugged suction strainer in the tank
+E: Problems in one direction only point to a component that works in that direction only, like that side's relief or check valve, or the control.
+
+@G35|Hydrostatic|kr
+Q: In a hydrostatic loop, the make-up (check) valves:
++ let charge oil into the low-pressure loop line
+- limit the maximum loop pressure
+- send hot loop oil to the cooler
+- control the pump's displacement and direction
+E: Charge oil enters the low-pressure side of the loop through the make-up checks.
+
+@G35|Hydrostatic|kr
+Q: What does the loop flushing (hot oil shuttle) valve do?
++ Bleeds hot oil from the loop's low side to the cooler
+- Limits loop pressure during hard acceleration
+- Reverses the motor's direction of rotation
+- Returns all loop oil to the reservoir in neutral
+E: It shifts to the low side and removes some hot loop oil; the charge pump replaces it with cool, filtered oil.
+
+@G35|Hydrostatic|ct
+Q: A hydrostatic pump has high case drain flow. What does this indicate?
++ Internal wear in the pump
+- A plugged case drain line
+- Normal operation at full load and speed
+- A low charge relief setting
+E: Case drain carries internal leakage. More leakage than spec means worn parts (pistons, barrel, valve plate).
+
+@G35|Hydrostatic|pa
+Q: Before starting a new hydrostatic pump or motor for the first time, what must be done?
++ Fill the case with clean oil through the case drain port
+- Run it dry for a few seconds to seat the pistons
+- Disconnect the charge pump
+- Set the relief valves to minimum
+E: The case lubricates the rotating group. Starting it dry can ruin it immediately.
+
+@G35|Hydrostatic|ct
+Q: A hydrostatic machine creeps forward slowly with the control in neutral. What is the most likely cause?
++ The pump isn't centred in neutral
+- Low charge pressure
+- A leaking forward high-pressure relief valve
+- A plugged loop flushing valve
+E: If the swashplate isn't exactly centred in neutral, the pump still puts out a little flow. Adjust neutral per the OEM.
+
+@G35|Hydrostatic|kr
+Q: How does a variable displacement hydrostatic pump change the machine's direction?
++ By moving the swashplate past centre
+- By reversing the engine rotation
+- By shifting a directional control valve spool
+- By switching the charge pump on and off
+E: Tilting the swashplate past centre reverses which loop line is the pressure line, so the motor turns the other way.
+
+@G35|Hydrostatic|kr
+Q: What is the purpose of a pressure override (POR) on a hydrostatic pump?
++ To destroke the pump before relief pressure
+- To increase pump displacement at high pressure
+- To keep charge pressure constant
+- To protect the pump case from over-pressure
+E: Destroking at the pressure limit stops the system from dumping full flow over a relief valve, which wastes power and makes heat.
+
+@G35|Hydrostatic|ct
+Q: A hydrostatic drive overheats. Which cause should be considered?
++ A plugged cooler or internal leakage
+- A charge relief set slightly high
+- Correct oil level and correct viscosity
+- A new suction filter
+E: Heat comes from leakage, relief valves blowing off and poor cooling. Check the cooler, case drain flow and relief activity.
+
+@G35|Hydrostatic|pa
+Q: A hydrostatic pump failed and threw metal through the loop. What must be done when installing the new pump?
++ Flush the loop and lines, replace filters and check the motor
+- Install the new pump and change only the oil
+- Install the new pump and run at high idle to clean it
+- Replace only the charge pump
+E: Debris from the failed unit will destroy the new one. Clean or replace contaminated parts and flush before start-up.
+
+@G35|Hydrostatic|pa
+Q: What is usually needed before a hydrostatic-drive machine can be towed?
++ Open the tow valve and release the brakes
+- Put the control lever in full forward
+- Remove the charge pump
+- Start the engine and leave it running at low idle
+E: Without a bypass, the motor would pump oil against the stopped pump. Towing is also limited to short distances at low speed.
+
+@G35|Hydrostatic|kr
+Q: A hydrostatic motor with a variable displacement swashplate is shifted to a smaller angle. What happens?
++ The motor turns faster with less torque
+- The motor turns slower with more torque
+- The motor stops
+- The motor reverses direction
+E: Less displacement per revolution means the same flow turns it faster, but each revolution makes less torque.
+
+@G35|Hydrostatic|kr
+Q: In a typical hydrostatic drive, where does the charge pump usually get its oil?
++ From the reservoir, through a filter
+- From the high-pressure loop
+- From the case drain line
+- From the implement return line
+E: The charge pump draws from the reservoir, sending clean, cool oil into the loop.
+
+@G35|Hydrostatic|ct
+Q: A skid steer moves slowly on one side only. What is a likely cause?
++ A worn pump or motor in that side's loop
+- Low engine speed
+- A plugged charge filter
+- A low oil level in the hydraulic reservoir
+E: Each side has its own loop. A problem on one side only points to that loop's pump, motor or valves. A common problem (charge, engine) affects both.
+
+@G35|Hydrostatic|kr
+Q: Compared with an open centre hydraulic system, a closed loop hydrostatic drive:
++ needs a much smaller reservoir
+- needs a much larger reservoir
+- doesn't use a pump
+- sends all its oil through the cooler every cycle
+E: Most oil stays in the loop, so the reservoir only supplies the charge pump and takes leakage. That's why the cooler is critical.
+
+@G35|Hydrostatic|pa
+Q: When pressure testing a hydrostatic loop, where is the gauge connected?
++ To the A and B loop test ports
+- To the reservoir fill neck
+- To the charge pump inlet
+- To the engine oil gallery test port
+E: The pump has test ports for each loop line. Use gauges rated for full loop pressure.
+
+@G35|Hydrostatic|ct
+Q: A hydrostatic machine loses drive when it gets hot but works normally when cold. What is a likely cause?
++ Worn parts leaking more as the oil thins
+- A plugged suction strainer
+- A stuck-closed loop flushing valve spool
+- Low engine idle
+E: Hot oil is thinner and leaks more past worn parts. When it's cold, the thicker oil hides the wear.
+
+@G36|Compressor|kr air hl
+Q: During the compressor's unloaded cycle, how is compression stopped?
++ The unloader pistons hold the inlet valves open
+- The governor closes the compressor discharge line
+- The compressor drive is disengaged
+- The safety valve opens
+E: The governor sends air to the unloaders, which hold the inlet valves open so air moves in and out without being compressed. It also keeps the compressor cooler.
+
+@G36|Governor|kr air hl
+Q: What is the maximum allowable difference between governor cut-in and cut-out pressure?
++ 25 psi
+- 10 psi
+- 50 psi
+- 5 psi
+E: Cut-out is the maximum pressure; cut-in is where loading resumes. The spread should be no more than 25 psi.
+
+@G36|Governor|ct air hl
+Q: The air system pressure climbs to the safety valve setting and the safety valve pops. What is the most likely cause?
++ The governor or unloader has failed
+- A leak in the service circuit
+- A plugged air dryer desiccant
+- A worn compressor
+E: If the governor doesn't unload the compressor at cut-out (or the unloaders stick), pressure keeps rising until the safety valve opens.
+
+@G36|Safety valve|kr air hl
+Q: A typical air brake system safety valve opens at about:
++ 150 psi
+- 100 psi
+- 120 psi
+- 200 psi
+E: Normal system pressure is about 120–130 psi. The safety valve protects the system at about 150 psi.
+
+@G36|Air dryer|kr air hl
+Q: How is the desiccant in an air dryer regenerated?
++ Dry air purges back through it at cut-out
+- It's replaced every time the tanks are drained
+- Heat from the compressor bakes it dry
+- The driver presses a purge button once a week
+E: At cut-out, the purge valve opens and dry air flows back through the desiccant and out the exhaust, carrying moisture away.
+
+@G36|Reservoirs|pa air hl
+Q: Why must air reservoirs be drained regularly?
++ To remove water and oil that collect in them
+- To check the governor cut-in pressure
+- To test the low air warning
+- To reduce wear on the compressor
+E: Water corrodes tanks and valves and can freeze in lines. Drain daily, or use automatic drain valves and a dryer.
+
+@G36|Reservoirs|kr air hl
+Q: The total volume of the air reservoirs on a truck must be at least how many times the combined volume of its brake chambers?
++ 12 times
+- 5 times
+- 8 times
+- 20 times
+E: Truck reservoirs: 12 × chamber volume. Trailer reservoirs: 8 ×. Tanks are hydrostatically tested to 5 × working pressure.
+
+@G36|Valves|ct air hl
+Q: Why is a one-way check valve installed between the supply tank and the primary and secondary tanks?
++ So a supply-side leak can't drain the service tanks
+- To limit the maximum pressure in the service tanks
+- To speed up brake release
+- To remove moisture from the air
+E: The check valve traps air in each service tank if the supply side loses pressure.
+
+@G36|Testing|pa air hl
+Q: During an air compressor build-up test, how quickly should pressure rise from 50 to 90 psi?
++ Within 3 minutes
+- Within 30 seconds
+- Within 10 minutes
+- Within 1 minute
+E: Build-up from 50 to 90 psi should take no more than about 3 minutes at the specified engine speed.
+
+@G36|Testing|ct air hl
+Q: Air pressure builds very slowly. The system has no leaks. What is a likely cause?
++ A worn compressor or plugged intake
+- A governor cut-out set too high
+- A safety valve set too high
+- A plugged quick release valve exhaust
+E: The compressor isn't pumping enough. Check its intake filter, the unloaders (stuck open), the discharge line (carbon) and the dryer purge valve.
+
+@G36|Testing|ct air hl
+Q: There is a lot of oil in the air tanks and air dryer. What is the most likely cause?
++ A worn air compressor passing oil
+- A leaking brake chamber diaphragm
+- A failed relay valve
+- Too much moisture in the air
+E: Worn compressor rings or a restricted compressor intake let engine oil pass into the discharge.
+
+@G36|Testing|pa air hl
+Q: When is the low air pressure warning tested?
++ By fanning the brakes until the warning comes on
+- With the system at cut-out pressure
+- During the build-up test, starting from 50 psi
+- By disconnecting the warning switch wire
+E: Fan the brakes to lower pressure; the warning must come on at or above 60 psi.
+
+@G36|Hoses|pa air hl
+Q: What type of line is used for the compressor discharge to the air dryer?
++ A high-temperature line, like stainless braided hose
+- Standard nylon air brake tubing (DOT rated)
+- Rubber fuel hose
+- Low-pressure vinyl tubing
+E: Compressor discharge air is very hot. Nylon tube is only used away from heat, abrasion and movement.
+
+@G36|Hoses|kr air hl
+Q: Which fitting is used with nylon air brake tubing?
++ A compression fitting
+- A 37° flare fitting
+- A 45° flare fitting
+- A crimped hydraulic fitting
+E: Air brake nylon and steel tubing use compression fittings, not flares.
+
+@G36|Pressure protection|ct air hl
+Q: An air-operated accessory, such as an air seat, develops a large leak. What stops it from draining the brake air?
++ A pressure protection valve
+- The governor's unloader port
+- The safety valve
+- The quick release valve
+E: Pressure protection valves isolate accessory circuits below a set pressure so the brakes keep their air.
+
+@G36|Pneumatics|ct air
+Q: An air-shifted transmission range valve is slow to shift in cold weather. What is the likely cause?
++ Moisture freezing in the lines or valve
+- A governor cut-out set too high
+- A worn compressor with low output
+- A low transmission oil level
+E: Water in the air system freezes and sticks valves. Check the dryer and drain the tanks.
+
+@G36|Pneumatics|kr air
+Q: Compared with hydraulics, a disadvantage of compressed air systems is:
++ some lag time, and sensitivity to moisture
+- they can't tolerate any leakage
+- they must be bled after every repair
+- they use expensive fluid
+E: Air compresses, so there's some lag, and moisture is a constant problem. Air systems tolerate small leaks and don't need bleeding.
+
+@G36|Pneumatics|pa air
+Q: Why is an alcohol evaporator or injector used on some air systems?
++ To stop moisture freezing in lines and valves
+- To lubricate the brake valves
+- To clean oil and sludge from the air tanks
+- To increase air system pressure
+E: Alcohol lowers the freezing point of moisture in systems without (or with poorly working) air dryers.
+
+@G36|Belts|pa air hl
+Q: What is the typical maximum belt deflection on a belt-driven air compressor?
++ ½ to ¾ in
+- 1½ to 2 in
+- ⅛ in or less
+- 3 in
+E: A loose belt slips and the compressor can't keep up with demand.
+
+@G35|Hydrostatic|pa
+Q: After installing a new hydrostatic pump, how should the machine be first started?
++ Prime the case, start at low idle in neutral and check charge pressure
+- Start at high idle and drive it hard to seat the pistons
+- Start it with the charge pump disconnected to bleed the air
+- Start it with the case drain plugged so the case fills
+E: Start gently with everything full of oil, confirm charge pressure quickly, then check for leaks and noise before loading it.
+
+@G35|Hydrostatic|ct
+Q: A hydrostatic drive has normal charge pressure but loses power on a grade, and loop pressure reaches the relief setting. What is the likely cause?
++ The machine is overloaded or the relief is set low
+- A worn charge pump not keeping up
+- A plugged suction strainer in the tank
+- Air trapped in the top of the reservoir
+E: Loop pressure reflects load. If it hits relief, either the load is too high or the relief (or POR) is set too low.
+
+@G35|Hydrostatic|kr
+Q: In a hydrostatic drive, what controls the pump swashplate angle on most machines?
++ A servo piston fed by charge pressure
+- The main relief valve spring
+- The loop flushing valve spool
+- The case drain back pressure
+E: The control valve directs charge oil to a servo piston that tilts the swashplate.
+
+@G35|Hydrostatic|ct
+Q: A hydrostatic machine won't move in either direction, but the engine runs and there's no unusual noise. Charge pressure is zero. What is the likely cause?
++ A failed charge pump or charge pump drive
+- A worn drive motor on one side
+- A stuck high-pressure relief valve
+- A plugged loop flushing valve
+E: Without charge pressure, the servo can't stroke the pump and the loop can't stay full, so there's no drive.
+
+@G35|Hydrostatic|pa
+Q: What should be done with the hydraulic filters after a hydrostatic pump failure and repair?
++ Change them, then change them again after a short run-in
+- Leave them, since the new pump is clean
+- Clean them in solvent and reinstall them
+- Remove them for the first 50 hours of run-in
+E: The first filters catch the remaining debris. Changing them again after run-in protects the new parts.
+
+@G35|Hydrostatic|kr
+Q: Why do hydrostatic pumps and motors have a case drain line separate from the loop?
++ To return leakage to the tank at low pressure and cool the unit
+- To supply oil to the inlet of the charge pump
+- To carry full loop pressure to the oil cooler
+- To act as the main return for the implement circuit
+E: Leakage collects in the case. The case drain returns it to the tank through the cooler without pressurizing the shaft seal.
+
+@G35|Hydrostatic|ct
+Q: The shaft seal on a hydrostatic motor keeps blowing out. What should be checked?
++ The case drain line for a restriction
+- The charge pressure relief setting
+- The loop high-pressure relief valves
+- The reservoir oil level and breather
+E: A restricted case drain lets case pressure build up and push out the shaft seal.
+
+@G35|Hydrostatic|ct
+Q: A hydrostatic machine's oil cooler bypass is stuck open. What is the likely result?
++ The hydrostatic oil overheats
+- The machine creeps in neutral
+- The charge pressure goes too high
+- The machine only moves in reverse
+E: All the return oil skips the cooler, so the oil runs hot, thins out and the drive loses performance.
+
+@G35|Hydrostatic|kr
+Q: Compared with a geared transmission, a hydrostatic drive gives:
++ stepless speed control in both directions
+- higher mechanical efficiency at all speeds
+- no need for any oil cooling
+- more top speed with less engine power
+E: Hydrostatic drives allow infinite speed control and quick reversing, but have lower efficiency and need good cooling.
+
+@G35|Hydrostatic|pa
+Q: When checking hydrostatic loop pressures, the machine should be:
++ at operating temperature, tested per the OEM procedure
+- cold, so the pressure readings are higher
+- at low idle with no load only
+- running with the charge pump disconnected
+E: Oil viscosity affects leakage and pressures, so test hot, at the specified speeds and loads.
+
+@G35|Hydrostatic|ct
+Q: A crawler with dual-path hydrostatic drive tracks to one side when the operator commands straight travel. What is a likely cause?
++ One side's pump or motor is worn or out of calibration
+- Low hydraulic oil level in the reservoir
+- The engine is running at low idle
+- The charge pump relief is set slightly high
+E: Each track has its own pump and motor. A weak side or a calibration error makes the machine drift.
+
+@G36|Compressor|ct air
+Q: Carbon builds up in the compressor discharge line. What is the likely result?
++ Slow build-up and high discharge temperatures
+- Faster build-up and cooler discharge air
+- A lower governor cut-out pressure
+- Less oil carried into the air dryer
+E: A restricted discharge line makes the compressor work harder and hotter; carbon can even catch fire.
+
+@G36|Governor|pa air
+Q: How is the governor cut-out pressure checked?
++ Watch the gauge as pressure builds and note where it unloads
+- Drain the tanks and read the gauge at zero
+- Apply the brakes and read the pressure at a chamber
+- Read the pressure on the compressor's oil gauge
+E: Build up pressure and note when the dryer purges (unloads). Then reduce pressure and note cut-in; the difference should be no more than 25 psi.
+
+@G36|Air dryer|ct air
+Q: An air dryer purges continuously and the system won't build pressure. What is a likely cause?
++ The purge valve is stuck open
+- The desiccant is saturated with water
+- The governor cut-out is set too high
+- The safety valve is set too high
+E: A stuck-open purge valve dumps compressor output to the atmosphere.
+
+@G36|Air dryer|ct air
+Q: Water is found in the air tanks of a truck with an air dryer. What does this indicate?
++ The desiccant is saturated or the dryer isn't working
+- Normal operation for a system with a dryer
+- The governor is cutting out too early
+- The compressor is unloading correctly
+E: A working dryer keeps the tanks dry. Water in the tanks means the desiccant or purge isn't working.
+
+@G36|Testing|pa air
+Q: During a leak-down test on an air system, what must be done before timing the pressure drop?
++ Let the pressure stabilize after shutting off the engine
+- Drain the supply tank completely
+- Pump the brakes several times first
+- Disconnect the governor signal line
+E: Pressure settles at first as air cools and valves seat. Then time the drop for 2 minutes.
+
+@G36|Valves|kr air
+Q: In an air brake supply system, the safety valve is usually installed on the:
++ supply (wet) reservoir
+- primary (drive axle) reservoir
+- secondary (steer axle) reservoir
+- trailer reservoir
+E: The safety valve protects the whole system from over-pressure, so it's on the supply tank closest to the compressor.
+
+@G36|Pneumatics|ct air
+Q: A truck's air horn works weakly and the air gauge shows normal pressure. What is the likely cause?
++ A restriction or leak in the horn's line or valve
+- A worn compressor with low output
+- A governor cut-in set too low
+- A saturated air dryer desiccant
+E: Normal system pressure means the supply is good. The problem is in the horn circuit itself.
+
+@G36|Pneumatics|pa air
+Q: Before disconnecting an air line on a truck, the technician should:
++ drain the air from that circuit and block the wheels
+- start the engine to keep the pressure up
+- apply the service brakes and hold them on
+- disconnect the batteries at the main switch
+E: Releasing air pressure can apply the spring brakes or let the vehicle move. Drain the air safely and block the wheels.

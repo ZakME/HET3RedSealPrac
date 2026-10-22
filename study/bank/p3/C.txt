@@ -1,0 +1,1519 @@
+@C13|Steering types|hl kr p3
+Q: On a motor grader, "wheel lean" is used to:
++ offset side thrust created by the blade
+- reduce the turning radius
+- level the machine on side slopes
+- allow crab steering
+E: Graders can tilt their front wheels left and right to counter the side thrust of the angled blade.
+
+@C13|Steering types|hl kr p3
+Q: Which steering mode provides maximum machine flotation?
++ Crab steering
+- Co-ordinated steering
+- Front wheel steering
+- Skid steering
+E: In crab steering all four wheels turn the same way, so each tire runs on its own ground: maximum flotation.
+
+@C13|Steering types|kr p3
+Q: In co-ordinated four wheel steering, the front and rear wheels:
++ turn in opposite directions for a tight circle
+- turn in the same direction for diagonal travel
+- lock while one side reverses
+- steer only at high speed
+E: Co-ordinated = opposite directions (tight turn). Crab = same direction (diagonal travel).
+
+@C13|Steering types|hl kr p3
+Q: Articulated steering requires the machine to have:
++ a frame that pivots in the middle
+- four-wheel steering axles
+- a hydrostatic drive system
+- a rigid one-piece frame
+E: An articulated machine pivots at its centre, so it can't have a rigid frame.
+
+@C13|Power steering|hl kr p3
+Q: In full-time (off-road) hydraulic steering:
++ the steering wheel is not physically connected to the wheels
+- hydraulics only assist a mechanical linkage
+- the steering wheel drives a mechanical gearbox
+- steering works only with the engine at high idle
+E: Highlighted: the steering system in the cab is not physically connected to the wheels.
+
+@C13|Power steering|hl kr p3
+Q: The purpose of a follower valve is to:
++ turn the wheels a set amount per wheel turn
+- give steering priority over the implements
+- relieve steering pressure at full lock
+- steer the machine if the pump fails
+E: Without it, holding the wheel turned would keep the wheels turning until released.
+
+@C13|Components|hl pa p3
+Q: A steering reservoir may have a clean-out cover to:
++ service the bottom of the tank
+- check the oil level and condition
+- vent trapped air from the tank
+- mount the return line filter
+E: Highlighted: a clean-out cover allows service to the bottom of the reservoir.
+
+@C13|Components|hl kr p3
+Q: Steering pumps on off-road equipment are generally driven by:
++ the engine
+- an electric motor
+- the transmission output
+- a ground-driven wheel
+E: Generally engine driven, though some have an electric or ground-driven backup.
+
+@C13|Cavitation|hl ct p3
+Q: A steering pump makes a high-pitched squeal under load and sounds like it is chewing marbles at no load. The most likely cause is:
++ cavitation from inadequate inlet pressure
+- aeration from a loose return line
+- an internal relief valve stuck open
+- worn bearings in the pump
+E: Cavitation (plugged inlet, low oil, low head pressure) creates vacuum bubbles that implode.
+
+@C13|Cavitation|ct p3
+Q: Which would most likely cause steering pump cavitation?
++ A plugged inlet strainer
+- A dirty return filter
+- A worn steering cylinder seal
+- A neutralizer valve set too early
+E: Cavitation is caused by inadequate pressure on the inlet side: a plug or low oil.
+
+@C13|HMU|hl kr p3
+Q: A hand metering unit (orbital steering valve) is made up of:
++ a rotary directional control valve (DCV) and a gerotor pump
+- a sliding spool valve and an external gear pump
+- a priority valve, a relief valve and a check valve
+- a follow-up cylinder and a pilot operated check valve
+E: Highlighted: HMU = rotary directional control valve + gerotor metering pump.
+
+@C13|HMU|hl ct p3
+Q: If the steering pump fails on a machine with an orbital hand metering unit, the operator:
++ can still steer by turning the gerotor by hand
+- will have no steering at all until it is fixed
+- must use the service brakes to steer
+- can steer to one side only, at reduced rate
+E: The gerotor in the HMU can be turned manually to steer in an emergency.
+
+@C13|Steering valves|hl kr p3
+Q: Spool type steering valves are typically used with:
++ a joystick
+- an orbital hand metering unit (HMU)
+- a drag link
+- power assist
+E: Highlighted: used with a joystick in replacement of a steering wheel.
+
+@C13|Cylinders|hl kr p3
+Q: A steering cylinder with a rod out both ends, so pressure acts on equal areas, is called a:
++ non-differential cylinder
+- differential cylinder
+- single acting cylinder
+- telescoping cylinder
+E: Equal area both sides = non-differential. A single-rod double acting cylinder is a differential cylinder.
+
+@C13|Cylinders|hl kr p3
+Q: A single-rod double acting steering cylinder is called a:
++ differential cylinder
+- non-differential cylinder
+- ram cylinder
+- balanced cylinder
+E: The different areas on each side of the piston make it a differential cylinder.
+
+@C13|Cushions|hl kr p3
+Q: A neutralizer valve on an articulated machine:
++ unloads steering pressure just before full lock
+- centres the steering wheel after each turn
+- gives steering priority over the implements
+- locks the two frames together for service
+E: It prevents excessive impact on the steering stops. The point may be adjustable.
+
+@C13|Filters|hl kr p3
+Q: Which statement about steering system filters is correct?
++ Depth filters are typical, usually in the return line
+- Surface filters are typical, usually in the pump inlet
+- Filters are rated in mesh, strainers in microns
+- Filters are only needed with fire-resistant fluid
+E: Depth filters (particles captured through the media) are typical, usually in the return line. Filters = microns, strainers = mesh.
+
+@C13|Machine steering|hl kr p3
+Q: On an articulated wheel loader, the rear wheels:
++ follow in the path of the front wheels
+- follow inside the track of the front wheels
+- steer opposite to the front
+- remain straight while the front steers
+E: Loader articulates at the centre, so rear wheels track the fronts, reducing effort (they don't break new ground).
+
+@C13|Machine steering|hl kr p3
+Q: On an articulated tractor-scraper, the rear tires:
++ follow inside the track of the front tires
+- follow exactly in the front tire path
+- run outside the front tire track
+- steer independently
+E: The scraper articulates near the front; the rear tires track inside the fronts, allowing very sharp turns.
+
+@C13|Machine steering|hl kr p3
+Q: On an articulated motor grader:
++ the frame articulates little compared with wheel turn
+- the frame articulates more than the wheels turn
+- only the rear tandem wheels steer
+- articulation replaces front wheel steering
+E: Front wheels steer and the frame articulates a little; useful in tight areas.
+
+@C13|Service|hl kr p3
+Q: Roughly what percentage of hydraulic system issues relate to the hydraulic oil?
++ 70% or more
+- about 10%
+- about 30%
+- about 50%
+E: Highlighted: a very high percentage (70%+) of hydraulic issues relate to the oil.
+
+@C13|Service|safe pa p3
+Q: Before working near the articulation joint of a wheel loader, you must:
++ install the frame lock bar
+- turn the steering to full lock
+- remove the steering cylinders
+- start the engine to pressurize the steering
+E: Use lock bars on the articulation point if working in or near it.
+
+@C13|Service|safe pa p3
+Q: The safe way to check for a pinhole hydraulic leak is to use:
++ a piece of cardboard
+- your hand
+- a rag held over the line
+- compressed air
+E: Never use your hand; injected oil is a serious injury.
+
+@C13|Service|hl ct p3
+Q: The basic order for diagnosing a steering complaint is:
++ know the system, talk to the operator, visual inspection, test
+- replace the filter, test, talk to the operator, inspect
+- pressure test, flow test, replace the pump
+- read codes, replace parts, test drive
+E: Highlighted: know the system, talk to the operator, visual inspection, test.
+
+@C13|Service|ct p3
+Q: A wheel loader's steering is jerky and harsh. Steering pressure is measured above spec. The likely result if not corrected is:
++ excess stress on steering parts
+- sluggish, slow steering
+- pump cavitation
+- drift to one side
+E: Too high = jerky and stresses components. Too low = sluggish.
+
+@C13|Service|pa p3
+Q: When servicing steering knuckle pivot pins, you should not:
++ hammer the pin or bushing caps
+- clean the bores before assembly
+- use new seals and O-rings
+- check the tie rod toe setting
+E: Hammering can deform the steering knuckle.
+
+@C13|Skid steer|hl ct p3
+Q: Why is the oil cooler critical on a skid steer?
++ The small reservoir can't provide adequate cooling
+- The pumps run at very low pressure
+- The machine has no case drains
+- The hydraulic oil is shared with the engine
+E: Skid steers use small reservoirs to save space, so the cooler does most of the work.
+
+@C13|Skid steer|hl kr p3
+Q: On a wheeled skid steer, how can one hydraulic motor drive both wheels on one side?
++ Through chains and sprockets
+- Through a small differential
+- Through a transfer case
+- It can't; each wheel has its own motor
+E: Each motor drives one side; chains and sprockets (or gears) connect both wheels.
+
+@C14|Cushion hitch|hl kr p3
+Q: On a motor scraper, the cushion hitch is located:
++ between the front tractor and the rear bowl
+- between the bowl and the rear axle
+- between the engine and transmission
+- at the push block
+E: The hitch connects tractor and bowl, allows articulation and slight side tilt.
+
+@C14|Cushion hitch|hl kr p3
+Q: A scraper hitch that does not allow vertical movement is called a:
++ stiffneck
+- cushion hitch
+- bail hitch
+- walking beam
+E: Highlighted: the basic hitch with no vertical movement is called a stiffneck.
+
+@C14|Cushion hitch|hl kr p3
+Q: On a cushion hitch, the head end of the load cylinder is attached to the:
++ tractor bracket
+- scraper hitch assembly
+- bowl
+- leaf spring
+E: Tractor bracket = mounted to tractor = head end. Scraper hitch assembly = rod end.
+
+@C14|Cushion hitch|hl kr p3
+Q: On a cushion hitch, the rod end of the load cylinder is attached to the:
++ scraper hitch assembly
+- tractor bracket
+- leveling valve bracket
+- accumulator mount
+E: The scraper hitch assembly holds the rod end.
+
+@C14|Cushion hitch|kr p3
+Q: Which two components does the cushion hitch share with the rest of the scraper hydraulic system?
++ The hydraulic pump and reservoir
+- The accumulator and load cylinder
+- The leveling valve and leaf spring
+- The control lever and bleed valve
+E: Pump and reservoir are the only two shared components.
+
+@C14|Cushion hitch|hl kr p3
+Q: The cushion hitch leveling valve is controlled by:
++ a leaf spring
+- the operator's control lever
+- an electronic height sensor
+- the load cylinder rod
+E: The leaf spring moves the leveling valve to maintain hitch-to-bracket clearance (ride height).
+
+@C14|Cushion hitch|hl ct p3
+Q: A scraper operator is about to load the bowl. The hitch should be in:
++ lockdown
+- cushion ride
+- float
+- bail up only
+E: Lockdown (hitch sits on the tractor bracket, held by oil pressure) is used when loading. Cushion ride is for travelling.
+
+@C14|Cushion hitch|hl kr p3
+Q: In lockdown, the hitch is held in position by:
++ oil pressure holding the rod retracted
+- a mechanical locking pin
+- the leaf spring and leveling valve
+- nitrogen pressure in the accumulator
+E: Highlighted: locked into position using oil pressure to keep the cylinder rod retracted.
+
+@C14|Cushion hitch|hl ct p3
+Q: In cushion ride, the cushioning effect comes from:
++ oil compressing nitrogen in the accumulator
+- the leaf spring flexing under load
+- rubber blocks under the hitch frame
+- oil passing over the relief valve
+E: The accumulator piston rises and compresses nitrogen.
+
+@C14|Cushion hitch|hl kr p3
+Q: Twin-engine push-pull scrapers work together using:
++ a bail (pull loop) and hook
+- a drawbar and pin
+- a tow chain and shackle
+- a hydraulic coupler
+E: The bail system lets scrapers push and pull each other. Options: bail down lockdown, bail up lockdown, cushion ride.
+
+@C14|Cushion hitch|hl kr p3
+Q: Cushion hitch pump output is controlled by:
++ a pump servo valve setting swashplate angle
+- a fixed orifice in the pump outlet
+- the leveling valve, mechanically
+- engine speed only
+E: Highlighted: the pump servo valve operates the control piston that adjusts swashplate angle.
+
+@C14|Cushion hitch|calc ct p3
+Q: A cushion hitch pump flows 20 GPM at 100 psi and 18.5 GPM at 1000 psi. What is the percent of flow lost?
++ 7.5%, over the 5% limit
+- 1.5%, within the 5% limit
+- 92.5%, within the limit
+- 15%, over the 5% limit
+E: (20 − 18.5) ÷ 20 × 100 = 7.5%. More than 5% loss is usually bad.
+
+@C14|Cushion hitch|hl pa p3
+Q: The cushion hitch pump oil leakage test is done by:
++ checking output from the case drain line
+- measuring flow at the pump outlet at stall
+- timing the load cylinder extension
+- checking accumulator pre-charge
+E: Highlighted: done by checking drain oil line output. OEM spec, or 4.2 L in 30 s is bad.
+
+@C14|Accumulator|hl safe kr p3
+Q: Cushion hitch accumulators must be charged with:
++ dry nitrogen, 99.8% pure
+- dry compressed air
+- medical grade oxygen
+- carbon dioxide (CO2)
+E: Charging with oxygen will cause an explosion.
+
+@C14|Accumulator|hl ct p3
+Q: An accumulator is charged to spec on a very cold morning without temperature correction. When it warms up, the charge will be:
++ too high (overfilled)
+- too low (underfilled)
+- correct
+- zero
+E: Nitrogen pressure must be corrected for ambient temperature. Charged cold = overfill; charged hot = underfill.
+
+@C14|Accumulator|ct p3
+Q: A scraper has a very stiff cushion ride. A possible cause is:
++ accumulator nitrogen charge pressure too high
+- accumulator charge pressure too low
+- leaf spring linkage out of adjustment
+- a stuck open bleed valve
+E: Too high a charge pressure can cause too stiff a ride.
+
+@C14|Accumulator|hl pa p3
+Q: When installing an accumulator, air is removed from the nitrogen chamber by:
++ adding a little oil to the gas side and expelling it
+- bleeding the oil side at high pressure
+- charging and dumping nitrogen three times
+- pulling a vacuum on the gas side
+E: Highlighted procedure.
+
+@C14|Haul truck|hl kr p3
+Q: The panhard rod on a haul truck:
++ centres the axle side to side
+- locates the axle front to rear
+- lets tandem axles see-saw
+- limits strut extension
+E: Panhard rod = lateral location. A-frames = front-to-rear (longitudinal) location.
+
+@C14|Haul truck|hl ct p3
+Q: A haul truck keeps tearing its rear rubber suspension blocks. A likely cause is:
++ worn panhard rod bushings
+- low strut nitrogen charge
+- worn A-frame ball joints
+- overfilled final drives
+E: Highlighted: worn panhard bushings may cause recurring tearing of rear rubber blocks.
+
+@C14|Haul truck|hl kr p3
+Q: On haul trucks, A-frames:
++ locate the drive axles front to rear
+- keep the axle centred side to side
+- carry the vertical loads only
+- tie the struts to the steering knuckles
+E: Highlighted: A-frames position the drive axles front to rear.
+
+@C14|Haul truck|kr p3
+Q: Rubber block suspensions are typically used on ___ trucks and hydropneumatic struts on ___ trucks.
++ smaller; larger
+- larger; smaller
+- rear-dump; bottom-dump
+- articulated; rigid
+E: Rubber blocks on smaller trucks, hydropneumatic on larger.
+
+@C14|Haul truck|hl kr p3
+Q: On a haul truck, the front hydropneumatic struts are:
++ fixed to the steering knuckles
+- free to move slightly in their mounts
+- backed up by rubber blocks
+- connected to the panhard rod
+E: Front struts are part of the steering system. Rear struts are allowed to move slightly.
+
+@C14|Haul truck|ct p3
+Q: Why don't haul trucks with hydropneumatic struts need shock absorbers?
++ Oil through orifices in the strut damps it
+- Rubber blocks absorb all the shocks
+- The tires provide all the damping
+- The A-frames act as the shocks
+E: Nitrogen cushions and oil through orifices slows movement, like a shock absorber.
+
+@C14|Haul truck|hl kr p3
+Q: The payload pressure sensing valve on a haul truck strut:
++ turns strut pressure into a payload signal
+- limits strut pressure when overloaded
+- charges the strut with nitrogen
+- locks the strut while dumping
+E: It converts internal pressure into a signal used to estimate payload.
+
+@C14|Haul truck|hl kr p3
+Q: Haul truck suspension struts usually receive grease:
++ from a central point
+- only when rebuilt
+- by hand, daily
+- from the hydraulic system
+E: Highlighted: often lubricated at a central point using grease lines.
+
+@C14|Strut service|hl safe pa p3
+Q: A simple way to find a nitrogen leak on a suspension strut is to use:
++ soapy water
+- an ultraviolet (UV) dye
+- a stethoscope
+- a pressure gauge on the oil side
+E: Highlighted: soapy water can be used to detect nitrogen leaks.
+
+@C14|Strut service|hl kr p3
+Q: When charging haul truck suspension struts:
++ charge both fronts (or both rears) together
+- charge one strut fully, then the other
+- charge with the box raised and pinned
+- charge fronts with the rears disconnected
+E: Highlighted: both sides at the same time so ride height is level.
+
+@C14|Strut service|hl ct p3
+Q: Which is a reason to check or service a haul truck suspension strut?
++ The rod is fully extended when empty
+- The truck has just been greased
+- The rod retracts when the box is loaded
+- The struts are warm after a shift
+E: Also: fault code, missing chrome, oil/nitrogen leaks, harsh ride.
+
+@C14|Strut service|safe pa p3
+Q: Before removing valves, sensors or plugs from a hydrair strut, you must:
++ fully retract the rod and release all nitrogen pressure
+- raise the box and pin it
+- run the engine to pressurize the strut
+- check the oil level through the charging valve
+E: Pressure must be released, rod fully retracted, before removing anything.
+
+@C13|Clutch and brake|hl kr p3
+Q: On a clutch-and-brake steered crawler, a gradual turn is made by:
++ disengaging the steering clutch on the turn side
+- applying the brake on the turn side only
+- slowing the opposite track with a motor
+- reversing the turn-side track
+E: Highlighted. For a sharp turn, the brake is also applied on the side with the released clutch.
+
+@C13|Clutch and brake|hl kr p3
+Q: Conventional crawler steering clutches are:
++ spring applied and hydraulically released
+- hydraulically applied and spring released
+- applied by the operator pulling the lever
+- air applied
+E: Highlighted. No operator input = clutch engaged.
+
+@C13|Clutch and brake|hl kr p3
+Q: On a conventional crawler with band brakes, the steering clutch is located:
++ inside the brake drum
+- outside the brake drum
+- in the final drive
+- in the transmission
+E: Highlighted. The contracting band is mounted over the drum.
+
+@C13|Clutch and brake|hl kr p3
+Q: On a modular steering clutch and brake unit:
++ clutch and brake are both spring applied
+- the clutch is spring applied, brake oil applied
+- both are hydraulically applied
+- the brake is applied by foot pedal only
+E: Highlighted. Brake springs = brakes on; clutch springs = clutch engaged.
+
+@C13|Clutch and brake|hl ct p3
+Q: In a modular steering unit, the clutch and brake oil circuits are in series. When the steering clutch is released:
++ the brake applies
+- the brake also releases
+- the clutch re-engages immediately
+- the transmission goes to neutral
+E: Highlighted: clutch engaged → brakes disengaged; clutch disengaged → brakes engaged.
+
+@C13|Clutch and brake|hl kr p3
+Q: A priority valve in a crawler steering system ensures that:
++ steering and brakes get oil before the transmission
+- the transmission gets oil before steering
+- the clutches release before the brakes apply
+- lube oil goes to the final drives first
+E: Highlighted.
+
+@C13|Clutch and brake|kr p3
+Q: On a clutch-brake crawler, with the steering lever pulled partially:
++ clutch partly released, brake released
+- clutch engaged, brake applied
+- clutch released, brake applied
+- clutch and brake both applied
+E: Not pulled: clutch engaged, brake released. Partial: clutch partly released, brake released. Fully: clutch released, brake applied.
+
+@C13|Diagnosis|hl ct p3
+Q: During a steering pressure test on a clutch-brake crawler, what should brake pressure read before the clutch is disengaged?
++ 0
+- Maximum
+- Half of clutch pressure
+- Equal to relief pressure
+E: Highlighted: brake pressure = 0 until the clutch is disengaged, then rises smoothly. Clutch pressure = 0 until the lever is pulled.
+
+@C13|Diagnosis|hl safe pa p3
+Q: A crawler steering stall test should be done:
++ in an open area, in gear, with the park brake applied
+- in the shop with the tracks off
+- in neutral at low idle
+- with the operator standing beside the machine
+E: Highlighted. A slipping brake will let the machine creep. Test all transmission ranges.
+
+@C13|Service|hl pa p3
+Q: Removing the steering clutches from a conventional crawler typically requires removing:
++ tracks, final drive, cab and fuel tank
+- only the final drive and sprocket
+- only the track and track roller frame
+- the engine, converter and transmission
+E: Highlighted: modular = tracks and final drive; conventional = also the cab and fuel tank.
+
+@C13|Service|hl safe kr p3
+Q: When disassembling a steering clutch or brake pack, be careful of:
++ spring pressure
+- residual nitrogen
+- high voltage
+- hot coolant
+E: Highlighted: Belleville and coil springs store a lot of force.
+
+@C13|Service|hl ct p3
+Q: Insufficient clearance between steering clutch discs will cause:
++ dragging, overheating and eventual failure
+- delayed clutch engagement
+- low steering pressure
+- the machine to steer the opposite way
+E: Highlighted. Clearances are checked with a feeler gauge; also adjust the linkages.
+
+@C13|Differential steering|hl kr p3
+Q: In a differential steering system, the hydraulic steering motor provides:
++ the left and right turns
+- forward and reverse direction
+- the ground speed
+- braking
+E: Highlighted: transmission = speed and direction; steering motor = turning.
+
+@C13|Differential steering|hl kr p3
+Q: The brakes on a differential steered crawler are used to:
++ stop or slow the machine, not to steer
+- steer the machine in sharp turns
+- hold the steering motor stationary
+- release the steering clutches
+E: Highlighted. They are modular multi-disc wet brakes, spring applied and hydraulically released.
+
+@C13|Differential steering|hl ct p3
+Q: When a differential steered crawler is travelling straight, the steering motor is:
++ held stationary
+- turning at transmission speed
+- driving the left track only
+- freewheeling
+E: Highlighted. The transmission drives both final drives.
+
+@C13|Differential steering|hl ct p3
+Q: A differential steered dozer is making a counter-rotation turn. Where does the power come from?
++ The steering motor alone
+- The transmission alone
+- Transmission and motor together
+- One side's brake and the transmission
+E: Highlighted.
+
+@C13|Differential steering|hl ct p3
+Q: A differential steered crawler won't track straight; it slowly wanders. The likely cause is:
++ the steering motor isn't holding
+- the steering motor won't turn
+- brakes dragging on both sides
+- the transmission is in the wrong gear
+E: Highlighted: if the motor/ring gear won't stay stationary, the machine won't drive straight. If the motor won't turn, it won't turn.
+
+@C13|Differential steering|pa p3
+Q: Which test compares how a differential steered machine turns left versus right?
++ Turn diameter check
+- Steering clutch pressure test
+- Torque converter stall test
+- Track sag check
+E: Make full 360° turns each way and compare the inside diameters with each other and spec. A sprocket speed difference check is also used.
+
+@C16|Track design|hl kr p3
+Q: Narrow track pads provide:
++ more traction, less wear
+- more flotation
+- more stability on soft ground
+- less traction, better ride
+E: Highlighted: narrowest pads possible are typically used. Wide pads = more load carrying.
+
+@C16|Track design|hl kr p3
+Q: Wider track pads provide:
++ more load carrying (flotation)
+- more traction
+- less undercarriage wear
+- better results on hard rock
+E: Highlighted. Wide pads also bend more and wear the rails.
+
+@C16|Track design|hl kr p3
+Q: A tracked crane lifts best with the load:
++ close to the machine
+- far from the machine
+- over the sprocket
+- off the side
+E: Highlighted.
+
+@C16|Track frames|hl kr p3
+Q: An oscillating (swing) track frame:
++ pivots so the frames can move up and down
+- is bolted to the machine front and rear
+- gives the most stability for excavators
+- uses no equalizer bar or pivot shaft
+E: Highlighted. Fixed frames increase stability.
+
+@C16|Track frames|hl kr p3
+Q: The equalizer bar on a crawler:
++ carries the front and lets the frames oscillate
+- tensions the track chain via the idler
+- holds the sprockets in line with the rollers
+- carries the rear of the machine
+E: Highlighted.
+
+@C16|Track chain|hl kr p3
+Q: In a track link, the bushing is pressed into the ___ and the pin into the ___.
++ big hole; small hole
+- small hole; big hole
+- pad; link
+- sprocket; idler
+E: Highlighted. Pins slip fit in the bushing and press fit in the small hole.
+
+@C16|Track chain|hl kr p3
+Q: How can you identify a master pin in a track chain?
++ It is slightly recessed and smaller
+- It is longer than the other pins
+- It has a red factory paint mark
+- It has a grease fitting in the end
+E: Highlighted: the master pin lets the track be split; it needs a hydraulic or swing press.
+
+@C16|Track chain|hl pa p3
+Q: A sealed and lubricated track (SALT):
++ is lubed between pin and bushing
+- uses dry pins and bushings
+- is only used on excavators
+- can't be split for repairs
+E: Highlighted.
+
+@C16|Track pads|hl kr p3
+Q: An open centre grouser pad is used when:
++ soil packs between the sprocket and track chain
+- maximum traction is needed on hard ground
+- operating on pavement
+- maximum flotation is needed
+E: Highlighted. The cut-out lets packed material be forced out.
+
+@C16|Track pads|kr p3
+Q: Multi-grouser (all purpose) track pads provide:
++ better flotation but less traction
+- the best traction available
+- the least surface disturbance on rock
+- extreme service abrasion resistance
+E: Two or more grousers per pad; less surface disturbance.
+
+@C16|Sprockets|hl kr p3
+Q: A low mount sprocket design provides:
++ greater stability and a lower centre of gravity
+- reduced shock loads on the final drive
+- less pin and bushing wear because of a rear idler
+- more ground clearance
+E: Highlighted. Important on excavators.
+
+@C16|Sprockets|hl kr p3
+Q: The main advantage of a high mount (elevated) sprocket is:
++ less shock load on the final drive
+- a lower centre of gravity
+- less pin and bushing wear
+- no rear idler is needed
+E: Highlighted. It needs an extra idler at the rear and creates extra pin/bushing wear.
+
+@C16|Sprockets|hl kr p3
+Q: A segmented sprocket allows:
++ sprocket replacement without removing the track
+- one segment to be changed on its own
+- the sprocket to turn in reverse
+- the final drive to be removed with the track on
+E: Highlighted. If one segment needs changing, all should be changed.
+
+@C16|Rollers|hl kr p3
+Q: Carrier (pedestal) rollers ___, while track rollers ___.
++ support the track chain on top; support the machine's weight
+- support the machine's weight; support the track chain on top
+- tension the track; guide the track
+- drive the track; guide the track
+E: Highlighted.
+
+@C16|Rollers|hl kr p3
+Q: Roller flanges are important because they:
++ keep the chain aligned in turns and on slopes
+- carry the weight of the machine
+- seal the oil inside the roller
+- tension the track chain
+E: Highlighted. Operate in both directions on slopes to even out flange wear.
+
+@C16|Rollers|hl pa p3
+Q: Duo-cone seals should be installed using:
++ an alcohol-based lubricant
+- engine oil
+- grease
+- nothing; install them dry
+E: Highlighted: alcohol leaves no residue.
+
+@C16|Idlers|hl kr p3
+Q: The front idler is typically part of the:
++ tension and recoil system
+- final drive assembly
+- equalizer bar linkage
+- carrier roller assembly
+E: Highlighted. It moves forward and back to react to impacts.
+
+@C16|Tension|hl ct p3
+Q: A dozer is working in sticky clay that packs into the track. The track tension should be:
++ loosened
+- tightened
+- left at the factory setting regardless
+- set to zero sag
+E: Highlighted: loosened in soils that cause packing.
+
+@C16|Tension|hl pa p3
+Q: On a hydraulic (grease) track adjuster, adding grease will usually:
++ tighten the track
+- loosen the track
+- have no effect
+- release the recoil spring
+E: Highlighted. On a nitrogen recoil system it is the opposite.
+
+@C16|Tension|hl kr p3
+Q: The track recoil mechanism:
++ absorbs shock loads (spring always loaded)
+- sets track sag directly
+- only works on rubber tracks
+- is released when the track is split
+E: Highlighted.
+
+@C16|Inspection|hl pa p3
+Q: Before measuring track sag, the machine should be:
++ driven toward the idler and coasted to a stop
+- reversed and stopped hard with the brakes
+- lifted so the track hangs free
+- parked facing down a slope
+E: Highlighted. Measure between the front idler and the next direction change.
+
+@C16|Inspection|hl pa p3
+Q: Pin and bushing wear is measured by:
++ measuring pin centres over several links
+- measuring each bushing's outside diameter
+- checking track sag at the idler
+- measuring the grouser height
+E: Highlighted. Stretch the track tight first and keep the master pin out of the measurement.
+
+@C16|Inspection|hl ct p3
+Q: Sprockets, pins and bushings wear fastest when travelling:
++ in reverse
+- forward
+- on slopes only
+- at low speed
+E: Highlighted: the sprocket pushes the bushing into the ground and scrubs it.
+
+@C16|Inspection|hl kr p3
+Q: As a track chain wears, its pitch:
++ increases
+- decreases
+- stays the same
+- varies only on the master link
+E: Highlighted. Measure across multiple pins and bushings.
+
+@C16|Repairs|hl kr p3
+Q: Remanufacturing undercarriage parts is only possible if:
++ enough material is left on the part
+- the part has already failed completely
+- the part is less than a year old
+- the original equipment manufacturer (OEM) supplies a new casting
+E: Highlighted: take parts out of service before total failure.
+
+@C16|Repairs|hl kr p3
+Q: Ice lugs (cleats) welded onto grouser bars are used to:
++ increase traction
+- reduce pad wear
+- improve flotation
+- protect the bolts
+E: Highlighted. Typically a 1-2-1 pattern.
+
+@C16|Repairs|hl safe pa p3
+Q: Before servicing a track recoil spring assembly, ensure the spring is:
++ caged
+- fully released
+- removed from the frame first
+- heated
+E: Highlighted: if the retaining bolt is broken, the spring may release with tremendous force.
+
+@C13|Obj 1|kr p3 ilm
+Q: On a conventional (non-modular) clutch-and-brake steer crawler, how are the steering clutches and steering brakes applied and released?
++ Clutches are spring applied and hydraulically released. Brakes are hydraulically applied and spring released.
+- Clutches are hydraulically applied and spring released. Brakes are spring applied and hydraulically released.
+- Both are spring applied and hydraulically released
+- Both are hydraulically applied and spring released
+E: On conventional steer, the clutch springs keep the clutch engaged and oil pressure releases it. The brake is applied by oil (via the booster) and released by springs.
+
+@C13|Obj 1|kr p3 ilm
+Q: On a MODULARIZED steering clutch and brake assembly, the clutches and brakes are:
++ both spring applied and hydraulically released
+- both hydraulically applied and spring released
+- clutch spring applied, brake hydraulically applied
+- clutch hydraulically applied, brake spring applied
+E: Modular units are spring applied and hydraulically released for both. So when parked there is no oil pressure to bleed off, and the brakes stay applied.
+
+@C13|Obj 1|kr p3 ilm
+Q: What caution applies to parking a conventional clutch-and-brake crawler with the brake pedal locked down?
++ Oil may bleed off over time, releasing the brakes
+- The springs may over-apply the brakes and glaze the lining
+- The steering clutches will slip when the engine is restarted
+- The brake band will self-energize and lock the track
+E: The conventional brake is hydraulically applied. Over time the oil can bleed off and the brakes release.
+
+@C13|Obj 1|kr p3 ilm
+Q: Steering clutches and brakes on a conventional crawler are dry type. This means:
++ they must be kept free of oil
+- they are cooled by transmission oil spray
+- they run in a sealed oil bath for cooling
+- they require oil changes at each preventive maintenance (PM)
+E: Dry clutches and brakes must stay oil-free. Oil contamination causes slipping.
+
+@C13|Obj 1|kr p3 ilm
+Q: The steering brakes on a conventional crawler are described as self-energizing in both directions. This means:
++ drum rotation pulls the lining in, in either direction
+- the brakes adjust themselves automatically as the lining wears
+- the brakes apply automatically when the engine stops
+- hydraulic pressure increases with travel speed
+E: Self-energizing: the rotating drum drags the band/lining tighter into the drum in either direction, which increases the braking force.
+
+@C13|Obj 1|kr p3 ilm
+Q: What is the purpose of the small springs on a crawler steering brake band assembly?
++ To hold the band off the drum when released
+- To apply the brake when oil pressure is lost
+- To provide self-energizing action
+- To dampen band vibration during application
+E: The small springs pull the band away from the drum in the released position so it doesn't drag.
+
+@C13|Obj 1|kr p3 ilm
+Q: A cone-shaped spring used to apply some crawler steering clutches and brakes is called a:
++ Belleville spring
+- torsion spring
+- wave spring
+- garter spring
+E: A Belleville spring is a cone (dished) spring. Some assemblies use these instead of coil springs.
+
+@C13|Obj 1|kr p3 ilm
+Q: Steering lever NOT pulled on a conventional steer system. Where does the steering pump oil go?
++ Over the steering relief valve, through the cooler, to lube
+- It is sent to the clutch piston to keep the clutch engaged
+- It is sent to the brake booster to hold the brakes released
+- It returns directly to the reservoir through the open-centre spool
+E: With the lever released, the valve blocks pump flow to the clutch (clutch piston open to tank) and the brake booster is vented to tank. Pump pressure rises until the steering relief opens, sending oil through the cooler to lube.
+
+@C13|Obj 1|ct p3 ilm
+Q: As the steering lever is pulled slightly more, clutch pressure is sensed through an orifice in the steering valve spool. What is the result?
++ The spool balances, regulating clutch pressure in proportion to lever travel
+- The spool fully opens and the clutch releases instantly
+- The brake begins to apply before the clutch fully releases
+- Steering relief pressure drops to zero and the clutch re-engages
+E: The pressure feedback acting on the spool area balances against the spring. This gives proportional (feathered) control of clutch release.
+
+@C13|Obj 1|kr p3 ilm
+Q: At about HALF of the steering lever's travel, what condition are the clutch and brake in?
++ Clutch fully released, brake released
+- Clutch engaged, brake applied
+- Clutch partially released, brake partially applied
+- Clutch fully released, brake fully applied
+E: At about half travel, the plunger contacts a stop on the spool and holds it wide open. Full pressure releases the clutch and the brake is not yet applied.
+
+@C13|Obj 1|kr p3 ilm
+Q: Pulling the steering lever PAST the midpoint of its travel will:
++ progressively apply that side's brake
+- re-engage that side's clutch
+- apply both steering brakes
+- release the steering brake
+E: Past mid-travel, the brake valve regulates pressure to the brake booster. The further you pull, the harder the brake applies, and the sharper the turn.
+
+@C13|Obj 1|ct p3 ilm
+Q: A common operator complaint with clutch-and-brake steering while dozing is:
++ All torque goes to the other track, which spins, so the blade must be lifted
+- The machine speeds up during turns, making it hard to control
+- Both tracks lose power during a gradual turn, stalling the blade
+- The brake applies as soon as the clutch starts to release
+E: Disengaging one side sends all power to the other track. Under blade load that track spins, so the operator lifts the blade and pushes less material.
+
+@C13|Obj 1|ct p3 ilm
+Q: Why do differential steer tractors out-produce conventional clutch-and-brake steer tractors when turning under load?
++ Both tracks stay powered during turns
+- The inside track is braked harder, so the turn is tighter
+- They use larger, wet steering clutches
+- They disconnect the transmission during turns
+E: Clutch-brake steering turns by cutting power to one track. Differential steering keeps driving both tracks, so it pushes a full blade through the turn.
+
+@C13|Obj 2|pa p3 ilm
+Q: Operational and pressure testing of crawler steering systems should be done at a normal operating temperature of:
++ 150 to 180°F (65.5 to 82.2°C)
+- 100 to 120°F (38 to 49°C)
+- 200 to 230°F (93 to 110°C)
+- any temperature, as long as the engine is at high idle
+E: Test at 150 to 180°F (65.5 to 82.2°C), in a safe working area, following the manufacturer's procedure.
+
+@C13|Obj 2|ct p3 ilm
+Q: A crawler pulls to the left. Which track condition could be the cause?
++ The left track is either too tight or too loose
+- Only the left track being too loose (never too tight)
+- Only the right track being too tight
+- Track tension cannot cause a pull
+E: Too tight takes more power to turn, so the machine pulls to that side. Too loose takes longer to cover the same distance, so it also pulls to that side.
+
+@C13|Obj 2|ct p3 ilm
+Q: During a visual inspection, paint that looks burned or discoloured is most likely an indicator of:
++ a hot spot
+- normal paint fade
+- a hydraulic leak
+- electrical arcing
+E: Burned-looking paint suggests a component running hot (e.g., a dragging brake or slipping clutch).
+
+@C13|Obj 2|ct p3 ilm
+Q: Dry or worn steering control linkages most commonly cause:
++ binding and sticking of the controls
+- steering clutch slippage under load
+- brake fade on long pushes
+- high steering relief pressure
+E: Dry or worn linkage binds and sticks, which is a common problem on many machines.
+
+@C13|Obj 2|pa p3 ilm
+Q: On a conventional non-modular crawler, where are the steering clutches and brakes located (which components may need to be removed for access)?
++ Under the fuel tank. The roll over protective structure (ROPS), cab and seat may need removal.
+- In the final drive housing. The track, sprocket and final drive cover must come off.
+- Behind the transmission. The engine and torque converter must be pulled out first.
+- In the track roller frame. The equalizer bar and the roller frame must be removed.
+E: The guide says they are under the fuel tank, and access may need removal of the ROPS, cab, seat, fuel tank and more.
+
+@C13|Obj 2|pa p3 ilm
+Q: To remove a modular steering clutch and brake assembly, the typical steps are:
++ split the track, remove the centre plate, pull the axle, unbolt
+- remove the roll over protective structure (ROPS), cab and fuel tank, then lift out the module
+- remove the transmission and bevel gear, then slide the module out
+- remove the final drive housing and pull the module through the sprocket
+E: Modular units sit outboard. Split the track, remove the centre plate, pull the axle and unbolt the module, which means much less downtime.
+
+@C13|Obj 2|ct p3 ilm
+Q: Why is the modular steering clutch/brake assembly isolated from the pinion and bevel gear compartment?
++ To prevent cross-contamination and cut repair time
+- To allow the clutch to run in bevel gear oil
+- So that the brake can share the transmission cooler
+- To reduce track tension loads on the bevel gear
+E: Isolation prevents contamination between compartments and allows quick module swaps.
+
+@C13|Obj 2|pa p3 ilm
+Q: What personal protective equipment (PPE) caution applies when cleaning steering clutch and brake parts?
++ Hazardous dust and contaminants, and very sharp parts
+- Parts may be magnetized and attract metal filings
+- Brake parts must be cleaned with water only
+- Clutch discs may contain compressed springs
+E: Wear proper PPE. Lining dust and contaminants may be hazardous and parts may be sharp.
+
+@C13|Obj 2|ct p3 ilm
+Q: A conventional steer dozer drifts right in straight travel, and the right steering clutch slips under blade load. The bevel gear compartment oil level has been dropping. What is the most likely root cause?
++ Oil leaking into the dry right clutch, making it slip
+- The right steering brake isn't applying when the lever is pulled
+- The steering relief valve is set too high, over-pressurizing the clutch
+- The left track is too loose, so it covers less ground
+E: The clutches are dry and spring applied. Oil from a leaking seal contaminates the discs and they slip. A slipping right clutch means less power to the right track, so the machine pulls right. Fix the leak AND replace the contaminated discs.
+
+@C13|Obj 2|ct p3 ilm
+Q: An operator pulls the left steering lever and the machine won't turn gradually. It only turns sharply near full lever travel. What is the most likely cause?
++ The left clutch isn't releasing (low pressure at the clutch piston)
+- The left steering brake is dragging and overheating
+- The right steering clutch is slipping under load
+- The steering relief valve is set too high for the clutch
+E: A gradual turn comes from releasing the clutch. If the clutch piston can't build pressure (leak, low pump flow, valve fault), the clutch stays engaged and only the brake (past mid-travel) turns the machine.
+
+@C13|Obj 2|ct p3 ilm
+Q: A conventional crawler with hydraulically applied brakes has a dragging right brake with the lever fully released. Which fault fits?
++ A sticking brake valve not venting the booster, or broken release springs
+- A broken right steering clutch spring letting the clutch slip
+- Low steering pump flow to the brake booster
+- A plugged steering oil cooler raising system pressure
+E: Released position means the brake passage is connected to tank and springs release the band. A valve that doesn't vent, or failed release springs, keeps the brake dragging (look for heat or burned paint).
+
+@C13|Obj 5|kr p3 ilm
+Q: The basic principle of differential steering is:
++ Speed gained on one side is lost on the other, with equal torque
+- Torque is removed from one side and added to the other at equal speed
+- One track is braked while the other is driven
+- Both tracks speed up during a turn, the outer one more
+E: Same as any differential: speed difference side to side with equal torque. Overall machine speed doesn't increase in a turn.
+
+@C13|Obj 5|kr p3 ilm
+Q: On a differential steer crawler travelling straight, the hydraulic steering motor is:
++ held stationary
+- turning slowly to keep the tracks synchronized
+- driving both tracks equally
+- disconnected by a clutch
+E: Straight travel needs only transmission input. The motor holds the steering ring gear stationary.
+
+@C13|Obj 5|kr p3 ilm
+Q: On a differential steer crawler, how does the operator make a SHARPER turn?
++ Move the lever further, so the steering motor turns faster
+- Apply the brake on the inside track with the pedal
+- Downshift the transmission, with the lever unchanged
+- Release the steering clutch on the inside track
+E: More lever = more oil to the motor = faster motor. Transmission input stays the same, so the side-to-side speed difference grows.
+
+@C13|Obj 5|kr p3 ilm
+Q: Komatsu's Hydrostatic Steering System (HSS) differs from a full hydrostatic (HST) drive because HSS:
++ uses a geared transmission for travel and a hydraulic motor for steering
+- uses one pump and motor per track for travel and steering
+- has no planetary gear sets in the steering unit
+- uses wet steering clutches and brakes to turn
+E: HSS uses the powershift transmission for travel. The hydraulic motor (through an idler) manipulates the left and right dual-input planetaries for turning. HST drives each track hydrostatically.
+
+@C13|Obj 5|ct p3 ilm
+Q: Why are the planetaries in Komatsu's hydrostatic steering system (HSS) called dual-input planetaries?
++ They take input from the transmission, the steering motor, or both
+- They have two sun gears driven from one shaft
+- They receive input from two separate engines
+- They are driven by both the bevel gear and final drive
+E: Straight travel = transmission only. Gradual turn = transmission + motor. Spot turn = motor only.
+
+@C13|Obj 5|kr p3 ilm
+Q: In the Caterpillar differential steering system, which two planetary sets must have the SAME ratio?
++ The steering planetary and the equalizing planetary
+- The drive planetary and the steering planetary
+- The drive planetary and the equalizing planetary
+- All three must have different ratios
+E: The steering and equalizing planetaries must match. Also, the drive planetary's sun-to-ring ratio equals the sun-to-carrier ratio of the steering and equalizing planetaries.
+
+@C13|Obj 5|kr p3 ilm
+Q: Cat differential steer, straight forward travel. Which statement is correct?
++ Steering ring held by the motor, equalizing ring fixed to the housing
+- The steering motor drives the steering ring gear at transmission speed
+- The equalizing ring gear rotates with the bevel gear
+- Both ring gears are free to rotate with the carriers
+E: The steering input holds the steering planetary ring, and the equalizing ring is fixed to the main housing. The bevel gear drives the drive planetary carrier, and the reaction drives the sun gears / inner axle shaft.
+
+@C13|Obj 5|kr p3 ilm
+Q: On the Cat differential steer system, the transmission bevel gear is connected to the:
++ planet carrier of the drive planetary
+- sun gear of the steering planetary
+- ring gear of the equalizing planetary
+- inner axle shaft
+E: The transmission pinion drives the bevel gear, which is connected to the drive planetary carrier.
+
+@C13|Obj 5|kr p3 ilm
+Q: Cat differential steer, forward RIGHT turn. What does the steering motor do?
++ Turns the steering ring the same way as the transmission input
+- Turns the steering ring opposite to the transmission input
+- Holds the steering ring while the right brake applies
+- Stops the transmission input to the right side
+E: Same-direction input speeds up the drive planetary. The reaction slows the inner axle and equalizing planetary, so the left sprocket runs faster and the machine turns right.
+
+@C13|Obj 5|kr p3 ilm
+Q: What determines how sharply a differential steer tractor turns?
++ Steering motor speed vs. transmission input speed
+- Only the transmission gear selected
+- The steering brake pressure on the inside track
+- The track tension on the inside track
+E: High steering motor speed with slower transmission input = sharper turn. The closer the speeds, the gentler the turn.
+
+@C13|Obj 5|ct p3 ilm
+Q: Counter-rotation (spot turn) on a differential steer tractor occurs when:
++ only the steering motor provides input
+- the transmission is in first and the motor is held
+- one track is braked and the other is driven
+- both steering motors run in the same direction
+E: With only the steering motor input, the drive planetary turns one way and the equalizing planetary turns the opposite way, so the tracks counter-rotate.
+
+@C13|Obj 5|ct p3 ilm
+Q: Why must the steering control be locked out when a differential steer tractor is stopped?
++ Steering input alone can spot turn the machine
+- The steering motor will overheat if the lever is moved at idle
+- The transmission will engage when the lever moves
+- The brakes release when the steering lever is moved
+E: Steering motor input alone produces counter-rotation. Bumping the lever on a "stopped" machine can swing it around.
+
+@C13|Obj 5|kr p3 ilm
+Q: How is reverse travel achieved on a differential steer tractor?
++ Transmission in reverse, with the steering ring gear held by the motor
+- The steering motor is run in reverse at full speed
+- The equalizing ring gear is released from the housing
+- The bevel gear is shifted to its opposite side
+E: The transmission input reverses and the steering ring is held, so both sprockets turn backward at the same speed. Reverse turns work like forward ones with all directions reversed.
+
+@C13|Obj 6|ct p3 ilm
+Q: A differential steer dozer slowly drifts to one side in straight travel. Track tension, rollers and idlers check OK. What is the most likely cause?
++ The steering motor isn't holding the ring gear (a leaking control valve or relief)
+- A slipping steering clutch on the slow side
+- A dragging steering brake band on one side
+- Wrong ratio in the equalizing planetary
+E: In straight travel the motor must hold the ring. A leak lets it creep, which adds and subtracts speed side to side and causes a drift.
+
+@C13|Obj 6|pa p3 ilm
+Q: How is a steering turn radius check done on a differential steer machine?
++ High idle, first gear: compare full left and full right turn radii
+- At low idle in top gear, measure the time for one full circle
+- With the machine stopped, counter-rotate and count sprocket revolutions
+- Measure steering relief pressure in both directions
+E: Run the engine at high idle in first gear and compare a full left turn radius to a full right turn radius. You can also measure sprocket speed with the machine raised or the tracks removed.
+
+@C13|Obj 3/4|gk kr p3 ilm
+Q: On a typical hydrostatic (HST) drive crawler, each track is driven by:
++ its own closed-loop pump and motor
+- a shared pump driving both track motors in series
+- the transmission, with a hydraulic motor for steering only
+- a steering clutch and an HST pump
+E: Dual-path HST: left and right loops are independent (pump + motor). Steering is done by varying each pump's output, with no clutches or brakes. (General knowledge. This ILM section isn't in your PDFs.)
+
+@C13|Obj 3/4|ct p3 ilm
+Q: Why were hydrostatic drive crawlers historically limited mostly to smaller machines?
++ The high heat potential of hydrostatic drives
+- Hydrostatic drives cannot steer under load
+- Hydrostatic pumps cannot produce enough pressure
+- Electronic controls were too expensive
+E: The learning guide says heat was the limiting factor. Better hydraulics and cooling now allow larger HST machines.
+
+@C13|Obj 3/4|kr p3 ilm
+Q: An advantage of electronically controlled hydrostatic crawler steering is:
++ less operator fatigue over the work day
+- no need for a charge pump or filters
+- lower system operating pressure and heat
+- no need for a separate oil cooler
+E: Electronic joystick control reduces operator fatigue. The guide also notes the system works on the same principles as a skid steer.
+
+@C13|Obj 3/4|gk kr p3 ilm
+Q: In a closed-loop hydrostatic drive, the charge pump does all of the following EXCEPT:
++ supply the main high-pressure flow that drives the track motor
+- make up for internal leakage (case drain) in the loop
+- keep the low-pressure side pressurized to prevent cavitation
+- supply oil for the pump displacement controls
+E: The charge pump replenishes the loop, prevents cavitation and supplies control pressure, and the replenished oil helps cooling. The main variable pump supplies drive flow. (General knowledge.)
+
+@C13|Obj 3/4|gk ct p3 ilm
+Q: A hydrostatic dozer is sluggish and weak on BOTH tracks in both directions. Which is the best first check?
++ Charge pressure
+- The left track motor case drain
+- The right drive pump's displacement control
+- Final drive oil level
+E: A fault common to both loops points to shared components, like the charge circuit or engine. A problem on one side only points to that side's pump, motor or control. (General knowledge.)
+
+@C13|Obj 3/4|gk ct p3 ilm
+Q: A hydrostatic crawler is weak on the LEFT track only, and the left motor's case drain flow is well above spec. What does this indicate?
++ Internal leakage (wear) in the left motor
+- Low charge pressure affecting both loops
+- A plugged return filter on the left side
+- Normal operation at full load
+E: High case drain flow means internal leakage, i.e., a worn pump or motor. The leaked oil isn't doing work, so that track is weak. (General knowledge.)
+
+@C13|Obj 3/4|gk kr p3 ilm
+Q: How does a dual-path hydrostatic crawler perform a counter-rotation (spot) turn?
++ The left and right pumps are stroked in opposite directions
+- One track motor is braked while the other drives
+- Both pumps are stroked in the same direction at different rates
+- The steering clutch on one side releases
+E: Stroking the pumps opposite each other drives the tracks in opposite directions. A gradual turn uses the same direction at different speeds. (General knowledge.)
+
+@C13|Obj 3/4|gk kr p3 ilm
+Q: In a closed-loop hydrostatic drive, what is the purpose of the flushing (hot oil shuttle) valve?
++ To bleed hot oil from the low-pressure side for cooling
+- To relieve high-pressure spikes in the loop
+- To shift the track motor into high speed range
+- To release the parking brake when travel starts
+E: The flushing valve bleeds oil from the low-pressure side to the cooler and tank. Charge oil replaces it, which controls loop temperature and contamination. (General knowledge.)
+
+@C16|Obj 1|kr p3 ilm
+Q: Undercarriage maintenance can account for up to what share of a tracked machine's total maintenance costs?
++ About 50%
+- About 10%
+- About 25%
+- About 80%
+E: The guide states it can be upwards of 50%, which is why early detection of undercarriage problems is a priority.
+
+@C16|Obj 1|kr p3 ilm
+Q: For a machine working mostly on blast rock or hard ground, the best track pad choice is:
++ narrow pads, for traction and less wear
+- wide pads, for maximum flotation
+- multi-grouser low-profile pads, for grip
+- rubber pads, to protect the surface
+E: Narrow pads concentrate ground pressure for traction on hard surfaces and cause less twisting stress on the chain.
+
+@C16|Obj 1|ct p3 ilm
+Q: Why do wide track pads cause extra undercarriage wear on hard surfaces?
++ They increase chain twisting against the rollers
+- They raise ground pressure too high on rock
+- They make the sprocket run out of pitch
+- They prevent the track from oscillating
+E: On hard ground the wide pad levers and twists the chain, which wears the links and rollers. It also gives less ground pressure per square inch, so less traction.
+
+@C16|Obj 1|kr p3 ilm
+Q: Which combination gives an undercarriage the GREATEST load-carrying ability?
++ A long track frame and wide pads
+- A short track frame and wide pads
+- A long track frame and narrow pads
+- A short track frame and narrow pads
+E: Wider pads = more flotation = more load capacity, and a longer frame supports more load.
+
+@C16|Obj 1|kr p3 ilm
+Q: When wider pads are fitted to increase machine stability, what changes about the track frame?
++ It's mounted further out. The frame design is the same.
+- A different, heavier track frame design is required
+- The track frame is lengthened to spread the load
+- The frame is moved forward under the blade
+E: The frame design is the same for narrow or wide pads. Only the distance from the side of the machine changes, which widens the stance.
+
+@C16|Obj 1|kr p3 ilm
+Q: How does a track-type loader's track frame differ from a dozer's?
++ Loader: forward and rigid. Dozer: rearward and oscillating.
+- Loader: oscillating. Dozer: rigid.
+- Both rigid, but the loader frame is longer
+- Loader: rearward, to counterweight the bucket
+E: The loader needs forward stability while lifting and must not tip sideways (rigid). The dozer carries less load up front, and its oscillating frames give traction and ride comfort.
+
+@C16|Obj 2|kr p3 ilm
+Q: Which additional component does an oscillating (swing) track frame require?
++ An equalizer bar
+- A bogie roller
+- A carrier roller
+- A recoil cylinder
+E: The equalizer bar (pivot shaft or hard bar) supports the front of the machine and lets the frames move independently.
+
+@C16|Obj 2|ct p3 ilm
+Q: Why is the equalizer bar pin often neglected and prone to premature wear?
++ Its remote location hides leaks and plugged grease lines
+- It is a sealed, lifetime-lubricated joint that can't be serviced
+- It carries no load, so it's left off the preventive maintenance (PM) schedule
+- It is replaced every time the track is split
+E: Its hard-to-reach location means lubrication failures go unnoticed. The pin and bushings then wear, and repair often requires removing the bar (more downtime).
+
+@C16|Obj 2|kr p3 ilm
+Q: On a LOW drive oscillating track frame, where is the frame pivot point?
++ At the rear, in line with the final drive
+- Closer to the centre of the machine
+- At the front idler yoke
+- On the equalizer bar centre pin
+E: Low drive: the pivot is at the rear, in line with the final drive. High drive: the pivot is closer to the centre of the machine.
+
+@C16|Obj 2|ct p3 ilm
+Q: Why is a rigid track frame used on excavators, cranes and draglines instead of an oscillating frame?
++ A load swung across the machine would make it tilt
+- Rigid frames give a smoother ride while travelling
+- Rigid frames reduce track and roller wear
+- Oscillating frames can't support the machine weight
+E: Machines that swing a load across their axis need a stable base. The trade-off is a rougher ride.
+
+@C16|Obj 2|kr p3 ilm
+Q: Each section of a track chain is made up of:
++ two side links, one pin and one bushing
+- one link, two pins and one bushing
+- two side links and two pins
+- one link, one pin, one bushing and one shoe bolt
+E: Two track (side) links with a pin and a bushing, both pressed into the links.
+
+@C16|Obj 2|kr p3 ilm
+Q: A master pin in a track chain is often identified by:
++ a small dimple in the end of the pin
+- a plug and stopper in the pin end
+- a paint mark on the link
+- a larger outside diameter along the full length
+E: The master pin usually has a dimple (other pins are flat on the ends), though some have one end larger than the other. A stopper and plug identifies a LUBRICATED pin.
+
+@C16|Obj 2|kr p3 ilm
+Q: Tracks that use a master link with a master PIN have what type of track pins?
++ Non-lubricated
+- Sealed and lubricated (SALT)
+- Grease-lubricated through a fitting
+- Either type, depending on design
+E: The guide says master pin tracks have non-lubricated pins. Split master link tracks may have either type.
+
+@C16|Obj 2|pa p3 ilm
+Q: Before joining a split master link, what must be done to the mating surfaces?
++ Clean off all paint and debris
+- Coat them with anti-seize
+- Apply thread locker to the serrations
+- Install a shim pack between the halves
+E: Clean, paint-free mating surfaces (coarse or fine tooth). The bolts are fine thread and must be properly torqued.
+
+@C16|Obj 2|pa p3 ilm
+Q: How can you tell a sealed and lubricated track (SALT) from a non-lubricated track?
++ A stopper and plug in the end of the pins
+- A dimple in the end of each pin
+- Grease fittings on each track link
+- Bushings that are visibly rotated
+E: Lubricated pins have a stopper and plug in the pin end (where they were filled).
+
+@C16|Obj 2|ct p3 ilm
+Q: A sealed and lubricated track (SALT) starts making a loud snapping or squeaking sound at certain joints during travel. What is the most likely cause?
++ Those joints have lost their lubricant
+- Track tension is too loose and slapping
+- The carrier rollers are seized
+- The track shoe bolts are loose
+E: When lubricated joints lose their oil, the dry pin and bushing contact causes a loud snapping sound, and internal wear speeds up.
+
+@C16|Obj 2|kr p3 ilm
+Q: Which track shoe is typically used on a track-type loader to avoid tearing up the ground?
++ A multi-grouser pad with low grousers
+- A single grouser pad with a high grouser
+- An ice-lugged single grouser pad
+- A flat pad with no grousers
+E: Multi-grouser low-profile pads give traction without digging in as hard as a single grouser.
+
+@C16|Obj 2|pa p3 ilm
+Q: Which sprocket design can be replaced WITHOUT splitting the track?
++ Segmented, bolt-on sprocket
+- One-piece weld-on sprocket
+- One-piece bolt-on sprocket
+- None. All sprockets need the track split.
+E: Segments can be changed by rotating the sprocket so each segment becomes accessible. One-piece sprockets need the track split and removed.
+
+@C16|Obj 2|kr p3 ilm
+Q: What is a disadvantage of a LOW (conventional) drive crawler compared to a high drive?
++ The final drive can be shock loaded by rocks
+- It has more internal pin and bushing wear from extra pivot points
+- It needs both front and rear idlers
+- It cannot use an oscillating frame
+E: On a low drive, the sprocket and final drive are in the shock path. A high drive keeps the final drive up out of harm's way.
+
+@C16|Obj 2|kr p3 ilm
+Q: What is a disadvantage of the HIGH drive undercarriage?
++ More internal pin and bushing wear
+- The final drive is exposed to shock loads from rocks
+- The sprocket must be welded on
+- It cannot be used with bogie rollers
+E: The elevated sprocket adds extra direction changes (pivot points) in the chain, which increases internal pin and bushing wear. High drives also need front and rear idlers.
+
+@C16|Obj 2|ct p3 ilm
+Q: Why should undercarriage components be replaced together rather than mixing new and used parts?
++ Mixing them wears the new parts faster
+- New parts can't be installed on a used track frame
+- It is required for warranty only
+- Used parts are a different pitch size
+E: Mismatched wear (e.g., a new sprocket on a stretched chain) causes poor fit and speeds up wear on the new parts.
+
+@C16|Obj 2|kr p3 ilm
+Q: Carrier (pedestal) rollers are used to:
++ support the weight of the upper track chain
+- support the weight of the machine on the track chain
+- guide the track into the sprocket
+- absorb recoil shock from the idler
+E: Carrier rollers are on top of the track frame and hold up the chain. Track rollers (bottom) support the machine weight.
+
+@C16|Obj 2|pa p3 ilm
+Q: On a high drive machine with no carrier roller, where is the straightedge placed to check track tension?
++ Between the front idler and the final drive sprocket
+- Across two bottom track rollers
+- Across the equalizer bar and track frame
+- From the rear idler to the ground
+E: Double carrier rollers: straightedge across them. High drive: across the sprocket and carrier roller, or idler to sprocket if there is no carrier roller.
+
+@C16|Obj 2|ct p3 ilm
+Q: Why is a SINGLE flange track roller commonly placed right after the idler (and in front of the sprocket or rear idler)?
++ To give the track room to align with the other rollers
+- Single flange rollers carry more of the machine's load
+- To reduce cost at the least-loaded positions
+- To prevent the track from jumping the idler
+E: The single flange gives the chain room to line up as it enters and leaves. Rollers are usually staggered single and double flange to keep the track centred.
+
+@C16|Obj 2|ct p3 ilm
+Q: On a conventional rigid track roller frame, rough terrain shock loads commonly cause:
++ track roller mounting bolts to shear off
+- carrier rollers to over-tighten the track
+- equalizer bar bushings to seize
+- idler grease to over-pressurize
+E: A sheared roller bolt can let the roller fall off or jam in another roller or the sprocket.
+
+@C16|Obj 2|kr p3 ilm
+Q: What is the advantage of bogie-style track rollers?
++ They pivot independently for better ride and traction
+- They eliminate the need for a recoil spring
+- They are cheaper to maintain than fixed rollers
+- They allow the track to run looser without de-tracking
+E: With a conventional frame, ground contact is limited to the object being crossed. Bogies conform to the terrain.
+
+@C16|Obj 2|kr p3 ilm
+Q: Which statement about Duo-Cone seals is correct?
++ The O-ring both seals and loads the faces
+- The faces should be greased during assembly
+- The O-ring only seals. A spring loads the faces.
+- Used seal faces are dull and safe to handle
+E: The O-ring (toric ring) seals and, when compressed, puts pressure on the faces. The faces are precision lapped and easily damaged, and used faces can be razor sharp.
+
+@C16|Obj 2|kr p3 ilm
+Q: What is the MAIN function of the track idler?
++ To let the chain change direction gradually
+- To drive the track chain
+- To support the upper track chain
+- To set track tension and recoil
+E: The idler gives a gradual change of direction. Along with the recoil mechanism and track tension, it also helps absorb shock.
+
+@C16|Obj 2|pa p3 ilm
+Q: In a typical grease cylinder and coil spring track adjuster, what does each part do?
++ The grease cylinder adjusts track tension. The spring absorbs recoil shock.
+- The spring adjusts tension. The grease cylinder absorbs shock.
+- Both adjust tension
+- The grease cylinder absorbs shock and the spring retracts the idler
+E: Pump grease in to push the idler forward (tighter). Release grease to loosen. The heavy spring is the recoil portion.
+
+@C16|Obj 2|ct p3 ilm
+Q: What happens to the track when grease is added to a grease cylinder and coil spring track adjuster?
++ The idler moves forward and the track tightens
+- The idler moves rearward and the track loosens
+- The recoil spring is released
+- Nothing until the engine is started
+E: Grease pushes the idler forward = tighter. Caution: the grease is under high pressure and the spring is under very high tension.
+
+@C16|Obj 3/4|ct p3 ilm
+Q: Rollers, idlers and sprockets are all worn on ONE side of the machine. What is the most likely reason?
++ The machine does a lot of side hill work
+- Track tension too loose on that side
+- Excessive reverse travel
+- Track chain installed backward
+E: One-sided wear across all components suggests side hill operation. Knowing the operating conditions is key to wear analysis.
+
+@C16|Obj 3/4|ct p3 ilm
+Q: Excessive wear on the idler and front track rollers most likely indicates:
++ a front idler alignment problem
+- frequent side hill operation
+- an overly tight track
+- worn sprocket teeth
+E: The guide links idler and front roller wear to idler alignment. Remember that track frames can also bend and twist.
+
+@C16|Obj 3/4|kr p3 ilm
+Q: Which of the following does NOT increase track chain wear?
++ Operating at slow forward speeds
+- Incorrect track tension
+- Excessive reverse travel
+- Mixing new and used components
+E: The listed factors are incorrect tension, excessive reverse, excessive high speed travel, mixing new and used parts, and tracks installed in reverse.
+
+@C16|Obj 3/4|ct p3 ilm
+Q: What happens if a track chain is installed in reverse?
++ More internal pin/bushing wear and more sprocket-bushing wear
+- Nothing. Track chains are symmetrical.
+- Faster carrier roller and idler wear only
+- The track won't engage the sprocket teeth at all
+E: A reversed chain increases internal wear between the pin and bushing, as well as bushing wear where it contacts the sprocket.
+
+@C16|Obj 3/4|ct p3 ilm
+Q: Why is it important to have track chain wear measured regularly?
++ To turn pins and bushings before the bushings wear through
+- To decide when to change the final drive oil
+- To set the recoil spring preload for the season
+- Because wear measurements set the engine derate
+E: If bushings wear through, you lose the chance to turn them and both pins and bushings become scrap.
+
+@C16|Obj 3/4|gk ct p3 ilm
+Q: What is a likely effect of running a crawler with its tracks adjusted too TIGHT?
++ Faster pin, bushing and sprocket wear, and lost power
+- The track jumping off the idler when turning
+- Reduced sprocket wear from a firmer mesh
+- Better fuel economy from less track slap
+E: Over-tension adds load on every joint and the sprocket, which raises friction and wear and robs power. Too loose can cause de-tracking and whipping. (General knowledge + guide.)
+
+@C16|Obj 3/4|gk ct p3 ilm
+Q: You need to loosen a track on a grease-type adjuster. What is the correct safe practice?
++ Open the relief valve slowly, a little at a time, staying clear of it
+- Remove the grease fitting completely to let grease out quickly
+- Cut the recoil spring retaining bolts to relieve tension
+- Heat the cylinder so the grease flows out faster
+E: The grease is under very high pressure and the spring stores enormous energy. Follow the OEM procedure. (General knowledge, consistent with the guide's caution.)
+
+@C16|Obj 5|kr p3 ilm
+Q: When track pins and bushings are "turned", they are:
++ pressed out, rotated 180 degrees and pressed back in
+- machined to a smaller diameter and reinstalled
+- swapped from the left track to the right track
+- replaced with oversize pins and bushings
+E: Turning gives the sprocket a fresh bushing surface to work on. If they are worn past reuse, new pins and bushings can be installed.
+
+@C16|Obj 5|pa p3 ilm
+Q: What part of a track pad usually wears out first, and how is it restored?
++ The grouser. Cut it off and weld on new bar.
+- The bolt holes. They are reamed oversize.
+- The pad plate. It is hard-faced to restore it.
+- The pad edges. They are trimmed square.
+E: Worn grousers are cut and new grouser bar is welded in to restore grouser height. Pads can also be moved to another chain if they fit.
+
+@C16|Obj 5|kr p3 ilm
+Q: How are ice lugs (corks) positioned on track pads for frozen ground?
++ On the grouser above the link, staggered on alternating pads
+- Welded to the outer pad edges only, on every pad
+- Bolted between the grousers on every other pad
+- Welded at the centre of the pad between the links
+E: Directly above the link and staggered on alternating pads. Sometimes two lugs go on one grouser and one on the next.
+
+@C16|Obj 5|pa p3 ilm
+Q: Before rebuilding the outer tread of a sealed drum-style idler by welding, what must be done?
++ Drill a vent hole in it
+- Fill it with water to absorb heat
+- Fill it with oil to protect the bearings
+- Pressurize it with nitrogen
+E: Sealed idlers can build internal pressure when heated. The air hole is a key safety precaution.

@@ -1,0 +1,679 @@
+@C13|Alignment|ct
+Q: A truck's front tires show a feathered wear pattern across the tread. What is the most likely cause?
++ Incorrect toe setting
+- Too much positive caster
+- Under-inflated tires
+- Worn shock absorbers
+E: Feathering (tread edges sharp on one side) comes from tires scrubbing sideways, which is the classic sign of incorrect toe.
+
+@C13|Alignment|ct
+Q: A truck wanders and doesn't return to centre after a turn. Which alignment angle is most likely too low?
++ Caster
+- Camber
+- Toe-in
+- Toe-out on turns
+E: Positive caster gives straight-line stability and steering return. Too little causes wander.
+
+@C13|Alignment|pa
+Q: Before checking wheel alignment, what should be checked first?
++ Tire pressures, wheel bearings and linkage wear
+- The steering gear relief and poppet pressures
+- The fifth wheel height
+- The front brake adjustment
+E: Alignment readings are only meaningful if tires, bearings, kingpins and linkage are in good shape. Fix those first.
+
+@C13|Alignment|kr
+Q: Toe-out on turns (Ackerman geometry) makes:
++ the inside wheel turn sharper than the outside wheel
+- both front wheels turn the same amount
+- the outside wheel turn sharper than the inside wheel
+- the rear axle steer slightly in turns
+E: The inside wheel follows a smaller circle, so it must turn more. Bent steering arms change this and scrub tires in turns.
+
+@C13|Alignment|pa
+Q: Which component is adjusted to set toe on a solid front axle?
++ The tie rod (cross tube)
+- The drag link
+- The kingpin bushings
+- The steering gear sector shaft
+E: Toe is set by lengthening or shortening the tie rod. Make sure the threads are fully engaged in the ends.
+
+@C13|Alignment|ct
+Q: A front tire is worn on only its outer shoulder, and pressures are correct. Which alignment angle is most likely out?
++ Camber
+- Caster
+- Thrust angle
+- Ackerman
+E: Camber tilts the tire so it rides on one shoulder; too much positive camber wears the outer edge.
+
+@C14|Frames and suspension|kr hl
+Q: Torque rods on a truck tandem suspension are used to:
++ locate the axles and control braking and cornering forces
+- support the weight of the vehicle and its load
+- dampen spring oscillations
+- adjust the ride height when the load changes
+E: Longitudinal rods handle braking and drive torque, transverse rods handle side forces, and the rods are also the axle alignment adjustment.
+
+@C14|Frames and suspension|kr hl
+Q: What is the function of a shock absorber?
++ To dampen spring oscillations
+- To carry part of the vehicle load
+- To limit axle travel on rebound only
+- To keep the axle square to the frame
+E: Springs carry the load; shocks force fluid through orifices to slow the spring's bouncing.
+
+@C14|Frames and suspension|ct hl
+Q: How does increasing the thickness of the leaves in a leaf spring pack affect the spring?
++ The spring rate increases
+- The spring rate decreases
+- The spring rate stays the same
+- The spring becomes progressive
+E: More, thicker or wider leaves, or a shorter effective length, all raise the spring rate.
+
+@C14|Frames and suspension|ct hl
+Q: A truck's drive axle has shifted on its leaf spring and the truck dog-tracks. What is a likely cause?
++ A broken spring centre bolt
+- A weak shock absorber
+- A broken auxiliary spring
+- A worn shackle bushing on the other side
+E: The centre bolt locates the axle on the spring. If it breaks, the axle can shift and throw the alignment off.
+
+@C14|Frames and suspension|pa hl
+Q: One leaf in a multi-leaf spring pack is broken. What is the correct repair?
++ Replace the complete spring assembly
+- Replace only the broken leaf
+- Weld the broken leaf
+- Add an auxiliary spring above it
+E: Don't replace single leaves; the old leaves are fatigued and won't share the load properly with a new one.
+
+@C14|Air suspension|kr hl
+Q: On an air suspension, the height control (levelling) valve:
++ maintains the axle-to-frame distance by adding or exhausting air
+- keeps air from the springs until system pressure reaches 85 psi
+- lets the driver dump the air springs for coupling
+- sets the maximum pressure in the air springs
+E: The height control valve senses the frame-to-axle distance through a linkage and supplies, holds or exhausts air to keep ride height.
+
+@C14|Air suspension|ct air hl
+Q: Why is a pressure protection valve installed in the air supply to an air suspension?
++ So the brakes fill before the suspension gets air
+- To limit the maximum pressure in the air springs
+- To dump the air springs if a leak occurs in the brakes
+- To keep moisture out of the air springs
+E: The pressure protection valve stays closed until about 85 psi, so the brakes get priority and a suspension leak can't drain the brake air.
+
+@C14|Air suspension|pa hl
+Q: Air spring suspensions are always used with:
++ shock absorbers
+- auxiliary leaf springs
+- equalizer beams
+- rubber cushion blocks
+E: Air springs give little damping on their own, so they're always paired with shock absorbers.
+
+@C14|Walking beams|pa hl
+Q: How are the centre bushings of an equalizer (walking) beam checked for wear?
++ Lift by the frame and watch for movement at the bushing
+- Jack under the end of the beam and watch the centre
+- Drive over a curb at low speed and listen
+- Remove the beam and measure the bushing
+E: Lifting the frame unloads the centre bushing so wear shows as movement. End bushings are checked with a jack under the beam end.
+
+@C14|Walking beams|kr hl
+Q: Equalizer beams on a tandem suspension reduce the shock load transmitted to the frame by about:
++ 50%
+- 10%
+- 25%
+- 90%
+E: The walking beam pivots at its centre, so one wheel hitting a bump only lifts the centre half as much.
+
+@C14|Diagnosis|ct hl
+Q: A loaded truck's suspension hits the axle stops over every bump. What is this condition called?
++ Bottoming
+- Wandering
+- Tramping
+- Jouncing
+E: Bottoming means the suspension can't absorb the load or energy (weak springs, low air pressure, overload).
+
+@C15|Brake basics|ct hl
+Q: A loaded truck's speed is doubled. How much more braking energy must the brakes absorb to stop it?
++ Four times as much
+- Twice as much
+- Eight times as much
+- The same amount
+E: Braking energy goes up with the square of speed: double the speed = 4×. Double the weight = 2×. Both doubled = 8×.
+
+@C15|Brake basics|kr hl
+Q: What is brake fade?
++ Loss of friction when the brake linings get too hot
+- Loss of braking because the drums are oversize
+- Brake pedal that slowly drops to the floor
+- Brakes that pull to one side
+E: When linings overheat, their coefficient of friction drops, so the same pedal force stops less.
+
+@C15|Hydraulic brakes|kr hl
+Q: What is the most important property of hydraulic brake fluid?
++ A high boiling point
+- A high viscosity
+- Low cost
+- Compatibility with petroleum oils
+E: Brakes make a lot of heat. If the fluid boils, the vapour compresses and the pedal goes soft.
+
+@C15|Hydraulic brakes|ct hl
+Q: Why should glycol-based brake fluid (DOT 3, 4, 5.1) be changed at regular intervals?
++ It absorbs water, which lowers its boiling point
+- It thickens with age and stops flowing in the cold
+- It breaks down the rubber seals with age
+- It turns into a gel above 100 °C
+E: Glycol fluids are hygroscopic. Absorbed water lowers the boiling point and causes corrosion.
+
+@C15|Hydraulic brakes|ct hl
+Q: Someone tops up a hydraulic brake master cylinder with power steering fluid. What must be done?
++ Flush it and replace every rubber part
+- Flush the system with new brake fluid only
+- Add more brake fluid to dilute it
+- Bleed the brakes at each wheel until clean
+E: Petroleum products swell and destroy brake system rubber. Every rubber part must be replaced and the system flushed.
+
+@C15|Hydraulic brakes|kr hl
+Q: Which brake fluid is silicone based, not hygroscopic, and must never be mixed with other fluids or used in an antilock brake system (ABS)?
++ DOT 5
+- DOT 3
+- DOT 4
+- DOT 5.1
+E: DOT 5 is silicone based (purple). DOT 3, 4 and 5.1 are glycol based and can be mixed with each other.
+
+@C15|Hydraulic brakes|kr hl
+Q: A residual check valve in a drum brake circuit:
++ holds about 12–15 psi so the wheel cylinder cups stay sealed
+- releases pressure quickly when the pedal is released
+- warns the driver when one circuit fails
+- limits rear brake pressure on hard stops
+E: The residual pressure keeps wheel cylinder cups pressed against the bore so air can't get in.
+
+@C15|Hydraulic brakes|kr hl
+Q: On a vehicle with front discs and rear drums, the metering valve:
++ delays the front discs until the rear drums apply
+- reduces rear brake pressure on hard stops
+- turns on the warning lamp if one circuit fails
+- holds residual pressure in the rear drum circuit
+E: Drum brakes take longer to apply (return springs); the metering valve keeps the fronts from doing all the early braking.
+
+@C15|Hydraulic brakes|ct hl
+Q: The rear wheels lock up during hard stops on a hydraulic brake system. Which valve should be checked?
++ The proportioning valve
+- The metering valve
+- The residual check valve
+- The pressure differential valve
+E: The proportioning valve limits rear brake pressure on moderate to hard stops to prevent rear lockup.
+
+@C15|Hydraulic brakes|pa hl
+Q: In what order are hydraulic brakes typically bled?
++ From the wheel farthest from the master cylinder to the nearest
+- From the wheel nearest the master cylinder to the farthest
+- Front wheels first, then rear wheels
+- All four wheels at the same time
+E: Typical order: right rear, left rear, right front, left front. Hold the metering valve open, and bench bleed a new master cylinder before installing it.
+
+@C15|Hydraulic brakes|pa hl
+Q: What is the maximum allowable difference in brake drum diameter across one axle?
++ 0.010 in (0.254 mm)
+- 0.100 in (2.54 mm)
+- 0.001 in (0.025 mm)
+- 0.050 in (1.27 mm)
+E: Drums on an axle must be within 0.010 in of each other or the brakes will pull.
+
+@C15|Hydraulic brakes|ct hl
+Q: A driver complains of a pulsing brake pedal on a disc brake truck. What should be checked?
++ Rotor runout and thickness variation
+- The master cylinder reservoir level
+- The pressure differential valve
+- The parking brake cable and lever adjustment
+E: A rotor with runout or uneven thickness pushes the pistons back and forth, which pulses the pedal. Remove bearing play before measuring runout.
+
+@C15|Hydraulic brakes|kr hl
+Q: What retracts the piston in a disc brake caliper when the brakes are released?
++ The square-cut piston seal
+- A return spring behind the piston
+- Residual pressure in the line
+- The rotor pushing it back
+E: The square-cut seal twists slightly when the piston moves out and pulls it back a small amount on release.
+
+@C15|Hydraulic brakes|pa hl
+Q: Which master cylinder bore should not be honed?
++ An aluminum bore
+- A cast iron bore with light scratches
+- A cast iron bore with light corrosion
+- Any bore that has had new cups installed
+E: Aluminum master cylinders have a hard anodized bore; honing removes it. Cast iron bores with only light scoring can be honed.
+
+@C15|Brake boosters|pa hl
+Q: How is a vacuum brake booster checked for operation?
++ Engine off, pump the pedal, hold it and start: the pedal should drop
+- Start the engine and pump the pedal: the pedal should rise
+- Disconnect the vacuum hose and check that the pedal is firm
+- Hold the pedal with the engine running and listen for a steady hiss
+E: Pumping removes stored vacuum. When the engine starts and vacuum returns, the booster assists and the pedal moves down.
+
+@C15|Brake boosters|kr hl
+Q: A hydro-boost brake booster gets its power assist from:
++ the power steering pump
+- engine intake vacuum
+- the air brake system
+- an electric vacuum pump
+E: Hydro-boost uses power steering fluid pressure. An accumulator gives reserve stops and an electric pump may back it up.
+
+@C15|Parking brakes|ct hl
+Q: A machine with a driveline parking brake has its driveshaft removed for repair. What is the concern?
++ The park brake can no longer hold it
+- The service brakes won't work
+- The transmission will be damaged
+- The park brake will drag when it's reinstalled
+E: A driveline brake holds through the driveshaft. With the shaft out, the wheels aren't held; block the wheels.
+
+@C15|Parking brakes|kr hl
+Q: A spring-applied, hydraulic-released (SAHR) brake is applied when:
++ hydraulic pressure is lost or released
+- hydraulic pressure is applied
+- the operator presses the service brake pedal
+- the engine is running
+E: Springs apply the brake; hydraulic pressure is needed to release it. Losing pressure applies it, which makes it fail-safe.
+
+@C15|Parking brakes|pa hl
+Q: On a hydraulic brake system with a cable parking brake, when is the parking brake cable adjusted?
++ After all other brake adjustments are done
+- Before the service brakes are adjusted
+- Only when the cable is replaced
+- With the parking brake applied
+E: Adjust the service brakes first; then set the cable so it doesn't hold the shoes on.
+
+@C15|Electric brakes|kr hl
+Q: On a trailer with electric brakes, what applies the brakes if the trailer breaks away from the towing vehicle?
++ A breakaway switch and trailer battery
+- A spring brake chamber
+- The brake controller in the towing vehicle
+- A hydraulic accumulator
+E: The breakaway switch is pulled by a cable if the trailer separates and uses the trailer's own battery to apply the electric brakes.
+
+@C15|Air brakes|ct air calc hl
+Q: A type 30 brake chamber receives 100 psi. What force does the pushrod produce?
++ 3000 lb
+- 130 lb
+- 300 lb
+- 30,000 lb
+E: Brake chamber type is its effective area in square inches. F = P × A = 100 psi × 30 in² = 3000 lb.
+
+@C15|Air brakes|ct air calc hl
+Q: A slack adjuster is 6 in long and its brake chamber pushes with 2000 lb. What torque is applied to the camshaft?
++ 1000 lb-ft
+- 333 lb-ft
+- 167 lb-ft
+- 12,000 lb-ft
+E: T = F × L = 2000 lb × 6 in = 12,000 lb-in, which is 1000 lb-ft.
+
+@C15|Air brakes|pa air hl
+Q: At full brake application, what should the angle between the pushrod and slack adjuster be?
++ About 90° (no more than 95°)
+- About 45° (no less than 30°)
+- About 120° (no more than 135°)
+- About 180°
+E: At about 90° the slack adjuster has its best leverage. Beyond that, force drops off and the brake is likely out of adjustment.
+
+@C15|Air brakes|kr air hl
+Q: What is the most common cause of air brake failure?
++ Brakes out of adjustment
+- Ruptured brake chamber diaphragms
+- Contaminated brake linings
+- Broken return springs
+E: Improper adjustment is the number one cause. Check pushrod stroke regularly.
+
+@C15|Air brakes|pa air hl
+Q: Pushrod stroke on air brakes is checked with what brake application?
++ A full application at about 100 psi
+- A light application at about 20 psi
+- The parking brakes applied
+- No application, by pulling the slack by hand
+E: Measure applied stroke at about 100 psi. CVIP allows roughly ¾–1½ in depending on chamber, with no more than ¼ in difference across an axle.
+
+@C15|Air brakes|pa air hl
+Q: Air brake shoe linings must be replaced when they are worn to:
++ 5/16 in or less at the centre
+- ½ in or less at the centre
+- ⅛ in or less at the ends
+- the rivet heads
+E: Reline at 5/16 in (about 8 mm) or less at the centre of the lining.
+
+@C15|Air brakes|kr air hl
+Q: An automatic slack adjuster makes its adjustment:
++ on the release stroke
+- on the apply stroke
+- only when the parking brake is applied
+- only when manually adjusted
+E: Automatic slacks ratchet on the release stroke, like a ratchet wrench, when the stroke is too long.
+
+@C15|Air brakes|kr air hl
+Q: On an S-cam brake, the heel of the brake shoe is located at the:
++ anchor pin
+- S-cam roller
+- return spring
+- slack adjuster
+E: The heel pivots on the anchor pin and the toe is pushed by the cam, like lifting your toes with your heel on the floor.
+
+@C15|Air brakes|ct air hl
+Q: Lining that is not matched to the axle's gross axle weight rating (GAWR) is installed. What is the likely result?
++ Overheating and brake fade
+- Faster brake release
+- Better braking on the steer axle
+- Lower air consumption
+E: Linings must suit the axle rating. Under-rated lining overheats and fades.
+
+@C15|Air valves|kr air hl
+Q: In the balanced (holding) position, an air brake valve has:
++ the inlet and exhaust both closed
+- the inlet open and the exhaust closed
+- the inlet closed and the exhaust open
+- the inlet and exhaust both open
+E: Released = inlet closed, exhaust open. Applied = inlet open, exhaust closed. Balanced = both closed.
+
+@C15|Air valves|kr air hl
+Q: What is the main purpose of a relay valve in an air brake system?
++ To reduce lag when applying and releasing
+- To limit the pressure to the steer axle
+- To keep the spring brakes released while driving
+- To protect the trailer air supply
+E: A small control signal from the foot valve opens the relay, which feeds the nearby chambers straight from the reservoir, so less air travels the long lines.
+
+@C15|Air valves|kr air hl
+Q: A quick release valve speeds up:
++ release of the brakes only
+- application of the brakes only
+- both application and release
+- compressor build-up
+E: It exhausts chamber air right at the chamber instead of back through the foot valve. It doesn't speed up application.
+
+@C15|Air valves|ct air hl
+Q: The primary circuit fails on a truck with a dual air brake system. How does the dual brake valve still apply the secondary circuit?
++ The primary piston mechanically pushes the secondary piston
+- The secondary circuit takes air from the primary tank
+- The spring brakes take over completely
+- The relay valve opens the secondary circuit
+E: With no primary air, the primary piston moves down and mechanically opens the secondary side.
+
+@C15|Air valves|kr air hl
+Q: What does a spring brake chamber need in order to release?
++ Air pressure to compress the spring
+- Air pressure to the service side
+- Electrical power to the solenoid
+- Hydraulic pressure from the steering pump
+E: Spring brakes are spring applied and air released. Losing air applies them.
+
+@C15|Air valves|ct air hl
+Q: Why is an anti-compounding valve used in an air brake system?
++ So spring and service brake forces don't add together
+- To apply the trailer brakes when the tractor brakes are applied
+- To limit the application pressure to the steer axle
+- To keep the spring brakes applied when the service brakes are applied
+E: If the service brakes are applied while the spring brakes are on, the valve releases the springs so both forces don't add.
+
+@C15|Air valves|ct air hl
+Q: The primary air circuit on a tractor loses all pressure. How can the driver still brake the drive axles?
++ The spring brake valve lets the foot valve modulate the spring brakes
+- The ratio valve sends secondary air to the drive axle chambers
+- The tractor protection valve applies only the trailer brakes instead
+- The drive axle brakes can't be applied at all
+E: The spring brake valve uses secondary air to let the foot valve partially exhaust (modulate) the spring brakes, giving about 3 controlled applications.
+
+@C15|Air valves|kr air hl
+Q: Within what pressure range must the trailer supply (red) valve pop out automatically?
++ Between 60 and 20 psi
+- Between 45 and 35 psi
+- Between 100 and 85 psi
+- Below 10 psi
+E: Trailer supply pops between 60 and 20 psi. The park control (yellow) pops between 45 and 35 psi.
+
+@C15|Air valves|kr air hl
+Q: What is the function of the tractor protection valve?
++ To close off the trailer service line when there is no trailer supply pressure
+- To apply the tractor spring brakes when the trailer is disconnected
+- To limit trailer brake pressure on light applications
+- To prevent the trailer reservoir from charging
+E: It protects tractor air if the trailer breaks away or the tractor is bobtailing, by blocking the service (blue) line.
+
+@C15|Air valves|kr air hl
+Q: Which colour glad hand is the trailer service (control) line?
++ Blue
+- Red
+- Yellow
+- Green
+E: Blue = service (control signal). Red = supply (emergency), which charges the trailer and releases its spring brakes.
+
+@C15|Air valves|kr air hl
+Q: A ratio valve on the steer axle:
++ reduces pressure on light applications to prevent lockup
+- increases steer axle pressure on hard stops
+- delays the steer axle brakes until the drive axles have applied
+- keeps the steer axle brakes applied when parked
+E: Below about 40 psi it applies about half pressure (2:1); above about 60 psi it delivers full pressure (1:1).
+
+@C15|Trailer brakes|ct air hl
+Q: A pre-121 trailer (no spring brakes) is parked and disconnected, and its air leaks off overnight. What happens?
++ The trailer brakes release, so the wheels must be blocked
+- The trailer brakes stay applied permanently
+- The trailer brakes apply harder as air leaks
+- Nothing, the relay emergency valve holds pressure
+E: Pre-121 trailers hold their brakes on with reservoir air ("dynamited"). As the air leaks away, the brakes release.
+
+@C15|Trailer brakes|kr air hl
+Q: A pilot relay valve on a towing trailer in a multi-trailer combination must have a cracking pressure of:
++ 0 psi
+- 2–4 psi
+- 5–8 psi
+- 60 psi
+E: The pilot relay passes the signal on undiminished to the following trailers, so it can't subtract any cracking pressure.
+
+@C15|Trailer brakes|kr air hl
+Q: On a Canadian Motor Vehicle Safety Standard (CMVSS) 121 trailer, the spring brake control valve:
++ releases the springs before filling the tank, and applies them if supply is lost
+- applies the spring brakes with every service application
+- releases the spring brakes when the supply line is disconnected or broken
+- limits the service brake pressure to the trailer axles on light stops
+E: It sends supply air to the spring chambers first, opens to the reservoir at about 85 psi, and keeps the springs released if only the reservoir side leaks.
+
+@C15|Air brake testing|ct air calc hl
+Q: A truck has a steer axle and a tandem drive axle group. During a service brake leak-down test with the brakes fully applied at about 100 psi, what is the maximum allowable pressure drop in 2 minutes?
++ 4 psi
+- 2 psi
+- 6 psi
+- 8 psi
+E: Service leak-down = 2 psi + 2 psi × n, where n is the number of axles or axle groups behind the steer axle. n = 1, so 2 + 2 = 4 psi.
+
+@C15|Air brake testing|ct air calc hl
+Q: A B-train with one steer axle and three tandem axle groups is tested for supply circuit leak-down (engine off, brakes released). What is the maximum pressure drop allowed in 2 minutes?
++ 6 psi
+- 4 psi
+- 8 psi
+- 2 psi
+E: Supply leak-down = 2 psi × n. With three tandem groups behind the steer axle, n = 3, so 6 psi.
+
+@C15|Air brake testing|pa air hl
+Q: At what pressure must the low air pressure warning activate?
++ At or above 60 psi
+- At or below 40 psi
+- At exactly 90 psi
+- At or above 100 psi
+E: The audible and visual warning must come on at 60 psi or higher (many systems use about 68–74 psi).
+
+@C15|ABS|kr air hl
+Q: What is the purpose of an antilock brake system (ABS)?
++ To keep the wheels turning so the driver can still steer
+- To shorten the stopping distance on every road surface
+- To apply the brakes automatically in an emergency
+- To adjust the brakes automatically
+E: ABS modulates brake pressure to stop wheel lockup so the driver keeps steering control.
+
+@C15|ABS|pa air hl
+Q: How is an antilock brake system (ABS) wheel speed sensor positioned after the hub is installed?
++ Push it in until it touches the tone ring
+- Set it with a 0.050 in feeler gauge
+- Thread it in until it bottoms, then back it out one turn
+- Glue it in place with a 0.020 in gap
+E: The sensor is pushed in until it touches the tone ring; the ring's runout pushes it back to a working gap. Don't wiggle the hub side to side when removing it.
+
+@C15|ABS|ct air hl
+Q: The antilock brake system (ABS) warning lamp stays on after start-up on a truck. What does this indicate about braking?
++ ABS has a fault; normal brakes still work
+- The service brakes are disabled until it's reset
+- The parking brakes are applied
+- The trailer brakes have released
+E: If ABS fails, the system reverts to normal braking without antilock. The lamp normally comes on at start-up and goes out.
+
+@C15|ABS|ct air hl
+Q: Why must tire sizes be kept matched on a vehicle with an antilock brake system (ABS)?
++ The ABS compares wheel speeds, and mismatched tires look like slip
+- Bigger tires overload the modulator valves and sensors
+- Smaller tires make the ABS lamp turn off
+- ABS can only be calibrated for one tire size per truck
+E: The ECU calculates wheel speed from tire size. Keep tires within about ¾ in circumference of each other.
+
+@C15|Off-road brakes|ct
+Q: A wheel loader has wet multi-disc brakes that overheat during normal operation. What is a likely cause?
++ Dragging brakes or low cooling oil flow
+- Too much accumulator precharge
+- A loose parking brake cable
+- Air in the service brake circuit
+E: Wet brakes rely on oil to cool the discs. Dragging (residual pressure, sticking pistons) or reduced cooling flow overheats them.
+
+@C15|Off-road brakes|pa safe
+Q: What gas is used to precharge a brake system accumulator?
++ Dry nitrogen
+- Compressed shop air
+- Oxygen
+- Carbon dioxide
+E: Only dry nitrogen. Air or oxygen mixed with hydraulic oil under pressure can explode.
+
+@C17|Wheels|kr hl
+Q: Hub-piloted disc wheels are centred by:
++ the centre hole of the wheel on the hub pilots
+- the ball-seat (acorn) nuts on the studs
+- the brake drum
+- the spacer band between the duals
+E: Hub-piloted wheels centre on the hub; the flange nuts only clamp. Stud-piloted wheels centre on the studs with ball-seat nuts. Never mix them.
+
+@C17|Wheels|ct hl
+Q: A technician installs stud-piloted wheels with flange nuts on a hub-piloted hub. What is the likely result?
++ The wheels can work loose and break studs
+- The wheels will run perfectly true
+- The brakes will drag on that axle
+- The tires will wear on the inside shoulder
+E: Mixing hub-piloted and stud-piloted parts gives poor centring and clamping, so the wheels can loosen and studs break.
+
+@C17|Wheels|pa hl
+Q: After installing wheels on a highway truck, when should the wheel nuts be re-torqued?
++ After 100–150 km
+- After 1000 km
+- Only at the next scheduled service
+- Before the truck leaves the shop only
+E: Re-torque after 100–150 km on-road (or 1–2 hours off-road) because parts seat in.
+
+@C17|Wheels|pa hl
+Q: A wheel stud is found broken. What should be replaced?
++ The broken stud and the one on each side
+- Only the broken stud
+- All the studs on the hub
+- The broken stud and the wheel it held
+E: The studs beside a broken one have carried extra load and may be stretched. The most common cause is over-torquing.
+
+@C17|Tires|ct hl
+Q: A tire is worn on both shoulders more than in the centre. What is the most likely cause?
++ Under-inflation
+- Over-inflation
+- Incorrect toe setting
+- Static imbalance
+E: An under-inflated tire rides on its shoulders and runs hot. Over-inflation wears the centre.
+
+@C17|Tires|ct hl
+Q: A truck has a static wheel imbalance. What will the driver feel?
++ Tramp or hop (the wheel bounces up and down)
+- Shimmy (the wheel wobbles side to side)
+- A pull to one side when braking
+- Vibration only when turning
+E: Static imbalance (heavy spot on the tire's centreline) causes up-and-down tramp. Dynamic imbalance (heavy spot to one side) causes shimmy.
+
+@C17|Tires|pa hl
+Q: When correcting a static imbalance with wheel weights, the weight should be:
++ split between both sides of the rim
+- placed only on the outside of the rim
+- placed only on the inside of the rim
+- placed 90° from the heavy spot on the tread
+E: Putting all the weight on one side creates a dynamic imbalance. Split it between both sides.
+
+@C17|Tires|pa hl
+Q: What is the maximum difference in circumference allowed between two dual tires on the same side of an axle?
++ ¾ in (19 mm)
+- ¼ in (6 mm)
+- 1½ in (38 mm)
+- 2 in (51 mm)
+E: Duals must be within ¾ in circumference (¼ in diameter) or the bigger tire carries most of the load. Measure with a tape or string, not the sidewall.
+
+@C17|Tires|ct hl
+Q: Two dual tires on an axle are slightly different sizes but within specification. Where should the larger tire go?
++ On the outside position
+- On the inside position
+- On the steer axle
+- It doesn't matter
+E: The road crown makes the outer dual sit slightly lower, so the slightly larger tire goes outside.
+
+@C17|Tires|kr
+Q: In the tire size 750/65R25, what does 65 mean?
++ The aspect ratio (height as a % of width)
+- The section width in millimetres
+- The rim diameter in centimetres (65 cm)
+- The load index for each tire
+E: 750 = section width in mm, 65 = aspect ratio, R = radial, 25 = rim diameter in inches.
+
+@C17|Tire safety|pa safe hl
+Q: A truck tire has been run at 70% of its recommended pressure. What should be done?
++ Don't re-inflate it; remove and inspect it
+- Inflate it to the correct pressure and continue
+- Inflate it to 10% over the recommended pressure
+- Rotate it to the inside dual position
+E: A tire run below 80% of its pressure may have internal damage and can explode when re-inflated.
+
+@C17|Tire safety|pa safe hl
+Q: Before removing a wheel with a multi-piece rim from a vehicle, the technician must:
++ fully deflate the tire
+- inflate the tire to full pressure
+- loosen the lock ring
+- remove the valve core only after removing the wheel
+E: The wheel clamps may be holding a damaged rim together. Deflate it first so it can't separate with force.
+
+@C17|Tire safety|pa safe hl
+Q: What is the maximum pressure that should be used to seat the beads on an off-road tire?
++ 20 psi
+- 40 psi
+- 60 psi
+- 100 psi
+E: Limit bead-seating pressure to 20 psi off-road and 40 psi on-road, always in a restraining device.
+
+@C17|Tire safety|pa safe hl
+Q: Where should a tire mounted on a split rim be inflated?
++ In a safety cage or other restraining device
+- On the vehicle, standing at the tread
+- Lying flat on the shop floor
+- Against a wall with the valve facing out
+E: Always inflate in a cage or with a restraint, and stay out of the trajectory zone.
+
+@C17|Wheels|pa hl
+Q: A cracked aluminum wheel is found during a pre-trip inspection. What is the correct repair?
++ Replace the wheel
+- Weld the crack and paint it
+- Braze the crack and test it
+- Drill a stop hole at the end of the crack
+E: Never weld or braze a wheel. Heat changes the metal's strength. Replace it.
+
+@C17|Hubs|ct
+Q: What is the result of a wheel bearing adjusted too tight?
++ The bearing overheats and fails early
+- The wheel wobbles and the seal leaks
+- The brakes pull to that side
+- The tire wears on the outer shoulder
+E: Too much preload creates heat and spalling. Too much end play lets the hub wobble, damaging seals and brakes.

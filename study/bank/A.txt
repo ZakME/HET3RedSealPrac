@@ -1,0 +1,727 @@
+@A1|Hazard control|ct safe hl
+Q: A shop wants to reduce worker exposure to welding fumes. Which control is the most effective?
++ Install local exhaust extraction at the welding bench
+- Issue every welder a disposable dust mask
+- Post signs warning of welding fume hazards
+- Limit each welder to two hours of welding per shift
+E: The hierarchy of controls ranks engineering controls (removing or capturing the hazard at the source) first, administrative controls (signs, schedules) second and personal protective equipment (PPE) last.
+
+@A1|Hazard control|kr safe hl
+Q: In the hierarchy of hazard controls, personal protective equipment (PPE) is considered:
++ the last line of defence
+- the most effective control
+- an engineering control
+- a replacement for training
+E: Engineering controls come first, then administrative controls, then PPE. PPE only protects the person wearing it, and only if it's worn and in good condition.
+
+@A1|Rights and duties|pa safe hl
+Q: A technician is asked to repair a machine parked on an unstable slope with no blocking available. What should the technician do first?
++ Refuse the unsafe work and report the hazard to the supervisor
+- Do the repair quickly before the machine can shift
+- Ask another apprentice to watch the machine during the repair
+- Chain the machine to the nearest tree and carry on
+E: Workers have the right to refuse unsafe work and a duty to report hazards. The hazard must be dealt with before work starts.
+
+@A1|WHMIS|kr safe hl
+Q: Which three elements make up the Workplace Hazardous Materials Information System (WHMIS)?
++ Worker education, labels and safety data sheets
+- Hazard assessments, fire drills and first aid
+- Personal protective equipment, labels and fire extinguishers
+- Inspections, incident reports and training records
+E: WHMIS is built on worker education, product labels (supplier and workplace) and safety data sheets (SDS).
+
+@A1|WHMIS|pa safe
+Q: A technician decants a solvent into a smaller spray bottle for use at the bench. What must be done before it is used?
++ Put a workplace label on the bottle
+- Write the supplier's phone number on the bottle
+- Store the bottle in the parts washer
+- Fill out a new safety data sheet
+E: Any container a product is transferred into needs a workplace label with the product name (matching the SDS), safe handling information and a reference to the SDS.
+
+@A1|WHMIS|pa safe hl
+Q: Where would a technician find the most complete information about a chemical's hazards, first aid and spill clean-up?
++ The safety data sheet (SDS)
+- The supplier label on the container
+- The workplace label on the container
+- The pictogram on the container
+E: The SDS is the most thorough source. Labels only summarize the key hazards and refer you to the SDS.
+
+@A1|Fire|pa safe hl
+Q: A small fire starts in a parts washer full of solvent. Which extinguisher is suitable?
++ A Class B (flammable liquid) rated extinguisher
+- A Class A pressurized water extinguisher
+- A Class D extinguisher for combustible metals
+- A Class K wet chemical kitchen extinguisher
+E: Class B fires involve flammable liquids like solvents, fuel and oil. Water spreads a flammable liquid fire. An ABC dry chemical extinguisher also covers Class B.
+
+@A1|Fire|pa safe hl
+Q: A technician discovers a fire in the shop. What should be done first?
++ Raise the alarm and call for help
+- Fight the fire with the nearest extinguisher
+- Move nearby vehicles away from the fire
+- Shut off the main electrical panel
+E: Call for help first. Only fight a small fire if you have the right extinguisher and a clear escape route.
+
+@A1|Fire|ct safe
+Q: A technician is using an extinguisher on a fire that keeps growing and is now between the technician and the only exit. What should the technician do?
++ Stop and get out immediately
+- Keep spraying until the extinguisher is empty
+- Switch to a second extinguisher and continue
+- Throw water on the fire to cool it down
+E: Never fight a fire that could block your escape, has spread, or that your extinguisher isn't controlling.
+
+@A1|Fire|kr safe hl
+Q: The PASS method of using a fire extinguisher stands for:
++ Pull, Aim, Squeeze, Sweep
+- Push, Activate, Spray, Stop
+- Point, Arm, Squeeze, Spray
+- Pull, Activate, Shake, Sweep
+E: Pull the pin, Aim at the base of the fire, Squeeze the handle, Sweep side to side.
+
+@A1|Fire|ct safe hl
+Q: Removing which element will put out a fire?
++ Any one of fuel, oxygen or heat
+- Only the fuel source
+- Only the oxygen supply
+- All three of fuel, oxygen and heat
+E: The fire triangle needs fuel, oxygen (air) and heat (ignition). Remove any one side and the fire goes out.
+
+@A1|Shop hazards|ct safe hl
+Q: A technician runs an engine inside a closed shop to check a leak and soon gets a headache and feels dizzy. What is the most likely cause?
++ Carbon monoxide poisoning from the exhaust
+- Low blood sugar from skipping lunch
+- Noise from the engine at idle
+- Diesel fuel vapour from the leak
+E: Carbon monoxide is colourless, odourless and tasteless. It displaces oxygen in the blood, so the symptoms are those of oxygen starvation. Always use exhaust extraction.
+
+@A1|Confined space|pa safe hl
+Q: Before entering a confined space such as a large fuel tank, what must be done?
++ Test the air with a gas detector
+- Open the drain valve at the bottom
+- Put on a disposable dust mask
+- Wait until the end of the shift
+E: Confined spaces can lack oxygen or hold toxic or flammable gases. Test the atmosphere before entry and have a way out and a person outside.
+
+@A1|Lock-out|pa safe
+Q: After locking out a machine's battery disconnect and tagging it, what should the technician do before starting work?
++ Try to start the machine to verify it's de-energized
+- Remove the tag so it isn't lost during the repair
+- Give the key to the operator to hold
+- Leave the lock off so others can move the machine
+E: Lock-out / tag-out (LOTO) isn't complete until zero energy is verified, usually by attempting to start or operate the machine.
+
+@A1|Lock-out|ct safe
+Q: A loader's bucket is raised for a cylinder repair. Which step best protects the technician from stored energy?
++ Lower the bucket to the ground or block it, and relieve the hydraulic pressure
+- Shut the engine off and leave the bucket raised so the cylinder stays loaded
+- Put the transmission in neutral, set the park brake and chock the wheels
+- Turn the battery disconnect off only
+E: Raised attachments hold potential energy and hydraulic pressure. Lower or mechanically block them and relieve pressure before working under or on them.
+
+@A1|Hydraulic safety|pa safe hl
+Q: A technician suspects a pinhole leak in a pressurized hydraulic hose. How should the leak be located?
++ Pass a piece of cardboard along the hose
+- Run a bare hand along the hose to feel for spray
+- Wrap the hose with a shop rag and watch for oil
+- Pressurize the hose with shop air and listen
+E: A pinhole leak can inject oil through the skin. Use cardboard or wood, never your hand.
+
+@A1|Jacks and stands|pa safe hl
+Q: A truck has been raised with a floor jack to remove a wheel. What must be done before working under it?
++ Support it on rated jack stands or blocking
+- Leave the jack in place and add a second jack
+- Pump the jack up one more stroke to lock it
+- Have someone watch the jack while you work
+E: Never work under equipment held only by a jack. Jacks can leak down or slip.
+
+@A1|PPE|kr safe hl
+Q: A green triangle on a safety boot means it has:
++ a grade 1 protective toe rated for 125 J impact
+- a grade 2 protective toe rated for 90 J impact
+- electrical shock resistance only
+- a puncture-resistant sole only
+E: Green triangle = grade 1 toe (125 J). Yellow triangle = grade 2 toe (90 J).
+
+@A1|PPE|kr safe hl
+Q: Which class of hard hat is designed for workers around electrical hazards and is tested to the highest voltage?
++ Class E
+- Class G
+- Class C
+- Class A
+E: Class E (electrical) and Class G (general) both resist impact and penetration and are non-conducting, but Class E is tested to a higher voltage. Class C is conductive.
+
+@A1|PPE|pa safe hl
+Q: Who is responsible for wearing and inspecting personal protective equipment (PPE) on the job?
++ The worker, with the employer enforcing its use
+- The safety officer, who inspects it daily
+- The employer, who signs it out each shift
+- The equipment owner
+E: The worker wears and inspects PPE; the employer provides it where required and enforces its use. All PPE must meet the CSA standard.
+
+@A1|Battery safety|pa safe hl
+Q: When removing a battery from a machine, which cable should be disconnected first?
++ The ground (negative) cable
+- The positive cable
+- The cable to the starter solenoid
+- Either cable, as long as the key is off
+E: Removing the ground first means a wrench touching the frame while you loosen the positive won't make a dead short. Reconnect the ground last.
+
+@A1|Fuel safety|pa safe hl
+Q: What should be done when refuelling a machine from a bulk fuel tank?
++ Connect a ground strap between the machine and the tank
+- Leave the engine running so the fuel pump stays primed
+- Fill the tank to the very top of the filler neck
+- Use a galvanized container to carry the fuel
+E: A ground strap prevents a static spark. Bulk tanks themselves are grounded with a rod into the earth.
+
+@A2|Hand tools|kr hl
+Q: Which punch is used to enlarge a prick punch mark before drilling?
++ Centre punch
+- Taper punch
+- Parallel punch
+- Aligning punch
+E: A prick punch (30° point) makes a small layout mark; a centre punch (60° point) enlarges it so the drill bit starts in the right place.
+
+@A2|Hand tools|kr hl
+Q: Which chisel is used to cut a square keyway?
++ Cape chisel
+- Flat chisel
+- Diamond point chisel
+- Half round chisel
+E: The cape chisel is narrower than a flat chisel and is made for cutting keyways and slots.
+
+@A2|Hand tools|pa hl
+Q: A technician is cutting thin-wall tubing with a hacksaw. Which blade should be used?
++ A fine blade so at least two teeth are always on the material
+- A coarse blade so the cut goes faster
+- Any blade, installed with the teeth facing the handle
+- A coarse blade run at over 100 strokes per minute
+E: Thin material needs more teeth per inch so at least two teeth are in contact. Teeth face away from the handle and the cut is made at about 40–50 strokes a minute.
+
+@A2|Hand tools|pa hl
+Q: A file's teeth are clogged with metal. What is the correct way to clean it?
++ Use a file card, and a scorer for stubborn pieces
+- Tap it hard on the edge of the bench
+- Soak it in solvent and use a wire wheel
+- Heat it with a torch to burn the metal out
+E: A file card brushes chips out of the teeth; a scorer (pick) removes pieces stuck in the teeth. Hammering or heating damages the file.
+
+@A2|Taps and drills|pa hl
+Q: A technician needs to cut threads to the bottom of a blind hole. In what order should the taps be used?
++ Taper, then plug, then bottoming
+- Bottoming, then plug, then taper
+- Plug, then taper, then bottoming
+- Bottoming only, to avoid breaking a tap
+E: The taper tap starts the threads straight, the plug tap cuts them deeper, and the bottoming tap (no chamfer) finishes the last threads at the bottom.
+
+@A2|Taps and drills|kr hl
+Q: What is the included angle on a standard twist drill?
++ 118°
+- 59°
+- 90°
+- 135°
+E: Each cutting lip is 59° from the centreline, so the included angle between both lips is 118°. Lip clearance is about 12–15°.
+
+@A2|Measuring|pa
+Q: A technician needs to measure the inside diameter of a valve guide with a bore of about ⅜ in. Which tool combination is best?
++ A small hole gauge and an outside micrometer
+- A tape measure and a straightedge
+- A feeler gauge and a dial indicator
+- An inside micrometer with a 2 in rod
+E: Small hole gauges cover about ⅛–½ in and telescoping gauges about 5/16–6 in; both are set in the bore and then measured with an outside micrometer. Inside micrometers usually start at about 2 in.
+
+@A2|Measuring|pa hl
+Q: Before taking a reading with a dial indicator, the technician should:
++ preload the plunger to about mid-travel
+- set the plunger at the very end of its travel
+- loosen the mounting base so it can float
+- lubricate the contact point with grease
+E: Preloading the stem lets the indicator read movement in both directions without bottoming or losing contact.
+
+@A2|Measuring|ct calc
+Q: A crankshaft journal measures 2.998 in at one point and 2.995 in at 90° to it. What is the out-of-round?
++ 0.003 in
+- 0.0015 in
+- 0.006 in
+- 2.9965 in
+E: Out-of-round is the difference between the largest and smallest measurement at one location: 2.998 − 2.995 = 0.003 in.
+
+@A2|Torque wrench|pa hl
+Q: A fastener must be torqued to 100 lb-ft. Which torque wrench is the best choice?
++ A wrench with a range of 25–150 lb-ft
+- A wrench with a range of 5–100 lb-ft
+- A wrench with a range of 90–600 lb-ft
+- A wrench with a range of 100–250 lb-ft
+E: Pick a wrench where the target is in the middle two quarters of its scale, where it's most accurate. 100 is well inside 25–150.
+
+@A2|Torque wrench|ct calc hl
+Q: A spring scale hooked 0.5 ft from the centre of a pinion flange reads 8 lb while turning it. What is the rotating torque?
++ 4 lb-ft
+- 16 lb-ft
+- 8.5 lb-ft
+- 0.0625 lb-ft
+E: Torque = force × lever length = 8 lb × 0.5 ft = 4 lb-ft.
+
+@A2|Access equipment|pa safe hl
+Q: How far should an extension ladder extend above the landing it is used to reach?
++ At least 1 m (about 3 ft)
+- At least 30 cm (1 ft)
+- Exactly level with the landing
+- At least 3 m (10 ft)
+E: The ladder needs to extend at least 1 m above the landing so you have something to hold while stepping on and off.
+
+@A2|Access equipment|kr safe hl
+Q: Scaffold platforms require guardrails at what height?
++ 3 m (10 ft) or higher
+- 1 m (3 ft) or higher
+- 6 m (20 ft) or higher
+- Only above 10 m
+E: Guardrails are required on platforms 3 m (10 ft) or higher; toe boards keep tools and parts from falling.
+
+@A2|Access equipment|pa safe hl
+Q: A worker's fall arrest harness stopped a fall from a machine. What must happen to the harness?
++ Remove it from service
+- Inspect it and keep using it if there's no visible damage
+- Wash it and return it to service
+- Shorten the lanyard to take up the stretch
+E: Any fall arrest equipment that has stopped a fall must be removed from service. The webbing and shock absorber may be damaged in ways you can't see.
+
+@A2|Rigging|kr safe hl
+Q: What is the most important factor when selecting rigging for a lift?
++ The safe working load (SWL)
+- The breaking strength
+- The colour of the sling
+- The length of the sling
+E: The SWL (working load limit) is what the rigging may carry in service. Breaking strength is only what breaks a new part.
+
+@A2|Rigging|kr safe hl
+Q: The general safety factor for rigging and hoisting materials is:
++ 5:1
+- 2:1
+- 10:1
+- 20:1
+E: General rigging uses 5:1; lifting people uses 10:1; elevators 20:1.
+
+@A2|Rigging|pa safe hl
+Q: During a pre-lift inspection, a technician sees red core yarns showing through the cover of a synthetic web sling. What should be done?
++ Remove the sling from service
+- Use it at half its rated load
+- Wrap the damaged area with tape
+- Turn the sling so the damage is away from the load
+E: Red core yarn means the load-bearing fibres are exposed and the sling must be discarded. Web slings also need a legible manufacturer's tag.
+
+@A2|Rigging|ct safe hl
+Q: A load is lifted with a two-leg sling at a shallow angle of 30° from horizontal instead of 60°. What is the effect?
++ The tension in each leg increases sharply
+- The tension in each leg decreases
+- The load becomes lighter
+- The sling angle has no effect on tension
+E: The lower the sling angle, the higher the load on each leg. About 60° is the recommended sling angle.
+
+@A2|Rigging|pa safe hl
+Q: A four-leg bridle hitch is being used on a load. When estimating the load on the legs, how many legs should be assumed to carry the load?
++ Two
+- One
+- Three
+- Four
+E: With a four-leg bridle, the load usually ends up on only two legs, so calculate for two.
+
+@A2|Rigging|pa safe hl
+Q: A technician needs to lift a bundle of loose pipe. Which hitch draws the bundle tight?
++ Double wrap choker hitch
+- Single vertical hitch
+- Single basket hitch
+- Bridle hitch with two legs
+E: A double wrap choker wraps around the load twice and pulls loose bundles tightly together. A single choker isn't recommended for loose bundles.
+
+@A2|Rigging|pa safe hl
+Q: A hook on a lifting device has no safety latch. What should be done before using it?
++ Mouse the hook by wrapping wire across the opening
+- Use the hook only for vertical lifts
+- Reduce the load to half of the rated capacity
+- Point the hook opening toward the operator
+E: All hooks need a safety latch (except grab and sorting hooks). Without one, the hook must be moused to close the throat.
+
+@A2|Rigging|kr safe hl
+Q: A shoulderless eyebolt should be loaded:
++ only in a straight, in-line pull
+- at any angle up to 45° from vertical
+- only sideways
+- only with a spreader bar above it
+E: Shoulderless eyebolts are for straight (in-line) pulls only. Side loading can bend or break them.
+
+@A2|Rigging|kr safe hl
+Q: Which hand signal means emergency stop to a crane operator?
++ Both arms swept out from the body at shoulder height
+- One arm held straight up with a clenched fist
+- One arm moved in a circle above the head
+- Both hands clasped in front of the body
+E: Emergency stop is both arms extended out at shoulder height, palms down, moved back and forth.
+
+@A2|Wire rope|pa safe hl
+Q: When installing wire rope clips, where does the saddle go?
++ On the live (load-carrying) end of the rope
+- On the dead (short) end of the rope
+- On whichever end is easier to reach
+- Alternating ends on each clip
+E: "Never saddle a dead horse": the U-bolt goes on the dead end and the saddle on the live end.
+
+@A2|Wire rope|pa hl
+Q: How is the diameter of wire rope measured?
++ Across the crowns, at the widest point
+- Across the flats of the strands
+- Around the outside circumference with a tape
+- At the core after cutting the rope
+E: Measure across the crowns (the widest point) with a caliper, at several places.
+
+@A2|Wire rope|kr hl
+Q: In lang lay wire rope, the wires in each strand:
++ are laid in the same direction as the strands
+- are laid opposite to the strands
+- run straight along the length of the rope
+- are laid opposite to the core strand
+E: Lang lay = wires and strands twist the same way. Regular lay = wires opposite to the strands (they look like they run along the rope).
+
+@A2|Oxy-fuel|ct safe hl
+Q: Why must oil and grease be kept away from oxygen cylinder valves and regulators?
++ Pressurized oxygen can ignite oil with no spark
+- Oil makes the regulator read high
+- Grease plugs the cylinder's burst disc
+- Oil reacts with the acetone inside the cylinder
+E: Pure oxygen under pressure can ignite oil or grease explosively with no ignition source.
+
+@A2|Oxy-fuel|kr safe hl
+Q: Acetylene becomes unstable above what pressure?
++ 15 psi
+- 5 psi
+- 50 psi
+- 150 psi
+E: Never use acetylene above 15 psi. Above about 28 psi it can decompose and ignite on its own.
+
+@A2|Oxy-fuel|ct safe hl
+Q: An acetylene cylinder has been lying on its side in a truck. What could happen if it is used immediately?
++ Acetone could be drawn out with the gas
+- The cylinder's fusible plug could melt
+- The regulator would show low pressure
+- Oxygen would leak into the cylinder
+E: Acetylene is dissolved in acetone inside a porous filler. Stand the cylinder up (about twice as long as it was lying down) before use, and don't draw more than 1/7 of its contents per hour.
+
+@A2|Oxy-fuel|kr safe hl
+Q: On an oxy-acetylene outfit, the fuel gas hose is:
++ red with left-hand threads and a grooved nut
+- green with right-hand threads
+- red with right-hand threads
+- green with left-hand threads and a grooved nut
+E: Oxygen hoses are green with right-hand threads. Fuel hoses are red with left-hand threads, marked with a groove on the nut.
+
+@A2|Oxy-fuel|pa safe hl
+Q: What pressure is used when leak testing a newly assembled oxy-acetylene outfit?
++ About 5 psi on both regulators
+- About 15 psi on both regulators
+- Full cylinder pressure on both hoses
+- About 50 psi on oxygen and 15 psi on acetylene
+E: With the torch valves closed, set both regulators to about 5 psi and check every connection with approved leak detection fluid.
+
+@A2|Oxy-fuel|ct safe hl
+Q: While cutting, a torch makes a loud pop and the flame goes out. What is this?
++ A backfire, often from too little gas flow or a dirty tip
+- A flashback, from the flame burning inside the hoses
+- Normal operation when piercing thick plate at speed
+- A sign that the oxygen cylinder is empty
+E: A backfire is the flame burning back into the tip with a pop. A flashback (burning in the hoses) is far more dangerous; flashback arrestors stop it.
+
+@A2|Oxy-fuel|kr hl
+Q: Which flame is recommended for heating and cutting mild steel?
++ Neutral
+- Carburizing
+- Oxidizing
+- Pure acetylene
+E: A neutral flame (the white feather just gone) is used for most heating and cutting of mild steel.
+
+@A2|Electronic tools|pa hl
+Q: Before arc welding on a machine with electronic control modules, the technician should:
++ disconnect the battery negative and unplug the control modules
+- remove the alternator belt and the B+ wire
+- disconnect the battery positive and leave modules plugged in
+- start the engine to keep the modules powered
+E: Welding current and voltage spikes can destroy electronics. Disconnect the battery and unplug ECMs, and ground the welder close to the weld.
+
+@A3|Maintenance|ct hl
+Q: A fleet only repairs machines after they break down. What is the main drawback of this system?
++ Secondary damage, high costs and more downtime
+- Too much money spent on oil and filters
+- Parts are replaced before they are worn
+- Technicians spend too much time on inspections
+E: Breakdown maintenance lets one failure damage other components (secondary damage), which costs more and takes longer to fix.
+
+@A3|Maintenance|pa
+Q: How are preventive maintenance intervals usually set for off-road equipment?
++ By hours of operation
+- By kilometres travelled
+- By the calendar year only
+- By fuel delivered
+E: On-road units are usually serviced by distance; off-road equipment by service meter hours.
+
+@A3|Oil sampling|ct hl
+Q: An engine oil sample shows high silicon. What is the most likely cause?
++ Dirt entering through the air intake
+- Coolant leaking into the oil past a liner seal
+- Worn connecting rod bearings
+- Fuel diluting the oil
+E: Silicon in oil means dirt, which is usually getting in through a leaking or damaged air intake. Lead and copper point to bearings; sodium and potassium to coolant.
+
+@A3|Oil sampling|pa
+Q: When taking an oil sample for analysis, the sample should be taken:
++ from the same point each time, with the oil hot
+- from the bottom of the drain pan after an oil change
+- with the engine cold, after the sediment has settled
+- from a new oil container to give a baseline
+E: Consistent, hot, well-mixed samples taken at regular intervals give results that can be trended.
+
+@A3|Lubricants|kr hl
+Q: Grease is graded by its stiffness using the:
++ NLGI number
+- SAE viscosity grade
+- API service rating
+- ISO viscosity grade
+E: The National Lubricating Grease Institute (NLGI) number runs from 000 (very fluid) to 6 (very firm); 1–3 are most common.
+
+@A3|Lubricants|ct hl
+Q: What is the result of using a hydraulic oil with a viscosity that is too low for the operating temperature?
++ Internal leakage, heat and faster wear
+- Sluggish operation and hard starting
+- Higher pump inlet vacuum
+- Lower operating temperature
+E: Oil that's too thin leaks past internal clearances, which creates heat and lets parts wear. Too thick causes sluggishness and higher power demand.
+
+@A3|Lubricants|kr hl
+Q: An oil with a high viscosity index:
++ changes viscosity little with temperature
+- is very thick at all temperatures
+- thins out very quickly as it heats up
+- contains extra detergent additives
+E: Viscosity index is how much an oil's viscosity changes with temperature. A high VI oil stays more consistent.
+
+@A3|Lubricants|ct
+Q: A technician tops up a hydraulic system with a different brand and type of oil than what is in it. What is the risk?
++ Additives may react, causing sludge or foaming
+- The oil level will read low
+- The filter will go into bypass immediately
+- There is no risk if both oils are the same viscosity
+E: Never mix oils. Additive packages can react with each other. Use the oil the manufacturer specifies.
+
+@A3|Hoses and fittings|kr hl
+Q: Hydraulic hose is sized by its:
++ inside diameter, in sixteenths of an inch
+- outside diameter in eighths of an inch
+- wall thickness schedule number
+- maximum working pressure in psi
+E: Hose dash size = inside diameter in 1/16 in (a -8 hose is ½ in ID). Tubing is sized by OD; pipe by nominal ID and schedule.
+
+@A3|Hoses and fittings|kr hl
+Q: A JIC hydraulic fitting seals on a flare of:
++ 37°
+- 45°
+- 30°
+- 90°
+E: Joint Industrial Council (JIC) fittings use a 37° flare. SAE flare fittings are 45°.
+
+@A3|Hoses and fittings|kr hl
+Q: How does a National Pipe Taper (NPT) fitting seal?
++ With interference on the tapered threads
+- With an O-ring on a flat face
+- With a 37° metal-to-metal flare
+- With a copper crush washer under the hex
+E: NPT threads are tapered and seal by interference, with sealant on the threads.
+
+@A3|Hoses and fittings|pa
+Q: A hose assembly with a crimped fitting is leaking at the fitting. What is the correct repair?
++ Make up a new hose assembly with new crimped ends
+- Re-crimp the old fitting a second time on the hose
+- Wrap the fitting with thread seal tape
+- Apply silicone sealant to the fitting
+E: Crimped fittings are permanent and can't be re-used. Make up a new assembly to spec.
+
+@A3|Bearings|kr hl
+Q: Which bearing can carry both radial and axial (thrust) loads?
++ Tapered roller bearing
+- Straight roller bearing
+- Needle bearing
+- Plain bushing
+E: Tapered roller bearings handle radial loads and thrust in one direction. Straight roller and needle bearings take radial loads only.
+
+@A3|Bearings|kr hl
+Q: A spherical roller bearing is chosen mainly because it:
++ allows the shaft to run slightly misaligned
+- takes up the least space
+- runs at the highest speed of any bearing
+- needs no lubrication
+E: Spherical roller bearings take radial and some axial load and allow the shaft angle to change slightly.
+
+@A3|Bearings|ct fail hl
+Q: An inspected bearing shows evenly spaced dents in the races matching the rollers. What is the most likely cause?
++ Impact or shock loading (brinelling)
+- Lack of lubrication (peeling)
+- Water contamination (etching)
+- Electric current passing through it (arcing)
+E: Brinelling is impact denting from shock loads, poor installation (hammering) or lack of creep. Arcing leaves burn marks or fluting; water leaves etching.
+
+@A3|Bearings|ct fail hl
+Q: A bearing's races show fine washboard-like lines and small burn marks. What likely caused this?
++ Electric current passing through the bearing
+- Too much preload when it was installed
+- Running with too much grease
+- Normal fatigue wear at the end of its service life
+E: Electric current (often from welding with the ground clamp on the wrong side of the bearing) causes arcing marks and fluting.
+
+@A3|Bearings|kr fail hl
+Q: What is the most common cause of bearing failure?
++ Contamination
+- Overloading
+- Too much preload
+- Electrical arcing
+E: Dirt and other contamination cause more bearing failures than anything else, so cleanliness during service is critical.
+
+@A3|Bearings|pa hl
+Q: A bearing is being pressed onto a shaft. Where should the press force be applied?
++ To the inner race
+- To the outer race
+- To the rollers and cage
+- Evenly to both races
+E: Press on the race that's being fitted: the inner race onto a shaft, the outer race into a bore. Pressing through the rollers damages the bearing.
+
+@A3|Bearings|pa hl
+Q: What is the maximum temperature for heating an open (unsealed) bearing for installation?
++ 120 °C (250 °F)
+- 80 °C (180 °F)
+- 200 °C (400 °F)
+- 300 °C (570 °F)
+E: Open bearings can be heated to about 120 °C. Sealed bearings only to about 80 °C because of the seals and grease.
+
+@A3|Bearings|pa hl
+Q: Which drift should be used to drive a bearing race into a hub?
++ A soft iron or steel drift
+- A brass drift
+- A hardened steel punch
+- An aluminum bar
+E: Brass can chip and leave particles in the bearing. Soft iron drifts or proper bearing drivers are used.
+
+@A3|Seals|kr hl
+Q: On a double lip seal, the spring-loaded lip:
++ holds the oil in, while the dry lip keeps dirt out
+- keeps dirt out, while the dry lip holds the oil in
+- is used only on low-pressure applications
+- faces the outside of the housing
+E: One lip is spring-loaded to seal the fluid; the other (non-spring) lip excludes contaminants. Dual lip seals have two spring-loaded lips and seal between two oil-filled housings.
+
+@A3|Seals|ct
+Q: A new lip seal was installed backwards in an axle housing. What will happen?
++ It will leak oil because the lip faces away from the oil
+- It will seal better because the lip faces the dirt
+- It will make no difference to sealing
+- It will overheat the bearing because of extra drag
+E: A lip seals in the direction it points. Installed backwards it becomes an exclusion seal and lets oil past.
+
+@A3|Fasteners|kr hl
+Q: An imperial bolt has six radial lines on its head. What grade is it?
++ Grade 8
+- Grade 5
+- Grade 6
+- Grade 2
+E: Count the lines and add 2: six lines = grade 8; three lines = grade 5; no lines = grade 2.
+
+@A3|Fasteners|pa hl
+Q: A cylinder head bolt pattern specifies a final torque of 150 lb-ft. What is the correct procedure?
++ Tighten in sequence in stages, about ⅓, ⅔ and full torque
+- Tighten each bolt to full torque in one pass
+- Tighten from the outside bolts inward to full torque
+- Tighten to 150 lb-ft, then back off ¼ turn
+E: Torque in stages and in the specified sequence (usually centre outward) so the part clamps evenly without distortion.
+
+@A3|Fasteners|ct hl
+Q: A technician lubricates bolt threads that the manufacturer specifies to be installed dry, then torques them to the dry spec. What is the result?
++ The bolts are over-tightened (too much clamp load)
+- The bolts are under-tightened
+- Clamp load is unchanged
+- The torque wrench reads low but clamp load is correct
+E: Lubrication reduces friction, so the same torque turns into much more bolt stretch and clamp load. Only lubricate threads when specified.
+
+@A3|Fasteners|pa hl
+Q: A self-locking nut has a run-down (prevailing) torque of 5 lb-ft and a specified torque of 40 lb-ft. What should the final torque wrench reading be?
++ 45 lb-ft
+- 40 lb-ft
+- 35 lb-ft
+- 8 lb-ft
+E: Run-down torque is the resistance before the nut seats; it's added to the specified torque so the clamp load is correct.
+
+@A3|Fasteners|ct
+Q: A bolt is threaded into a blind hole that contains oil and is torqued. What can happen?
++ The casting can crack from hydraulic pressure
+- The bolt will loosen from the oil
+- The torque reading will be too low
+- Nothing, the oil lubricates the threads
+E: Liquid trapped in a blind hole can't compress. As the bolt goes in, the pressure can crack the casting. Clean and blow out blind holes.
+
+@A3|Sealants|kr hl
+Q: An anaerobic sealant such as thread locker cures:
++ in the absence of air, between metal parts
+- only when exposed to air for 24 hours
+- only when heated above 150 °C
+- when mixed with a separate hardener
+E: Anaerobic sealants cure when air is excluded (between threads or flanges). Remove thread locker with heat.
+
+@A3|Documentation|pa hl
+Q: On an electrical schematic, components are shown:
++ in their de-energized, normal position
+- in their energized, operating position
+- at their actual size and location
+- with the wire lengths marked
+E: Schematics are drawn de-energized (key off, relays at rest, switches in their normal state).
+
+@A3|Inspection|pa hl
+Q: A Commercial Vehicle Inspection Program (CVIP) inspector finds a defect that fails the vehicle. What must the inspector do?
++ Refuse to issue the certificate and tell the owner
+- Fix the defect and pass the vehicle
+- Issue the certificate with a note
+- Hold the vehicle until the owner pays for repairs
+E: The inspector must refuse the certificate and notify the owner. A failed vehicle can't be held; the owner has 10 days to repair it or it must be re-inspected.
+
+@A3|Check-out|pa
+Q: A repair has been completed on a loader. What should be done before releasing it to the operator?
++ Do an operational check when hot and look for leaks
+- Clear all fault codes and release it right away to the operator
+- Write the repair on the invoice and park it
+- Have the operator check it out on the job site
+E: Verify the complaint is fixed with an operational check, look for leaks, reinstall guards and panels, remove tools, and document the repair.
+
+@A3|Safety features|ct safe
+Q: An operator asks to have the seat switch bypassed because the hydraulics shut off when they lean forward. What should the technician do?
++ Refuse, and repair or adjust the seat switch
+- Install a jumper across the switch
+- Unplug the switch and tape the connector
+- Bypass it temporarily until the end of the job
+E: Safety interlocks are never bypassed. Find out why it's dropping out (adjustment, wiring, switch) and fix it.
+
+@A3|Materials|kr
+Q: Which property describes how much load a material can carry before it permanently bends?
++ Yield strength
+- Tensile strength
+- Hardness
+- Malleability
+E: Yield strength (elastic limit) is the point where deformation becomes permanent. Tensile strength is the load at which it breaks.
+
+@A4|Coaching|pa
+Q: When teaching an apprentice a new skill, what is the correct coaching sequence?
++ Plan, tell, show, do, then give feedback
+- Show, do, tell, plan, then give feedback
+- Tell, do, show, plan, then give feedback
+- Do, show, tell, plan, then give feedback
+E: Plan how to teach it, tell (describe) the skill, show (demonstrate) it, have the apprentice do it, then give feedback.
+
+@A4|Coaching|ct
+Q: After an apprentice finishes a brake job, the journeyperson says "good job" and walks away. What type of feedback is this?
++ Empty feedback
+- Constructive feedback
+- Positive feedback
+- Formal assessment
+E: Empty feedback doesn't say what was done well. Positive feedback names the specific good points; constructive feedback corrects problems without insulting.

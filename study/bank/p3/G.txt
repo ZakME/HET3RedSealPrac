@@ -1,0 +1,2351 @@
+@G34|Symbols|sym hl kr p3
+Q: On a hydraulic schematic, a solid line represents a:
++ main working line
+- pilot line
+- drain line
+- enclosure line
+E: Solid = main (working) line carrying high pressure and high flow. Long dashes = pilot, short dashes = drain, dash-dot = enclosure.
+
+@G34|Symbols|sym kr p3
+Q: A line drawn with long dashes on a hydraulic schematic is a:
++ pilot line
+- drain line
+- main working line
+- flexible hose
+E: Pilot lines (long dashes) carry a low-flow control signal at relatively high pressure.
+
+@G34|Symbols|sym kr p3
+Q: A line drawn with short dashes on a hydraulic schematic is a:
++ drain line
+- pilot line
+- pressure line
+- suction line
+E: Short dashes = drain line (case drain, leakage return): low flow, lower pressure.
+
+@G34|Symbols|sym kr p3
+Q: A dash-dot line drawn around several valve symbols means the valves:
++ are housed in one body
+- are pilot operated
+- share a common drain
+- are electrically actuated
+E: An enclosure line groups components that are built into one valve body or assembly.
+
+@G34|Symbols|sym kr p3
+Q: Two lines on a schematic meet in a "T". The lines are:
++ always connected
+- connected only if a dot is shown
+- never connected
+- connected only in pilot circuits
+E: The notes stress that a T meeting is always a connection. Crossing lines with no dot are not connected.
+
+@G34|Symbols|sym ct p3
+Q: A solid (filled) triangle on a component symbol indicates:
++ hydraulic flow
+- pneumatic flow
+- a pressure compensator
+- an electrical input
+E: Filled triangle = hydraulic energy/flow. A hollow triangle = pneumatic.
+
+@G34|Symbols|sym kr p3
+Q: A diagonal arrow drawn through a pump, motor or spring symbol means the component is:
++ variable or adjustable
+- pressure compensated
+- reversible
+- pilot operated
+E: The slanted arrow through a symbol shows variability (variable displacement, adjustable spring, variable orifice).
+
+@G34|Symbols|sym kr p3
+Q: A circle with a filled triangle pointing outward from the circle represents a:
++ pump
+- motor
+- accumulator
+- pressure gauge
+E: In a pump the triangle points out (flow leaves). In a motor the triangle points in (flow drives it).
+
+@G34|Symbols|sym kr p3
+Q: A circle with two filled triangles pointing inward represents a:
++ reversible (bi-directional) motor
+- reversible (bi-directional) pump
+- one-way variable displacement motor
+- fixed displacement one-way pump
+E: Triangles pointing in = motor. Two triangles = flow in either direction, so the motor is reversible.
+
+@G34|Symbols|sym kr p3
+Q: A ball sitting in a V-shaped seat on a schematic is a:
++ check valve
+- relief valve
+- orifice
+- shuttle valve
+E: The ball-and-seat symbol is a check valve: free flow one way, blocked the other.
+
+@G34|Symbols|sym kr p3
+Q: On a directional control valve symbol, the number of squares (envelopes) shows the number of:
++ positions
+- ways (ports)
+- actuators
+- detents
+E: Each envelope is a position the valve can be shifted to. Ways are the number of lines connected to the valve.
+
+@G34|Symbols|sym kr p3
+Q: An open-top rectangle with a line drawn down into it to the bottom represents a:
++ vented reservoir, line below fluid level
+- vented reservoir, line above fluid level
+- pressurized (sealed) reservoir
+- suction strainer in the tank
+E: An open rectangle is a vented reservoir. A line reaching the bottom shows the line terminates below the fluid level.
+
+@G34|Symbols|sym ct p3
+Q: A small arrow drawn at right angles to the flow arrow on a pump or valve symbol indicates the component is:
++ pressure compensated
+- temperature compensated
+- manually adjustable
+- pilot drained
+E: The perpendicular arrow is the ILM's pressure compensated symbol (e.g., uni-directional, variable, pressure compensated pump).
+
+@G34|Symbols|sym kr p3
+Q: A valve symbol shows an arrow that is offset from the ports in its normal envelope. This pressure valve is:
++ normally closed
+- normally open
+- a two-position detented valve
+- externally sensed
+E: If the arrow does not line up with the inlet and outlet ports in the normal position, flow is blocked: normally closed (relief, sequence). Normally open valves (pressure reducing) show the arrow connecting the ports.
+
+@G34|Symbols|sym kr p3
+Q: Which actuation method is shown by a rectangle with a diagonal line through it on the end of a valve?
++ Solenoid
+- Lever
+- Pedal
+- Hydraulic pilot
+E: The boxed diagonal line is the solenoid (electrical) actuator symbol.
+
+@G34|Energy and work|hl kr p3
+Q: Work is defined as:
++ force acting through a distance
+- the ability to perform work
+- the rate of doing a job
+- pressure acting on an area
+E: Work = force × distance. Energy is the ability to perform work.
+
+@G34|Energy and work|hl kr p3
+Q: According to the law of conservation of energy, energy:
++ can only be transformed from one form to another
+- is created by the pump and used by the actuator
+- is destroyed as heat in the system
+- is created by pressure and lost as flow
+E: Energy can't be created or destroyed, only transformed. The engine turns chemical energy into heat then mechanical; the pump turns mechanical into hydraulic.
+
+@G34|Energy and work|hl kr p3
+Q: In a hydraulic system, a pump converts:
++ mechanical energy into hydraulic energy
+- hydraulic energy into mechanical energy
+- chemical energy into hydraulic energy
+- heat energy into kinetic energy
+E: Pumps take mechanical input from the prime mover and create flow (hydraulic energy). Actuators convert it back to mechanical.
+
+@G34|Energy and work|hl kr p3
+Q: Oil flowing through a hydraulic system is an example of:
++ kinetic energy
+- potential energy
+- chemical energy
+- stored energy
+E: Kinetic = movement and motion. Pumps provide flow (kinetic). Potential = stored energy that creates force (pressure), like an accumulator.
+
+@G34|Energy and work|hl kr p3
+Q: An accumulator is an example of which form of energy?
++ Potential
+- Kinetic
+- Mechanical
+- Thermal
+E: An accumulator stores energy in a charged state (potential energy) that can create force/pressure.
+
+@G34|Bernoulli|hl ct p3
+Q: According to Bernoulli's principle, as the velocity of a fluid decreases, its pressure:
++ increases
+- decreases
+- stays the same
+- drops to zero
+E: Total energy stays constant. High kinetic = low potential, low kinetic = high potential. This is how an orifice raises pressure upstream.
+
+@G34|Bernoulli|ct p3
+Q: Why does pressure build up on the inlet side of an orifice?
++ Slower flow there means higher pressure
+- The orifice adds energy to the oil passing it
+- Faster flow there means higher pressure
+- The oil cools and thickens at the orifice
+E: Bernoulli: slowing the flow (less kinetic energy) raises the pressure (more potential energy) before the orifice.
+
+@G34|Power|calc hl ct p3
+Q: A pump delivers 20 GPM at 1714 psi. How much hydraulic horsepower is this?
++ 20 HP
+- 10 HP
+- 34 HP
+- 40 HP
+E: HP = (GPM × PSI) ÷ 1714 = (20 × 1714) ÷ 1714 = 20 HP.
+
+@G34|Power|calc ct p3
+Q: A system flows 30 GPM at 2000 psi. Its hydraulic horsepower is closest to:
++ 35 HP
+- 60 HP
+- 17 HP
+- 114 HP
+E: (30 × 2000) ÷ 1714 = 60 000 ÷ 1714 ≈ 35 HP.
+
+@G34|Power|calc hl ct p3
+Q: A cylinder has a piston area of 10 in². What pressure is needed to lift a 15 000 lb load?
++ 1500 psi
+- 150 psi
+- 15 000 psi
+- 150 000 psi
+E: Pressure = Force ÷ Area = 15 000 ÷ 10 = 1500 psi.
+
+@G34|Power|calc ct p3
+Q: A cylinder holds 462 in³ of oil and must fully extend in 6 seconds. What flow is required? (231 in³ = 1 US gal)
++ 20 GPM
+- 2 GPM
+- 12 GPM
+- 40 GPM
+E: 462 in³ = 2 gal. Flow = volume ÷ time = 2 gal ÷ 0.1 min = 20 GPM.
+
+@G34|Pressure|hl kr p3
+Q: In a hydraulic system, pressure is created by:
++ resistance to flow
+- the pump's displacement
+- the reservoir oil level
+- oil velocity
+E: Pumps create flow. Pressure only builds when that flow meets resistance (the load, lines, valves).
+
+@G34|Efficiency|hl kr p3
+Q: Hydraulic system efficiency compares:
++ output power to input power
+- pressure to flow
+- input flow to return flow
+- pump speed to motor speed
+E: Efficiency is the ability to transmit power without loss: output power vs input power, as a percent.
+
+@G34|Losses|hl kr p3
+Q: Most of the potential energy lost in a hydraulic system is lost as:
++ heat
+- noise
+- vibration
+- leakage
+E: Pressure drops do no useful work; the lost energy shows up as heat, caused by fluid friction. More pressure loss = more heat.
+
+@G34|Losses|hl kr p3
+Q: Laminar flow is best described as:
++ smooth, straight, parallel flow with low friction
+- turbulent flow through a restriction
+- flow that changes direction rapidly
+- flow from high to low pressure through an orifice
+E: Laminar flow has no turbulence and low friction, which reduces pressure losses.
+
+@G34|Losses|ct p3
+Q: Which would NOT cause turbulent flow?
++ Correctly sized lines with gradual bends
+- Conductors that are too small for the flow
+- Sharp changes in line cross-section
+- Sharp elbows and changes in direction
+E: Turbulence comes from undersized lines and sharp changes in section or direction. Correctly sized, smooth lines promote laminar flow.
+
+@G34|Losses|hl kr p3
+Q: Backpressure in a hydraulic system is:
++ pressure caused by resistance to flow on the return side
+- pressure at the pump inlet
+- pressure caused by the load on the actuator
+- the pressure difference across a relief valve
+E: Backpressure is resistance on the return side; it increases internal resistance and reduces efficiency.
+
+@G34|Losses|hl ct p3
+Q: A customer complains that all cylinders work, but slowly. Pressure is normal. The most likely type of loss is:
++ a flow loss from excessive internal leakage
+- a pressure loss from a low relief setting
+- backpressure in the pilot circuit
+- low oil viscosity index
+E: Flow losses (internal leakage) mean flow does no useful work. The complaint is slower actuator operation. Pressure problems affect force, not speed.
+
+@G34|Circuits|hl kr p3
+Q: In a series circuit, each actuator receives:
++ full flow at reduced pressure
+- split flow at identical pressure
+- full flow at full pressure
+- split flow at reduced pressure
+E: Series = one flow path, so every actuator sees full flow, but the available pressure is shared.
+
+@G34|Circuits|hl kr p3
+Q: Two hydraulic motors connected in series will give:
++ higher speed and lower torque
+- lower speed and higher torque
+- higher speed and higher torque
+- lower speed and lower torque
+E: Series motors each get full flow (speed) but share pressure (torque).
+
+@G34|Circuits|hl ct p3
+Q: In a parallel circuit with two cylinders of different loads, which moves first?
++ The cylinder with the lightest load
+- The cylinder with the heaviest load
+- Both move at the same time and speed
+- The cylinder closest to the pump
+E: In parallel, flow divides and pressure is set by the easiest-to-move actuator, so the lightest load moves first.
+
+@G34|Circuits|ct p3
+Q: A machine switches its drive motors from series to parallel as the load increases. Why?
++ Parallel gives the motors more torque
+- Parallel gives the motors more speed
+- Parallel reduces oil temperature
+- Parallel stops the motors from cavitating
+E: Series-parallel circuits switch to parallel under higher load so each motor sees full system pressure, raising torque (at lower speed).
+
+@G34|Fluids|hl safe kr p3
+Q: Used petroleum-based hydraulic oil must be disposed of:
++ where it will not get into the ground or water
+- by burning it in the shop heater
+- down a floor drain with plenty of water
+- in general garbage once it is absorbed in rags
+E: The notes highlight disposing of petroleum oil so it cannot reach the ground or water.
+
+@G34|Fluids|hl kr p3
+Q: An invert emulsion fire-resistant fluid is approximately:
++ 40% water and 60% oil
+- 60% water and 40% oil
+- 60% glycol and 40% water
+- 95% water and 5% oil
+E: Invert emulsion = 40% water, 60% oil. Water-oil emulsion (per the ILM) = 60% water, 40% oil. Water glycol = about 60% glycol, 40% water.
+
+@G34|Fluids|hl kr p3
+Q: Phosphate ester fluids are NOT compatible with:
++ nitrile rubber seals
+- Teflon-based seals
+- steel lines
+- Viton seals
+E: Phosphate ester is the most fire resistant (and most expensive) fluid, but it attacks nitrile O-rings. Teflon-based seals are used instead.
+
+@G34|Fluids|kr p3
+Q: Which fire-resistant fluid is the MOST fire resistant but also the most expensive?
++ Phosphate ester
+- Water glycol
+- Invert emulsion
+- Biodegradable vegetable oil
+E: Synthetic phosphate ester is the most fire resistant, costs the most, and forms acids with water.
+
+@G34|Fluids|kr p3
+Q: A drawback of water-based fire-resistant fluids is that water:
++ lubricates poorly and can grow bacteria
+- attacks nitrile seals and O-rings
+- forms acids when exposed to air
+- makes the fluid too thick in cold weather
+E: Water lubricates poorly, can grow bacteria, freezes and foams easily (aeration).
+
+@G34|Fluid properties|hl kr p3
+Q: Viscosity is an oil's:
++ resistance to flow
+- rate of viscosity change with temperature
+- ability to separate from water
+- resistance to oxidation
+E: Viscosity is resistance to flow, and it largely determines lubricating ability.
+
+@G34|Fluid properties|hl kr p3
+Q: An oil with a HIGH viscosity index will:
++ change viscosity very little with temperature
+- change viscosity a lot with temperature
+- be very thick at all temperatures
+- separate water quickly
+E: VI = rate of viscosity change with temperature. High VI = small change; low VI = large change. Most OEMs want 90 minimum.
+
+@G34|Fluid properties|kr p3
+Q: Most OEMs recommend a hydraulic oil viscosity index of at least:
++ 90
+- 30
+- 150
+- 250
+E: The notes: most OEMs recommend a minimum VI of 90.
+
+@G34|Fluid properties|hl kr p3
+Q: Hydraulic oil that has oxidized will usually:
++ look darker and smell burnt
+- look milky
+- look dull or smoky
+- become thinner and clearer
+E: Oxidation (combining with oxygen, sped up by heat) forms soaps and acids; the oil darkens and smells burnt. Milky = water.
+
+@G34|Fluid properties|hl kr p3
+Q: Demulsibility is the oil's ability to:
++ separate water out of the oil
+- resist breaking down at high temperature
+- resist foaming
+- lubricate under high loads
+E: Demulsification = separating water from hydraulic oil.
+
+@G34|Fluid properties|ct p3
+Q: A hydraulic oil sample looks milky. This means it contains roughly:
++ 1% or more water
+- 0.5% water
+- oxidation by-products
+- trapped nitrogen
+E: About 0.5% water makes oil dull or smoky; 1% or more makes it milky.
+
+@G34|Contamination|hl kr p3
+Q: Contamination present in new machines or freshly rebuilt components is called:
++ built-in contamination
+- ingressed contamination
+- internally generated contamination
+- transient contamination
+E: Built-in contamination (casting sand, wear-in debris) is why initial service intervals are short, around 100 hours.
+
+@G34|Contamination|hl ct p3
+Q: The most common cause of contamination entering a hydraulic system is:
++ unclean maintenance procedures
+- faulty cylinder wiper seals
+- leaking pump inlet lines
+- casting sand from new parts
+E: Unclean maintenance is the most common source of ingressed contamination.
+
+@G34|Contamination|hl kr p3
+Q: How do worn cylinder wiper seals let contamination in?
++ Fine dirt is drawn in as the rods retract
+- Oil is pushed out as the cylinder extends
+- Dirt enters through the case drain
+- Air is drawn in at the pump inlet
+E: A film of oil leaves on the rod as it extends; fine contamination is drawn back in on retraction past a bad wiper.
+
+@G34|Contamination|hl ct p3
+Q: A contamination failure that comes and goes and may move from component to component is:
++ intermittent (transient)
+- catastrophic
+- degradation
+- built-in
+E: Intermittent failures come and go, often a piece of debris that gets stuck and later dislodged. Catastrophic = sudden total failure; degradation = gradual wear.
+
+@G34|Contamination|hl ct p3
+Q: A pump that suddenly "grenades" has suffered which type of failure?
++ Catastrophic
+- Intermittent
+- Degradation
+- Transient
+E: Catastrophic failure = rapid or sudden total disabling of a component or system.
+
+@G34|Pump principles|hl kr p3
+Q: A hydraulic pump's job is to:
++ create flow
+- create pressure
+- store energy
+- control actuator speed
+E: Pumps take power from the prime mover and generate flow. Pressure comes from resistance to that flow.
+
+@G34|Pump principles|hl kr p3
+Q: A positive displacement pump:
++ delivers a nearly constant volume regardless of resistance
+- delivers less flow as resistance rises, down to zero
+- has its inlet and outlet hydraulically connected
+- produces high flow at low pressure only
+E: Positive displacement pumps have a mechanical seal between inlet and outlet. All hydraulic pumps are positive displacement.
+
+@G34|Pump principles|kr p3
+Q: Which is an example of a NON-positive displacement pump?
++ Engine water pump
+- External gear pump
+- Balanced vane pump
+- Axial piston pump
+E: Non-positive pumps (centrifugal water pumps) have inlet and outlet connected hydraulically: high flow, low pressure.
+
+@G34|Pump principles|hl kr p3
+Q: The maximum flow rate of a hydraulic pump is:
++ directly proportional to its speed
+- inversely proportional to its speed
+- set by the relief valve
+- the same at any speed
+E: Flow = displacement × RPM. Double the speed, double the flow (until cavitation from overspeed).
+
+@G34|Pump principles|calc ct p3
+Q: A pump displaces 2.31 in³/rev and turns at 2000 RPM. Its theoretical flow is: (231 in³ = 1 US gal)
++ 20 GPM
+- 2 GPM
+- 4620 GPM
+- 200 GPM
+E: 2.31 × 2000 = 4620 in³/min ÷ 231 = 20 GPM.
+
+@G34|Pump principles|ct p3
+Q: Running a pump faster than its rated speed is most likely to cause:
++ cavitation
+- reduced pump flow
+- aeration from the case drain
+- lower system pressure at stall
+E: Excessive speed can starve the inlet and cause cavitation.
+
+@G34|Efficiency|hl kr p3
+Q: Volumetric efficiency of a pump is mainly determined by:
++ internal leakage
+- internal friction
+- system pressure setting
+- oil temperature only
+E: Volumetric efficiency = actual vs theoretical flow, which is reduced by internal leakage. Mechanical efficiency is about internal friction.
+
+@G34|Efficiency|calc ct p3
+Q: A pump's theoretical flow is 40 GPM. A flowmeter shows 34 GPM at rated pressure. What is its volumetric efficiency?
++ 85%
+- 15%
+- 94%
+- 118%
+E: VE = actual × 100 ÷ theoretical = 34 × 100 ÷ 40 = 85%.
+
+@G34|Efficiency|hl kr p3
+Q: Mechanical efficiency of a pump relates to:
++ the power needed to overcome internal friction
+- internal leakage from outlet to inlet
+- the difference between no-load and full-load flow
+- case drain flow
+E: Mechanical efficiency compares theoretical and actual torque required, which is the power lost to internal friction.
+
+@G34|Efficiency|hl ct p3
+Q: Why does a pump's overall efficiency drop off above normal operating pressure?
++ Internal leakage increases with pressure
+- Internal friction decreases with pressure
+- The pump turns slower at high pressure
+- Oil viscosity rises with pressure
+E: Overall efficiency peaks at normal operating pressure and drops at higher pressure due to increased internal leakage (slip).
+
+@G34|Pump basics|hl kr p3
+Q: Pump rotation (clockwise or counter-clockwise) is always determined by looking at the pump from the:
++ driveshaft end
+- port end
+- inlet side
+- side opposite the driveshaft
+E: Rotation and output are always determined from the driveshaft end.
+
+@G34|Pump basics|hl kr p3
+Q: A bi-directional pump will always have:
++ inlet and outlet ports of identical size
+- a larger inlet port than outlet
+- a swash plate that can go past centre
+- two case drains
+E: Bi-directional pumps run either rotation, so the ports are the same size. Uni-directional pumps usually (not always) have a bigger inlet.
+
+@G34|Pump basics|hl kr p3
+Q: A reversible pump can:
++ reverse its flow with the same shaft rotation
+- only deliver flow in one rotation
+- be driven either way by changing the belt
+- vary displacement but never direction
+E: Reversible = flow direction changes (inlet becomes outlet) with the same driveshaft rotation.
+
+@G34|Pump basics|hl kr p3
+Q: Which pump type can ONLY be built as fixed displacement?
++ Gear pump
+- Vane pump
+- Axial piston pump
+- Radial piston pump
+E: Gear pumps are always fixed. Vane and piston pumps can be fixed or variable.
+
+@G34|Pump basics|hl kr p3
+Q: In an unbalanced pump, inlet and outlet pressures:
++ create a side load on the shaft and bearings
+- cancel each other out across the shaft
+- act only on the pressure plate faces
+- have no effect on shaft bearing life
+E: Balanced pumps cancel the thrust loads; unbalanced designs create a thrust load.
+
+@G34|Pump basics|hl kr p3
+Q: A pressure compensated pump:
++ adjusts its flow automatically based on outlet pressure
+- adjusts its pressure based on flow demand
+- has a built-in relief valve that opens at max pressure
+- is always a fixed displacement design
+E: Pressure compensated = flow automatically adjusted by outlet pressure.
+
+@G34|Internal leakage|hl kr p3
+Q: Some internal leakage in a pump is necessary to:
++ lubricate internal components
+- cool the reservoir
+- prevent cavitation at the inlet
+- keep the case drain closed
+E: A controlled amount of leakage lubricates internal parts. Excess leakage reduces flow for work.
+
+@G34|Internal leakage|hl kr p3
+Q: As pump outlet pressure increases, internal leakage (slip) will:
++ increase
+- decrease
+- remain constant
+- stop completely
+E: High pressure always tries to reach low pressure areas. Higher pressure = more slippage.
+
+@G34|Case drain|hl pa p3
+Q: On a pump case drain, the drain port should be located:
++ on the top, to keep the case flooded
+- on the bottom, to drain the case completely
+- next to the inlet port
+- below the reservoir oil level
+E: The drain port goes on top so the case stays full of oil for lubrication.
+
+@G34|Case drain|kr p3
+Q: Which pump type REQUIRES an external case drain?
++ Piston pump
+- External gear pump
+- Balanced vane pump
+- Gerotor pump
+E: Piston pumps need a case drain. Gear and vane pumps route leakage internally to the inlet.
+
+@G34|Gear pumps|hl kr p3
+Q: In an external gear pump, oil is carried from inlet to outlet:
++ around the outside of the housing in the tooth pockets
+- through the centre between the meshing teeth
+- through drilled passages in the gears
+- between the gears and the pressure plate
+E: Oil travels around the outside of each gear in the tooth pockets. The meshing teeth in the middle seal outlet from inlet.
+
+@G34|Gear pumps|hl kr p3
+Q: On a gear pump, the outlet port is on the side where the gears:
++ come into mesh
+- come out of mesh
+- are farthest apart
+- meet the pressure plate trap
+E: Outlet = into mesh (oil is squeezed out). Inlet = out of mesh (volume increases, drawing oil in).
+
+@G34|Gear pumps|hl kr p3
+Q: The pressure plate in a gear pump:
++ limits internal leakage at the gear faces
+- holds the drive gear on its shaft
+- relieves excess system pressure
+- separates the inlet from the case drain
+E: Outlet pressure pushes the pressure (wear) plate against the gear faces to seal them.
+
+@G34|Gear pumps|kr p3
+Q: Which is an advantage of an external gear pump?
++ Simple, cheap and tolerant of contamination
+- Variable displacement at low cost
+- Very high pressure capability
+- Best overall efficiency of any pump
+E: Gear pumps are simple, rugged, cheap and handle dirt, but are low pressure and fixed only.
+
+@G34|Vane pumps|hl kr p3
+Q: Compared with a gear pump, a vane pump is:
++ more efficient and capable of higher pressure
+- cheaper and more tolerant of contamination
+- always variable displacement
+- unable to be balanced
+E: Vane pumps are more efficient and higher pressure, but more expensive and more sensitive to contamination.
+
+@G34|Vane pumps|hl kr p3
+Q: The vanes in a vane pump are held against the cam ring by:
++ centrifugal force and outlet pressure
+- strong springs under every vane only
+- inlet vacuum pulling them outward
+- the pressure plates clamping them
+E: Centrifugal force throws the vanes out and outlet pressure is ported under them. Some have small springs to help at start-up.
+
+@G34|Vane pumps|hl kr p3
+Q: Bevelled vanes can only be used in a:
++ uni-directional vane pump
+- bi-directional vane pump
+- vane motor
+- variable displacement vane pump only
+E: The high point of the bevel is the leading edge, so the pump can only turn one way. Rounded vanes are bi-directional.
+
+@G34|Vane pumps|hl ct p3
+Q: Why are bevelled vanes used in high speed, high pressure vane pumps?
++ Pocket pressure on the bevel unloads the tip
+- They let the pump turn either direction
+- They seal better against the side plates
+- They remove the need for vane springs
+E: Vane pocket pressure acts on the back of the bevel, taking pressure off the tip and increasing service life.
+
+@G34|Vane pumps|hl kr p3
+Q: A balanced vane pump uses:
++ an elliptical ring, two inlets, two outlets
+- a circular cam ring offset from the rotor
+- a movable cam ring to change displacement
+- one inlet and one outlet set at 180°
+E: The elliptical ring gives two opposing pumping chambers, so side loads cancel and higher pressures are possible.
+
+@G34|Vane pumps|ct p3
+Q: A variable displacement vane pump is always unbalanced because:
++ its cam ring must move off-centre to vary flow
+- it uses an elliptical cam ring and two inlets
+- its two outlets push the rotor sideways
+- its vanes are bevelled for one rotation
+E: Variable vane pumps change eccentricity by moving a circular cam ring; centred = zero flow. That design can't be balanced.
+
+@G34|Vane pumps|hl kr p3
+Q: A vane pump "cartridge" is:
++ the cam ring, rotor, vanes and plates as one unit
+- the pump housing, shaft and shaft seal
+- the inlet strainer and screen assembly
+- a replaceable compensator spool and spring
+E: The cartridge lets the pumping parts be replaced as one unit.
+
+@G34|Piston pumps|hl kr p3
+Q: Piston pumps are:
++ efficient and high pressure, but dirt sensitive
+- cheap, simple and tolerant of dirt
+- limited to fixed displacement designs
+- low pressure, high volume transfer pumps
+E: Tight tolerances give efficiency and pressure but make them very susceptible to contamination. Often used when variable displacement is required.
+
+@G34|Piston pumps|hl kr p3
+Q: In a radial piston pump, the pistons are arranged:
++ perpendicular (90°) to the driveshaft
+- parallel to the driveshaft
+- at an angle to the driveshaft (bent axis)
+- in line, sliding on a swash plate
+E: Radial = pistons at 90° to the shaft, in a circle. Axial = parallel to the shaft.
+
+@G34|Piston pumps|hl kr p3
+Q: In a rotating cam radial piston pump, oil is kept flowing in the correct direction by:
++ check valves at each piston
+- a timed spool valve on the shaft
+- a kidney port plate on the barrel
+- the swash plate angle
+E: Check valves on the inlet and outlet of each piston direct the flow.
+
+@G34|Piston pumps|hl kr p3
+Q: The most common pump in mobile equipment is the:
++ axial piston pump
+- radial piston pump
+- external gear pump
+- balanced vane pump
+E: The notes call the axial piston pump the most common in mobile equipment.
+
+@G34|Piston pumps|hl kr p3
+Q: In an axial piston pump, increasing the swash plate angle will:
++ increase displacement
+- decrease displacement
+- reverse the flow
+- increase internal leakage only
+E: Swash plate angle sets the piston stroke length. More angle = longer stroke = more displacement.
+
+@G34|Piston pumps|hl kr p3
+Q: The drilled passages through axial pump pistons are used to:
++ balance the piston and lube the shoes
+- return case drain oil to the pump inlet
+- relieve pressure when the pump destrokes
+- feed control oil to the compensator spool
+E: Pressure acts on all sides to balance the piston and lubricates the piston shoes sliding on the swash plate.
+
+@G34|Piston pumps|hl kr p3
+Q: On a pressure compensated axial piston pump, the bias piston and spring push the swash plate toward:
++ maximum displacement
+- zero displacement
+- the reverse flow position
+- the neutral (centred) position only at start-up
+E: Bias piston = small spring-loaded piston that upstrokes the pump. The large stroking piston, controlled by pressure, pushes toward zero.
+
+@G34|Piston pumps|hl ct p3
+Q: Why doesn't a pressure compensated axial piston pump need a main relief valve to limit pressure?
++ The pump destrokes itself at max pressure
+- The bias spring dumps flow to tank at max pressure
+- The case drain bypasses all excess flow
+- The pump slows the engine as pressure rises
+E: As pressure builds, the stroking piston overpowers the bias piston and flattens the swash plate, so the pump destrokes itself.
+
+@G34|Piston pumps|hl kr p3
+Q: How is the flow of a reversible axial piston pump reversed?
++ By moving the swash plate past centre
+- By reversing the driveshaft rotation
+- By swapping the inlet and outlet hoses
+- By turning the port plate 180°
+E: Reversible piston pumps reverse the swash plate angle (manually or hydraulically).
+
+@G34|Piston pumps|hl kr p3
+Q: A key difference between a bent axis pump and a swash plate axial pump is that bent axis pistons are:
++ held by ball joints, not sliding shoes
+- arranged at 90° to the driveshaft
+- driven by a rotating eccentric cam
+- unable to vary their displacement
+E: Bent axis pistons are connected by ball joints, and the stroke comes from the angle between barrel and driveshaft.
+
+@G34|Piston pumps|kr p3
+Q: Displacement of a variable bent axis pump is changed by:
++ changing the barrel-to-shaft angle
+- changing the swash plate angle
+- moving the cam ring off-centre
+- changing the effective piston length
+E: Bent axis pumps vary the angle of the barrel (with pistons) relative to the driveshaft.
+
+@G34|Start-up|hl pa p3
+Q: Before starting a newly installed hydraulic pump, the technician should:
++ back off the pressure controls and pre-lubricate the pump
+- set the relief valve to maximum and run at high idle
+- start at high idle to purge air quickly
+- disconnect the case drain until oil appears at the outlet
+E: Back off pressure controls (they could overload the pump) and prelube (fill and turn by hand). Then idle, load to warm oil, check max engine speed, test.
+
+@G34|Start-up|hl ct p3
+Q: After a pump failure has been repaired, which may also be required?
++ Change the oil and filters, clean the reservoir and flush the system
+- Only replace the pump; the filters will catch any debris
+- Increase the relief valve setting to seat the new pump
+- Run the machine at stall for 10 minutes to break in the pump
+E: A failed component spreads contamination. Oil, filters, reservoir cleaning and flushing may all be needed.
+
+@G34|Failure analysis|hl fail ct p3
+Q: Pump internals look sandblasted and dull, with some scoring. The cause is most likely:
++ contamination
+- cavitation
+- overloading
+- lack of lubrication
+E: Contamination is the greatest cause of failure. It leaves a dull, sandblasted look and scoring. Inspect the system filters.
+
+@G34|Failure analysis|hl fail kr p3
+Q: Pitting on the internal surfaces of a pump is the sign of:
++ cavitation
+- contamination
+- overloading
+- aeration from a loose case drain
+E: Cavitation causes pitting. Causes: improper oil, inlet restrictions, excessive pump speed.
+
+@G34|Failure analysis|hl fail ct p3
+Q: Which is a common cause of pump cavitation?
++ A restricted inlet
+- A restricted case drain
+- A relief valve set too low
+- A worn pressure plate
+E: Inlet restriction (along with improper oil and excessive speed) is a common cavitation cause.
+
+@G34|Failure analysis|hl fail ct p3
+Q: A pump shows heavy wear, blue spots and smeared surfaces. The most likely cause is:
++ lack of lubrication
+- contamination
+- overloading
+- cavitation
+E: Lack of lubrication (no oil film, metal to metal) from low/wrong oil or severe aeration causes blue overheating spots, smearing and seizure.
+
+@G34|Failure analysis|hl fail kr p3
+Q: A broken pump housing and a twisted driveshaft point to:
++ overloading (excessive pressure)
+- cavitation at the inlet
+- contamination in the oil
+- lack of lubrication
+E: Overloading (excessive pressure) breaks housings and shafts and causes seal leaks.
+
+@G34|Gear pump service|hl kr p3
+Q: In a gear pump, the pressure plate trap (relief groove) belongs on the:
++ outlet side of the pump
+- inlet side of the pump
+- case drain side
+- driveshaft side only
+E: The trap gives oil trapped between meshing teeth an escape path, keeping noise down and performance up. It goes on the outlet side.
+
+@G34|Gear pump service|hl kr p3
+Q: Aluminum gear pump housings are made so the gears:
++ cut into it on break-in for a tight fit
+- never touch the housing at any time
+- are supported only by the pressure plates
+- run with a large clearance for cooling
+E: The gears deliberately cut a path in the aluminum housing on break-in, giving a very tight clearance.
+
+@G34|Gear pump service|kr p3
+Q: A bi-directional gear pump has identical inlet and outlet sizes and:
++ internal check valves to suit either rotation
+- two driveshafts, one for each rotation
+- no pressure plate or seal rings
+- an external case drain to the tank
+E: Two internal check valves route oil correctly whichever way it turns.
+
+@G34|Vane pump service|hl ct p3
+Q: A vane pump was rebuilt and now has little or no flow and cavitates. A likely cause is:
++ the cam ring installed backwards
+- bevelled vanes with the point leading
+- a new cartridge was installed
+- pump speed too low to make pressure
+E: The cam ring's inlet and outlet must be in the correct positions; installed backwards gives no or low flow and cavitation.
+
+@G34|Piston pump service|kr p3
+Q: When disassembling a piston pump, the pistons must be:
++ kept with and returned to their original bores
+- swapped around to even out wear
+- replaced every time the pump is opened
+- installed in any bore as long as the shoes are new
+E: Pistons are mated to their bores. Mark all mated components.
+
+@G34|Cylinders|hl kr p3
+Q: A hydraulic cylinder converts:
++ hydraulic energy into linear mechanical energy
+- hydraulic energy into rotary mechanical energy
+- mechanical energy into hydraulic energy
+- linear energy into rotary energy
+E: Cylinders = linear output. Motors = rotary output.
+
+@G34|Cylinders|hl kr p3
+Q: The purpose of a cylinder wiper seal is to:
++ keep dirt out of the cylinder
+- seal the piston to the barrel
+- hold oil in the rod end cap
+- cushion the end of the stroke
+E: The wiper cleans the rod as it retracts so dirt doesn't get past the rod seals.
+
+@G34|Cylinders|calc ct p3
+Q: A cylinder has a 4 in² piston and a 1 in² rod. At 2000 psi, what is the retracting force?
++ 6000 lb
+- 8000 lb
+- 2000 lb
+- 10 000 lb
+E: Rod side force = (piston area − rod area) × pressure = (4 − 1) × 2000 = 6000 lb. Extending force would be 8000 lb.
+
+@G34|Cylinders|hl kr p3
+Q: A single acting cylinder:
++ is powered one way and returned by an outside force
+- is powered hydraulically in both directions
+- has equal area on both sides of the piston
+- is always a telescoping, multi-stage design
+E: Single acting = hydraulic power one way only; gravity or the load returns it.
+
+@G34|Cylinders|hl kr p3
+Q: In a ram type single acting cylinder:
++ oil flows past the piston and packing seals the end
+- the piston seals tightly against the barrel wall
+- oil is supplied alternately to both sides of the piston
+- an internal spring retracts the rod
+E: The ram's guide doesn't seal; oil flows past it. Sealing is by packing at the end of the cylinder.
+
+@G34|Cylinders|hl pa p3
+Q: In a single acting telescoping cylinder, which stage extends first?
++ The largest stage, because it has the most area
+- The smallest stage, because it has the least volume
+- All stages extend together
+- The stage closest to the rod end
+E: The first stage has the largest area, so it moves first. Each following stage has less force and more speed.
+
+@G34|Cylinders|hl kr p3
+Q: On a single-rod double acting cylinder, extension is:
++ slower, with more force than retraction
+- faster, with more force than retraction
+- slower, with less force than retraction
+- the same speed and force as retraction
+E: The base side has more area (more force) and more volume to fill (slower). Retraction = less force, faster.
+
+@G34|Cylinders|hl ct p3
+Q: A cylinder with a leaking piston seal will tend to drift toward:
++ extension
+- retraction
+- the centre of its stroke
+- whichever way the load pushes, never extension
+E: With equal pressure on both sides, only the rod area produces net force, pushing the rod out. Leaking cylinders drift toward extension.
+
+@G34|Cylinders|hl ct p3
+Q: Pressure intensification in a cylinder means:
++ trapped pressure can rise above system pressure
+- the pump makes more pressure than the relief setting
+- the cylinder drifts in the retract direction
+- cylinder pressure drops as the load increases
+E: Oil from the base side can't fit in the smaller rod side, so pressure there can rise above system pressure. Excavator cylinders are prone to this.
+
+@G34|Cylinders|hl kr p3
+Q: A double rod (non-differential) cylinder will:
++ give the same force and speed in both directions
+- extend faster than it retracts
+- retract with more force than it extends
+- only work as a single acting cylinder
+E: Equal piston area and volume both sides = same force and speed both ways.
+
+@G34|Cylinders|kr p3
+Q: On a double acting telescoping cylinder (like a haul truck hoist), the last stage to extend is usually:
++ the first to retract
+- the last to retract
+- the stage with the most force
+- never fully retracted
+E: Typically the last stage out is the first one back in.
+
+@G34|Cylinders|hl kr p3
+Q: The purpose of a piston relief valve inside a cylinder is to:
++ let oil bypass when the piston bottoms out
+- prevent the cylinder from drifting in hold
+- cushion the piston near the end of stroke
+- relieve intensification while lowering
+E: It's a mechanical double check in the piston that lets flow bypass when bottomed, common where the reservoir is limited.
+
+@G34|Cylinders|hl kr p3
+Q: Cylinder cushions are used to:
++ slow the cylinder at the end of its stroke
+- prevent cylinder drift in the hold position
+- protect the rod and seals from dirt
+- increase speed near the end of extension
+E: A plunger restricts return flow (or progressively blocked drillings) to slow the piston at the end of travel.
+
+@G34|Cylinders|hl kr p3
+Q: A quick drop valve speeds up the lowering of an implement by:
++ regeneration: rod-end oil is fed to the base end
+- dumping base-end oil directly to tank
+- increasing pump displacement during lowering
+- bypassing the counterbalance valve
+E: Quick drop valves supplement base-end oil with rod-end oil (regeneration) in full lower, cutting cycle time.
+
+@G34|Motors|hl kr p3
+Q: A hydraulic motor's speed depends on:
++ inlet flow and motor displacement
+- inlet pressure and motor displacement
+- inlet pressure and flow
+- case drain flow and pressure
+E: More flow = more speed; more displacement = less speed. Torque depends on pressure and displacement.
+
+@G34|Motors|hl kr p3
+Q: Hydraulic motor torque depends on:
++ inlet pressure and motor displacement
+- inlet flow and motor displacement
+- motor speed and case drain flow
+- outlet pressure and return flow
+E: More pressure or more displacement = more torque.
+
+@G34|Motors|hl ct p3
+Q: A fixed displacement motor is changed to one with twice the displacement on the same pump flow. The motor will run:
++ at half the speed with more torque
+- twice as fast with less torque
+- at the same speed with twice the torque
+- at half the speed with less torque
+E: Speed depends on flow ÷ displacement, so it halves. Torque rises with displacement at the same pressure.
+
+@G34|Motors|hl kr p3
+Q: The inlet pressure of a hydraulic motor is determined by:
++ the load on the motor shaft
+- the pump displacement
+- the motor's speed
+- the case drain restriction
+E: Like any pressure in a hydraulic system, motor inlet pressure is set by resistance (the load on the shaft).
+
+@G34|Motors|hl kr p3
+Q: A hydraulic motor with inlet and outlet ports of the same size is usually:
++ bi-directional
+- uni-directional
+- variable displacement
+- a gear motor
+E: Same size = bi-directional. Different = uni-directional.
+
+@G34|Motors|hl kr p3
+Q: External gear motors are best described as:
++ poor torque generators
+- the highest torque motors
+- low speed, high torque motors
+- variable displacement motors
+E: Counteracting forces act on all but one gear tooth, limiting torque.
+
+@G34|Motors|hl kr p3
+Q: In a gerotor (orbit) motor, oil is directed to the gerotor by a:
++ spool valve timed to the gerotor
+- disc valve with roller lobes
+- swash plate and port plate
+- set of inlet and outlet checks
+E: The gerotor uses a timed spool valve. The geroller uses a disc valve and roller lobes.
+
+@G34|Motors|hl kr p3
+Q: Gerotor and geroller motors are best described as:
++ low RPM, high torque, fixed displacement
+- high RPM, low torque, fixed displacement
+- high RPM, high torque, variable displacement
+- low RPM, low torque, variable displacement
+E: Both are low speed, high torque, fixed displacement motors.
+
+@G34|Motors|hl kr p3
+Q: The main improvement of a geroller over a gerotor motor is:
++ roller lobes for less friction and wear
+- it is variable displacement
+- it runs at much higher speeds
+- it doesn't need a case drain
+E: Geroller = gerotor with roller lobes (better wear, less friction) and a disc valve instead of a spool valve.
+
+@G34|Motors|hl kr p3
+Q: Vane motors need springs behind the vanes because:
++ nothing else holds the vanes out at start-up
+- the vanes are bevelled at the tip
+- the motor is balanced, so it has no side load
+- the cam ring is circular, not elliptical
+E: Without springs, the vanes wouldn't contact the cam ring at start-up and the motor wouldn't develop torque.
+
+@G34|Motors|hl kr p3
+Q: Which type of hydraulic motor is the most efficient and produces the highest RPM and torque?
++ Piston motor
+- Vane motor
+- Gear motor
+- Gerotor motor
+E: Piston motors are the most efficient with the highest RPM and torque. Most are fixed displacement.
+
+@G34|Motors|hl kr p3
+Q: Axial piston motors are usually made with an odd number of pistons to:
++ reduce pulsation
+- allow reversing
+- increase displacement
+- balance the swash plate
+E: An odd number of pistons smooths the output and reduces pulsation.
+
+@G34|Motors|hl ct p3
+Q: Why can the swash plate of a variable axial piston motor never be set flat (perpendicular)?
++ It would freewheel and make no torque
+- The motor would overspeed and fail
+- The case drain would be blocked off
+- The motor would reverse its direction
+E: Zero displacement means no torque arm, so the motor can't develop torque and would freewheel/stall.
+
+@G34|Motors|hl kr p3
+Q: A pressure compensated variable displacement motor:
++ changes displacement automatically with load
+- keeps a constant speed regardless of flow
+- needs no case drain to the reservoir
+- can only run in one direction
+E: The displacement is automatically controlled as the load (pressure) changes.
+
+@G34|Motors|hl kr p3
+Q: In a bent axis piston motor, increasing the angle between the block and the driveshaft will:
++ slow the motor and increase torque
+- speed up the motor and reduce torque
+- have no effect on speed
+- reverse its rotation
+E: Greater angle = more displacement = slower rotation, more torque.
+
+@G34|Motors|hl kr p3
+Q: Radial piston motors are generally:
++ low RPM, high torque motors
+- high RPM, low torque motors
+- the least efficient motor type
+- used only as pumps
+E: Both crankshaft and cam types are low RPM, high torque, and balanced.
+
+@G34|Motors|kr p3
+Q: In a crankshaft type radial piston motor:
++ the pistons push on an eccentric, turning the shaft
+- the pistons ride on followers around the inside of a cam
+- the pistons slide on a swash plate
+- oil is supplied through the shaft centre only
+E: Crankshaft type uses an eccentric lobe. Cam type pistons ride on followers around an internal cam with ramps.
+
+@G34|Motors|hl kr p3
+Q: Hydraulic motors require a case drain in order to:
++ return leakage oil to the tank
+- supply oil to the motor inlet
+- relieve pressure spikes in the loop
+- cool the motor outlet line
+E: The highlighted note: motors require a case drain to return leakage oil to the reservoir.
+
+@G34|Cylinder service|hl kr p3
+Q: Internal leakage in a cylinder can often be detected because it:
++ creates heat during movement
+- makes the rod pit
+- causes external leaks at the gland
+- shortens the cylinder's stroke
+E: Oil bypassing the piston generates heat, which shows up on a temperature check.
+
+@G34|Cylinder service|hl ct p3
+Q: To test a cylinder for internal leakage, the technician should:
++ stall it and check for flow at the return port
+- remove the rod and check the seals visually
+- measure the pressure at the pump outlet
+- time the cylinder with the engine at low idle
+E: With the cylinder stalled, very little oil should come from the opposite (return) port.
+
+@G34|Cylinder service|hl safe pa p3
+Q: When removing a piston from a cylinder barrel, you should never:
++ use compressed air to force the piston out
+- remove the rod end cap first
+- support the rod with a lifting device
+- drain the oil before disassembly
+E: Compressed air can launch the piston and rod. Remove the rod end cap and pull it out properly.
+
+@G34|Cylinder service|hl pa p3
+Q: The most accurate way to check a cylinder rod for straightness is to:
++ rotate it on V-blocks with a dial indicator
+- lay a straightedge along it
+- roll it on a flat bench
+- measure its diameter with a micrometer
+E: A straightedge is a quick check; V-blocks and a dial indicator are more accurate.
+
+@G34|Cylinder service|hl pa p3
+Q: To make new cylinder seals easier to install, they may be:
++ soaked in warm water or oil
+- heated with a torch until soft
+- frozen in dry ice to shrink them
+- coated with grease and room temperature vulcanizing (RTV)
+E: Soak seals in warm water or oil, then apply a light coat of oil so they slide into place.
+
+@G34|Cylinder service|hl ct p3
+Q: During cylinder assembly, why must the piston retaining fastener be torqued to spec?
++ A loose piston can come off and wreck the cylinder
+- Over-torque prevents pressure intensification
+- It sets the end-of-stroke cushion clearance
+- It preloads the rod wiper seal
+E: Highlighted: ensure the piston retaining fastener is torqued. A piston coming off can be catastrophic.
+
+@G34|Cylinder service|hl safe pa p3
+Q: After rebuilding a cylinder, it should be tested using:
++ pressurized oil, never compressed air
+- compressed air at shop pressure
+- nitrogen at low pressure
+- water to check for leaks
+E: Air compresses, builds up and can suddenly jerk the rod out. Oil moves the rod smoothly.
+
+@G34|Cylinder service|hl pa p3
+Q: The final operational test after cylinder repair is to check:
++ cycle times
+- case drain flow
+- rod straightness
+- pump inlet pressure
+E: Highlighted: the final operation test involves checking cycle times.
+
+@G34|Motor service|hl fail ct p3
+Q: Motor cavitation (pitting) is most likely when:
++ the load overruns the motor
+- the case drain is plumbed to the top
+- the system relief is set too low
+- the motor is pre-lubed before start-up
+E: When the load overruns the motor, the motor turns faster than the pump can supply oil, pressure falls and cavitation pits the internals.
+
+@G34|Motor service|hl pa p3
+Q: Before starting a newly installed hydraulic motor, the technician should:
++ pre-lubricate it so it is flooded with oil
+- run it dry for a few seconds to seat the parts
+- set the relief valve to maximum
+- disconnect the case drain line
+E: Pre-lube so it is full of oil, back off controls, then slowly apply pressure and check for leaks.
+
+@G34|Motor service|hl safe pa p3
+Q: During start-up after a motor repair, you notice a small leak and a new noise. You should:
++ shut down and not operate it until the cause is found
+- keep running it to see if the leak seals itself
+- raise the relief pressure to seat the seals
+- run at high idle to purge air
+E: Highlighted: do not operate if there are any leaks or unusual noises.
+
+@G34|Motor service|hl ct p3
+Q: Why should mated parts (gears, pistons) be marked when a motor is disassembled?
++ So they can go back in their original positions
+- So the warranty can be voided
+- To show which parts need replacement
+- To identify the direction of rotation only
+E: Mark motor housings and mated components and return them to their original positions.
+
+@G34|Pressure controls|hl valve kr p3
+Q: The "normal position" of a hydraulic valve is the position it is in when:
++ there is no pressure in the system
+- the system is at maximum pressure
+- the operator holds the control
+- the engine is at high idle
+E: Normal = no pressure in the system; a spring usually returns the valve there.
+
+@G34|Pressure controls|hl valve kr p3
+Q: A normally closed pressure control valve:
++ blocks oil flow in its normal position
+- allows unrestricted flow in its normal position
+- is always pilot operated
+- is used to reduce pressure to a branch circuit
+E: NC = flow blocked in normal position (relief, sequence). NO = flow unrestricted (pressure reducing).
+
+@G34|Pressure controls|hl valve kr p3
+Q: Pressure control valves work by balancing:
++ spring force against oil pressure
+- pump flow against return flow
+- pilot pressure against tank pressure
+- upstream flow against downstream flow
+E: Pressure acting on the valve is opposed by an (often adjustable) spring.
+
+@G34|Pressure controls|valve ct p3
+Q: Why must the spring cavity of a pressure control valve be drained to the reservoir?
++ To prevent the valve from hydraulically locking
+- To cool the spring
+- To provide pilot pressure to the main spool
+- To reduce pressure override
+E: Oil trapped in the spring cavity would lock the valve. It is drained internally or externally.
+
+@G34|Pressure controls|hl valve kr p3
+Q: A pressure control valve must be externally drained when its:
++ outlet is under pressure
+- outlet goes directly to tank
+- spring is adjustable
+- pilot comes from upstream
+E: If the outlet is pressurized (e.g., sequence or reducing valve), the spring cavity needs a separate drain line. Internally drained valves send their outlet to tank.
+
+@G34|Pressure controls|hl valve pa p3
+Q: The pressure at which a relief valve first begins to pass oil is called:
++ cracking pressure
+- full flow pressure
+- pressure override
+- modulation pressure
+E: Cracking = oil begins to flow. Full flow = fully open.
+
+@G34|Pressure controls|hl valve calc ct p3
+Q: A relief valve cracks at 2500 psi and reaches full flow at 2800 psi. The pressure override is:
++ 300 psi
+- 2500 psi
+- 2800 psi
+- 5300 psi
+E: Override = full flow pressure − cracking pressure = 2800 − 2500 = 300 psi.
+
+@G34|Pressure controls|hl valve kr p3
+Q: The constant opening and closing of a pressure valve as it controls pressure is called:
++ modulation
+- override
+- cracking
+- chatter compensation
+E: Valve modulation = constant opening and closing.
+
+@G34|Pressure controls|hl valve kr p3
+Q: A pressure valve that senses "upstream" pressure senses pressure:
++ before the valve
+- after the valve
+- in the spring cavity
+- at the reservoir
+E: Upstream = before; downstream = after.
+
+@G34|Pressure controls|hl valve kr p3
+Q: In a direct acting relief valve:
++ system pressure acts directly against the spring
+- a small pilot poppet controls a main poppet
+- pressure is sensed downstream of the valve
+- the weak main spring sets the override
+E: Direct acting = pressure directly opposed by spring force. Typically low flow use.
+
+@G34|Pressure controls|hl valve kr p3
+Q: In a pilot operated relief valve, the pilot poppet has:
++ low flow, high pressure (small poppet, strong spring)
+- high flow, low pressure (large poppet, weak spring)
+- high flow, high pressure
+- no spring at all
+E: Pilot poppet = small with a strong spring (sets pressure). Main poppet = large with a weak spring (passes most flow).
+
+@G34|Pressure controls|hl valve kr p3
+Q: The main advantage of a pilot operated relief valve over a direct acting one is that it:
++ minimizes pressure override
+- costs less
+- reacts faster to pressure spikes
+- needs no drain
+E: Highlighted: pilot operated relief valves minimize pressure override. They're also more accurate, less prone to chatter and handle higher ranges.
+
+@G34|Pressure controls|hl valve kr p3
+Q: In a pilot operated relief valve, the pressure override is set by the:
++ main spring
+- pilot spring
+- pilot orifice size
+- system load
+E: The highlighted note: main spring force sets the override; its spring constant is kept as low as possible.
+
+@G34|Relief valves|hl valve pa p3
+Q: A main relief valve is usually installed:
++ in parallel with the pump, often pilot operated
+- in series with each actuator work port
+- after the directional control valve (DCV), often direct acting
+- in the return line, ahead of the filter
+E: Main relief limits max system pressure, sits in parallel with pump and DCV (often in the DCV), is often pilot operated and handles high flow.
+
+@G34|Relief valves|hl valve kr p3
+Q: With the directional control valve (DCV) in neutral, circuit relief valves protect actuators from:
++ pressure spikes from shock loads
+- low pressure during cold start-up
+- cavitation when lowering a load
+- overspeeding when the load runs away
+E: With the DCV in neutral the actuator is blocked; a shock load can spike pressure, and the circuit relief opens.
+
+@G34|Relief valves|hl valve kr p3
+Q: Compared with the main system relief, a circuit relief valve is typically:
++ direct acting and set higher than system relief
+- pilot operated and set lower than system relief
+- the same type and setting as system relief
+- non-adjustable and set at zero
+E: Circuit reliefs are often direct acting, rarely open, low flow and set higher than the system relief.
+
+@G34|Relief valves|hl valve pa p3
+Q: Circuit relief valves are usually tested at their:
++ cracking pressure
+- full flow pressure
+- override pressure
+- standby pressure
+E: Because they're set above system relief, they are checked at cracking pressure (hand pump, or temporarily raising system pressure).
+
+@G34|Relief valves|hl valve ct p3
+Q: How can a circuit relief set higher than the main relief be checked on the machine?
++ Hand pump, or temporarily raise main relief
+- Stall the cylinder at high idle and read it
+- Read pressure in the return line at stall
+- Time the cylinder cycle at full throttle
+E: Highlighted methods: a hand pump, or temporarily increasing system pressure above the circuit relief setting.
+
+@G34|Relief valves|valve pa p3
+Q: Where is the gauge connected, and at what engine speed is the main system relief adjusted?
++ At the pump outlet, at high idle
+- At the work port, at low idle
+- At the return line, at high idle
+- At the pump inlet, at low idle
+E: Pressure gauge at the pump outlet (in parallel), oil warm, stall the system and adjust at high idle.
+
+@G34|Unloader|hl valve kr p3
+Q: An unloader valve:
++ sends pump flow to tank at low pressure
+- holds a reduced pressure in a branch circuit
+- controls the order in which actuators move
+- prevents a suspended load from drifting
+E: The unloader takes the load off the pump by dumping flow to tank at low pressure, more efficiently than a relief valve.
+
+@G34|Unloader|hl valve kr p3
+Q: In a closed centre system with a fixed displacement pump, an unloader valve:
++ replaces the relief, with a check valve and accumulator after it
+- is installed in series with each actuator work port
+- only works with a variable displacement pump
+- does away with the need for an accumulator or check valve
+E: The unloader takes the place of the relief valve. Layout: pump, unloader, check valve, accumulator, system. When system pressure reaches the unloader setting, it dumps pump flow to tank at low pressure. The check valve stops system oil from flowing back out through the unloader, and the accumulator after the check valve holds system pressure and supplies oil while the pump is unloaded. When pressure drops, the unloader closes and the pump recharges the accumulator.
+
+@G34|Unloader|valve ct p3
+Q: In a hi-lo (tandem pump) demand system, the unloader valve:
++ unloads one pump while the other holds pressure
+- dumps both pumps to tank in neutral
+- combines both pumps at maximum pressure
+- limits one branch below system pressure
+E: The ILM: in a hi-lo system the unloader unloads one pump, and the other continues to supply flow to keep base system pressure, so pump output follows the load.
+
+@G34|Pressure reducing|hl valve kr p3
+Q: A pressure reducing valve is:
++ normally open and installed in series with the actuator
+- normally closed and installed in parallel with the pump
+- normally closed and installed in the return line
+- normally open and installed in parallel with the actuator
+E: Pressure reducing valves are NO, in series, and let one circuit run below system pressure (controls actuator force).
+
+@G34|Pressure reducing|valve ct p3
+Q: A clamp circuit must grip with less force than the main system can produce. Which valve is used?
++ Pressure reducing valve
+- Sequence valve
+- Counterbalance valve
+- Unloader valve
+E: A pressure reducing valve limits one circuit below system pressure, which limits actuator force.
+
+@G34|Sequence|valve pa p3
+Q: A sequence valve is used to:
++ make hydraulic actions happen in a certain order
+- hold a suspended load
+- limit circuit pressure below system pressure
+- send excess pump flow to tank
+E: Sequence valves keep pressure in the primary circuit while the secondary operates.
+
+@G34|Backpressure valves|hl valve kr p3
+Q: Backpressure valves (counterbalance, brake, lock) control actuator movement by:
++ restricting oil returning from the actuator
+- limiting pump flow
+- increasing inlet pressure to the actuator
+- reducing pressure at the directional control valve (DCV)
+E: They restrict return flow and act as safety valves.
+
+@G34|Backpressure valves|valve ct p3
+Q: Care is needed when adding any restriction in the rod end of a cylinder because:
++ it can cause pressure intensification
+- it will make the cylinder drift out
+- it will make the pump cavitate
+- it disables the circuit relief
+E: Restricting rod-end flow can intensify pressure beyond system maximum.
+
+@G34|Counterbalance|valve kr p3
+Q: A counterbalance valve is mainly a safety device used to:
++ control the speed at which a load is lowered
+- prevent a motor from overspeeding
+- hold a suspended load if a hose breaks
+- divide flow between two circuits
+E: Counterbalance = control lowering speed. It's in series in the actuator return and the load weight must be known when adjusting.
+
+@G34|Counterbalance|hl valve kr p3
+Q: A conventional counterbalance valve uses:
++ an internal pilot
+- an external pilot from the opposite work line
+- an electrical solenoid
+- a load sensing line from the pump
+E: The highlighted note: counterbalance = internal pilot. (A brake valve's pilot comes from the opposite work line.)
+
+@G34|Counterbalance|valve ct p3
+Q: Why does a counterbalance valve not work well on machines with widely varying loads?
++ It is set for a known load weight
+- It has no spring adjustment
+- It only works with motors
+- It needs an accumulator to function
+E: The setting is based on a known load. Varying loads make the lowering control inconsistent.
+
+@G34|Brake valve|hl valve kr p3
+Q: A hydraulic brake valve in a motor circuit:
++ prevents the load from overspeeding the motor, using pilot pressure from the motor inlet
+- holds the motor stationary with the directional control valve (DCV) in neutral using a spring brake
+- limits maximum motor pressure
+- sends case drain oil to tank
+E: Brake valves are in series with the motor return, piloted from the motor inlet (opposite work line), giving controlled deceleration. A check valve is needed with a reversible motor.
+
+@G34|Lock valve|hl valve kr p3
+Q: A lock valve on a cylinder is used to:
++ hold the load in neutral or if a line leaks
+- control lowering speed under varying loads
+- relieve shock loads in both work ports
+- regenerate rod-end oil to the base end
+E: Lock valves are in series with both cylinder ports, hold suspended loads, prevent drift in neutral and are usually not adjustable.
+
+@G34|Flow control|hl valve kr p3
+Q: Flow control valves are used to control:
++ the speed of cylinders and motors
+- the force of cylinders
+- maximum system pressure
+- the order of actuator movement
+E: Speed is controlled by controlling input flow, since changing actuator capacity isn't practical.
+
+@G34|Flow control|hl valve pa p3
+Q: The pressure immediately after a flow control orifice will be equal to:
++ the load after the orifice
+- the pressure before the orifice
+- zero, whatever the load
+- the main relief setting
+E: With no load after the orifice pressure is 0; with 100 psi of resistance after, pressure after is 100 psi.
+
+@G34|Flow control|hl valve kr p3
+Q: Flow through an orifice is determined by:
++ size, shape, pressure drop and viscosity
+- its size and the pump displacement
+- pump speed and line length
+- the downstream load and relief setting
+E: Highlighted: size and shape, pressure drop and viscosity. Some valves are temperature compensated for viscosity.
+
+@G34|Flow control|hl valve kr p3
+Q: A bypass type flow control valve:
++ dumps excess flow and is meter-in only
+- restricts flow in the return line only
+- works only with variable pumps
+- works for both meter-in and meter-out
+E: Bypass flow controls dump excess to tank, so if used meter-out, control of the actuator would be lost. Meter-in only.
+
+@G34|Flow control|hl valve kr p3
+Q: With a NON-pressure compensated flow control, as load increases the flow to the actuator:
++ decreases
+- increases
+- stays exactly the same
+- stops completely
+E: More load = less pressure drop across the orifice = less flow. It doesn't accurately control speed.
+
+@G34|Flow control|hl valve kr p3
+Q: A pressure compensated flow control valve:
++ keeps flow constant as the load changes
+- lets flow drop as the load increases
+- limits maximum system pressure
+- works only as a meter-out control
+E: The compensator holds a constant pressure drop, so flow stays constant regardless of load.
+
+@G34|Flow control|hl valve kr p3
+Q: In a pressure compensated restrictor flow control, a stronger compensator spring will give:
++ more pressure drop and more flow
+- less pressure drop and less flow
+- no change in flow
+- reverse flow through the valve
+E: Pressure before = pressure after + spring force. Stronger spring = more drop across the orifice. Weaker spring = less drop.
+
+@G34|Flow control|hl valve kr p3
+Q: A meter-in flow control is best used when:
++ the load opposes the actuator's movement
+- the load runs ahead of the actuator
+- the load changes direction
+- the actuator is a cylinder rod outlet
+E: Meter-in works when the load resists motion. If the load goes with the actuator, meter-in can cause cavitation.
+
+@G34|Flow control|hl valve ct p3
+Q: Meter-out flow control on the rod outlet of a cylinder can cause:
++ severe pressure intensification
+- cavitation of the pump
+- loss of speed control
+- the cylinder to drift to retract
+E: Meter-out suits loads that change direction and size, but restricting the rod outlet can intensify pressure severely.
+
+@G34|Flow control|valve kr p3
+Q: For a meter-in flow control, port A connects to the ___ and port B to the ___.
++ Directional control valve (DCV) work port; actuator port
+- actuator port; directional control valve (DCV) work port
+- pump; tank
+- tank; actuator port
+E: Meter-in controls flow into the actuator: DCV work port in, actuator out. Meter-out is the reverse.
+
+@G34|Flow dividers|hl valve kr p3
+Q: A priority flow divider:
++ feeds the primary circuit first, then the rest
+- splits flow evenly between two circuits
+- sends all excess flow to the reservoir
+- divides flow in proportion to load
+E: Priority dividers are common in steering and transmission circuits.
+
+@G34|Flow dividers|hl valve kr p3
+Q: A proportional flow divider:
++ splits flow in a ratio set by its orifices
+- gives all flow to one circuit first
+- returns excess flow to the tank
+- varies the split with load pressure
+E: The split ratio depends on orifice sizes; it is pressure compensated so flow stays constant regardless of pressure.
+
+@G34|Accumulators|hl valve kr p3
+Q: Which is NOT a function of a hydraulic accumulator?
++ Increasing pump displacement
+- Storing hydraulic energy
+- Absorbing shock and pressure spikes
+- Maintaining constant pressure
+E: Accumulators store energy, react to fluctuations, absorb shock, allow gradual pressure build-up and maintain pressure.
+
+@G34|Accumulators|hl safe pa p3
+Q: Before servicing a hydraulic system with an accumulator, you must:
++ discharge the accumulator
+- charge the accumulator to max pressure
+- remove the nitrogen valve core
+- run the engine to keep pressure in the system
+E: Highlighted: always ensure accumulators are discharged prior to service.
+
+@G34|Accumulators|hl safe kr p3
+Q: Gas charged accumulators must only be charged with:
++ dry nitrogen
+- compressed shop air
+- oxygen
+- carbon dioxide
+E: Never use oxygen or compressed air; they can combine with oil and explode.
+
+@G34|Accumulators|valve kr p3
+Q: In which type of accumulator is the force NOT constant through its stroke?
++ Spring loaded
+- Weighted
+- Bladder
+- Piston gas charged
+E: A coil spring pushes harder as it compresses, so the force isn't constant. (Weighted is constant force.)
+
+@G34|DCV|hl valve kr p3
+Q: Directional control valves are classified by their:
++ ways, positions, actuation and detents
+- pressure rating and port size
+- pump type and rated flow
+- spool diameter, length and material
+E: Number of flow paths (ways), number of positions, actuation and detents.
+
+@G34|DCV|hl valve kr p3
+Q: The most common type of directional control valve (DCV) in mobile hydraulics is the:
++ sliding spool valve
+- rotary spool valve
+- poppet valve
+- ball check valve
+E: Sliding spool = most common, linear action, high pressure and flow. Rotary spool has high leakage and low pressure.
+
+@G34|DCV|valve ct p3
+Q: If a directional control valve (DCV) spool is badly worn, it is normally:
++ replaced together with the housing as a matched set
+- replaced alone with a standard spool
+- built up with chrome and reused
+- swapped with a spool from another section
+E: Spools and housings are matched sets and can't be replaced separately.
+
+@G34|DCV|hl valve kr p3
+Q: Metering notches on a directional control valve (DCV) spool are:
++ cuts in the lands that allow feathering
+- grooves that hold the spool O-rings
+- notches the detent balls drop into
+- drillings that feed the load check
+E: Metering notches let the operator feather (make small, precise movements).
+
+@G34|DCV|hl valve kr p3
+Q: With the directional control valve (DCV) in the HOLD position:
++ the work ports are blocked
+- the work ports are connected to tank
+- pump flow goes to both work ports
+- the actuator is free to float
+E: Hold = work ports blocked. Float = work ports connected to tank.
+
+@G34|DCV|hl valve kr p3
+Q: A directional control valve (DCV) in the FLOAT position:
++ connects both work ports to tank
+- blocks both work ports
+- connects pump flow to both work ports
+- blocks the pump and tank ports only
+E: Float lets the implement follow the ground. Typically the 4th position on a 4-position valve.
+
+@G34|DCV|hl valve kr p3
+Q: A diverter valve is a:
++ 2-position, 3-way valve feeding one of two circuits
+- 3-position, 4-way valve with a float detent
+- relief valve with two pressure settings
+- check valve used for anti-cavitation
+E: Diverter = 2 position, 3 way. It controls which of two circuits receives flow.
+
+@G34|DCV|hl valve kr p3
+Q: The number of "ways" of a directional control valve (DCV) is:
++ the number of lines to the valve
+- the number of valve positions
+- the number of spools in the bank
+- the number of detent positions
+E: Ways = how many lines go into the valve.
+
+@G34|DCV centres|valve kr p3
+Q: A closed centre directional control valve (DCV) must be paired with:
++ a compensated variable pump, or fixed pump and unloader
+- a fixed displacement pump and no unloader
+- an open centre relief and a series passage
+- a series passageway to the next valve
+E: With flow blocked in neutral, either the pump must destroke or an unloader must dump fixed-pump flow (with a check valve and accumulator after the unloader to hold system pressure).
+
+@G34|DCV centres|hl valve kr p3
+Q: An "open work port" centre (A and B to tank, P blocked) is also called a:
++ motor spool
+- tandem centre
+- hold centre
+- regen centre
+E: Also called an H-spool by some makers. It allows brake valves in the work lines of a motor.
+
+@G34|DCV centres|valve kr p3
+Q: A tandem (open) centre directional control valve (DCV) is generally used with:
++ fixed pumps, with valves stacked in series
+- variable displacement pumps only
+- load sensing pressure compensated systems
+- an accumulator as the main oil supply
+E: Tandem centre sends pump flow to tank in neutral and allows series connection.
+
+@G34|DCV actuation|hl valve ct p3
+Q: Why might a directional control valve (DCV) be pilot operated rather than mechanically operated?
++ Less effort, and the valve can be mounted remotely
+- It is cheaper and simpler than a lever
+- It removes the need for centering springs
+- It makes the valve on/off for safety
+E: Pilot actuation (often from a separate pilot pump) reduces effort and suits remote valves.
+
+@G34|DCV actuation|hl valve kr p3
+Q: What is the main limitation of an electrically (on/off) actuated directional control valve (DCV)?
++ It does not allow feathering
+- It cannot be used in mobile equipment
+- It needs a pilot pump
+- It cannot be detented
+E: Electrical = on or off, no feathering. Electronic (proportional) control is infinitely variable.
+
+@G34|DCV actuation|valve ct p3
+Q: Electrical-over-pilot directional control valve (DCV) actuation solves which two problems?
++ It allows feathering and increases actuation force
+- It eliminates the pilot pump and the relief valve
+- It removes the need for detents and a centering spring
+- It reduces flow and pressure losses
+E: The solenoid controls pilot pressure, which provides the force; proportional control allows feathering.
+
+@G34|DCV actuation|hl valve kr p3
+Q: A detent on a directional control valve (DCV) is used to:
++ hold the spool in a position
+- return the spool to neutral
+- meter oil for feathering
+- prevent load drop
+E: Detents (ball and spring or electromagnet) hold the spool in position.
+
+@G34|DCV accessories|hl valve pa p3
+Q: A load check valve in a directional control valve (DCV) prevents:
++ a load dipping when moved from hold to raise
+- cavitation when the load drives the actuator
+- pressure from exceeding the relief setting
+- flow from the work port to tank in float
+E: Until pump pressure exceeds load pressure, the load check blocks reverse flow so the load doesn't dip.
+
+@G34|DCV accessories|hl valve ct p3
+Q: An anti-cavitation check valve opens when:
++ the load drives the actuator faster than the pump
+- system pressure exceeds the relief setting
+- the directional control valve (DCV) is moved from hold to raise
+- the actuator is stalled at the end of stroke
+E: It lets tank oil supplement pump oil when actuator pressure goes negative, preventing a void.
+
+@G34|DCV accessories|valve kr p3
+Q: A flow compensator valve in a directional control valve (DCV) section:
++ holds a constant drop across the spool
+- limits maximum circuit pressure
+- prevents the load from dropping
+- vents the spool spring cavity
+E: It senses pressure before and after the spool and keeps the drop constant.
+
+@G34|Valve banks|valve kr p3
+Q: A "power beyond" sleeve in a directional control valve (DCV) bank:
++ lets the bank supply another DCV
+- lets the bank sections bolt together
+- converts the bank to closed centre
+- connects the main relief to tank
+E: Power beyond feeds another DCV; the main DCV has priority.
+
+@G34|Valve banks|hl valve ct p3
+Q: In an open centre bank with a series passageway, what happens when one valve is operated?
++ All valves downstream lose flow
+- All valves upstream lose flow
+- Flow is split evenly between all valves
+- The valve with the lightest load gets priority
+E: The first valve in series has priority; downstream valves lose flow when it is actuated.
+
+@G34|Valve banks|hl valve kr p3
+Q: In a series-parallel directional control valve (DCV) bank, when two functions are operated together:
++ the lightest load has priority
+- the heaviest load has priority
+- the first valve always has priority
+- both get exactly half the flow
+E: Series in neutral, parallel when operated together, so oil takes the easiest path.
+
+@G34|Valve banks|hl valve kr p3
+Q: A diverter valve feeding two DCVs means the DCVs:
++ cannot be operated at the same time
+- share flow equally
+- can only be operated in float
+- operate in series
+E: Highlighted: DCVs fed by a diverter cannot be operated simultaneously.
+
+@G34|System basics|hl kr p3
+Q: A hydraulic "circuit" is:
++ a group of components doing one function
+- every hydraulic component on the machine
+- only the path from pump to reservoir
+- only the pilot side of a system
+E: System = all interconnected components. Circuit = a group within it for a specific function.
+
+@G34|System basics|hl ct p3
+Q: Why must variable displacement pump horsepower be limited?
++ To avoid stalling the engine
+- To keep the oil from getting too cold
+- To reduce case drain flow
+- To increase standby pressure
+E: Pump HP is limited (by reducing pressure or flow) so the pump can't stall the engine.
+
+@G34|Open centre|hl kr p3
+Q: In an open centre system with the directional control valve (DCV) in neutral:
++ pump flow returns to the reservoir
+- pump flow is blocked at the DCV
+- the pump destrokes to zero
+- the system sits at maximum pressure
+E: Open centre = flow returns to tank in neutral. Typically fixed displacement pumps.
+
+@G34|Open centre|hl kr p3
+Q: An open centre system is called a "constant flow" system because:
++ the pump flows even when no work is done
+- flow stays constant at any engine speed
+- pressure stays constant at all times
+- flow is only delivered when needed
+E: The fixed pump always flows. Pressure is a function of load resistance.
+
+@G34|Open centre|hl kr p3
+Q: In an open centre system, pump pressure is a function of:
++ load resistance
+- pump displacement
+- engine speed
+- the compensator spring setting
+E: Pump pressure rises only as far as needed to move the load. In neutral the DCV gives low resistance.
+
+@G34|Open centre|hl ct p3
+Q: Open centre systems are best suited to machines whose hydraulics are:
++ used only part of the duty cycle
+- run continuously at high pressure
+- used for precise load sensing work
+- used with several functions at once
+E: They are inefficient when demand is low and engine speed high, so they suit systems used only part of the time.
+
+@G34|Constant HP|hl kr p3
+Q: A constant horsepower system:
++ destrokes as pressure rises to use max HP
+- keeps pump flow constant at all pressures
+- keeps pressure constant at all flows
+- varies engine speed to match the load
+E: High displacement at low pressure, destroking as pressure rises, keeping engine speed constant and fast actuators at light loads.
+
+@G34|Constant HP|hl kr p3
+Q: On a constant horsepower regulator with negative flow control (NFC), power shift and cross-sensing signals, an increase in any of these pressures will:
++ destroke the pump
+- upstroke the pump
+- open the main relief
+- raise engine speed
+E: Highlighted: as any of the three pressures increases it destrokes the pump.
+
+@G34|Constant HP|hl kr p3
+Q: In a constant horsepower system, negative flow control (NFC) pressure:
++ reflects flow through each directional control valve (DCV) bank
+- is set by the electronic control module (ECM) from the speed dial
+- is the other pump's outlet pressure
+- limits maximum system pressure
+E: NFC monitors flow through each DCV bank. PRV/power shift pressure is ECM controlled. Cross-sensing = pump outlet pressures.
+
+@G34|Constant HP|hl kr p3
+Q: Power shift (PRV) pressure on a constant horsepower excavator system is:
++ set by the electronic control module (ECM) from the speed dial
+- taken directly from each pump outlet
+- made by flow through a directional control valve (DCV) bank orifice
+- set by the main relief valve spring
+E: The ECM controls it through a pressure reducing valve, using pilot oil, based on engine speed dial setting.
+
+@G34|Closed centre|hl kr p3
+Q: In a closed centre system with the directional control valve (DCV) in neutral:
++ flow is blocked and pressure is held
+- pump flow returns freely to tank
+- the actuators float on tank oil
+- full pump flow goes over the relief
+E: Closed centre blocks flow in neutral. Variable pumps destroke; fixed pumps use an unloader, with a check valve and accumulator holding system pressure.
+
+@G34|Closed centre|valve kr p3
+Q: In a closed centre system with a pressure compensated pump, any relief valve fitted must be set:
++ higher than the pressure compensator
+- lower than the pressure compensator
+- the same as the compensator
+- at standby pressure
+E: The relief is only a safety backup; the compensator should limit pressure first.
+
+@G34|Closed centre|hl kr p3
+Q: A "demand flow" system is one in which:
++ flow is only provided when needed
+- flow is constant at all times
+- pressure always sits at maximum
+- the operator sets flow with a dial
+E: Highlighted: demand flow = flow only provided when required.
+
+@G34|Load sensing|hl kr p3
+Q: In a load sensing system, "margin pressure" is:
++ how far pump pressure sits above load
+- the maximum system pressure
+- the pressure at the pump inlet
+- cracking minus full flow pressure
+E: The pump outlet is held slightly higher than load pressure by the margin.
+
+@G34|Load sensing|hl kr p3
+Q: In a load sensing system at standby (no functions operated):
++ margin pressure at the pump, none at the load
+- the pump sits at maximum pressure
+- the pump is at full flow to tank
+- the load sense line is at max pressure
+E: Standby = margin pressure only at the pump; no pressure at the load.
+
+@G34|Load sensing|hl ct p3
+Q: A load sensing system's cylinder is stalled against a stop. Pump pressure will be:
++ maximum, equal to load pressure
+- load pressure plus margin pressure
+- margin (standby) pressure only
+- zero, because the pump destrokes
+E: Stalled: pump pressure max (set by the pressure compensator), same as load.
+
+@G34|Load sensing|hl kr p3
+Q: In a load sensing pressure compensated (LSPC) pump, the flow compensator:
++ maintains margin pressure as load changes
+- sets maximum system pressure
+- pushes the swash plate to max displacement
+- meters oil to the actuator
+E: Flow compensator = margin. Pressure compensator = max pressure (opens on stall).
+
+@G34|Load sensing|hl kr p3
+Q: In a load sensing pressure compensated (LSPC) pump, which component pushes the swash plate toward DEstroke?
++ Stroking (actuator) piston
+- Bias spring/piston
+- Flow compensator spool
+- Load sense line
+E: The stroking piston destrokes the pump. The bias spring/piston upstrokes it.
+
+@G35|Hydrostatic|hl hst kr p3
+Q: A hydrostatic drive reaches its HIGHEST output speed with:
++ maximum pump displacement and minimum motor displacement
+- minimum pump displacement and maximum motor displacement
+- maximum pump and maximum motor displacement
+- minimum pump and minimum motor displacement
+E: Highest speed = max pump + min motor. Lowest speed = min pump + max motor.
+
+@G35|Hydrostatic|hl hst kr p3
+Q: In a hydrostatic drive, increasing motor displacement will:
++ increase torque and reduce speed
+- increase speed and reduce torque
+- increase both speed and torque
+- have no effect
+E: Higher motor displacement = more torque (and lower speed for the same flow).
+
+@G35|Hydrostatic|hl hst kr p3
+Q: A closed circuit (closed loop) hydrostatic transmission has:
++ the motor outlet connected to the pump inlet, with no path to tank
+- the pump drawing from tank and the motor returning to tank
+- a directional control valve (DCV) between the pump and motor
+- an open centre valve to unload the pump
+E: Closed circuit: motor outlet → pump inlet. A reversible pump reverses the motor.
+
+@G35|Hydrostatic|hl hst kr p3
+Q: The most common hydrostatic arrangement is:
++ closed circuit with a variable pump and a fixed motor
+- open circuit with a fixed pump and a variable motor
+- closed circuit with a fixed pump and a fixed motor
+- open circuit with a variable pump and a variable motor
+E: Highlighted: most commonly a closed circuit with a variable pump and fixed motor.
+
+@G35|Hydrostatic|hl hst kr p3
+Q: An important advantage of hydrostatic drives is:
++ automatic braking of the load
+- they need no oil cooling
+- they don't need a charge pump
+- they cost less than mechanical drives
+E: Infinite speed control, quick response, hydrostatic lock at zero and automatic braking/deceleration.
+
+@G35|Hydrostatic|hl hst kr p3
+Q: The motor flushing valve in a closed loop hydrostatic system:
++ bleeds low-side oil through the motor case to cool it
+- relieves the high pressure side to the low side
+- supplies make-up charge oil to the loop
+- controls the pump swash plate angle
+E: It cools the motor and loop. It only works when the motor is rotating. Oil is hottest at the motor outlet.
+
+@G35|Hydrostatic|hl hst ct p3
+Q: A hydrostatic machine drifts under load. A likely cause is:
++ a misadjusted crossover relief
+- a plugged case drain filter
+- a plugged charge pump screen
+- an uncalibrated joystick
+E: Highlighted: the crossover relief may cause drifting under load if set incorrectly.
+
+@G35|Hydrostatic|hl hst kr p3
+Q: The flushing (hot oil) relief valve must be set:
++ lower than the charge pressure relief valve
+- higher than the charge relief valve
+- the same as the crossover relief
+- at maximum loop pressure
+E: Highlighted: the flushing relief is set lower than the charge relief so the flushing flow goes through it.
+
+@G35|Hydrostatic|hst kr p3
+Q: The charge pump in a closed loop hydrostatic system:
++ replaces leakage oil in the loop
+- provides the main flow to the motors
+- cools the motor case directly
+- sets the motor swash plate angle
+E: Usually a gear pump; its flow enters the low pressure side through isolation check valves.
+
+@G35|Hydrostatic|hl hst kr p3
+Q: On an electronically controlled hydrostatic drive, the operator joysticks:
++ must be calibrated to ensure proper actuation
+- never need adjustment
+- directly move the swash plate mechanically
+- set the charge relief pressure
+E: Highlighted: joysticks must be calibrated.
+
+@G34|Troubleshooting|hl pa p3
+Q: Before performing operational tests on a hydraulic system, you should:
++ warm the oil to operating temperature
+- test with cold oil to find leaks
+- drain and refill the reservoir
+- set all reliefs to maximum
+E: Leakage changes with temperature. Warm the oil first (open centre: stall an actuator at full throttle).
+
+@G34|Troubleshooting|hl ct p3
+Q: Cycle times are slower than spec. Before blaming the pump, you should first check:
++ that engine RPM is correct
+- the relief valve cracking pressure
+- the oil viscosity index
+- the case drain pressure
+E: Highlighted: if cycle times are high, always check RPM. Low engine speed means low pump flow.
+
+@G34|Troubleshooting|hl pa p3
+Q: Measuring cycle times at full throttle is a quick way to check for:
++ flow loss (internal leakage)
+- low relief valve settings
+- pressure intensification
+- contaminated or aerated oil
+E: Slow cycles indicate flow losses (internal leakage).
+
+@G34|Stall test|hl ct p3
+Q: During a hydraulic stall test, engine RPM drops much more than spec. Possible causes are:
++ a weak engine or a relief valve set too high
+- a strong engine or a relief valve set too low
+- a plugged return filter or cold oil
+- a leaking cylinder or a worn pump
+E: Excessive drop: engine lacking power or excessive load (relief too high). No drop: engine power increased or relief too low.
+
+@G34|Stall test|hl ct p3
+Q: During a stall test, engine RPM does not drop at all. This suggests:
++ the relief valve is set too low
+- the relief valve is set too high
+- the engine is lacking power
+- the pump is badly overloaded
+E: A low relief setting reduces the load, so the engine doesn't pull down.
+
+@G34|Stall test|hl ct p3
+Q: Stall tests should be done with several actuators and directions because:
++ it shows system vs circuit problems
+- it warms the oil up faster
+- one circuit can't load the engine
+- it checks all circuit reliefs at once
+E: If all functions are affected it's a system problem; if only one, it's a circuit problem.
+
+@G34|Stall test|hl ct p3
+Q: On a closed centre system, the engine labours heavily when a cylinder is stalled. Likely causes are:
++ an unloader or compensator fault
+- a main relief valve set too low
+- low oil level in the reservoir
+- a restricted pump inlet line
+E: In closed centre the load should drop when stalled (pressure or flow is reduced). If the engine labours, the unloader or compensator isn't working.
+
+@G34|Pressure vs flow|hl ct p3
+Q: In hydraulic troubleshooting, a flow problem affects ___ and a pressure problem affects ___.
++ speed; force
+- force; speed
+- force; temperature
+- temperature; speed
+E: Highlighted: flow = speed, pressure = force.
+
+@G34|Gauges|hl kr p3
+Q: The purpose of a snubber on a pressure gauge is to:
++ protect the gauge from pressure spikes
+- convert the reading to psia
+- allow vacuum to be measured too
+- fill the case with glycerine
+E: The snubber restricts the inlet. Glycerine fill dampens needle vibration.
+
+@G34|Gauges|hl pa p3
+Q: When pressure testing, the gauge should be rated for about:
++ twice the anticipated pressure
+- exactly the anticipated pressure
+- half the anticipated pressure
+- ten times the anticipated pressure
+E: Twice the pressure is safer, and gauges are most accurate around half scale.
+
+@G34|Gauges|hl pa p3
+Q: Pressure gauges are installed in ___ with the circuit being tested.
++ parallel
+- series
+- line with the return
+- place of the relief valve
+E: Highlighted: install gauges in parallel. Flowmeters for pump testing go in series.
+
+@G34|Gauges|kr p3
+Q: A gauge that reads both vacuum and pressure is a:
++ compound gauge
+- absolute gauge
+- Bourdon gauge
+- differential gauge
+E: Compound = vacuum and pressure. Absolute gauges read psia.
+
+@G34|Pressure tests|hl ct p3
+Q: Pump inlet pressure reads below 12 psia. Which is a likely cause?
++ Restricted inlet line
+- Air leaking into the inlet line
+- Worn pump
+- Relief valve set too low
+E: The pump normally pulls a slight vacuum at its inlet. A restriction, too much pump speed or the wrong (too thick) oil makes it pull harder, so inlet pressure drops below about 12 psia and the pump cavitates. A leaking inlet line does the opposite: air gets in and inlet pressure reads higher than normal.
+
+@G34|Pressure tests|hl ct p3
+Q: Pump inlet pressure reads higher than normal (less vacuum than usual). This may indicate:
++ an air leak in the inlet line
+- a plugged suction strainer
+- excessive pump speed
+- oil that is too thick
+E: A pump normally pulls its inlet slightly below atmospheric pressure (a vacuum) as it draws oil up the suction line. A leak in that line (loose clamp, cracked hose, bad fitting) lets the pump suck in air instead, which fills in the vacuum, so the gauge reads higher (closer to atmospheric) and the oil gets aerated. A plugged strainer, thick oil or too much speed do the opposite: they make it harder to pull oil, so inlet pressure drops (more vacuum) and the pump cavitates.
+
+@G34|Pressure tests|hl pa p3
+Q: In an open centre system, neutral pressure (DCV in neutral) should be:
++ as low as possible
+- equal to the relief setting
+- equal to margin pressure
+- slightly above the circuit relief
+E: Neutral pressure reflects DCV and line resistance and should be as low as possible.
+
+@G34|Pressure tests|hl ct p3
+Q: Maximum system pressure reads too HIGH. A likely cause is:
++ a relief set too high, or outlet restriction
+- a worn pump with high slip
+- a relief valve adjusted too low
+- low oil level in the tank
+E: Too high = relief misadjusted/faulty or outlet restriction. Too low = relief misadjusted/faulty.
+
+@G35|Pressure tests|hl hst pa p3
+Q: On a closed circuit hydrostatic transmission, case drain pressure is tested because:
++ high drain resistance can cause damage
+- it shows the charge relief setting
+- it equals high side loop pressure
+- it shows the flushing valve setting
+E: Case drain pressure shows resistance in the drain for the pump and motor; too much can cause damage (seals).
+
+@G34|Leakage tests|hl kr p3
+Q: Cylinder drift is:
++ movement with the unit stopped
+- the time to fully extend
+- flow from the case drain
+- rod movement during a stall
+E: Measure drift with tape on the rod over time, or bucket tip height on an excavator (combined drift).
+
+@G34|Leakage tests|hl ct p3
+Q: To test a hydraulic motor for internal leakage, you would:
++ stall it and measure drain flow for 10 s
+- measure motor RPM at low idle
+- check inlet pressure while free spinning
+- cap the drain and read case pressure
+E: Highlighted procedure for motors.
+
+@G34|Leakage tests|hl kr p3
+Q: A component with excessive internal leakage can often be found because it:
++ heats up faster than the rest
+- runs quieter than the rest
+- has lower case drain flow
+- has higher inlet pressure
+E: A digital/infrared temperature measurement can identify the hot component.
+
+@G34|Flowmeter|hl pa p3
+Q: A pump efficiency test shows 75% efficiency. The general rule is:
++ below 80% requires repair or replacement
+- below 50% requires repair or replacement
+- below 90% requires replacement
+- any reading above 70% is acceptable
+E: Highlighted: any efficiency below 80% requires repair or replacement.
+
+@G34|Flowmeter|pa p3
+Q: For a pump efficiency test, the flowmeter is installed:
++ in series between the pump and the rest of the system
+- in parallel between the pump outlet and return
+- in the case drain line
+- in the pump inlet
+E: In series with the pump and system. The circuit leakage (tee) test uses a parallel connection.
+
+@G34|Flowmeter|hl calc ct p3
+Q: In a tee test, the pump delivers 30 GPM at full load. With the circuit stalled and the flowmeter loaded, 26 GPM is measured. Circuit leakage is:
++ 4 GPM
+- 26 GPM
+- 56 GPM
+- 13%
+E: Circuit leakage = pump full-load flow − circuit flow = 30 − 26 = 4 GPM.
+
+@G34|Flowmeter|pa p3
+Q: A disadvantage of flowmeter testing is that:
++ the system must be opened up
+- it can't detect internal leakage
+- it only works on gear pumps
+- it must be done with cold oil
+E: Time consuming, system opened, and dirty oil from previous machines may be introduced.
+
+@G34|Root cause|hl ct p3
+Q: A pump failed from contamination and was replaced. Why must the root cause also be found?
++ The new pump will fail the same way
+- The warranty requires a written report
+- The relief valve must be reset after
+- The new pump must be broken in at stall
+E: Highlighted: if the root cause is not addressed, the new component will fail again.
+
+@G34|Electrohydraulics|hl kr p3
+Q: In electrohydraulics, "electrical" control means ___ while "electronic" control means ___.
++ on/off; variable
+- variable; on/off
+- low voltage; high voltage
+- open loop; closed loop
+E: Electrical = on or off (no variable control). Electronic = variable.
+
+@G34|Electrohydraulics|hl kr p3
+Q: A standard solenoid used in electrical (non-electronic) control has:
++ discrete positions, either on or off
+- infinitely variable positions
+- a feedback sensor
+- a pulse width modulation (PWM) driver
+E: Highlighted: discrete positions, on or off.
+
+@G34|Electrohydraulics|kr p3
+Q: A clamping diode across a solenoid coil:
++ absorbs induced voltage spikes
+- increases the solenoid pull force
+- smooths out the pulse width modulation (PWM) signal
+- acts as a fuse for the coil
+E: When the coil is switched off, its collapsing field induces voltage; the diode dissipates it.
+
+@G34|Electrohydraulics|hl kr p3
+Q: A proximity switch:
++ closes when metal passes in front of it
+- varies its resistance with position
+- generates its own alternating current (AC) voltage
+- measures system pressure
+E: Highlighted: proximity switches close the circuit when actuated; position usually adjustable.
+
+@G34|Electrohydraulics|hl kr p3
+Q: Electronic hydraulic control systems normally operate on:
++ about 5 V
+- 24 V only
+- full battery voltage
+- 120 V alternating current (AC)
+E: Highlighted: normally less than full system voltage, typically 5 V.
+
+@G34|Sensors|hl pa p3
+Q: A sensor that is sent a set voltage from the electronic control module (ECM) and returns a measured voltage is a:
++ reference voltage sensor
+- voltage generating sensor
+- discrete sensor
+- proximity switch
+E: Reference voltage: set voltage sent, return measured (e.g., a joystick potentiometer).
+
+@G34|Sensors|hl kr p3
+Q: A speed sensor that produces its own voltage signal is a:
++ voltage generating sensor
+- reference voltage sensor
+- discrete sensor
+- variable resistor sensor
+E: Voltage generating sensors (magnetic speed sensors) make their own signal.
+
+@G34|Outputs|hl kr p3
+Q: A proportional solenoid:
++ moves in proportion to its signal
+- is either fully on or fully off
+- needs no electronic control module (ECM) driver circuit
+- is used only on pilot relief valves
+E: Proportional solenoids use PWM so spool movement matches signal strength.
+
+@G34|Control types|hl kr p3
+Q: The difference between open loop and closed loop electronic control is that closed loop:
++ has feedback from the output
+- has no electronic control module (ECM) at all
+- uses only on/off solenoids
+- runs at full system voltage
+E: Open loop = no feedback. Closed loop = feedback for accurate position, velocity or acceleration control.
+
+@G34|PWM|hl kr p3
+Q: Pulse width modulation reduces heat in a solenoid driver because:
++ on/off switching cuts average current
+- it lowers the 5 V reference voltage
+- it raises the circuit resistance
+- it changes alternating current (AC) into direct current (DC)
+E: Highlighted: PWM is a digital on/off signal; the duty cycle (% on time) sets the average.
+
+@G34|Spool control|hl kr p3
+Q: "Stiction" in an electrohydraulic valve is:
++ extra effort needed to first start a spool moving
+- a spool needing more current one way than the other
+- a sticky solenoid connector
+- oil varnish on the spool lands
+E: Static friction. It is overcome with dither (constant slight back-and-forth movement). Needing more current one way = hysteresis.
+
+@G34|Spool control|ct p3
+Q: Dither is used in a proportional valve to:
++ overcome stiction with slight movement
+- reduce the pulse width modulation (PWM) frequency
+- protect the electronic control module (ECM) from induced voltage
+- calibrate the joystick centre
+E: A small constant oscillation stops the spool sticking (static friction).
+
+@G34|Diagnostics|hl ct p3
+Q: Usually the most important source of diagnostic information is:
++ the operator
+- the service manual
+- the fault code list
+- the parts book
+E: Highlighted: talk to the operator, the most important source of information.
+
+@G34|ECM care|safe kr p3
+Q: Which practice protects the electronic control module (ECM) during repairs?
++ Unplug the ECM before welding on the machine
+- Disconnect the batteries with the engine running to reset it
+- Fast charge batteries with the ECM connected
+- Unplug connectors while the system is operating
+E: Unplug when welding, never fast charge with ECM connected, never disconnect batteries with the engine running, don't unplug while operating.
+
+@G34|Electrohydraulics|kr p3
+Q: Compared with conventional hydraulics, electrohydraulic systems are:
++ much less tolerant of dirt
+- more tolerant of dirt
+- unaffected by dirt
+- only affected by water
+E: Narrow tolerances make electrohydraulic valves very sensitive to dirt.
+
+@G35|Skid steer|hl hst kr p3
+Q: On a skid steer, charge oil for the closed loop drive circuits comes from:
++ a separate gear pump
+- the main piston pumps
+- the implement relief valve
+- the case drain circuit
+E: A separate gear pump supplies charge oil to the charge circuit.
+
+@G35|Hydrostatic steering|hl hst kr p3
+Q: A hydrostatic steered crawler uses:
++ two variable, reversible pumps, each supplying its own track motor
+- one pump and a steering differential
+- steering clutches and brakes driven by a hydraulic motor
+- one pump that alternates between two motors
+E: Highlighted. Each pump supplies its own motor, which drives a final drive.
+
+@G35|Hydrostatic steering|hl hst kr p3
+Q: The main advantage of hydrostatic and differential steering over clutch-brake steering is:
++ both tracks stay powered in turns
+- it doesn't need any brakes
+- it is cheaper to repair
+- it uses no hydraulic oil
+E: Highlighted: power at both tracks during turning.
+
+@G35|Hydrostatic steering|hl hst kr p3
+Q: A counter-rotation (spot) turn is when:
++ one track is driven forward and the other in reverse
+- one track is stopped and the other driven
+- both tracks are driven at different speeds forward
+- both brakes are applied
+E: Highlighted.
+
+@G35|Hydrostatic steering|hst kr p3
+Q: On an electronic hydrostatic crawler, the pump speed sensor is used by the electronic control module (ECM) to:
++ prevent engine stall under heavy load
+- measure slip at each track
+- control the decelerator pedal
+- set the charge relief pressure
+E: The ECM watches pump (engine) speed and reduces demand before the engine stalls.

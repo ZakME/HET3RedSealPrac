@@ -1,0 +1,767 @@
+@D18|Alternator|kr hl
+Q: In an alternator, the magnetic field is produced by the:
++ rotor
+- stator
+- rectifier bridge
+- diode trio
+E: The rotor's field winding (fed through the brushes and slip rings) makes the magnetic field. Output is induced in the stator.
+
+@D18|Alternator|kr hl
+Q: What converts an alternator's alternating current (AC) output into direct current (DC)?
++ The rectifier bridge
+- The voltage regulator
+- The stator windings
+- The capacitor on the output
+E: Six diodes (three positive, three negative) give full-wave rectification of the three-phase AC.
+
+@D18|Alternator|kr hl
+Q: How does a voltage regulator control alternator output?
++ By switching the rotor field current on and off
+- By changing the alternator speed
+- By switching stator windings in and out
+- By opening and closing the output terminal
+E: More field current = stronger magnetic field = more output. The regulator cycles field current many times per second.
+
+@D18|Alternator|kr hl
+Q: Which stator design gives higher voltage at low speed and is common on 24 V systems?
++ Wye (Y)
+- Delta (Δ)
+- Single phase
+- Half wave
+E: Wye stators give more voltage at low speed. Delta stators give more current and are common on 12 V systems.
+
+@D18|Alternator|kr hl
+Q: Why are alternator stator cores laminated?
++ To reduce eddy currents and heat
+- To increase the magnetic field strength
+- To make the stator easier to rewind
+- To insulate the windings from ground
+E: Thin insulated laminations stop large circulating (eddy) currents that would heat the core.
+
+@D18|Alternator|kr hl
+Q: What is the purpose of the capacitor connected to the alternator output terminal?
++ To absorb spikes and radio interference
+- To store energy to start the engine
+- To excite the rotor field when starting up
+- To rectify AC into DC
+E: The capacitor is connected in parallel with the BAT terminal and smooths voltage surges and radio frequency interference.
+
+@D18|Alternator|ct hl
+Q: A voltmeter connected to an alternator's R (STA) terminal reads about 14 V on a 28 V system. What does this mean?
++ It's normal: R reads about half of output
+- The alternator has an open rectifier diode
+- The voltage regulator has failed
+- One stator winding is shorted to ground
+E: The R terminal is a half-wave tap off one stator phase, so it reads about half the output. It drives tachometers, hour meters and relays.
+
+@D18|Alternator|ct hl
+Q: An alternator pulley is replaced with a larger diameter pulley. What is the effect?
++ The alternator turns slower and produces less current
+- The alternator turns faster and produces more current
+- The output voltage rises above the regulator setting
+- There is no effect on output
+E: A bigger alternator pulley slows the alternator, which lowers output, especially at idle.
+
+@D18|Alternator|kr hl
+Q: Brushless alternators are often chosen for work in areas with:
++ explosive gases
+- very cold temperatures
+- high electrical loads
+- heavy vibration
+E: With no brushes there's no arcing at the slip rings, which lowers the explosion risk.
+
+@D18|Diagnosis|pa hl
+Q: A machine has a discharging battery complaint. What is checked first on the charging system?
++ The drive belt condition and tension
+- The rectifier diodes
+- The alternator's maximum output
+- The voltage regulator setting
+E: Always check the belt first. A slipping belt undercharges the batteries.
+
+@D18|Diagnosis|pa hl
+Q: Before testing a charging system, what must be done with the batteries?
++ Charge them fully and test each one
+- Disconnect them from the system first
+- Discharge them to about 75%
+- Replace them with new batteries
+E: A bad or discharged battery makes the charging system look faulty. Charge and test each battery individually first.
+
+@D18|Diagnosis|ct hl
+Q: On a 12 V system, the charging voltage measures 15.6 V with the engine at fast idle. What is the likely cause?
++ A faulty voltage regulator
+- A slipping drive belt
+- An open rectifier diode
+- Worn alternator brushes
+E: Normal regulated voltage is about 13.8–14.8 V. Above 14.8 V the regulator isn't controlling the field. Overcharging boils batteries and burns out bulbs.
+
+@D18|Diagnosis|kr hl
+Q: What is the normal regulated charging voltage on a 24 V system?
++ 27.5–29.6 V
+- 24.0–25.2 V
+- 13.8–14.8 V
+- 30.0–32.0 V
+E: 24 V systems regulate at about 27.5–29.6 V; 12 V systems about 13.8–14.8 V.
+
+@D18|Diagnosis|pa hl
+Q: How is an alternator's maximum output tested?
++ Load it with a carbon pile until amps peak
+- Measure the voltage at the battery with all loads off
+- Measure the stator resistance with an ohmmeter
+- Run at idle and check that the charge lamp is off
+E: The carbon pile loads the alternator to full output; it should reach within 10% of its rated amps. Use a carbon pile rated for the system voltage and keep the test short.
+
+@D18|Diagnosis|ct hl
+Q: An alternator's maximum output is about 33% below its rating and it makes a whine. What is the most likely internal fault?
++ An open diode in the rectifier bridge
+- A shorted diode in the rectifier bridge
+- An open rotor field winding
+- A failed capacitor
+E: An open diode loses one phase, cutting output by about a third. A shorted diode cuts output by 60–70% and can drain the battery.
+
+@D18|Diagnosis|ct hl
+Q: Batteries go flat overnight on a machine with the key off, and the alternator runs hot. Which alternator fault could cause this?
++ A shorted rectifier diode
+- An open rectifier diode
+- Worn brushes
+- A slipping drive belt
+E: A shorted diode lets battery current flow back through the alternator, drains the batteries and cuts output by 60–70%.
+
+@D18|Diagnosis|pa hl
+Q: What is the maximum allowable voltage drop on the positive side of a 12 V charging circuit with current flowing?
++ 0.5 V
+- 0.1 V
+- 1.0 V
+- 2.0 V
+E: Each side (insulated and ground) of a 12 V circuit should drop no more than about 0.5 V; 1 V on 24 V systems.
+
+@D18|Diagnosis|ct hl
+Q: An undercharging alternator has good drive belt tension and good wiring. Which internal fault is a likely cause?
++ Worn brushes or dirty slip rings
+- A shorted capacitor
+- A regulator set too high
+- A loose pulley nut on the rotor shaft
+E: Poor brush contact weakens the field current, so output drops.
+
+@D18|Bench test|pa hl
+Q: How is an alternator rotor tested for a ground fault?
++ Ohmmeter from a slip ring to the shaft: OL
+- Ohmmeter across both slip rings: OL
+- Ammeter in series with both slip rings
+- Ohmmeter from a slip ring to the stator
+E: Any continuity from a slip ring to the shaft means the field winding is grounded. Across the two slip rings measures winding resistance (opens).
+
+@D18|Bench test|pa hl
+Q: When a diode is checked with a multimeter's diode function, a good diode should show:
++ a reading one way and OL the other way
+- OL in both directions
+- a low reading in both directions
+- zero in both directions
+E: Forward bias conducts (reading or beep); reverse bias blocks (OL). Readings both ways = shorted; OL both ways = open.
+
+@D18|Bench test|pa hl
+Q: What should be used to clean alternator slip rings?
++ Fine sandpaper (400 grit or finer)
+- Emery cloth, then a solvent wipe
+- A fine flat file
+- A wire wheel on a grinder
+E: Use fine sandpaper, never emery cloth (it's conductive and leaves particles).
+
+@D18|Bench test|pa hl
+Q: When soldering a new diode into a rectifier, what protects the diode from heat damage?
++ Needle-nose pliers on the lead as a heat sink
+- Acid core solder, so it flows on faster
+- Heating the diode body before soldering
+- Soldering with the alternator running
+E: The pliers draw heat away before it reaches the diode junction. Use rosin core solder.
+
+@D18|Bench test|pa hl
+Q: Alternator brushes should be replaced when they are worn to less than:
++ half their new length
+- three-quarters of their new length
+- one-tenth of their new length
+- the length of the spring
+E: Replace brushes under half their new length or if cracked or broken; check the spring tension too.
+
+@D18|Belts|ct hl
+Q: An alternator belt has a shiny, glazed sidewall. What caused it?
++ The belt slipping from low tension
+- Oil soaking the belt
+- A pulley that is too small
+- The belt being over-tightened
+E: Slipping creates friction heat that glazes the sidewalls. Over-tightening causes bearing damage and wear.
+
+@D18|Precautions|pa hl
+Q: Before servicing charging system components, what should be disconnected?
++ The battery ground cable
+- The alternator output wire only
+- The voltage regulator plug only
+- Nothing, if the key is off
+E: Disconnect the battery ground first to prevent shorts and arcing at the high-current B+ terminal.
+
+@D19|Cranking motor|kr hl
+Q: What is the maximum time a cranking motor should be operated before allowing it to cool?
++ 30 seconds, then cool for 2 minutes
+- 2 minutes, then cool for 30 seconds
+- 10 seconds, then cool for 10 seconds
+- As long as needed to start the engine
+E: Cranking motors overheat quickly and only cool by convection. Crank no more than 30 s, then wait 2 min.
+
+@D19|Cranking motor|ct hl
+Q: Why does a stalled or slow-turning cranking motor draw high current?
++ There's little counter-EMF to oppose the current
+- The brushes have more contact area when stopped
+- The field coils switch to parallel at low speeds
+- The solenoid pull-in winding stays energized
+E: CEMF rises with motor speed and limits current. A slow motor makes little CEMF, so current is high.
+
+@D19|Cranking motor|kr hl
+Q: Which cranking motor field winding design produces the highest starting torque?
++ Series wound
+- Shunt wound
+- Compound wound
+- Permanent magnet
+E: Series-wound motors give maximum torque at start-up with high current draw. Shunt (compound) windings limit top speed.
+
+@D19|Cranking motor|kr hl
+Q: What prevents the engine from driving the cranking motor armature after the engine starts?
++ The overrunning clutch
+- The armature brake washer
+- The hold-in winding
+- The commutator
+E: Overrunning (roller), sprag and Posi-Tork clutches lock to crank the engine but freewheel when the engine overruns the pinion.
+
+@D19|Solenoid|kr hl
+Q: Which two jobs does a cranking motor solenoid do?
++ Shifts the drive pinion into mesh and closes the main contacts to the motor
+- Limits motor speed and cools the motor
+- Charges the battery and engages the flywheel
+- Opens the neutral safety switch and applies the brake washer
+E: The plunger moves the shift lever and closes the contact disc between the B and M terminals.
+
+@D19|Solenoid|kr hl
+Q: In a cranking motor solenoid, the pull-in winding is grounded through the:
++ M (motor) terminal
+- G (ground) terminal
+- B (battery) terminal
+- S (switch) terminal
+E: The pull-in winding goes from S to M and grounds through the motor until the contact disc closes. The hold-in winding goes from S to G.
+
+@D19|Solenoid|ct hl
+Q: A cranking motor solenoid clicks in and out rapidly (chatters) when the key is turned to start. What is a likely cause?
++ An open hold-in winding or weak battery
+- An open pull-in winding in the solenoid
+- A shorted armature or field coil
+- Welded contacts in the solenoid
+E: Once the pull-in winding drops out, only the hold-in winding holds the plunger. If it's open, or voltage is low, the plunger drops out and the cycle repeats.
+
+@D19|Solenoid|pa hl
+Q: When bench testing a solenoid pull-in winding, what is the maximum time it should be energized?
++ 8 seconds, then cool for 2 minutes
+- 30 seconds, then cool for 2 minutes
+- 2 minutes continuously
+- 1 second only
+E: The pull-in winding draws high current and overheats fast. Limit it to 8 seconds.
+
+@D19|Control circuit|kr hl
+Q: How is a neutral safety switch connected in the cranking control circuit?
++ In series, closed only in neutral
+- In parallel, closed only in gear
+- In series with the starter's main ground cable
+- In parallel with the solenoid hold-in winding
+E: Safety switches (neutral, clutch, PTO) are in series in the control circuit so any one of them can stop cranking.
+
+@D19|Control circuit|ct hl
+Q: A cranking motor stops working after long cranking and works again after it cools down. Which device caused this?
++ The over-crank thermal switch
+- The neutral safety switch
+- The magnetic switch contacts
+- The battery disconnect switch
+E: The over-crank protection switch is normally closed and opens when hot to protect the motor.
+
+@D19|Testing|pa hl
+Q: A machine cranks slowly. What should be tested first?
++ The batteries' charge and condition
+- The cranking motor current draw
+- The solenoid hold-in winding
+- The starter drive pinion and ring gear
+E: Always test batteries first. A weak battery also makes the motor draw more current and damages contacts.
+
+@D19|Testing|pa hl
+Q: What is the maximum voltage drop allowed across the contacts of a cranking motor solenoid while cranking?
++ 0.2 V
+- 0.5 V
+- 1.0 V
+- 0.02 V
+E: The contact disc should drop no more than 0.2 V; each side of a 12 V cranking circuit no more than 0.5 V; switches and relays 0.1 V.
+
+@D19|Testing|pa hl
+Q: What is the best way to check the health of the entire cranking system?
++ Measure the voltage drop across each component while cranking
+- Measure the resistance of each cable with the key off
+- Check the open circuit voltage of the batteries
+- Bench test the cranking motor
+E: Voltage drop with current flowing finds high resistance in cables, connections, switches and the solenoid.
+
+@D19|Testing|pa hl
+Q: Before replacing a cranking motor that won't turn the engine, what should be done?
++ Bar the engine over two full turns by hand
+- Replace the batteries
+- Replace the solenoid and its control relay
+- Check the alternator output and belt tension
+E: The engine may be seized or hydraulically locked. Turning it by hand also lets you check the ring gear.
+
+@D19|Testing|ct hl
+Q: The cranking motor spins rapidly, but the engine doesn't turn. What is the most likely cause?
++ A failed overrunning clutch or stripped teeth
+- A weak battery
+- An open hold-in winding
+- High resistance in the battery cables and clamps
+E: The motor is turning, so the electrical side is working. The drive isn't transmitting torque to the ring gear.
+
+@D19|Testing|ct hl
+Q: In a cranking motor no-load bench test, the current draw is high and the speed is low. What is a likely cause?
++ Tight bushings or a shorted armature
+- High internal resistance from poor connections
+- Shorted field coils
+- A normal, healthy motor
+E: High current and low speed = too much friction or an electrical short. Low current and low speed = high resistance. High current and high speed = shorted fields.
+
+@D19|Testing|ct hl
+Q: A cranking motor's commutator shows several burned bars. What does this usually indicate?
++ An open in the armature windings
+- Worn brushes from normal use
+- A shorted field coil
+- Too much brush spring tension
+E: An open armature winding arcs as its bars pass the brushes, burning those bars.
+
+@D19|Testing|kr hl
+Q: Which tool tests a cranking motor armature for shorts using a hacksaw blade?
++ A growler
+- A carbon pile
+- A digital multimeter
+- An inductive amp clamp
+E: On a growler, a hacksaw blade held over a shorted armature coil vibrates.
+
+@D19|Air starting|kr hl
+Q: Compared with a vane-type air starter, a turbine air starter:
++ needs lower air pressure and no lubrication
+- needs higher pressure and constant lubrication
+- uses a single gear reduction
+- doesn't tolerate any contamination
+E: Turbine starters run on lower pressure, need no lube and use a planetary reduction. Vane starters need lubrication and higher pressure.
+
+@D19|Air starting|ct air hl
+Q: Why is a pressure protection valve installed between the main air system and an air starter reservoir?
++ So the brake system fills before the starter reservoir
+- To limit air starter speed
+- To dump the starter reservoir after starting
+- To keep moisture out of the starter
+E: The starter tank doesn't fill until the main system reaches about 75–90 psi, so brakes have priority.
+
+@D19|Hydraulic starting|pa safe hl
+Q: A hydraulic starting system accumulator must be precharged with:
++ dry nitrogen
+- compressed air
+- oxygen
+- hydraulic oil only
+E: Oxygen or air mixed with hydraulic oil under pressure can explode. Nitrogen doesn't react with oil.
+
+@D20|Battery|kr hl
+Q: What is the open circuit voltage of a fully charged 12 V lead-acid battery?
++ 12.6 V
+- 12.0 V
+- 13.2 V
+- 14.4 V
+E: Each cell is about 2.1 V; six cells in series = 12.6 V.
+
+@D20|Battery|kr hl
+Q: In a discharged lead-acid battery, both plates are mostly:
++ lead sulphate, and the electrolyte is mostly water
+- lead peroxide, and the electrolyte is mostly acid
+- sponge lead, and the electrolyte is mostly acid
+- pure lead, and the electrolyte is mostly water
+E: Discharging turns both plates into lead sulphate and leaves mostly water, which is why a dead battery freezes easily.
+
+@D20|Battery|ct hl
+Q: Why does a fully charged battery resist freezing better than a discharged one?
++ Its electrolyte has more sulphuric acid in it
+- It produces heat as it sits
+- Its plates are lead peroxide, which insulates it
+- Its case is sealed tighter
+E: Charged electrolyte is strong acid with a very low freezing point. A dead battery's electrolyte is mostly water.
+
+@D20|Battery|kr hl
+Q: Cold cranking amps (CCA) is the current a battery can deliver for 30 seconds at:
++ −18 °C while holding at least about 7.2 V
+- 0 °C while holding at least about 9.6 V
+- 27 °C while holding at least 10.5 V
+- −30 °C until it is fully discharged
+E: CCA is rated at −18 °C (0 °F). Cranking amps (CA) is the same test at 0 °C.
+
+@D20|Battery|ct hl
+Q: Two 12 V batteries, each rated at 900 cold cranking amps (CCA), are connected in parallel. What is the result?
++ 12 V and 1800 CCA
+- 24 V and 900 CCA
+- 24 V and 1800 CCA
+- 12 V and 900 CCA
+E: In parallel, voltage stays the same and CCA adds. In series, voltage adds and CCA stays the same.
+
+@D20|Battery|ct hl
+Q: Two 12 V batteries, each rated at 800 cold cranking amps (CCA), are connected in series. What is the result?
++ 24 V and 800 CCA
+- 12 V and 1600 CCA
+- 24 V and 1600 CCA
+- 12 V and 800 CCA
+E: Series connection adds voltage; CCA stays the same as one battery.
+
+@D20|Battery|pa hl
+Q: One battery in a four-battery bank has failed. Ideally, what should be replaced?
++ All the batteries, with matching age, size and type
+- Only the failed battery
+- The failed battery and the one next to it
+- The failed battery, with a larger capacity one
+E: A new battery mixed with old ones gets over- or under-charged, and one weak battery can ruin the others.
+
+@D20|Testing|pa hl
+Q: Before measuring a battery's open circuit voltage after charging, what must be removed?
++ The surface charge
+- The vent caps
+- The terminal clamps
+- The hold-down
+E: Surface charge gives a falsely high reading. Remove it with a short load (about 300 A for 15 s) or let it rest.
+
+@D20|Testing|pa hl
+Q: What are the conditions for a valid battery load test?
++ Battery at least 75% charged, load at ½ CCA for 15 s, voltage stays above 9.6 V
+- Battery at any charge, load at full CCA for 30 s, voltage stays above 10.5 V
+- Battery fully discharged, load at ½ CCA for 60 s, voltage stays above 6 V
+- Battery at least 50% charged, load at 100 A for 5 s, voltage stays above 12 V
+E: Charge the battery to at least 75%, load it to half its CCA for 15 seconds, and it should stay above 9.6 V (about 21 °C).
+
+@D20|Testing|kr hl
+Q: What is the specific gravity of a fully charged battery cell at 27 °C?
++ 1.265–1.280
+- 1.000–1.050
+- 1.100–1.150
+- 1.300–1.350
+E: 1.265–1.280 is full charge, and cells should be within 0.050 of each other.
+
+@D20|Testing|ct hl
+Q: A battery's cells read 1.270, 1.265, 1.275, 1.210, 1.270 and 1.268. What does this indicate?
++ One cell is bad; replace the battery
+- The battery is fully charged and good
+- The battery just needs a slow charge overnight
+- The electrolyte level is too high
+E: Cells should be within 0.050. One cell 0.060 lower than the rest points to a bad cell.
+
+@D20|Testing|kr hl
+Q: A maintenance-free battery's built-in hydrometer shows clear or light yellow. What does this mean?
++ Low electrolyte; replace the battery
+- The battery is fully charged
+- The battery needs a slow charge
+- The battery is frozen
+E: Green = charged, dark = needs charging, clear/yellow = low electrolyte (replace).
+
+@D20|Service|pa hl
+Q: What should be used to clean battery tops and terminals?
++ A baking soda and water solution
+- Solvent and a wire brush
+- Hot soapy water and a pressure washer
+- Brake cleaner
+E: Baking soda neutralizes the acid. Keep the solution out of the cells.
+
+@D20|Service|ct hl
+Q: A battery's case top is dirty and wet. How can this affect the battery?
++ It can slowly discharge the battery
+- It increases the battery's CCA
+- It prevents the battery from charging fully
+- It has no effect on a sealed battery
+E: Dirt and acid on top of the case can conduct a small current between terminals.
+
+@D20|Service|pa hl
+Q: What is the correct order for connecting booster cables from a good machine to a machine with a dead battery?
++ Dead +, good +, good −, then dead machine's frame
+- Good −, dead −, good +, then dead +
+- Dead −, good −, good +, then dead +
+- Good +, good −, dead +, then dead −
+E: The last connection is made to the dead machine's frame away from the battery, so any spark is away from battery gas. Remove in reverse order.
+
+@D20|Service|pa hl
+Q: What is the only charging method that brings a battery to 100% of its capacity?
++ Slow charging
+- Fast charging
+- Boosting from another vehicle
+- Charging from the alternator at high idle
+E: Fast charging gets a battery to about 75% and can damage it. Slow charging (about 1% of CCA) gets it to full charge.
+
+@D20|Service|kr hl
+Q: What water should be used to top up a conventional battery?
++ Distilled water
+- Tap water
+- Electrolyte
+- Sulphuric acid
+E: Only distilled water. Minerals in tap water shorten battery life. Keep electrolyte above the plates.
+
+@D20|Service|kr hl
+Q: Lead sulphation is:
++ hardened sulphate crystals from sitting discharged
+- the normal lead sulphate formed during charging
+- acid spilled on the battery case
+- white corrosion on the terminal clamps
+E: Sulphation raises internal resistance and lowers capacity. Store batteries fully charged in a cool, dry place.
+
+@D20|Service|kr hl
+Q: A deep cycle battery is designed to:
++ withstand frequent discharging and recharging
+- give the highest possible cranking current
+- be used only in cold climates
+- never need charging
+E: Deep cycle batteries tolerate repeated deep discharge, like in RVs or equipment that runs electrical loads with the engine off.
+
+@D21|Circuits|ct calc hl
+Q: A 24 V circuit has a 12 Ω load. How much current flows?
++ 2 A
+- 0.5 A
+- 12 A
+- 288 A
+E: I = E ÷ R = 24 ÷ 12 = 2 A.
+
+@D21|Circuits|ct calc hl
+Q: A 12 V work light draws 5 A. What is its power rating?
++ 60 W
+- 2.4 W
+- 17 W
+- 7 W
+E: P = E × I = 12 V × 5 A = 60 W.
+
+@D21|Circuits|ct calc hl
+Q: Two 6 Ω resistors are connected in parallel. What is the total resistance?
++ 3 Ω
+- 12 Ω
+- 6 Ω
+- 36 Ω
+E: Two equal resistors in parallel = half of one: 1/Rt = 1/6 + 1/6 = 2/6, so Rt = 3 Ω. Total parallel resistance is always less than the smallest branch.
+
+@D21|Circuits|ct hl
+Q: A third lamp is added in parallel to a circuit that already has two lamps. What happens to total circuit current?
++ It increases
+- It decreases
+- It stays the same
+- It drops to zero
+E: Adding a parallel branch lowers total resistance, so total current goes up. Each branch still sees full voltage.
+
+@D21|Circuits|kr hl
+Q: In a series circuit, the current:
++ is the same at every point
+- divides between the loads
+- is highest at the first load
+- is lowest at the source
+E: There's only one path, so current is the same everywhere. Voltage drops across each load add up to source voltage.
+
+@D21|Faults|ct hl
+Q: A set of work lights is dim, and a voltage drop test shows 2 V across a corroded connector. What type of fault is this?
++ High resistance
+- Open circuit
+- Short to ground
+- Short circuit
+E: High resistance reduces current and causes voltage drop, so lamps are dim and motors slow.
+
+@D21|Faults|ct hl
+Q: A circuit fuse blows immediately every time a switch is turned on. What is the most likely fault?
++ A short to ground
+- An open circuit
+- High resistance at a connector
+- A burned-out lamp
+E: A short to ground (copper to steel) causes very high current, blowing the fuse.
+
+@D21|Faults|ct hl
+Q: One branch of a parallel lighting circuit has an open. What happens to the other branches?
++ They keep working; total current drops
+- They all go out
+- They all get brighter as current rises
+- They all get dimmer
+E: Each parallel branch has its own path, so the others still get full voltage. Total current drops because one branch carries none.
+
+@D21|Testing|pa hl
+Q: Why should a high-impedance digital multimeter (DMM) be used to test electronic circuits?
++ It draws very little current from the circuit
+- It reads voltage faster than an analog meter does
+- It can measure current without opening the circuit
+- It doesn't need to be connected to ground
+E: A low-impedance meter or test light adds a load to the circuit (meter loading), which can change the reading and damage electronics.
+
+@D21|Testing|pa hl
+Q: Why must a voltage drop test be done with current flowing in the circuit?
++ Resistance only drops voltage when current flows
+- The meter needs circuit current to power its display
+- It prevents damage to the meter
+- It measures the source voltage more accurately
+E: A corroded connection can show full voltage with no load. Only with current flowing does its resistance cause a measurable drop.
+
+@D21|Testing|kr hl
+Q: An ohmmeter reads OL when connected across a wire. What does this mean?
++ The wire is open
+- The wire has zero resistance
+- The wire is shorted to ground
+- The meter's internal battery is dead
+E: OL means over limit: the resistance is too high to measure, so there's an open. A reading near 0 means continuity.
+
+@D21|Wiring|kr hl
+Q: Which wire is larger in diameter?
++ 10 AWG
+- 14 AWG
+- 16 AWG
+- 18 AWG
+E: In American Wire Gauge, a smaller number is a bigger wire. Never replace a wire with a smaller gauge.
+
+@D21|Wiring|pa hl
+Q: What type of solder should be used to repair wiring?
++ 60/40 rosin core solder
+- Acid core solder
+- Silver solder with acid flux
+- Lead-free plumbing solder with paste
+E: Acid flux corrodes wiring. Use rosin core solder and heat the joint, not the solder.
+
+@D21|Components|kr hl
+Q: On a standard automotive relay, terminal 87a is:
++ the normally closed contact
+- the normally open contact
+- the coil ground
+- the common power feed
+E: 85 and 86 are the coil, 30 is the common feed, 87 is normally open and 87a is normally closed.
+
+@D21|Components|ct hl
+Q: A coil-operated valve circuit has a diode connected in parallel with the coil. What is the diode for?
++ To absorb the spike when the coil turns off
+- To make the coil stronger
+- To stop current flowing to the coil
+- To convert the supply from AC into DC for the coil
+E: When a coil is turned off, its collapsing field creates a voltage spike (self-induction). A clamping diode gives it a safe path.
+
+@D21|Components|kr hl
+Q: A potentiometer differs from a rheostat because it has:
++ three terminals and divides voltage
+- two terminals and controls current
+- no moving parts or wiper
+- a fixed, non-adjustable resistance
+E: Potentiometers (three terminals) divide voltage, like throttle position sensors. Rheostats (two terminals) control current, like dash dimmers.
+
+@D21|Components|kr hl
+Q: A Zener diode is designed to:
++ conduct in reverse bias at a specific voltage
+- block current in both directions
+- emit light when forward biased
+- conduct only in reverse bias at any voltage
+E: Zener diodes conduct in reverse once a set voltage is reached; they're used in voltage regulators and for circuit protection.
+
+@D21|Components|kr hl
+Q: What makes an N-type semiconductor?
++ Doping silicon with an element that has an extra free electron
+- Doping silicon with an element that has only three valence electrons
+- Heating pure silicon
+- Coating silicon with copper
+E: N-type uses elements with five valence electrons (extra electron). P-type uses elements with three (leaves a positive hole).
+
+@D21|Magnetism|kr hl
+Q: Which change makes an electromagnet stronger?
++ More turns of wire in the coil
+- A longer, thinner wire
+- An air core instead of iron
+- Lower current through the coil
+E: Electromagnet strength depends on ampere-turns (current × turns) and the core material.
+
+@D21|Magnetism|kr hl
+Q: When the magnetic field of one coil induces a voltage in a separate coil, this is called:
++ mutual induction
+- self-induction
+- counter-electromotive force
+- permeability
+E: Mutual induction is how transformers and ignition coils work. Self-induction is a coil inducing voltage in itself.
+
+@D21|Lighting|ct hl
+Q: After converting turn signals to light emitting diode (LED) lamps, the signals flash very fast. What is the fix?
++ Install an electronic (solid-state) flasher
+- Install a higher amperage fuse
+- Install a larger gauge wire
+- Add a resistor in series with the flasher
+E: LEDs draw too little current for a thermal flasher to work properly. An electronic flasher doesn't rely on load current.
+
+@D22|ECM|kr hl
+Q: An analog sensor signal must be converted before an electronic control module (ECM) can process it. Which device does this?
++ An analog-to-digital converter
+- A digital-to-analog converter
+- A clamping diode
+- A voltage regulator
+E: The ECM processes digital signals only. Analog inputs go through an A/D converter.
+
+@D22|ECM|kr hl
+Q: How many bits are in a byte?
++ 8
+- 2
+- 4
+- 16
+E: A bit is one binary digit (0 or 1). A byte is 8 bits, and bytes are packed into message frames.
+
+@D22|ECM|ct calc hl
+Q: A solenoid is pulse width modulated with a 75% duty cycle. What does this mean?
++ It's switched on 75% of each cycle
+- It receives 75% of battery voltage constantly
+- It's switched on for 75 milliseconds at a time
+- It turns on 75 times a second
+E: Duty cycle is the percentage of on-time in each period. Higher duty cycle = more average current and more valve opening.
+
+@D22|ECM|kr hl
+Q: Which type of electronic control module (ECM) memory is lost when the batteries are disconnected?
++ Volatile RAM
+- Factory ROM
+- EEPROM
+- PROM
+E: Volatile RAM needs constant battery power. ROM, PROM and EEPROM keep their data without power.
+
+@D22|ECM|ct hl
+Q: What is the most common cause of electronic control system faults?
++ Wiring and connector problems
+- Failed ECMs
+- Software errors
+- Bad sensor reference voltage from the alternator
+E: ECMs are very reliable. Most problems are in harnesses, connectors and sensors.
+
+@D22|Sensors|ct hl
+Q: A three-wire pressure sensor's signal wire reads 0.1 V at the electronic control module (ECM) with the key on. What is the likely fault?
++ The signal wire is shorted to ground
+- The signal wire is open
+- The sensor reference is shorted to battery voltage
+- The sensor is reading normal pressure
+E: Below 0.5 V is outside the usable range and points to a short to ground (or no reference voltage). Above 4.5 V points to an open or short to voltage.
+
+@D22|Diagnosis|pa hl
+Q: Which practice should be avoided when testing electronic circuits?
++ Piercing wire insulation with a test probe
+- Using a breakout harness
+- Using a high-impedance DMM
+- Back-probing a sealed connector with the correct probe
+E: Piercing insulation lets moisture in and causes corrosion and future faults. Use breakout harnesses or proper back-probes.
+
+@D22|Diagnosis|pa hl
+Q: A control module has been replaced on a machine. What usually needs to be done before it can be returned to work?
++ Program it and load the machine's parameters
+- Disconnect the batteries for 30 minutes
+- Clear all codes from every module
+- Replace the harness connectors at the module
+E: New modules usually need software, machine configuration and parameters loaded with the OEM service tool.
+
+@D22|Networks|ct net hl
+Q: The resistance between CAN high (CAN-H) and CAN low (CAN-L) on a J1939 network measures 120 Ω with the power off. What is the most likely fault?
++ One terminating resistor is missing or open
+- Both terminating resistors are good
+- CAN-H is shorted to CAN-L
+- CAN-H is shorted to ground
+E: Two 120 Ω terminators in parallel read 60 Ω. 120 Ω means only one is connected. Less than 60 Ω points to a short.
+
+@D22|Networks|ct net hl
+Q: Why does a controller area network (CAN) data bus use a twisted pair of wires?
++ To cancel electromagnetic interference
+- To increase the baud rate
+- To reduce the voltage on the bus
+- To allow the bus to carry power to the modules
+E: Twisting the CAN-H and CAN-L wires makes outside interference affect both equally, so it cancels out. Shielding adds more protection.

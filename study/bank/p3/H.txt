@@ -1,0 +1,199 @@
+@H37|Structures|hl kr p3
+Q: FOPS stands for:
++ falling object protective structure
+- frame overload protection system
+- fire operated protection system
+- forward operator protection screen
+E: FOPS protects from falling objects; ROPS protects in a rollover.
+
+@H37|Structures|hl kr p3
+Q: Screens and guards around the operator station are required on units equipped with:
++ winching devices
+- air conditioning
+- rubber tracks
+- Roll over protective structure (ROPS) cabs
+E: Highlighted: required on units with winching devices (a broken cable can whip back).
+
+@H37|Structures|hl safe pa p3
+Q: When replacing roll over protective structure (ROPS) mounting fasteners, you must:
++ use only fasteners approved by the manufacturer
+- use any grade 8 bolt of the correct size
+- reuse the old fasteners after cleaning
+- weld the fasteners in place
+E: Highlighted: only use OEM-approved fasteners; contact the OEM with questions.
+
+@H37|Structures|hl safe kr p3
+Q: A customer wants a light bracket welded to the roll over protective structure (ROPS). The correct response is:
++ only attach it the way an engineer or the manufacturer approves
+- weld it anywhere on the top tube, as long as the weld is solid
+- drill and bolt it through one of the main posts
+- clamp it on, since a clamp doesn't need approval
+E: Avoid cutting or welding structural supports; attach only in ways approved by an engineer.
+
+@H39|Fire suppression|hl kr p3
+Q: Fire suppression sensors are used for:
++ automatic operation of the system
+- manual activation by the operator
+- weighing the chemical cylinders
+- shutting off the fuel supply only
+E: Highlighted: sensors are used for automatic operation (linear detection wire, spot sensors).
+
+@H39|Fire suppression|hl safe kr p3
+Q: Linear detection wire must be protected when:
++ welding or working with heat nearby
+- washing the machine
+- checking hydraulic oil level
+- charging the batteries
+E: It's two parallel wires that melt together with heat, which would set off the system.
+
+@H39|Fire suppression|hl kr p3
+Q: Dry chemical (monoammonium phosphate) extinguishing agent is rated for which fire classes?
++ A, B and C
+- A and B only
+- B and C only
+- Class D metals
+E: A = ordinary combustibles, B = flammable liquids, C = electrical.
+
+@H39|Fire suppression|ct p3
+Q: Why is liquid aqueous film-forming foam (AFFF) agent preferred over dry powder underground?
++ Powder makes toxic dust in a confined space
+- AFFF is rated for electrical (C) fires
+- Powder can't put out flammable liquid fires
+- AFFF cylinders are lighter to carry
+E: AFFF (A and B fires) flows like a liquid, prevents flare-ups and avoids toxic powder in confined spaces.
+
+@H39|Fire suppression|hl kr p3
+Q: The expellant gas used to spray fire suppression chemicals is often:
++ nitrogen (sometimes CO2)
+- dry compressed air
+- pure oxygen
+- argon
+E: Highlighted: often nitrogen, may be CO2.
+
+@H39|Fire suppression|hl ct p3
+Q: When an automatic fire suppression system activates, which sequence occurs?
++ Alarm sounds, engine shuts down, hydraulic tank vents, suppression discharges
+- Suppression discharges, then the operator shuts off the engine
+- Engine shuts down only
+- Hydraulic tank pressurizes to stop leaks
+E: Highlighted: fully automatic operation.
+
+@H39|Fire suppression|hl safe pa p3
+Q: Fire suppression systems typically require inspection every:
++ 6 months
+- week
+- 5 years
+- 2000 hours
+E: Highlighted: regular inspection, often every 6 months; cylinder weights are compared to spec.
+
+@H39|Fire suppression|hl safe pa p3
+Q: Before working on a fire suppression system, you must:
++ install the safety pins and disable the system
+- discharge the system
+- weigh the cylinders
+- disconnect the linear detection wire with power on
+E: Highlighted: ensure safety pins are in place and the system is disabled.
+
+@H39|GET|hl kr p3
+Q: The main purpose of cutting edges and bits is to:
++ protect the softer blade or shank
+- increase the blade's carrying capacity
+- reduce fuel use while dozing
+- stop the operator backblading
+E: Highlighted: protect the softer parts. They're cheap, sturdy, replaceable wear parts that also add strength and help penetration.
+
+@H39|GET|hl kr p3
+Q: A dozer blade is NOT designed for:
++ backblading
+- carrying material
+- breaking new ground
+- pushing loose material
+E: Highlighted: not designed for backblading. Unprotected fasteners wear quickly.
+
+@H39|GET|kr p3
+Q: Tilting a dozer blade forward (tilt down) puts it in the:
++ breakout position, for breaking new ground
+- carry position, for moving large quantities
+- float position
+- backblade position
+E: Tilt up = carry position. Tilt down = breakout position.
+
+@H39|GET|hl kr p3
+Q: A motor grader is designed to:
++ move material that is already loose
+- break hard ground with its blade
+- carry large loads long distances
+- dig ditches and trenches to depth
+E: Highlighted. Scarifiers break up the top layer; rippers break hard ground.
+
+@H39|GET|kr p3
+Q: Grader cutting edges can often be:
++ turned over to double their lifespan
+- welded on to double their lifespan
+- sharpened on the machine
+- reused on dozers
+E: Many edges are double-bevelled and can be turned.
+
+@H39|GET|hl kr p3
+Q: The most versatile type of ripper is the:
++ adjustable parallelogram ripper
+- hinged (radial) ripper
+- single shank fixed ripper
+- scarifier
+E: Highlighted: a parallelogram ripper moves straight up and down and its angle can be adjusted.
+
+@H39|GET|hl kr p3
+Q: Scarifiers on a motor grader are used to:
++ break up the top layer
+- break hard rock
+- cut ice on pavement
+- spread gravel evenly
+E: Highlighted: a small version of rippers for the top layer.
+
+@H39|GET mounting|hl pa p3
+Q: Before installing a new cutting edge, you must:
++ clean the mounting surface to bare metal
+- paint the mounting surface to stop rust
+- coat the mounting surface with anti-seize
+- heat the moldboard so the edge fits
+E: Highlighted: if not cleaned, the mounting hardware may come loose.
+
+@H39|GET mounting|pa p3
+Q: Blade cutting edge bolts should be tightened:
++ from the centre outwards
+- from the ends inwards
+- in any order
+- left to right
+E: Tighten from the centre outwards.
+
+@H39|GET mounting|pa p3
+Q: When removing weld-on components, you should:
++ use the minimum heat possible
+- heat the whole blade evenly first
+- quench the area with water
+- air-arc as fast as possible regardless of heat
+E: Minimum heat avoids damaging the parent metal.
+
+@H39|GET|hl kr p3
+Q: Hard surfacing (crosshatch weld) on components is used to:
++ protect against abrasive soils
+- increase traction on ice
+- repair cracks
+- reduce weight
+E: Highlighted: good protection against abrasive soils.
+
+@H39|Winches|kr p3
+Q: Winch brakes are usually:
++ spring applied and hydraulically released
+- hydraulically applied and spring released
+- applied by the operator with a foot pedal
+- air applied and spring released
+E: Spring applied for safety. PTO winches use drum and band; hydraulic winches use multi-disc clutch packs.
+
+@H39|Winches|hl pa p3
+Q: When replacing winch wire rope, you should use:
++ only rope the winch maker recommends
+- any rope of the same diameter
+- the strongest rope available
+- rope one size larger for safety
+E: Highlighted. Check type and size, note winding direction (underwound is most stable).

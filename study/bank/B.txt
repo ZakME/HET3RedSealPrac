@@ -1,0 +1,1279 @@
+@B5|Fundamentals|kr hl
+Q: How is engine speed and power controlled on a diesel engine?
++ By the amount of fuel injected
+- By a throttle plate in the intake
+- By the spark timing
+- By the amount of air allowed in
+E: Diesels compress air only and have no intake throttle. Power is set by how much fuel is injected.
+
+@B5|Fundamentals|ct calc hl
+Q: An engine's crankshaft has a throw of 3 in. What is the stroke?
++ 6 in
+- 3 in
+- 1.5 in
+- 9 in
+E: Stroke = 2 × throw. The piston travels the throw distance up and the throw distance down from the crank centreline.
+
+@B5|Fundamentals|ct calc
+Q: A cylinder has a swept volume of 1000 cc and a clearance volume of 62.5 cc. What is the compression ratio?
++ 17:1
+- 16:1
+- 15:1
+- 18:1
+E: CR = (swept + clearance) ÷ clearance = (1000 + 62.5) ÷ 62.5 = 17:1.
+
+@B5|Fundamentals|ct hl
+Q: What is the effect of raising an engine's compression ratio?
++ Higher thermal efficiency
+- Lower combustion temperature
+- Lower volumetric efficiency
+- Less power from the same fuel
+E: Higher compression ratio means more of the fuel's heat energy is turned into work (higher thermal efficiency).
+
+@B5|Fundamentals|kr hl
+Q: On a four-stroke engine, the camshaft turns at:
++ half crankshaft speed
+- crankshaft speed
+- twice crankshaft speed
+- a speed set by the governor
+E: A four-stroke cycle takes 720° (two crank revolutions), and each valve opens once per cycle, so the cam turns at half crank speed.
+
+@B5|Fundamentals|kr hl
+Q: Valve overlap is the period when:
++ both the intake and exhaust valves are open
+- both valves are closed on compression
+- the injector and exhaust valve are open together
+- the piston is at bottom dead centre
+E: Overlap happens around TDC between the exhaust and intake strokes; it helps scavenge exhaust and start the intake charge.
+
+@B5|Block and liners|pa hl
+Q: A wet liner engine is being reassembled. How should the liner O-rings be lubricated?
++ With vegetable oil or soap, just before install
+- With engine oil, the night before assembly
+- With petroleum grease, packed into the groove
+- They should be installed dry
+E: Use the lubricant the OEM specifies (vegetable oil or soap), applied just before installing so the rings don't swell or twist. Petroleum products can swell some O-ring materials.
+
+@B5|Block and liners|ct hl
+Q: After installing a wet liner, the bore is found to be out of round near the bottom. What is the most likely cause?
++ A twisted or rolled liner O-ring
+- Too much liner protrusion
+- A missing head gasket fire ring
+- Coolant cavitation on the liner
+E: A twisted O-ring pushes the thin liner wall out of round, which can cause piston scuffing or seizure.
+
+@B5|Block and liners|ct hl
+Q: What is the result of insufficient liner protrusion?
++ Head gasket failure
+- Too much compression
+- Piston-to-valve contact
+- Liner cavitation
+E: The liner flange must stand above the deck so the head clamps it tightly. Too little protrusion lets the liner move and the head gasket fail.
+
+@B5|Block and liners|ct hl
+Q: A wet liner shows deep pitting on its outside surface where it touches the coolant. What is the most likely cause?
++ Cavitation from liner vibration and poor coolant additives
+- Coolant that is too cold in the winter
+- Too much liner protrusion above the block deck
+- Scuffing from a seized or overheated piston
+E: Liner vibration forms vapour bubbles that collapse against the liner (cavitation erosion). Correct coolant and supplemental additives (SCA) protect it.
+
+@B5|Crack detection|kr hl
+Q: Which crack detection method is the most accurate, but only works on ferrous metals?
++ Fluorescent magnetic particle (Magnaflux)
+- Dye penetrant
+- Pressure testing in hot water
+- Visual inspection with a magnifier
+E: Fluorescent magnetic particle inspection with a black light is the most accurate. Dye penetrant works on any metal but is less accurate and not good on rough surfaces.
+
+@B5|Crack detection|pa hl
+Q: A cylinder head is being checked for a crack that only leaks when hot. Which test should be used?
++ Pressure test it immersed in hot water
+- Dye penetrant test it at room temperature
+- Magnetic particle test the combustion face
+- Measure the head for warpage
+E: Pressure testing in hot water expands the casting so cracks open up. Dummy injectors seal the injector tubes.
+
+@B5|Cylinders|pa hl
+Q: Where does most cylinder wear occur?
++ At the top of ring travel, 90° to the crankshaft
+- At the bottom of the bore, in line with the crankshaft
+- Below ring travel, where the skirt rides
+- Evenly over the whole bore
+E: Heat, pressure and the least lubrication are at the top of ring travel; the thrust load is 90° to the crank.
+
+@B5|Cylinders|ct calc hl
+Q: A cylinder is 0.008 in tapered. Standard oversizes are 0.010, 0.020 and 0.030 in. Which oversize piston is needed?
++ 0.020 in
+- 0.010 in
+- 0.030 in
+- Standard size
+E: For taper, double the wear (0.016 in) and round up to the next oversize (0.020 in).
+
+@B5|Cylinders|pa hl
+Q: After honing a cylinder, how should it be cleaned?
++ With hot soapy water and a stiff brush
+- With solvent and compressed air
+- With a dry rag and engine oil
+- With carburetor cleaner only
+E: Hot water and detergent remove the abrasive grit that solvents leave behind. A white rag shows when it's clean.
+
+@B5|Pistons and rings|pa hl
+Q: How is piston ring end gap checked?
++ Square in the bore below ring travel, with a feeler gauge
+- In the piston groove, with a straightedge and feeler gauge
+- With the ring on a flat surface, using a micrometer
+- With the ring at the top of the bore, using a caliper
+E: Push the ring square into the bore below ring travel (the least-worn diameter) and measure the gap with feeler gauges.
+
+@B5|Pistons and rings|ct hl
+Q: What is the result of insufficient piston ring end gap?
++ The ring ends butt when hot, scuffing the piston
+- Excessive blow-by and oil consumption when cold
+- Low oil pressure
+- Piston slap when cold
+E: End gap allows for heat expansion. If the ends touch, the ring pushes hard into the wall, scuffing or seizing.
+
+@B5|Pistons and rings|ct hl
+Q: An engine knocks loudly when cold and quiets down as it warms up. What is the most likely cause?
++ Too much piston-to-cylinder clearance
+- Insufficient valve lash on the exhaust valves
+- A loose vibration damper
+- A worn camshaft lobe
+E: Piston slap is the piston rocking in a worn bore. It is loudest cold and quiets as the piston expands.
+
+@B5|Pistons and rings|pa hl
+Q: Before removing pistons from an engine with a ridge at the top of the cylinder, what must be done?
++ Remove the ridge with a ridge reamer
+- Polish the ridge with emery cloth
+- Remove the pistons from the bottom
+- Heat the top of the block
+E: Pushing the rings past a ridge breaks the ring lands. Metal ridges are removed with a ridge reamer; carbon can be scraped.
+
+@B5|Crankshaft|ct fail hl
+Q: A crankshaft has broken at a rod journal from torsional fatigue. Which component should be checked as a likely cause?
++ The vibration damper
+- The main bearing caps
+- The oil pump
+- The thrust washers
+E: Torsional failures at the rod journals come from a loose or failed vibration damper, a loose flywheel, overspeed or overload.
+
+@B5|Crankshaft|pa hl
+Q: A viscous vibration damper has a dent in its outer housing. What should be done?
++ Replace it
+- Tap the dent out and reinstall it
+- Fill the dent with epoxy
+- Reinstall it if it doesn't leak
+E: A dent can make the inertia ring bind inside so the damper stops working. Dented or leaking viscous dampers are replaced.
+
+@B5|Bearings|pa hl
+Q: What is the correct procedure when using Plastigage to check main bearing clearance?
++ Lay it across a clean, dry journal, torque the cap and don't turn the crank
+- Lay it on an oiled journal, torque the cap and turn the crank one turn
+- Lay it along the journal, snug the cap by hand and remove it
+- Lay it in the oil hole and torque the cap
+E: Plastigage goes across the full width on a dry journal, the cap is torqued and removed without rotating the crank, and the crushed width is compared to the chart.
+
+@B5|Bearings|ct fail hl
+Q: A main bearing shell has a localized polished spot on its surface and a matching high spot on its back. What is the likely cause?
++ A particle trapped behind the shell
+- Lack of oil
+- Coolant contamination of the engine oil
+- Excessive crankshaft end play
+E: Dirt behind the shell pushes a high spot into the bearing face, which then wears locally. Clean bores and shells before assembly.
+
+@B5|Bearings|kr hl
+Q: Bearing crush is designed to:
++ hold the shell tight and transfer heat
+- set the oil clearance
+- let the bearing rotate slowly with the journal
+- control crankshaft end play
+E: Crush is the small amount the shells stand above the bore; when the cap is torqued it presses the shell tight for heat transfer and to stop it spinning.
+
+@B5|Camshaft|pa hl
+Q: When removing a camshaft from an engine with mushroom-type cam followers, the followers are removed:
++ from below, after the camshaft is out
+- from the top, before the camshaft
+- with the camshaft as one assembly
+- by cutting them apart
+E: Mushroom followers are bigger than their bores, so they come out from the underside after the cam is removed. Straight-body followers come out the top first.
+
+@B5|Valve train|pa hl
+Q: When adjusting valve lash, the cam follower must be:
++ on the base circle of the lobe
+- on the nose of the cam lobe
+- halfway up the lobe's opening ramp
+- on the closing ramp
+E: The valve must be fully closed, which happens when the follower is on the base circle.
+
+@B5|Valve train|ct hl
+Q: What is the result of too little valve lash?
++ Valves may not seat when hot and can burn
+- A noisy valve train
+- Late valve opening and lower power
+- Lower oil pressure
+E: With too little lash, heat expansion holds the valve slightly open; it can't seat and cool, so it burns. Too much lash gives a noisy valve train.
+
+@B5|Valve train|pa hl
+Q: On an inline six-cylinder engine with a 1-5-3-6-2-4 firing order, cylinder 1 is on valve overlap. Which cylinder is at top dead centre (TDC) on compression?
++ Cylinder 6
+- Cylinder 5
+- Cylinder 2
+- Cylinder 4
+E: Running mates on a 6-cylinder are 1&6, 5&2, 3&4. When one is on overlap (rockers rocking), its mate is at TDC compression.
+
+@B5|Cylinder head|ct hl
+Q: A reground valve ends up with a very thin margin. What is the result?
++ The valve head overheats and can burn or cup
+- Higher compression and better sealing
+- The valve won't fit the seat
+- Lower exhaust temperature
+E: The margin absorbs heat. A margin less than half of new overheats; the valve can burn or cup into the seat.
+
+@B5|Cylinder head|ct hl
+Q: What is the result of a valve seat that is too wide?
++ Low seating force, carbon build-up and leakage
+- Poor heat transfer and fast wear only
+- More seating force and better sealing
+- Higher valve spring tension
+E: A wide seat spreads the spring force over more area, so carbon isn't crushed and the valve can leak. A seat that's too narrow transfers heat poorly and wears fast.
+
+@B5|Cylinder head|pa hl
+Q: A valve seat contacts too high on the valve face. Which stone should be used to correct it?
++ A 15° stone to lower the top edge of the seat
+- A 60° stone to raise the bottom edge of the seat
+- A 45° stone to widen the seat
+- A 30° stone to raise the seat
+E: The 15° stone narrows the seat from the top (moving contact down the face); the 60–70° stone narrows from the bottom.
+
+@B5|Cylinder head|ct hl
+Q: What is the effect of excessive valve protrusion (valve sitting too high)?
++ Higher compression and piston-to-valve contact
+- Lower compression and hard starting when cold
+- Valve float at high RPM and a noisy valve train
+- Burned valve seats
+E: A valve that stands too far into the chamber reduces clearance volume and can hit the piston. Fix by grinding the seat down.
+
+@B5|Cylinder head|ct hl
+Q: A valve spring is out of square by more than 1/16 in. What problem will it cause?
++ Side loading of the valve stem and guide wear
+- Valve float at idle only, when oil is cold
+- More valve lash after the engine warms up
+- Lower compression
+E: An out-of-square spring pushes the valve sideways, wearing the stem and guide. Replace springs that are out of spec.
+
+@B5|Engine brake|kr hl
+Q: A compression-release engine brake slows the vehicle by:
++ opening the exhaust valves near TDC on compression
+- restricting exhaust flow after the turbocharger outlet
+- applying the service brakes through the ECM
+- closing the intake valves early
+E: The engine works to compress the air, then the energy is released out the exhaust before it can push the piston back down.
+
+@B5|Engine brake|pa hl
+Q: Which conditions are needed for a compression-release engine brake to work?
++ Fuel off, clutch engaged and transmission in gear
+- Fuel on, clutch released and transmission in neutral
+- Fuel off, clutch released and cruise control on
+- Fuel on, clutch engaged and engine at idle
+E: The engine brake only works when no fuel is injected and the engine is being driven by the wheels through an engaged clutch and gear.
+
+@B5|Engine brake|ct hl
+Q: After an engine brake adjustment, the engine is hard to start and runs poorly when warm. What is the likely cause?
++ Too little slave clearance holding the valves open
+- Too much slave clearance delaying valve opening
+- Low engine oil pressure
+- A failed brake solenoid
+E: Inadequate slave lash can hold the exhaust valves slightly open, especially as parts expand when hot.
+
+@B5|Diagnosis|ct hl
+Q: An engine has low power, blue smoke and oil blowing out of the crankcase breather. What is the most likely cause?
++ Worn piston rings or liners
+- A plugged air filter
+- Retarded injection timing
+- A stuck-open thermostat
+E: Worn rings let combustion gas into the crankcase (blow-by), which pushes oil out of the breather, and oil gets burned (blue smoke).
+
+@B6|Lubrication|pa hl
+Q: A machine shows low oil pressure on the gauge. What should be checked first?
++ The oil level
+- The oil pump clearances
+- The pressure regulating valve
+- The main bearing clearances
+E: Always check the simplest and most likely cause first: the oil level and condition.
+
+@B6|Lubrication|ct hl
+Q: What is the most likely cause of high engine oil pressure?
++ A regulating valve stuck closed
+- Worn main bearings
+- Fuel diluting the oil and thinning it
+- A worn oil pump
+E: A regulator or relief stuck closed, oil that's too thick (cold), or blocked passages raise pressure. Wear and dilution lower it.
+
+@B6|Lubrication|ct hl
+Q: Engine oil pressure drops steadily as the engine gets hot, and the oil smells of diesel. What is the likely cause?
++ Fuel dilution thinning the oil
+- A plugged oil cooler
+- A stuck-closed relief valve
+- Too much oil in the crankcase after a service
+E: Fuel thins the oil, so pressure drops as it heats. Look for leaking injectors, injector O-rings or a transfer pump seal.
+
+@B6|Lubrication|ct hl
+Q: What is the result of overfilling an engine crankcase with oil?
++ The crank whips the oil into foam, which runs hot
+- Higher oil pressure and better bearing lubrication
+- Lower oil temperature
+- The oil filter goes into bypass at every start
+E: When the crank dips into the oil it aerates it. Foamy oil doesn't lubricate well and runs hot.
+
+@B6|Lubrication|kr hl
+Q: When an engine has both an oil pressure regulating valve and a relief valve, the relief valve is set:
++ higher than the regulating valve
+- lower than the regulating valve
+- at the same pressure as the regulating valve
+- below idle oil pressure
+E: The regulator keeps normal pressure; the relief only opens to protect the system if pressure goes too high.
+
+@B6|Lubrication|ct hl
+Q: The full-flow oil filter on an engine becomes completely plugged. What happens?
++ The filter bypass valve opens and unfiltered oil feeds the engine
+- Oil flow to the engine stops and the bearings fail
+- The oil pressure relief valve opens and dumps all oil to the pan
+- The oil cooler bypass opens instead
+E: The bypass valve protects the engine from oil starvation, but the oil is no longer filtered.
+
+@B6|Lubrication|kr hl
+Q: A bypass oil filter in a lubrication system:
++ finely filters a small part of the oil and returns it to the pan
+- filters all of the oil before it reaches the main bearings
+- only works when the oil is cold
+- replaces the full-flow filter on newer engines
+E: Bypass filters handle about 5–10% of pump flow at about 10 microns and return it to the pan.
+
+@B6|Lubrication|pa hl
+Q: How should a spin-on oil filter be installed?
++ Oil the gasket, then ½–¾ turn after it contacts
+- Tighten it with a filter wrench as tight as possible
+- Install it with a dry gasket and hand-tighten loosely
+- Torque it to the same value as the drain plug
+E: Lubricate the gasket and follow the filter's tightening instructions, usually ½–¾ turn after contact.
+
+@B6|Lubrication|pa hl
+Q: When is the engine oil level checked for an accurate reading?
++ On level ground, several minutes after shutdown
+- Immediately after shutdown with the engine hot
+- With the engine running at low idle
+- First thing in the morning only
+E: Give the oil time to drain back to the pan and check on level ground.
+
+@B6|Crankcase ventilation|ct hl
+Q: A turbocharger is leaking oil from its seals and the dipstick keeps popping out. What should be checked?
++ The crankcase breather for a restriction
+- The oil cooler for a leak
+- The oil pump relief valve
+- The air filter restriction indicator
+E: A blocked breather lets crankcase pressure build, which pushes oil past seals (often the turbo) and pushes out the dipstick and fill cap.
+
+@B6|Crankcase ventilation|kr hl
+Q: What is blow-by?
++ Combustion gas that leaks past the piston rings into the crankcase
+- Oil that leaks past the valve guides into the cylinder
+- Air that leaks past the turbo seals
+- Coolant that leaks past the liner seals
+E: Some blow-by is normal; crankcase ventilation removes it along with water and fuel vapour. Excessive blow-by means worn rings or liners.
+
+@B6|Oil|kr hl
+Q: In an engine oil, dispersant additives:
++ keep dirt suspended so it drains out with the oil
+- prevent deposits from forming on hot parts
+- slow the oil's reaction with oxygen
+- keep the oil from foaming in the crankcase
+E: Dispersants keep dirt and soot suspended; detergents prevent and remove deposits; oxidation inhibitors slow oxidation.
+
+@B6|Oil|pa hl
+Q: Diesel engines with diesel particulate filters require which type of engine oil?
++ Low-ash oil in a current API diesel category
+- Any SAE 15W-40 oil regardless of rating
+- An API SN gasoline engine oil of the same grade
+- A high-ash oil to protect the valves
+E: Ash from oil additives can't burn off and plugs the DPF. Use the low-ash API C category the OEM specifies.
+
+@B6|Oil pump|pa
+Q: During an engine rebuild, which checks are made on a gear-type oil pump?
++ Gear-to-gear, gear-to-body and gear-to-cover clearances
+- Rotor-to-cam ring clearance and vane length
+- Plunger-to-barrel clearance
+- Impeller-to-housing clearance and shaft runout
+E: Gear pumps are checked for clearances between the gears, gears and body, and gears and cover. Scored pumps are replaced, and the pump is primed on assembly.
+
+@B7|Intake|pa hl
+Q: Which instrument is used to measure air intake restriction?
++ A water manometer reading in inches of water
+- A mercury manometer reading in inches of mercury
+- A compound gauge reading in psi
+- A vacuum gauge reading in kilopascals
+E: Intake restriction is small and read in inches of water (in H₂O). Never use a mercury manometer on the intake: mercury could be drawn into the engine.
+
+@B7|Intake|pa hl
+Q: At about what restriction should a dry air filter typically be serviced?
++ 20–25 in H₂O
+- 2–5 in H₂O
+- 20–25 in Hg
+- 50–60 in H₂O
+E: A typical restriction service limit is 20–25 inches of water; follow the OEM and the restriction indicator.
+
+@B7|Intake|ct hl
+Q: An engine has rapid ring and liner wear, and the oil sample shows high silicon. What should be inspected?
++ The air intake system for leaks after the filter
+- The fuel filters for water
+- The cooling system for an internal leak
+- The oil cooler for a restriction
+E: Silicon is dirt. A leak in the intake ducting or a bad filter seal lets unfiltered air in, which "dusts" the engine.
+
+@B7|Intake|pa hl
+Q: How should a dry air filter be cleaned when the manufacturer allows it?
++ Blow low-pressure air from the inside out
+- Blow high-pressure air from the outside in
+- Wash it in solvent and let it dry
+- Tap it hard on a tire to knock the dust out
+E: Blow clean air through from the inside (clean side) out. Never clean the secondary (safety) element.
+
+@B7|Intake|kr hl
+Q: The secondary (safety) air filter element is designed to:
++ protect the engine if the primary element fails or is removed
+- remove fine dust the primary misses during normal operation
+- be cleaned at every primary filter service
+- pre-clean large debris before the primary
+E: The safety element only catches dirt if the primary leaks or is out. It's replaced, not cleaned.
+
+@B7|Intake|ct hl
+Q: A diesel engine is running on its own crankcase oil vapour and won't shut off with the key. What is the safest way to stop it?
++ Block the intake air with the air shutdown
+- Shut off the fuel supply valve at the tank
+- Disconnect the batteries
+- Put the transmission in gear and stall it
+E: A runaway engine is burning a fuel source outside the fuel system, so cutting fuel won't stop it. Blocking the air will.
+
+@B7|Intake|ct hl
+Q: What is the result of too much oil in an oil bath air cleaner?
++ Oil can be drawn into the engine and cause overspeed
+- The engine runs rich and smokes black at idle
+- The air cleaner filters better and lasts longer
+- The engine loses compression
+E: High oil level (or oil that's too thin) can be pulled into the intake, adding uncontrolled fuel.
+
+@B7|Turbocharger|pa hl
+Q: An engine has low boost pressure. What should be checked before replacing the turbocharger?
++ The intake and exhaust for restrictions and leaks
+- The engine oil level
+- The coolant temperature sensor and thermostat
+- The fuel tank vent
+E: Low boost is often caused by intake restrictions, boost leaks, exhaust leaks before the turbo or a leaking aftercooler. Check those first.
+
+@B7|Turbocharger|ct hl
+Q: A turbocharger has failed with coked oil in the centre housing. What is the most likely cause?
++ Hot shutdowns with no cool-down
+- Too much boost pressure
+- A plugged air filter
+- Running the engine at high idle when cold
+E: Shutting down hot leaves oil in the turbo bearings to cook into carbon. Idle 3–5 minutes before shutdown.
+
+@B7|Turbocharger|pa hl
+Q: What must be done when installing a new turbocharger?
++ Pre-lube the bearings with clean oil before starting
+- Run the engine at high idle to seat the bearings
+- Fill the compressor housing with oil
+- Set the shaft end play with shims
+E: The turbo spins very fast immediately; pre-lubing prevents a dry start. End play is not adjustable.
+
+@B7|Turbocharger|ct hl
+Q: A wastegate is stuck closed. What is the likely result?
++ Overboost that can damage the engine
+- Low boost and low power
+- Black smoke at idle and when accelerating
+- No change in boost
+E: The wastegate bypasses exhaust to limit boost. Stuck closed (or its sensing line off), boost isn't limited. Stuck open = low power.
+
+@B7|Turbocharger|kr hl
+Q: Closing the vanes of a variable geometry turbocharger (VGT):
++ increases boost and exhaust back pressure
+- decreases boost and exhaust back pressure
+- bypasses exhaust around the turbine
+- stops the turbine wheel
+E: Closed vanes speed up exhaust onto the turbine (more boost) and raise back pressure, which helps EGR flow and engine braking.
+
+@B7|Aftercooler|ct hl
+Q: What is the purpose of an aftercooler (charge air cooler)?
++ To cool the intake air after the turbo
+- To cool the turbocharger bearings
+- To warm the intake air in cold weather
+- To cool the exhaust gas before the DPF
+E: Compressing air heats it. Cooling it after the turbo makes it denser (more oxygen per stroke), so more fuel can burn cleanly.
+
+@B7|Turbocharger|ct
+Q: A truck is towed on a trailer with its exhaust stack uncovered. What problem can this cause?
++ Wind can spin the turbo with no oil
+- The DPF can regenerate on its own
+- The air filter element can collapse
+- The engine can start by itself
+E: Air rushing past the stack can windmill the turbo with no oil pressure, damaging the bearings. Cover the stack when transporting.
+
+@B8|Exhaust|pa hl
+Q: Exhaust back pressure is measured with:
++ a mercury manometer in inches of mercury
+- a water manometer in inches of water
+- a vacuum gauge on the intake manifold
+- a boost gauge before the turbo
+E: Exhaust pressure is higher than intake restriction, so a mercury manometer is used (in Hg).
+
+@B8|Exhaust|ct hl
+Q: There are black soot trails around an exhaust manifold gasket. What do they indicate?
++ An exhaust leak at that gasket
+- Normal carbon build-up
+- An oil leak from the valve cover
+- A rich air-fuel mixture
+E: Soot trails mark where exhaust gas is escaping. Exhaust leaks are an operator safety hazard (carbon monoxide).
+
+@B8|Exhaust|ct hl
+Q: An engine has low power and high exhaust temperatures. The exhaust back pressure is above specification. What is a likely cause?
++ A plugged DPF or a crushed exhaust pipe
+- A leaking exhaust manifold gasket
+- A plugged air filter
+- Low fuel pressure at the transfer pump
+E: High back pressure means something downstream is restricted, such as a plugged DPF/DOC, a crushed pipe or a blocked muffler.
+
+@B8|Exhaust|kr hl
+Q: Why are lock washers not used on exhaust system fasteners?
++ Heat makes them lose their tension
+- They corrode in the exhaust gas
+- They are too hard to remove later
+- They create an exhaust leak
+E: Heat anneals lock washers so they lose their spring. Use the fasteners and locking methods the OEM specifies.
+
+@B8|Exhaust|kr hl
+Q: Where are spark arrestors especially important?
++ In forestry and other areas with a fire hazard
+- On engines operating at high altitude
+- On engines with aftercoolers
+- In underground mining only
+E: Spark arrestors trap glowing carbon so it can't start fires. They are critical in forestry.
+
+@B8|Exhaust|ct
+Q: A machine's cab fills with exhaust fumes while working. What should be checked first?
++ The exhaust system for leaks and damage
+- The engine timing
+- The cab air filter and its housing seal
+- The fuel injectors
+E: Exhaust in the cab means an exhaust leak (manifold, pipe, clamps, stack) or a damaged cab seal near it. It's a carbon monoxide hazard.
+
+@B8|Smoke|ct hl
+Q: A diesel engine produces black smoke under load. What is the most likely cause?
++ Too much fuel or not enough air
+- Burning engine oil
+- Coolant entering the cylinders
+- Low compression on a cold start
+E: Black smoke is soot from incomplete combustion: too much fuel or not enough air (plugged filter, low boost).
+
+@B8|Smoke|ct hl
+Q: A diesel engine produces blue smoke. What is being burned?
++ Engine oil
+- Unburned fuel
+- Coolant
+- Excess air
+E: Blue smoke = oil, from worn rings, valve guides or seals, a failing turbo, or high crankcase pressure.
+
+@B8|Smoke|ct hl
+Q: A diesel engine produces white smoke on a cold start that clears as it warms up. What is the most likely cause?
++ Unburned fuel because the cylinders are cold
+- A cracked cylinder head leaking coolant
+- A plugged air filter restricting the intake
+- Worn piston rings burning oil
+E: White smoke on cold starts is unburned fuel vapour from low cylinder heat. White smoke that persists when hot can mean coolant or low compression.
+
+@B8|Exhaust brake|kr hl
+Q: Where is an exhaust brake valve located?
++ After the engine, before the muffler
+- In the intake manifold before the cylinders
+- After the muffler, at the stack outlet
+- Inside the cylinder head exhaust ports
+E: The exhaust brake restricts exhaust flow after the engine, creating back pressure that resists the pistons.
+
+@B8|Exhaust brake|pa hl
+Q: Why should an exhaust brake be used regularly?
++ So the valve doesn't seize up
+- To keep the DPF from plugging
+- To recharge the air brake system
+- To keep the turbocharger cool
+E: An exhaust brake that isn't used can seize in place from moisture and deposits.
+
+@B8|Exhaust brake|ct hl
+Q: How does an exhaust brake compare with a compression-release engine brake?
++ It is quieter but gives less retarding power
+- It is louder and gives more retarding power
+- It works with the fuel still being injected
+- It opens the exhaust valves near TDC
+E: The exhaust brake only restricts exhaust flow, so it is quieter and weaker than an engine brake.
+
+@B9|Sensors|ct hl
+Q: A 5 V reference temperature sensor's signal reads 4.9 V at the electronic control module (ECM). What does this most likely indicate?
++ An open circuit in the sensor or signal wire
+- A short to ground in the signal wire
+- A normal reading at operating temperature
+- A failed ECM reference voltage
+E: The usable range is about 0.5–4.5 V. A signal pulled up near 5 V means the sensor is open; near 0 V means shorted to ground.
+
+@B9|Sensors|kr hl
+Q: Most engine coolant temperature sensors are:
++ negative temperature coefficient (NTC) thermistors
+- positive temperature coefficient (PTC) thermistors
+- magnetic reluctance sensors
+- three-wire pressure transducers
+E: NTC thermistor: as temperature goes up, resistance goes down.
+
+@B9|Sensors|kr hl
+Q: An engine speed sensor that uses a magnet and reads the teeth on the flywheel ring gear produces:
++ an AC voltage signal
+- a 5 V square wave from the ECM
+- a variable resistance signal
+- a steady DC voltage
+E: Magnetic reluctance sensors generate their own AC signal as teeth pass; frequency rises with speed.
+
+@B9|Sensors|kr hl
+Q: Which three inputs are the main ones an engine electronic control module (ECM) uses to set fuel delivery and timing?
++ Throttle position, boost pressure and engine speed/position
+- Coolant temperature, oil pressure and fuel level
+- Ambient temperature, battery voltage and vehicle speed
+- Exhaust temperature, DEF level and NOx sensor
+E: Throttle position (operator demand), intake manifold (boost) pressure and engine speed/timing are the three main fuelling inputs.
+
+@B9|ECM|pa hl
+Q: A new electronic unit injector has been installed. What must be done before the engine is put back in service?
++ Program its calibration code into the ECM
+- Reset the ECM by disconnecting the batteries
+- Run the engine at high idle for one hour to seat it
+- Adjust the injector rack with the service tool
+E: The calibration code lets the ECM compensate for small manufacturing differences in each injector.
+
+@B9|ECM|kr hl
+Q: Which type of electronic control module (ECM) memory holds customer parameters and can be reprogrammed without removing it from the module?
++ EEPROM
+- ROM
+- PROM
+- Volatile RAM
+E: Electrically erasable programmable read-only memory (EEPROM) can be rewritten in place with the right software.
+
+@B9|ECM|kr hl
+Q: How does an electronic engine control the amount of fuel each injector delivers?
++ By how long the solenoid is energized
+- By the rack position in the injection pump
+- By the voltage applied to the injector
+- By changing the fuel transfer pump pressure
+E: The ECM controls injection duration with the solenoid's pulse width (duty cycle); longer on-time = more fuel.
+
+@B9|Fault codes|kr hl
+Q: In a fault code, the failure mode identifier (FMI) describes:
++ how it failed, such as shorted or open
+- which module reported the fault
+- which component or parameter failed
+- how many times the fault has occurred
+E: The FMI is the type of failure. The SPN/PID identifies the component or parameter; the MID identifies the module.
+
+@B9|Fault codes|kr hl
+Q: An active (hard) fault code means the fault:
++ is present right now
+- happened in the past but isn't present now
+- has been cleared by the technician
+- only occurs at high temperature
+E: Active codes are currently present. Inactive (intermittent, or soft) codes are logged but not present now.
+
+@B9|Diagnosis|pa hl
+Q: A sensor fault code is active. What is the correct troubleshooting order?
++ Sensor, then harness, then clear codes and verify
+- Replace the ECM, then the sensor, then the harness
+- Clear the codes, then replace the sensor and harness
+- Check the harness, then replace the ECM
+E: Sensors and wiring fail far more often than ECMs. Check the sensor, then the harness and connectors, clear the codes and confirm the repair.
+
+@B9|Diagnosis|pa hl
+Q: An intermittent fault code is suspected to be caused by a loose connector. Which test is best?
++ A wiggle test with the key on and the engine off
+- A voltage drop test with the key off
+- An ohmmeter test with the connector unplugged
+- Clearing the code and waiting for it to return
+E: Wiggling harnesses and connectors with the key on, engine off while watching live data or codes finds intermittent connections.
+
+@B9|Diagnosis|ct hl
+Q: An engine with electronic unit injectors has fuel in the engine oil. What is a likely cause?
++ Failed injector O-rings
+- A plugged fuel return line
+- A worn transfer pump diaphragm
+- A leaking EGR cooler
+E: Injector O-rings seal the fuel galleries in the head; when they fail, fuel leaks into the oil.
+
+@B9|ECM protection|pa hl
+Q: Which practice protects an engine electronic control module (ECM)?
++ Unplug the ECM before welding on the machine
+- Use a fast charger to help start the engine
+- Disconnect the batteries with the engine running to test the alternator
+- Unplug the ECM connectors with the key on
+E: Welding current, fast chargers, disconnecting batteries while running and unplugging with the key on can all cause voltage spikes that damage the ECM.
+
+@B9|Protection|ct hl
+Q: Why do engine protection shutdowns on mobile equipment include a delay?
++ So the operator can get to a safe place
+- So the engine can cool before it stops
+- So the ECM can save the fault code
+- So the oil pressure has time to recover
+E: An instant shutdown on a slope or in traffic is dangerous; a delay (or limp mode) lets the operator get to safety.
+
+@B9|HEUI|kr hl
+Q: A hydraulically actuated electronic unit injector (HEUI) is actuated by:
++ high-pressure engine oil on an intensifier
+- a dedicated cam lobe and rocker arm
+- high-pressure fuel from a common rail
+- compressed air from the brake system
+E: HEUI injectors use high-pressure engine oil from a high-pressure oil pump to push an intensifier piston, which raises fuel pressure (about 6:1).
+
+@B9|Common rail|ct hl
+Q: Why must a technician be extra careful when opening a high-pressure common rail fuel system?
++ The rail can stay pressurized after shutdown
+- The fuel is hotter than in other systems
+- The injectors are energized with the key off
+- The rail is filled with hot engine oil
+E: Common rail systems can hold high pressure after shutdown. Follow the OEM procedure to bleed pressure and never put hands near a leak.
+
+@B9|Common rail|pa hl
+Q: A high-pressure fuel line between the common rail and an injector has been removed. What should be done when reinstalling?
++ Install a new line
+- Reuse the line if the flares look good
+- Anneal the line ends before reinstalling
+- Wrap the fittings with thread tape
+E: Common rail lines are replaced whenever they're removed because the sealing cones deform on tightening.
+
+@B9|Common rail|kr hl
+Q: In a common rail system, what does a flow limiter do?
++ Shuts off fuel to a leaking injector
+- Limits the maximum rail pressure
+- Controls the high-pressure pump output
+- Meters fuel into each cylinder
+E: Flow limiters close if too much fuel flows to one injector (a stuck-open injector), preventing over-fuelling and engine damage.
+
+@B10|Fuel|kr hl
+Q: Cetane number is a measure of a diesel fuel's:
++ ignition quality
+- resistance to self-ignition
+- heat energy per litre
+- sulphur content
+E: Higher cetane = ignites more easily (shorter ignition delay). Octane is gasoline's resistance to self-ignition.
+
+@B10|Fuel|kr hl
+Q: The temperature at which wax crystals first start to form in diesel fuel is the:
++ cloud point
+- pour point
+- flash point
+- fire point
+E: Cloud point = wax starts forming (filters can plug). Pour point = fuel stops flowing. Flash point = vapour can ignite.
+
+@B10|Fuel|pa hl
+Q: To reduce condensation in a machine's fuel tank, the tank should be filled:
++ at the end of each shift
+- at the start of each shift
+- only when it's below one-quarter
+- once a week
+E: A full tank overnight leaves less air space for moisture to condense.
+
+@B10|Fuel|ct hl
+Q: A fuel filter is plugged with a dark slime, and the fuel smells like rotten eggs. What is the problem?
++ Microbial growth in the fuel
+- Wax from cold weather
+- Gasoline mixed into the diesel
+- Normal fuel ageing
+E: Microbes grow at the fuel-water line and make slime, plugged filters and a foul smell. Keep fuel dry and clean, drain water and treat the tank.
+
+@B10|Fuel|pa hl
+Q: Why should diesel fuel never be stored in a galvanized tank?
++ The zinc coating reacts with the fuel and makes deposits
+- Galvanized tanks can't be vented
+- Diesel fuel dissolves the steel under the coating
+- Galvanized tanks are too heavy for mobile use
+E: Zinc reacts with diesel fuel and forms particles that plug filters and injectors.
+
+@B10|Combustion|ct hl
+Q: A diesel engine knocks loudly when cold. Which condition causes long ignition delay and knock?
++ Low cetane fuel
+- Retarded injection timing
+- High intake air temperature
+- High compression pressure
+E: Combustion knock comes from too much fuel ignited at once after a long ignition delay: low cetane, cold air, advanced timing or low injection pressure.
+
+@B10|Starting aids|ct safe hl
+Q: Why should ether starting fluid not be used on an engine with an intake grid heater?
++ The heater can ignite the ether in the intake
+- Ether contaminates and shorts the grid heater elements
+- The grid heater makes the ether ineffective
+- The ECM disables the grid heater when ether is sensed
+E: Ether is very volatile; a hot grid heater or glow plug can ignite it in the intake. Use ether only when necessary and never with heaters or glow plugs.
+
+@B10|Starting aids|pa hl
+Q: Where should a fuel heater be installed?
++ Before the fuel filter, thermostatically controlled
+- After the injection pump, before the injectors
+- In the fuel return line only
+- After the secondary filter, with a manual switch
+E: Heating fuel before filtration keeps wax from plugging the filter. Thermostatic control prevents overheating (hot fuel lowers power).
+
+@B10|Fuel supply|kr hl
+Q: The primary fuel filter on a diesel engine is located:
++ between the tank and the transfer pump, under suction
+- between the transfer pump and injection pump, under pressure
+- in the fuel return line
+- inside the injection pump
+E: The primary filter sits on the suction side (vacuum). The secondary filter is after the transfer pump (pressure).
+
+@B10|Fuel supply|ct hl
+Q: A diesel engine has rough running and a steady stream of bubbles in the fuel return line. Where is the most likely leak?
++ On the suction side before the transfer pump
+- At an injector high-pressure line nut
+- In the secondary filter housing
+- In the fuel return line
+E: A leak on the suction (vacuum) side lets air in. Check the primary filter seal, fittings and the tank pickup tube. A pressure-side leak leaks fuel out.
+
+@B10|Fuel supply|pa hl
+Q: Which test checks for a plugged primary fuel filter or restricted fuel line?
++ An inlet restriction test with a vacuum gauge
+- A fuel return pressure test
+- A cylinder cut-out test
+- A fuel flow test at each of the injectors
+E: High inlet vacuum at the transfer pump means a restriction before it: plugged primary filter, pinched line or plugged tank vent.
+
+@B10|Fuel supply|ct hl
+Q: An engine starts hard after sitting overnight but runs well once started. What is a likely fuel system cause?
++ Fuel draining back to the tank overnight
+- A plugged secondary fuel filter
+- A worn injection pump plunger and barrel
+- Retarded injection timing
+E: If fuel drains back overnight, the system must re-prime on every start. Look for a suction-side air leak or a leaking check valve.
+
+@B10|Fuel supply|pa hl
+Q: After changing fuel filters on a diesel engine, what must be done before starting?
++ Bleed the air out of the fuel system
+- Pre-lube the injectors with engine oil
+- Reset the ECM fuel map
+- Loosen all the injector lines
+E: Air in the system causes hard starting, rough running and delayed injection. Bleed it before cranking.
+
+@B10|Fuel supply|pa
+Q: When pressure testing a fuel transfer pump, the gauge should have a range of about:
++ twice the expected pressure
+- exactly the expected pressure
+- ten times the expected pressure
+- half the expected pressure
+E: A gauge reads most accurately around mid-scale, so pick one rated about twice the pressure being measured.
+
+@B10|Injection pump|kr hl
+Q: In a port and helix injection pump, fuel quantity is changed by:
++ rotating the plunger to change effective stroke
+- changing the plunger's total stroke
+- changing the camshaft speed
+- changing the transfer pump supply pressure
+E: The rack rotates the plunger; the helix changes when the spill port is uncovered, which changes the effective stroke.
+
+@B10|Injection pump|kr hl
+Q: The delivery valve in an injection pump:
++ ends injection sharply and holds residual line pressure
+- meters the fuel delivered to each cylinder
+- controls the transfer pump pressure
+- advances injection timing as engine speed increases
+E: The delivery valve acts as a check valve, holds line pressure for the next injection and drops pressure quickly at end of injection to prevent dribble.
+
+@B10|Injection pump|ct hl
+Q: An engine produces black smoke only when accelerating. Which injection pump component may have failed?
++ The aneroid (air-fuel ratio control)
+- The delivery valve
+- The overflow valve in the housing
+- The governor high-idle stop screw
+E: The aneroid limits fuel until boost builds. If its diaphragm leaks or it's misadjusted, full fuel arrives before the air, causing black smoke. A cracked diaphragm can also cause low power.
+
+@B10|Injection pump|pa hl
+Q: When static timing an injection pump to the engine, the engine is turned:
++ in its normal direction of rotation by hand
+- backwards to the timing mark
+- with the starter motor in short bursts
+- in either direction, as long as the mark lines up
+E: Turning in the normal direction takes up gear backlash so the timing is accurate. Set #1 at TDC on compression.
+
+@B10|Injection pump|ct hl
+Q: A rotary (distributor) injection pump's fuel return line is restricted. What is the likely result?
++ Housing pressure rises and the engine can stall
+- The engine overspeeds
+- Injection timing becomes over-advanced at idle
+- Fuel pressure drops at the transfer pump
+E: The return lets fuel cool and lubricate the pump. A restricted return raises housing pressure and can shut the engine down.
+
+@B10|Nozzles|pa hl
+Q: During a nozzle bench test, which fault is the most critical?
++ Fuel dribbling from the tip
+- Chattering sounds when the nozzle opens
+- A small amount of back leakage
+- Slight fuel seepage around the tip
+E: Dribble causes smoke, carbon build-up and poor combustion. Chatter is normal on multi-hole nozzles.
+
+@B10|Nozzles|ct hl
+Q: What is the result of an injection nozzle opening pressure that is too low?
++ Poor atomization and penetration
+- Fuel injected later and finer
+- Higher combustion pressure
+- Less fuel injected per stroke
+E: Low opening pressure means fuel sprays at lower pressure, so it doesn't atomize or penetrate the chamber well.
+
+@B10|Nozzles|pa hl
+Q: How can a technician find a misfiring cylinder on a running engine with mechanical injection?
++ Crack each injector line in turn and note the RPM drop
+- Remove each injector and test it on the bench
+- Check the compression of each cylinder
+- Measure the fuel return flow from each of the injectors
+E: A cylinder cut-out test: when a good cylinder is cut out, RPM drops; a bad cylinder causes little or no change. An IR thermometer also shows a cold exhaust port.
+
+@B10|Governor|kr hl
+Q: A limiting speed (min/max) governor controls:
++ only low idle and high idle
+- all engine speeds from low idle to high idle
+- engine speed at a fixed set point regardless of load
+- only the maximum full-load speed
+E: Limiting speed governors control idle and limit top speed; the operator controls everything in between (on-highway). Variable speed governors control every speed.
+
+@B10|Governor|ct hl
+Q: An engine's speed surges up and down at a steady throttle. What is the most likely governor problem?
++ Hunting from sticking linkage or a weak spring
+- Too much speed droop
+- Isochronous governing
+- A worn high-idle stop screw in the governor
+E: Hunting is a lack of governor stability: the governor keeps over-correcting. Worn or sticking linkage and low spring tension are typical causes.
+
+@B10|Governor|ct calc hl
+Q: An engine has a high idle of 2200 RPM and a rated speed of 2000 RPM. What is the speed droop?
++ 10%
+- 9%
+- 20%
+- 200%
+E: Droop = (high idle − rated) ÷ rated × 100 = 200 ÷ 2000 × 100 = 10%.
+
+@B10|Governor|kr hl
+Q: Isochronous governing means the governor:
++ holds the same speed from no load to full
+- allows a 10% speed drop at full load
+- only controls low idle
+- shuts the engine down at an overspeed
+E: Isochronous = zero speed droop; high idle equals rated speed. It's used on generator sets.
+
+@B10|Governor|pa hl
+Q: What conditions are needed when adjusting low and high idle speed?
++ Engine at operating temperature and no load
+- Engine cold and under full load
+- Engine at operating temperature and full load
+- Engine cold with no load
+E: Adjust idle speeds hot, with no load, in small steps, after checking the throttle linkage. Reinstall any seals.
+
+@B10|Governor|ct
+Q: A technician breaks the factory seal on an injection pump's high-idle adjustment. What is a possible consequence?
++ It can void the warranty on the pump and engine
+- The pump will lose prime
+- The engine will need a new ECM
+- The governor will switch to isochronous control
+E: Tampering with sealed adjustments can void warranty and affect emissions. Reinstall a seal after authorized adjustments.
+
+@B11|Emissions|kr hl
+Q: Oxides of nitrogen (NOx) are formed mainly by:
++ high combustion temperature and pressure
+- incomplete combustion from too little oxygen
+- burning lubricating oil
+- sulphur in the fuel
+E: NOx forms when nitrogen and oxygen combine at high combustion temperatures. CO comes from too little oxygen; soot from incomplete combustion.
+
+@B11|EGR|kr hl
+Q: Exhaust gas recirculation (EGR) reduces which emission?
++ Oxides of nitrogen (NOx)
+- Particulate matter (soot)
+- Carbon monoxide (CO)
+- Hydrocarbons (HC)
+E: EGR adds cooled exhaust to the intake, lowering combustion temperature and NOx. It slightly increases soot.
+
+@B11|EGR|ct hl
+Q: An engine with exhaust gas recirculation (EGR) is losing coolant with no external leak, and has white smoke from the exhaust. What component should be suspected?
++ A leaking EGR cooler
+- A plugged DPF
+- A failed DEF doser
+- A stuck wastegate
+E: The EGR cooler uses engine coolant to cool exhaust gas. If it leaks internally, coolant enters the exhaust/intake stream.
+
+@B11|EGR|ct hl
+Q: Why do engines with exhaust gas recirculation (EGR) need a variable geometry turbocharger?
++ To raise back pressure so exhaust flows into the intake
+- To cool the recirculated exhaust gas
+- To burn soot in the EGR cooler
+- To reduce boost so the EGR valve can close fully at idle
+E: Exhaust only flows into the intake if exhaust pressure is higher than boost. Closing the VGT vanes creates that pressure difference.
+
+@B11|DOC|kr hl
+Q: A diesel oxidation catalyst (DOC) reduces:
++ carbon monoxide and hydrocarbons
+- oxides of nitrogen
+- ash and soot in the exhaust
+- ammonia slip from the SCR catalyst
+E: The DOC oxidizes CO and HC into CO₂ and water. It also creates heat from dosed fuel to help regenerate the DPF.
+
+@B11|DPF|kr hl
+Q: How does a diesel particulate filter (DPF) trap soot?
++ Plugged alternate cells force exhaust through porous walls
+- Exhaust passes straight through open cells coated with catalyst
+- Soot is spun out by centrifugal force
+- A water bath washes the soot out
+E: The DPF is a wall-flow design. The DOC is a flow-through design.
+
+@B11|DPF|kr hl
+Q: Passive diesel particulate filter (DPF) regeneration happens when:
++ normal work keeps the exhaust hot enough to burn soot
+- the operator presses the regeneration switch
+- fuel is dosed into the exhaust to raise temperature
+- the DPF is removed and baked in a cleaning oven
+E: Passive regen happens on its own with exhaust temperatures above about 260 °C (500 °F). Active regen adds fuel to raise the temperature.
+
+@B11|DPF|ct hl
+Q: The diesel particulate filter (DPF) lamp is flashing on a machine, and soot load is about 60%. What should the operator do?
++ Regenerate very soon, before the engine derates
+- Ignore it until the lamp turns solid
+- Shut down immediately and call for a tow truck
+- Remove and clean the DPF
+E: Around 40% the lamp is solid (regen soon). Around 60% it flashes (regen very soon, derate coming). At 80% the check engine lamp comes on and the engine derates.
+
+@B11|DPF|ct hl
+Q: The diesel particulate filter (DPF) warning, check engine and stop engine lamps are all on, and soot load is above 80%. What is the correct action?
++ Have a technician service the DPF
+- Force a parked regeneration from the dash switch
+- Run at high idle to burn the soot off
+- Clear the codes and restart the engine
+E: Above about 80%, regenerating could overheat and damage the DPF. It needs service (often removal and cleaning).
+
+@B11|DPF|kr hl
+Q: The electronic control module (ECM) estimates diesel particulate filter (DPF) soot load mainly by measuring:
++ the pressure difference across the DPF
+- exhaust temperature after the turbo
+- oxygen content in the exhaust
+- engine oil soot content
+E: Differential pressure (inlet vs outlet) is the main method, along with fuel burned and time since the last regen.
+
+@B11|DPF|pa hl
+Q: A diesel particulate filter (DPF) has a high pressure differential even right after a successful regeneration. What is the likely cause?
++ Ash build-up that needs the DPF removed and cleaned
+- Soot that needs another active regeneration
+- A failed EGR valve
+- A plugged air filter
+E: Ash from oil additives doesn't burn off during regeneration. It builds up over time and must be cleaned out with a special machine.
+
+@B11|SCR|kr hl
+Q: In a selective catalytic reduction (SCR) system, NOx is converted into:
++ nitrogen and water
+- carbon dioxide and water
+- ammonia and oxygen
+- carbon monoxide and nitrogen
+E: DEF turns into ammonia in the hot exhaust; on the SCR catalyst, ammonia reacts with NOx to make nitrogen and water vapour.
+
+@B11|DEF|pa hl
+Q: How is diesel exhaust fluid (DEF) concentration checked?
++ With a refractometer
+- With a hydrometer
+- With pH test strips
+- With a conductivity meter
+E: DEF should be 32.5% urea and 67.5% water. A refractometer reads the concentration.
+
+@B11|DEF|kr hl
+Q: At what temperature does diesel exhaust fluid (DEF) freeze?
++ About −11 °C
+- About 0 °C
+- About −37 °C
+- About −50 °C
+E: DEF freezes around −11 °C. Tanks are heated with engine coolant and lines with electric heaters; the tank allows for expansion.
+
+@B11|DEF|ct hl
+Q: An operator shuts off the battery disconnect immediately after turning the key off on a machine with selective catalytic reduction (SCR). What problem can this cause?
++ The DEF lines don't purge and can freeze
+- The DPF can't regenerate
+- The ECM loses its calibration settings
+- The turbocharger bearings won't cool down
+E: The DEF system purges the lines after key-off (about a minute). Cutting power stops the purge.
+
+@B11|DEF|ct hl
+Q: A machine runs out of diesel exhaust fluid (DEF) completely. What will the engine control system do?
++ Progressively derate the engine
+- Shut the engine down immediately
+- Nothing, as DEF is optional
+- Switch to EGR-only operation with no warning
+E: Low DEF never shuts the engine off for safety reasons, but it warns and derates more and more as the level drops.
+
+@B11|Aftertreatment|pa hl
+Q: An engine with selective catalytic reduction (SCR) and a diesel particulate filter (DPF) must use which fuel?
++ Ultra-low sulphur diesel (15 ppm or less)
+- Low sulphur diesel (500 ppm)
+- Any No. 2 diesel fuel
+- Diesel with gasoline added in winter
+E: Sulphur poisons the catalysts and raises sulphur emissions. Only ULSD is allowed.
+
+@B11|Aftertreatment|kr hl
+Q: In what order are the main aftertreatment components arranged in the exhaust?
++ DOC, DPF, SCR catalyst, then ammonia catalyst
+- SCR catalyst, DPF, DOC, then ammonia catalyst
+- DPF, then DOC, then SCR catalyst
+- DOC, SCR catalyst, DPF, then ammonia catalyst
+E: The DOC comes first (and heats the DPF), then the DPF, then DEF is injected into the mixing pipe before the SCR, and the AMOX catalyst cleans up leftover ammonia.
+
+@B11|Aftertreatment|ct safe hl
+Q: The high exhaust system temperature lamp comes on while a machine is parked. What should the operator do?
++ Keep people and combustibles away from the exhaust
+- Shut the engine off immediately and restart it
+- Spray water on the exhaust to cool it down quickly
+- Drive the machine at full throttle
+E: During a parked regeneration, exhaust gets very hot. Keep the area around the outlet clear of people and anything that can burn.
+
+@B11|Aftertreatment|pa
+Q: Why are NOx sensors handled carefully during service?
++ They are smart sensors with built-in electronics
+- They contain ammonia under pressure
+- They are glass and break if dropped
+- They lose their calibration from the ECM on removal
+E: NOx sensors are powered smart sensors with their own control module; impacts and wrong handling damage them.
+
+@B12|Cooling|kr hl
+Q: How much does a pressurized cooling system raise the coolant's boiling point?
++ About 3 °F for each 1 psi of pressure
+- About 1 °F for each 1 psi of pressure
+- About 10 °F for each 1 psi of pressure
+- It doesn't change the boiling point
+E: Each psi raises the boiling point about 3 °F, so a 15 psi cap adds about 45 °F.
+
+@B12|Cooling|ct hl
+Q: What is the result of a coolant mixture with more than about 60% antifreeze?
++ It can gel in the cold and transfers heat worse
+- Better freeze protection down to −60 °C
+- The boiling point drops below 100 °C
+- The coolant becomes acidic and attacks the liners
+E: Over about 60% antifreeze, freeze protection gets worse (gelling) and heat transfer drops.
+
+@B12|Cooling|pa hl
+Q: How is coolant freeze protection (strength) checked accurately?
++ With a refractometer
+- With a pH test strip
+- With a voltmeter in the coolant
+- By the colour of the coolant
+E: A refractometer reads glycol concentration. Test strips check pH and additive levels.
+
+@B12|Thermostat|kr hl
+Q: The temperature stamped on a thermostat is the temperature at which it:
++ starts to open
+- is fully open
+- fully closes
+- fails
+E: The stamped number is the start-to-open temperature. Test it in hot water for start-to-open, full-open temperature and lift.
+
+@B12|Thermostat|ct hl
+Q: An engine warms up very slowly and never reaches normal operating temperature in cold weather. What is the most likely cause?
++ A thermostat stuck open
+- A thermostat stuck closed
+- A plugged radiator core
+- A slipping fan belt
+E: A stuck-open thermostat lets coolant go through the radiator all the time, so the engine runs cold. Low temperature causes poor combustion and sludge.
+
+@B12|Thermostat|pa hl
+Q: When installing a thermostat, the heat-sensing element must face:
++ toward the engine
+- toward the radiator
+- upward
+- toward the bypass passage
+E: The element must sit in the hot coolant coming out of the engine. Always use a new gasket or seal.
+
+@B12|Cooling|kr hl
+Q: As an engine warms up, in what order do the cooling system controls react?
++ Thermostat opens, then shutters open, then the fan engages
+- Fan engages, then shutters open, then the thermostat opens
+- Shutters open, then the thermostat opens, then the fan engages
+- All three operate at the same temperature
+E: The thermostat opens first; shutters and then the fan come on only if more cooling is needed.
+
+@B12|Cooling|kr hl
+Q: How does a surge tank differ from a coolant recovery tank?
++ A surge tank is pressurized; a recovery tank is vented
+- A recovery tank is pressurized; a surge tank is vented
+- Only surge tanks are used with a radiator pressure cap
+- There is no difference in how they work
+E: Surge tanks are part of the pressurized system. Recovery tanks are open to atmosphere and connected through the radiator cap.
+
+@B12|Cooling|kr hl
+Q: An engine water pump is a:
++ non-positive displacement centrifugal pump
+- positive displacement gear pump
+- positive displacement vane pump
+- piston pump driven by the camshaft
+E: Water pumps move high volume at low pressure; flow drops as restriction rises (non-positive).
+
+@B12|Diagnosis|pa hl
+Q: An engine is overheating. What should be checked first?
++ The coolant level
+- The thermostat opening temperature
+- The water pump impeller
+- The head gasket
+E: Check the coolant level first (with the engine cool), then belts, airflow, the thermostat and so on.
+
+@B12|Diagnosis|pa hl
+Q: A cooling system pressure test is done with the system at what pressure?
++ No more than 10% over the cap rating
+- Twice the radiator cap rating
+- Regulated shop air at about 100 psi
+- Exactly half the radiator cap rating
+E: Testing well above the cap rating can damage the radiator and hoses. Hold the pressure and watch for drops and leaks.
+
+@B12|Diagnosis|ct hl
+Q: A cooling system holds pressure poorly on a test, but there are no external leaks. What does this indicate?
++ An internal leak, such as a head gasket
+- A thermostat stuck in the closed position
+- A slipping or worn fan clutch
+- A dirty radiator core
+E: Pressure lost with nothing showing outside means coolant is leaking internally. Check the oil, exhaust and combustion chambers.
+
+@B12|Service|pa hl
+Q: How should the outside of a plugged radiator core be cleaned?
++ With low-pressure air or water, opposite to the normal airflow
+- With high-pressure steam in the normal airflow direction
+- With a wire brush across the fins
+- With caustic cleaner and a pressure washer
+E: Blow debris back out the way it went in, with the nozzle square to the fins so they don't bend.
+
+@B12|Service|pa hl
+Q: When flushing a cooling system, what must be done with the thermostat?
++ Remove it before flushing
+- Leave it in to protect the engine
+- Wire it fully open
+- Replace it with a hotter one
+E: Remove the thermostat so the flush flows through the whole system. Flush in the reverse direction of normal flow, block first.
+
+@B12|Service|pa hl
+Q: After refilling a cooling system, what is the correct procedure?
++ Run to operating temperature, let it cool, then top up
+- Top up immediately and return the machine to work
+- Fill it to the top of the recovery tank and start
+- Fill it hot with the cap removed and the engine running at high idle
+E: Running it to temperature opens the thermostat and pushes out trapped air; topping up after it cools gives a correct level.
+
+@B12|Cooling|ct hl
+Q: What is the effect of scale build-up inside an engine's coolant passages?
++ It insulates the metal, cutting heat transfer
+- It raises the coolant's boiling point by about 10 °C
+- It improves corrosion protection
+- It lowers coolant system pressure at the cap
+E: Scale is a poor heat conductor. Even a thin layer greatly reduces heat transfer and causes hot spots.
+
+@B12|Cooling|ct hl
+Q: Why is a pusher fan used on some off-road machines instead of a puller fan?
++ It blows out through the radiator, keeping debris off the core
+- It uses much less engine power than a puller fan does
+- It cools the engine faster when cold
+- It keeps warm air inside the engine compartment in winter
+E: A pusher fan blows from the engine side out through the radiator, which helps keep chaff and dust off the core.

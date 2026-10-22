@@ -1,0 +1,519 @@
+@D21|Battery disconnect|hl kr p3
+Q: A battery disconnect switch is connected:
++ in series with the battery positive or negative
+- in parallel across the battery terminals
+- between the alternator and the starter
+- in the starter control circuit only
+E: Highlighted: in series, to isolate the battery group.
+
+@D21|Breakers|hl kr p3
+Q: A Type I circuit breaker:
++ cycles and resets itself (used on headlights)
+- uses a heating resistor to hold itself open
+- is non-cycling with a manual reset button
+- is a fusible link that must be replaced
+E: Type I = cycling (headlights). Type II = held open by a heat-producing resistor. Type III = manual reset.
+
+@D21|Breakers|hl kr p3
+Q: A Type II circuit breaker:
++ is held open by a heating resistor until it cools
+- resets itself while the overload is still present
+- must be reset with a manual button
+- has no reset and must be replaced
+E: The circuit must be cooled (power removed) before it resets.
+
+@D21|Breakers|hl kr p3
+Q: A non-cycling circuit breaker with a manual reset button is a:
++ Type III
+- Type I
+- Type II
+- Type IV
+E: Type III = non-cycling, manual reset.
+
+@D21|Breakers|calc hl ct p3
+Q: A 24 V work light circuit draws 240 W. What current must the fuse handle?
++ 10 A
+- 5760 A
+- 0.1 A
+- 264 A
+E: P = I × E, so I = P ÷ E = 240 ÷ 24 = 10 A. Use a fuse slightly larger than the load.
+
+@D21|Lighting|hl kr p3
+Q: Panel lighting brightness is usually controlled with:
++ a rheostat or pulse width modulation (PWM)
+- a series diode in the lamp feed
+- a cycling (Type I) circuit breaker
+- the turn signal flasher unit
+E: Highlighted: dimmable with a rheostat or PWM.
+
+@D21|Lighting|hl ct p3
+Q: After converting turn signals to light emitting diode (LED) bulbs, they no longer flash. The fix is to:
++ fit an electronic flasher
+- fit higher wattage LEDs
+- add a Type I breaker
+- reverse the LED polarity
+E: LEDs don't draw enough current to work a conventional flasher. The flasher is in series with the lamps.
+
+@D21|DC motors|hl kr p3
+Q: The commutator in a direct current (DC) motor:
++ is the sliding contact for the brushes
+- produces the permanent magnetic field
+- is the stationary field winding
+- limits the motor's top speed
+E: Highlighted: made of bars to feed current to specific armature windings.
+
+@D21|DC motors|hl kr p3
+Q: As a direct current (DC) motor speeds up, its counter-electromotive force (CEMF):
++ increases, reducing current draw
+- decreases, increasing current draw
+- stays the same
+- reverses the motor
+E: Faster = more CEMF = less current. CEMF limits the top speed of a cranking motor.
+
+@D21|DC motors|ct p3
+Q: A starter motor drawing very high current while turning slowly is consistent with:
++ low counter-electromotive force (CEMF) from low armature speed
+- high counter-electromotive force (CEMF) from excessive armature speed
+- an open circuit in the field winding
+- a high resistance brush connection
+E: Less CEMF = more current draw. A loaded, slow motor makes little CEMF and draws heavy current.
+
+@D21|Magnetism|hl kr p3
+Q: Magnetic flux lines travel:
++ from north to south outside the magnet
+- from south to north outside the magnet
+- toward the nearest steel
+- in the same direction as current flow
+E: Highlighted: magnetic field goes from north to south. Like poles repel, opposite poles attract.
+
+@D21|Magnetism|hl kr p3
+Q: In a direct current (DC) motor, the armature conductor is pushed:
++ from the strong field side toward the weak field side
+- from the weak field side toward the strong field side
+- toward the north pole always
+- toward the south pole always
+E: Highlighted: armature winding goes from strong side to weak side of the field.
+
+@D21|Magnetism|kr p3
+Q: Using the right-hand rule for a conductor, your thumb points in the direction of ___ and your fingers show the direction of ___.
++ current flow; flux lines
+- flux lines; current flow
+- armature rotation; current flow
+- north pole; south pole
+E: Grab the conductor with the right hand, thumb with current (conventional + to −), fingers curl with the flux.
+
+@D21|Gauges|hl kr p3
+Q: In a bimetal gauge, the strip moves because:
++ a heating coil warms it according to voltage
+- a magnetic field pulls the pointer over
+- a variable resistor changes its length
+- a spring balances two opposing coils
+E: Highlighted. Balancing coil gauges move the pointer by electromagnetism.
+
+@D22|Sensors|hl kr p3
+Q: In a closed loop sensor circuit:
++ both the power and ground return to the electronic control module (ECM)
+- the ground does not return to the electronic control module (ECM)
+- there is no reference voltage
+- the sensor generates its own voltage
+E: Highlighted: closed loop = positive and ground return to the ECM. Open loop = ground does not return to the ECM.
+
+@D22|Sensors|ct p3
+Q: After fitting larger tires, the speedometer will:
++ read differently from true ground speed
+- read exactly the same
+- stop working
+- show a fault code for the speed sensor
+E: The speedometer uses a wheel speed sensor; changing tire size changes the reading.
+
+@D22|Sensors|hl kr p3
+Q: A negative temperature coefficient (NTC) thermistor's resistance will ___ as temperature rises.
++ decrease
+- increase
+- stay the same
+- become open circuit
+E: NTC = temperature up, resistance down (most common for engine temp). PTC = temperature up, resistance up.
+
+@D22|Sensors|hl kr p3
+Q: A positive temperature coefficient (PTC) thermistor's resistance will ___ as temperature rises.
++ increase
+- decrease
+- stay the same
+- drop to zero
+E: Positive temperature coefficient: temperature up, resistance up.
+
+@D22|Sensors|hl kr p3
+Q: A typical pressure transducer has three wires. They are:
++ 5 V reference, signal and return (ground)
+- battery positive, ground and shield
+- CAN high (CAN-H), CAN low (CAN-L) and ground
+- 12 V, 5 V and signal
+E: Highlighted: three-terminal device: 5 V ref, signal, return.
+
+@D22|Sensors|hl kr p3
+Q: Inside a strain gauge pressure transducer, the sensing element works by:
++ a resistor bridge with a strain gauge in one leg
+- generating its own voltage as pressure changes
+- moving a magnet past a pickup coil
+- opening contacts at a set pressure
+E: Highlighted: 1 fixed resistor in series with a variable resistor (strain gauge), compared to 2 fixed resistors (a bridge), usually with an amplifier.
+
+@D21|Meters|kr p3
+Q: An ammeter and voltmeter are connected:
++ ammeter in series, voltmeter in parallel
+- ammeter in parallel, voltmeter in series
+- both in series
+- both in parallel
+E: Ammeters measure current through the circuit (series, or clamp style). Voltmeters measure across (parallel).
+
+@D22|Networks|hl net kr p3
+Q: Multiplexing is:
++ sending and receiving digital data on a link
+- connecting several batteries in parallel
+- using one fuse to protect several circuits
+- splitting one sensor signal to two gauges
+E: Highlighted. It reduces the number of conductors and lets modules share data.
+
+@D22|Networks|hl net kr p3
+Q: Baud rate refers to:
++ the speed of data transfer on a network
+- the number of nodes on a network
+- the resistance of the terminating resistors
+- the length of the backbone
+E: Highlighted. J1939 = 250 kb/s; J1587/J1708 = 9.6 kb/s.
+
+@D22|Networks|hl net kr p3
+Q: The baud rate of SAE J1939 controller area network (CAN) is:
++ 250 kb/s
+- 9.6 kb/s
+- 500 kb/s
+- 1 Mb/s
+E: Highlighted: J1939/CAN 250 kb/s. ISO 11783 is also 250 kb/s.
+
+@D22|Networks|hl net kr p3
+Q: The backbone of a data network is:
++ the physical wiring linking the modules
+- the software protocol the modules use
+- the 9-pin diagnostic connector
+- the electronic control module (ECM) with the highest priority
+E: Highlighted. Max backbone length 40 m; stubs (branches to nodes) max 1 m.
+
+@D22|Networks|net kr p3
+Q: The maximum length of a stub on a J1939 network is about:
++ 1 m
+- 40 m
+- 10 cm
+- 10 m
+E: Backbone max 40 m, stub max 1 m.
+
+@D22|Networks|hl net kr p3
+Q: Terminating resistors are placed at the ends of a data bus to:
++ reduce standing waves and interference
+- limit current to the modules
+- provide the 5 V reference
+- protect against reversed polarity
+E: Highlighted: they stop signal reflections (standing waves).
+
+@D22|Networks|hl net kr p3
+Q: Standing waves on a data bus are:
++ electrical reflections that corrupt signals
+- normal signals that carry data
+- voltage from the batteries
+- caused by a correctly terminated bus
+E: Highlighted: reflections or waves, bad.
+
+@D22|Networks|hl net kr p3
+Q: A network protocol is:
++ a common language for data between modules
+- the physical wiring between modules
+- the speed of the network
+- a type of connector
+E: Highlighted.
+
+@D22|Networks|hl net kr p3
+Q: Data link wires are twisted together to:
++ provide immunity to magnetic fields
+- reduce the wire gauge needed
+- make the harness more flexible
+- increase the baud rate
+E: Highlighted: twisted pair. Shielding (foil + drain wire) adds further resistance to interference.
+
+@D22|Networks|hl net kr p3
+Q: The modern network topology, where independent modules connect to a common backbone, is:
++ linear
+- ring (loop)
+- star
+- series
+E: Highlighted. Ring = series (one fails, all fail). Star = all to one master.
+
+@D22|Networks|hl net pa p3
+Q: Before a module on a controller area network (CAN) can start broadcasting, it must:
++ wait until the data bus is idle
+- get permission from the master module
+- send a checksum
+- raise CAN high (CAN-H) to battery voltage
+E: Highlighted: CAN is serial with no master; each module waits for an idle bus.
+
+@D22|Networks|hl net pa p3
+Q: In J1587/J1708 messages, the checksum:
++ marks the end of the message
+- identifies the sending module
+- identifies the parameter
+- identifies the fault type
+E: Highlighted: like the period at the end of a sentence. MID = source, PID = parameter, FMI = fault mode.
+
+@D22|Networks|net kr p3
+Q: In a J1587 message, what does the message identifier (MID) tell you?
++ the module sending the message
+- the parameter being reported
+- the type of fault detected
+- the end of the message
+E: MID = message identifier (source). PID = parameter. FMI = fault mode indicator.
+
+@D22|Networks|hl net kr p3
+Q: J1587/J1708 cabling is:
++ unshielded twisted pair, orange and white
+- shielded twisted pair, yellow and green
+- twisted quad
+- coaxial cable
+E: Highlighted. Max 40 m, 20 nodes.
+
+@D22|Networks|net ct p3
+Q: A machine built in 2005 with SAE J1939 most likely uses which diagnostic connector?
++ 9-pin Deutsch
+- 6-pin Deutsch
+- OEM-specific 3-pin
+- 16-pin on-board diagnostics (OBD-II)
+E: 1996–2001: 6-pin Deutsch. 2001+: mostly 9-pin Deutsch.
+
+@D22|Networks|hl net ct p3
+Q: In J1939, the SPN (suspect parameter number):
++ identifies where the fault is; replaces the parameter identifier (PID)
+- identifies the message and the whole data group it belongs to
+- defines the type of failure, such as open, short or out of range
+- checks each message for errors before it is accepted
+E: Highlighted. PGN = parameter group; FMI = failure type.
+
+@D22|Networks|net kr p3
+Q: In the J1939 message architecture, the CRC field:
++ checks the message for errors
+- sets message priority
+- confirms the right ECM received the message
+- marks the end of the frame
+E: Arbitration (priority/sender), control and data (PGN/SPN/FMI), CRC (error check), ACK (acknowledge), end of frame.
+
+@D22|Networks|hl net kr p3
+Q: On a J1939 network, the controller area network (CAN) high and low wires are commonly:
++ yellow (CAN-H) and green (CAN-L)
+- green (CAN-H) and yellow (CAN-L)
+- orange (CAN-H) and white (CAN-L)
+- red (CAN-H) and black (CAN-L)
+E: Highlighted: yellow CAN High (+), green CAN Low (−).
+
+@D22|Networks|hl net kr p3
+Q: J1939-11 "heavy" cable differs from J1939-15 "lite" cable because it is:
++ shielded
+- unshielded
+- a twisted quad
+- single wire
+E: Highlighted: -15 lite = unshielded twisted pair; -11 heavy = shielded twisted pair.
+
+@D22|Networks|hl net kr p3
+Q: The drain wire in a shielded J1939 cable is connected to:
++ battery ground
+- CAN high (CAN-H)
+- the 5 V reference
+- the terminating resistor
+E: Highlighted: non-insulated copper drain wire connected to battery ground (protects from EMI).
+
+@D22|Networks|hl net calc ct p3
+Q: With the batteries disconnected, resistance measured between the two controller area network (CAN) wires, CAN high (CAN-H) and CAN low (CAN-L), on a healthy J1939 bus should be about:
++ 60 Ω
+- 120 Ω
+- 240 Ω
+- 0 Ω
+E: Two 120 Ω terminating resistors in parallel = 60 Ω.
+
+@D22|Networks|hl net ct p3
+Q: Resistance between the controller area network (CAN) high wire (CAN-H) and low wire (CAN-L) reads 120 Ω. The most likely problem is:
++ an open, such as a missing terminator
+- a short between CAN-H and CAN-L
+- a CAN wire shorted to ground
+- nothing; 120 Ω is the normal reading
+E: Highlighted: more than 60 = open; less than 60 = short. 120 Ω means only one terminator is in the circuit.
+
+@D22|Networks|hl net pa p3
+Q: Resistance from either controller area network (CAN) wire, CAN high (CAN-H) or CAN low (CAN-L), to ground should read:
++ OL (no continuity)
+- 60 Ω
+- 120 Ω
+- 0 Ω
+E: Highlighted: no continuity to ground.
+
+@D22|Networks|net ct p3
+Q: The controller area network (CAN) high wire (CAN-H) and low wire (CAN-L) both measure well below 2.5 V with the bus inactive. This suggests:
++ a faulty node or bus
+- excessive system voltage
+- normal operation
+- a missing terminating resistor only
+E: About 2.5 V at inactive. Below = faulty node or bus; above = excessive system voltage.
+
+@D22|Networks|hl net kr p3
+Q: The purpose of ISO 11783 is to:
++ let any tractor work any brand of implement
+- standardize on-highway truck diagnostics
+- replace J1939 on large mining trucks
+- set the colour code for all controller area network (CAN) wires
+E: Highlighted: agriculture and forestry standard. Uses unshielded twisted quad cable.
+
+@D22|Networks|hl net kr p3
+Q: ISO 11783 uses which cable?
++ Unshielded twisted quad
+- Shielded twisted pair
+- Unshielded twisted pair, orange and white
+- Coaxial cable
+E: Highlighted. CAN-H, CAN-L, plus power and ground for the terminating bias circuit.
+
+@D21|Schematics|hl kr p3
+Q: Electrical schematics are always drawn in the:
++ de-energized state, parts in normal position
+- energized state, with all switches closed
+- state they were in when the fault occurred
+- running state, engine on
+E: Highlighted.
+
+@D21|Circuit laws|hl kr p3
+Q: In a series circuit, current is:
++ the same at all points
+- divided between the loads
+- highest at the first load
+- zero at the last load
+E: Highlighted. Series: resistances add, voltage drops add up to source voltage, current is the same everywhere.
+
+@D21|Circuit laws|hl kr p3
+Q: In a parallel circuit, adding another branch will:
++ lower the total resistance
+- raise the total resistance
+- not change total resistance
+- lower the voltage on each branch
+E: Highlighted: adding more resistance in parallel reduces total resistance; total is always less than the smallest branch.
+
+@D21|Circuit laws|calc ct p3
+Q: A 6 Ω and a 3 Ω resistor are connected in parallel. Total resistance is:
++ 2 Ω
+- 9 Ω
+- 4.5 Ω
+- 18 Ω
+E: 1/Rt = 1/6 + 1/3 = 1/6 + 2/6 = 3/6, so Rt = 2 Ω (less than the smallest branch).
+
+@D21|Circuit laws|calc ct p3
+Q: Three 4 Ω resistors are in series on a 12 V supply. Circuit current is:
++ 1 A
+- 3 A
+- 9 A
+- 0.33 A
+E: Rt = 12 Ω. I = E ÷ R = 12 ÷ 12 = 1 A.
+
+@D21|Circuit laws|calc ct p3
+Q: A 24 V circuit draws 6 A. What is the circuit resistance?
++ 4 Ω
+- 144 Ω
+- 0.25 Ω
+- 30 Ω
+E: R = E ÷ I = 24 ÷ 6 = 4 Ω.
+
+@D21|Circuit laws|hl kr p3
+Q: Kirchhoff's voltage law states that:
++ the voltage drops in any path equal the source voltage
+- current in equals current out at a junction
+- total resistance equals the sum of resistances
+- voltage is the same on every branch
+E: Highlighted. The current law: current going away equals current coming toward a point.
+
+@D21|Faults|hl ct p3
+Q: An open in a single series circuit will cause:
++ no current draw
+- more current draw
+- a blown fuse
+- dim lights only
+E: Highlighted: open = no current (series), less current and more resistance (parallel).
+
+@D21|Faults|hl ct p3
+Q: A circuit repeatedly blows its fuse as soon as it is switched on. The most likely fault is:
++ a short to ground
+- an open circuit
+- high resistance in a connector
+- a corroded ground causing dim lights
+E: Highlighted: short to ground (copper to steel) causes much more current draw and blown fuses.
+
+@D21|Faults|hl ct p3
+Q: Lights are dim and an actuator is slow. Current draw is lower than normal. The most likely fault is:
++ high resistance
+- a short to ground
+- a copper-to-copper short
+- an open circuit
+E: Highlighted: high resistance = less current, dim lights, slow actuators, unexplained voltage drops.
+
+@D21|Voltage drop|hl kr p3
+Q: Maximum acceptable voltage drop on a 12 V circuit is:
++ 0.5 V
+- 1 V
+- 2 V
+- 0.1 V
+E: Highlighted: no more than 0.5 V on 12 V or 1 V on 24 V.
+
+@D21|Voltage drop|ct p3
+Q: A voltage drop test must be done:
++ with current flowing
+- with the circuit switched off
+- with the battery disconnected
+- with an ohmmeter
+E: The only way to test for voltage loss is to run current through the circuit.
+
+@D21|Repairs|hl kr p3
+Q: The ideal repair for a damaged wiring harness is to:
++ replace it
+- splice it with twist connectors
+- wrap it in electrical tape
+- solder a jumper beside it
+E: Highlighted. When repairing, use an electrically sound, resistance-free splice (crimped or soldered).
+
+@D21|Repairs|hl pa p3
+Q: Wiring with oil-soaked or melted insulation should be:
++ replaced
+- cleaned and taped
+- repaired with heat shrink
+- left if it still works
+E: Highlighted replace items: oil-soaked or melted insulation, malfunctioning switches/relays/breakers, lamps with opens or shorts.
+
+@D20|Batteries|hl pa p3
+Q: Battery specific gravity at full charge (27 °C) should be about:
++ 1.265 to 1.280
+- 1.100 to 1.150
+- 1.000
+- 1.300 to 1.350
+E: Highlighted. Cells should differ by no more than 0.05.
+
+@D20|Batteries|hl ct p3
+Q: Battery cells read 1.270, 1.265, 1.275, 1.210, 1.270, 1.268. This battery:
++ has a bad cell (spread over 0.05)
+- is fully charged and healthy
+- is discharged but its cells are matched
+- needs only an equalizing charge
+E: 1.275 − 1.210 = 0.065, more than the 0.05 limit, so one cell is bad.
+
+@D21|Panels|hl ct p3
+Q: Why is a small voltage regulator used with bimetal gauges?
++ Their readings change with voltage
+- To protect the gauge from shorts
+- To boost a weak sensor signal
+- To dim the gauge lights at night
+E: Highlighted: the regulator keeps voltage, and so the reading, steady.
+
+@D21|Precautions|safe pa p3
+Q: When testing electronic circuits, you should use a digital multimeter (DMM) with:
++ high impedance
+- low impedance
+- an analog movement
+- a built-in test light
+E: High impedance meters won't load or damage sensitive circuits. Also never pierce insulation and use a wrist strap.
