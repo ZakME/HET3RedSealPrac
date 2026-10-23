@@ -892,9 +892,14 @@ table.rt td:last-child,table.rt th:last-child{text-align:right;width:140px;white
     <p class="q" id="xq"></p>
     <div class="ans" id="xans"></div>
     <div class="navrow">
-      <div class="row"><button class="btn" id="xprev">← Prev</button><button class="btn" id="xflag">Flag</button></div>
+      <div class="row">
+        <button class="btn" id="xprev">← Prev</button>
+        <button class="btn" id="xflag">Flag</button>
+        <button class="btn" id="xcheck">Check answer</button>
+      </div>
       <button class="btn primary" id="xnext">Next →</button>
     </div>
+    <div id="xexp"></div>
   </div>
   <div class="card">
     <div class="row" style="justify-content:space-between;margin-bottom:8px"><b>Questions</b><span class="muted">grey = answered · dot = flagged · <kbd>F</kbd> flags · <kbd>Shift</kbd>+<kbd>A</kbd>–<kbd>D</kbd> crosses out · <kbd>←</kbd><kbd>→</kbd> move</span></div>
@@ -14108,7 +14113,9 @@ function toggleStrike(it, ai){
   if (S.mode === "exam") { saveActive(); renderX(); } else renderQ();
 }
 function examPick(it, ai){
-  it.pick = ai; if (it.strike) it.strike = it.strike.filter(x => x !== ai);
+  it.pick = ai; 
+  it.checked = false;
+  if (it.strike) it.strike = it.strike.filter(x => x !== ai);
   saveActive(); renderX();
 }
 function startQuiz(qs, title){
@@ -14191,7 +14198,14 @@ function buildExam(plan, seed, slot){
       const q = pool.splice(pool.findIndex(x => qType(x) === want), 1)[0]; picked.push(q); have[qType(q)]++;
     }
   }
-  return shuffle(picked, r).map(q => ({ q, order: shuffle(q.a.map((_, i) => i), r), pick: null, flag: false, strike: [] }));
+  return shuffle(picked, r).map(q => ({
+    q,
+    order: shuffle(q.a.map((_, i) => i), r),
+    pick: null,
+    flag: false,
+    strike: [],
+    checked: false
+  }));
 }
 function startExam(key, title, list){
   const limit = $("timed").checked ? Math.round(list.length * PER_Q) : 0;
@@ -14200,12 +14214,21 @@ function startExam(key, title, list){
 }
 function saveActive(){
   if (!S || S.mode !== "exam") return;
-  store(K_ACTIVE, { key: S.key, title: S.title, i: S.i, limit: S.limit, used: elapsed(), items: S.list.map(x => [x.q.id, x.order, x.pick, x.flag, x.strike || []]) });
+  store(K_ACTIVE, { key: S.key, title: S.title, i: S.i, limit: S.limit, used: elapsed(), items: S.list.map(x => [ x.q.id, x.order, x.pick, x.flag, x.strike || [], !!x.checked ]) });
 }
 const elapsed = () => S.used + Math.floor((Date.now() - S.start) / 1000);
 function resumeExam(){
   const a = load(K_ACTIVE, null); if (!a) return;
-  const list = a.items.filter(x => BYID[x[0]]).map(([id, order, pick, flag, strike]) => ({ q: BYID[id], order, pick, flag, strike: strike || [] }));
+  const list = a.items
+  .filter(x => BYID[x[0]])
+  .map(([id, order, pick, flag, strike, checked]) => ({
+    q: BYID[id],
+    order,
+    pick,
+    flag,
+    strike: strike || [],
+    checked: !!checked
+  }));
   S = { mode: "exam", key: a.key, title: a.title, i: Math.min(a.i, list.length - 1), list, start: Date.now(), limit: a.limit, used: a.used };
   tab("exam"); show("examrun"); renderX(); tick();
 }
@@ -14233,8 +14256,43 @@ function renderX(){
   const meta = $("xmeta"); meta.innerHTML = ""; meta.appendChild(el("span", "tag", "Question " + (S.i + 1)));
   if (it.flag) meta.appendChild(el("span", "tag flag", "FLAGGED"));
   $("xq").textContent = q.q;
-  const box = $("xans"); box.innerHTML = "";
-  it.order.forEach((ai, n) => box.appendChild(optRow(it, ai, n, () => examPick(it, ai))));
+  const box = $("xans"); box.innerHTML = "";  
+  it.order.forEach((ai, n) => {
+    const row = optRow(it, ai, n, () => examPick(it, ai));
+    const b = row.querySelector(".pick");
+
+    if (it.checked) {
+      b.disabled = true;
+
+      if (ai === 0) b.classList.add("right");
+      else if (ai === it.pick) b.classList.add("wrong");
+    }
+
+    box.appendChild(row);
+  });
+  const exp = $("xexp");
+  exp.innerHTML = "";
+
+  $("xcheck").disabled = it.pick === null || it.checked;
+  $("xcheck").textContent = it.checked ? "Answer checked" : "Check answer";
+
+  if (it.checked) {
+    const ok = it.pick === 0;
+    const d = el("div", "exp " + (ok ? "good" : "bad"));
+
+    d.appendChild(el(
+      "b",
+      null,
+      ok ? "✓ Correct!" : "✗ Incorrect — the correct answer is:"
+    ));
+
+    if (!ok) {
+      d.appendChild(el("p", null, it.q.a[0]));
+    }
+
+    d.appendChild(el("p", null, it.q.e));
+    exp.appendChild(d);
+  }
   $("xflag").textContent = it.flag ? "Unflag" : "Flag";
   $("xprev").disabled = S.i === 0;
   $("xnext").textContent = S.i === S.list.length - 1 ? "Review & submit" : "Next →";
@@ -14244,6 +14302,19 @@ function renderX(){
     b.onclick = () => { S.i = n; saveActive(); renderX(); }; g.appendChild(b);
   });
 }
+function checkExamAnswer() {
+  const it = S.list[S.i];
+
+  if (it.pick === null) {
+    alert("Choose an answer first.");
+    return;
+  }
+
+  it.checked = true;
+  saveActive();
+  renderX();
+}
+$("xcheck").onclick = checkExamAnswer;
 $("xprev").onclick = () => { if (S.i > 0) { S.i--; saveActive(); renderX(); } };
 $("xnext").onclick = () => { if (S.i < S.list.length - 1) { S.i++; saveActive(); renderX(); } else $("xsubmit").click(); };
 $("xflag").onclick = () => { const it = S.list[S.i]; it.flag = !it.flag; saveActive(); renderX(); };
